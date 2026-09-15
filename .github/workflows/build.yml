@@ -16,12 +16,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: stable
+          cache: false
 
       - name: Download GeoDAT files
         shell: bash
@@ -30,22 +31,27 @@ jobs:
 
           mkdir -p input
 
+          echo "Downloading geoip.dat..."
           curl \
             --fail \
             --location \
             --retry 5 \
             --retry-delay 5 \
+            --retry-all-errors \
             -o input/geoip.dat \
             "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat"
 
+          echo "Downloading geosite.dat..."
           curl \
             --fail \
             --location \
             --retry 5 \
             --retry-delay 5 \
+            --retry-all-errors \
             -o input/geosite.dat \
             "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat"
 
+          echo
           echo "Downloaded files:"
           ls -lh input/
 
@@ -57,26 +63,52 @@ jobs:
           test -s input/geoip.dat
           test -s input/geosite.dat
 
+          echo "SHA256:"
           sha256sum input/geoip.dat
           sha256sum input/geosite.dat
 
-      - name: Build MetaCubeX converter
+      - name: Clone MetaCubeX converter
         shell: bash
         run: |
           set -euo pipefail
+
+          rm -rf /tmp/meta-rules-converter
 
           git clone \
             --depth=1 \
             https://github.com/MetaCubeX/meta-rules-converter.git \
             /tmp/meta-rules-converter
 
+          echo
+          echo "Converter repository:"
+          ls -la /tmp/meta-rules-converter
+
+      - name: Build MetaCubeX converter
+        shell: bash
+        run: |
+          set -euo pipefail
+
           cd /tmp/meta-rules-converter
+
+          echo "Go version:"
+          go version
+
+          echo
+          echo "Building converter..."
 
           go build \
             -trimpath \
             -o "${GITHUB_WORKSPACE}/converter" \
             .
 
+          chmod +x "${GITHUB_WORKSPACE}/converter"
+
+          echo
+          echo "Built converter:"
+          ls -lh "${GITHUB_WORKSPACE}/converter"
+
+          echo
+          echo "Converter help:"
           "${GITHUB_WORKSPACE}/converter" --help || true
 
       - name: Convert all GeoSite categories
@@ -84,33 +116,77 @@ jobs:
         run: |
           set -euo pipefail
 
+          rm -rf dist/geosite
           mkdir -p dist/geosite
+
+          echo "Converting geosite.dat..."
 
           ./converter \
             geosite \
             -f input/geosite.dat \
             -o dist/geosite
 
+          echo
+          echo "GeoSite conversion finished."
+
       - name: Convert all GeoIP categories
         shell: bash
         run: |
           set -euo pipefail
 
+          rm -rf dist/geoip
           mkdir -p dist/geoip
+
+          echo "Converting geoip.dat..."
 
           ./converter \
             geoip \
             -f input/geoip.dat \
             -o dist/geoip
 
-      - name: Show result
+          echo
+          echo "GeoIP conversion finished."
+
+      - name: Validate generated MRS
         shell: bash
         run: |
           set -euo pipefail
 
-          echo "============================"
-          echo "GeoSite MRS:"
-          echo "============================"
+          GEOSITE_COUNT="$(
+            find dist/geosite \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          GEOIP_COUNT="$(
+            find dist/geoip \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          echo "GeoSite MRS count: ${GEOSITE_COUNT}"
+          echo "GeoIP MRS count:   ${GEOIP_COUNT}"
+
+          if [ "${GEOSITE_COUNT}" -eq 0 ]; then
+            echo "ERROR: No GeoSite MRS files generated"
+            exit 1
+          fi
+
+          if [ "${GEOIP_COUNT}" -eq 0 ]; then
+            echo "ERROR: No GeoIP MRS files generated"
+            exit 1
+          fi
+
+      - name: Show generated categories
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "======================================"
+          echo "GeoSite categories"
+          echo "======================================"
 
           find dist/geosite \
             -type f \
@@ -119,9 +195,9 @@ jobs:
             | sort
 
           echo
-          echo "============================"
-          echo "GeoIP MRS:"
-          echo "============================"
+          echo "======================================"
+          echo "GeoIP categories"
+          echo "======================================"
 
           find dist/geoip \
             -type f \
@@ -129,33 +205,59 @@ jobs:
             -printf "%f\n" \
             | sort
 
-          echo
-          echo "============================"
-
-          GEOSITE_COUNT="$(
-            find dist/geosite -type f -name "*.mrs" | wc -l
-          )"
-
-          GEOIP_COUNT="$(
-            find dist/geoip -type f -name "*.mrs" | wc -l
-          )"
-
-          echo "GeoSite categories: ${GEOSITE_COUNT}"
-          echo "GeoIP categories:   ${GEOIP_COUNT}"
-
-          test "${GEOSITE_COUNT}" -gt 0
-          test "${GEOIP_COUNT}" -gt 0
-
-      - name: Prepare release
+      - name: Prepare release directory
         shell: bash
         run: |
           set -euo pipefail
+
+          rm -rf publish
 
           mkdir -p publish/geosite
           mkdir -p publish/geoip
 
           cp -a dist/geosite/. publish/geosite/
           cp -a dist/geoip/. publish/geoip/
+
+      - name: Generate categories lists
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          find publish/geosite \
+            -type f \
+            -name "*.mrs" \
+            -printf "%f\n" \
+            | sort \
+            > publish/geosite-categories.txt
+
+          find publish/geoip \
+            -type f \
+            -name "*.mrs" \
+            -printf "%f\n" \
+            | sort \
+            > publish/geoip-categories.txt
+
+          {
+            echo "# GeoSite categories"
+            echo
+
+            sed \
+              's/^/- /' \
+              publish/geosite-categories.txt
+
+            echo
+            echo "# GeoIP categories"
+            echo
+
+            sed \
+              's/^/- /' \
+              publish/geoip-categories.txt
+          } > publish/categories.md
+
+      - name: Generate hashes
+        shell: bash
+        run: |
+          set -euo pipefail
 
           sha256sum input/geoip.dat \
             | awk '{print $1}' \
@@ -165,27 +267,85 @@ jobs:
             | awk '{print $1}' \
             > publish/geosite.dat.sha256
 
+      - name: Generate build info
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          GEOSITE_COUNT="$(
+            find publish/geosite \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          GEOIP_COUNT="$(
+            find publish/geoip \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
           {
             echo "Built at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             echo
-            echo "Source:"
-            echo "runetfreedom/russia-v2ray-rules-dat"
+            echo "Source repository:"
+            echo "https://github.com/runetfreedom/russia-v2ray-rules-dat"
             echo
-            echo "GeoIP:"
+            echo "Source GeoIP:"
             echo "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat"
             echo
-            echo "GeoSite:"
+            echo "Source GeoSite:"
             echo "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat"
             echo
             echo "Converter:"
-            echo "MetaCubeX/meta-rules-converter"
+            echo "https://github.com/MetaCubeX/meta-rules-converter"
             echo
-            echo "GeoSite MRS count:"
-            find publish/geosite -type f -name "*.mrs" | wc -l
+            echo "GeoSite MRS count: ${GEOSITE_COUNT}"
+            echo "GeoIP MRS count: ${GEOIP_COUNT}"
             echo
-            echo "GeoIP MRS count:"
-            find publish/geoip -type f -name "*.mrs" | wc -l
+            echo "Source SHA256:"
+            echo -n "geoip.dat: "
+            cat publish/geoip.dat.sha256
+            echo -n "geosite.dat: "
+            cat publish/geosite.dat.sha256
           } > publish/build-info.txt
+
+      - name: Show release contents
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Release directory:"
+          du -sh publish
+
+          echo
+          echo "Largest GeoSite files:"
+          find publish/geosite \
+            -type f \
+            -name "*.mrs" \
+            -printf "%s %p\n" \
+            | sort -nr \
+            | head -20 \
+            | numfmt \
+                --field=1 \
+                --to=iec \
+                --suffix=B \
+            || true
+
+          echo
+          echo "Largest GeoIP files:"
+          find publish/geoip \
+            -type f \
+            -name "*.mrs" \
+            -printf "%s %p\n" \
+            | sort -nr \
+            | head -20 \
+            | numfmt \
+                --field=1 \
+                --to=iec \
+                --suffix=B \
+            || true
 
       - name: Publish release branch
         shell: bash
@@ -198,13 +358,17 @@ jobs:
 
           git init
 
-          git config user.name "github-actions[bot]"
-          git config user.email \
+          git config \
+            user.name \
+            "github-actions[bot]"
+
+          git config \
+            user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
           git checkout -b release
 
-          git add .
+          git add --all
 
           git commit \
             -m "Update MRS $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
