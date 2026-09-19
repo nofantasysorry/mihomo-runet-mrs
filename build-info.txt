@@ -1,0 +1,20 @@
+Built at: 2026-09-19 15:58:26 UTC
+
+Source repository:
+https://github.com/runetfreedom/russia-v2ray-rules-dat
+
+Source GeoIP:
+https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat
+
+Source GeoSite:
+https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat
+
+Converter:
+https://github.com/MetaCubeX/meta-rules-converter
+
+GeoSite MRS count: 1897
+GeoIP MRS count: 266
+
+Source SHA256:
+geoip.dat: 05bf4ea99884ee030b805130246ad8d5121a5f694cd85003b4e57c53f998bbb0
+geosite.dat: 76fdbe01687a6cc7683b50c38ceea84941458e8371d215918daf555665a537cd
