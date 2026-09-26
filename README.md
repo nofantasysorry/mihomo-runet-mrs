@@ -12,7 +12,7 @@ The generated files are intended primarily for use with [Mihomo](https://github.
 - Automatic conversion of all GeoSite categories to Mihomo MRS
 - No manually maintained category list
 - Automatically picks up newly added upstream categories
-- Updated every 6 hours
+- Updated every 12 hours
 - Build timestamps use the `America/New_York` timezone
 - SHA-256 hashes of the source GeoDAT files are published with every build
 - Separate GeoIP and GeoSite category indexes
@@ -193,7 +193,7 @@ build-info.txt
 Example:
 
 ```text
-Built at: 2026-09-26 09:23:00 EDT
+Built at: 2026-09-26 12:00:00 EDT
 Timezone: America/New_York
 ```
 
