@@ -6,7 +6,7 @@ on:
   schedule:
     # Run every six hours in New York local time.
     # GitHub handles the EDT/EST transition automatically.
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
       timezone: "America/New_York"
 
 permissions:
