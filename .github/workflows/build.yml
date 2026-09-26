@@ -1,0 +1,337 @@
+name: Build MRS rule sets
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Run every six hours in New York local time.
+    # GitHub handles the EDT/EST transition automatically.
+    - cron: "23 */6 * * *"
+      timezone: "America/New_York"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-mrs-main
+  cancel-in-progress: false
+
+env:
+  TZ: America/New_York
+
+jobs:
+  build:
+    name: Build and publish MRS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Prepare build workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          WORK_DIR="${RUNNER_TEMP}/mihomo-runet-mrs"
+
+          rm -rf "${WORK_DIR}"
+          mkdir -p \
+            "${WORK_DIR}/input" \
+            "${WORK_DIR}/output/geosite" \
+            "${WORK_DIR}/output/geoip"
+
+          echo "WORK_DIR=${WORK_DIR}" >> "${GITHUB_ENV}"
+
+      - name: Download source GeoDAT files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          GEOIP_URL="https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat"
+          GEOSITE_URL="https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat"
+
+          curl \
+            --fail \
+            --location \
+            --silent \
+            --show-error \
+            --retry 5 \
+            --retry-delay 5 \
+            --retry-all-errors \
+            --output "${WORK_DIR}/input/geoip.dat" \
+            "${GEOIP_URL}"
+
+          curl \
+            --fail \
+            --location \
+            --silent \
+            --show-error \
+            --retry 5 \
+            --retry-delay 5 \
+            --retry-all-errors \
+            --output "${WORK_DIR}/input/geosite.dat" \
+            "${GEOSITE_URL}"
+
+          test -s "${WORK_DIR}/input/geoip.dat"
+          test -s "${WORK_DIR}/input/geosite.dat"
+
+          echo "Downloaded source files:"
+          ls -lh "${WORK_DIR}/input/geoip.dat" "${WORK_DIR}/input/geosite.dat"
+
+      - name: Build MetaCubeX converter
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          CONVERTER_DIR="${WORK_DIR}/meta-rules-converter"
+
+          git clone \
+            --depth 1 \
+            https://github.com/MetaCubeX/meta-rules-converter.git \
+            "${CONVERTER_DIR}"
+
+          (
+            cd "${CONVERTER_DIR}"
+
+            go build \
+              -trimpath \
+              -o "${WORK_DIR}/converter" \
+              .
+          )
+
+          chmod +x "${WORK_DIR}/converter"
+
+          CONVERTER_COMMIT="$(
+            git -C "${CONVERTER_DIR}" rev-parse HEAD
+          )"
+
+          echo "CONVERTER_COMMIT=${CONVERTER_COMMIT}" >> "${GITHUB_ENV}"
+
+          echo "Converter commit: ${CONVERTER_COMMIT}"
+          "${WORK_DIR}/converter" --help || true
+
+      - name: Convert GeoSite database
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          "${WORK_DIR}/converter" \
+            geosite \
+            -f "${WORK_DIR}/input/geosite.dat" \
+            -o "${WORK_DIR}/output/geosite"
+
+      - name: Convert GeoIP database
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          "${WORK_DIR}/converter" \
+            geoip \
+            -f "${WORK_DIR}/input/geoip.dat" \
+            -o "${WORK_DIR}/output/geoip"
+
+      - name: Validate conversion output
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          GEOSITE_COUNT="$(
+            find "${WORK_DIR}/output/geosite" \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          GEOIP_COUNT="$(
+            find "${WORK_DIR}/output/geoip" \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          echo "GeoSite MRS files: ${GEOSITE_COUNT}"
+          echo "GeoIP MRS files:   ${GEOIP_COUNT}"
+
+          if [ "${GEOSITE_COUNT}" -eq 0 ]; then
+            echo "Error: GeoSite conversion produced no .mrs files." >&2
+            exit 1
+          fi
+
+          if [ "${GEOIP_COUNT}" -eq 0 ]; then
+            echo "Error: GeoIP conversion produced no .mrs files." >&2
+            exit 1
+          fi
+
+      - name: Sync with latest main branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin main
+          git rebase origin/main
+
+      - name: Replace generated rule sets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Only generated directories are replaced. Repository files such as
+          # README.md, LICENSE and .github/workflows/build.yml are left intact.
+          rm -rf geosite geoip
+
+          mkdir -p geosite geoip
+
+          # Copy every file produced by the converter, not just *.mrs files.
+          cp -a "${WORK_DIR}/output/geosite/." geosite/
+          cp -a "${WORK_DIR}/output/geoip/." geoip/
+
+      - name: Generate category indexes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          find geosite \
+            -type f \
+            -name "*.mrs" \
+            -printf "%f\n" \
+            | LC_ALL=C sort \
+            > geosite-categories.txt
+
+          find geoip \
+            -type f \
+            -name "*.mrs" \
+            -printf "%f\n" \
+            | LC_ALL=C sort \
+            > geoip-categories.txt
+
+          {
+            echo "# Available rule sets"
+            echo
+            echo "Generated automatically from the current conversion output."
+            echo
+            echo "## GeoSite"
+            echo
+
+            sed 's/^/- `/' geosite-categories.txt \
+              | sed 's/$/`/'
+
+            echo
+            echo "## GeoIP"
+            echo
+
+            sed 's/^/- `/' geoip-categories.txt \
+              | sed 's/$/`/'
+          } > categories.md
+
+      - name: Generate source checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          sha256sum "${WORK_DIR}/input/geoip.dat" \
+            | awk '{print $1}' \
+            > geoip.dat.sha256
+
+          sha256sum "${WORK_DIR}/input/geosite.dat" \
+            | awk '{print $1}' \
+            > geosite.dat.sha256
+
+      - name: Generate build metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          GEOSITE_COUNT="$(
+            find geosite \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          GEOIP_COUNT="$(
+            find geoip \
+              -type f \
+              -name "*.mrs" \
+              | wc -l
+          )"
+
+          BUILD_TIME="$(date '+%Y-%m-%d %H:%M:%S %Z')"
+
+          {
+            echo "Built at: ${BUILD_TIME}"
+            echo "Timezone: America/New_York"
+            echo
+            echo "Source repository:"
+            echo "https://github.com/runetfreedom/russia-v2ray-rules-dat"
+            echo
+            echo "GeoIP source:"
+            echo "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat"
+            echo
+            echo "GeoSite source:"
+            echo "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat"
+            echo
+            echo "Converter repository:"
+            echo "https://github.com/MetaCubeX/meta-rules-converter"
+            echo
+            echo "Converter commit:"
+            echo "${CONVERTER_COMMIT}"
+            echo
+            echo "GeoSite MRS files: ${GEOSITE_COUNT}"
+            echo "GeoIP MRS files:   ${GEOIP_COUNT}"
+            echo
+            echo -n "geoip.dat SHA256:   "
+            cat geoip.dat.sha256
+            echo -n "geosite.dat SHA256: "
+            cat geosite.dat.sha256
+          } > build-info.txt
+
+      - name: Show build summary
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Build time: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+          echo
+          echo "Generated data:"
+          du -sh geosite geoip
+          echo
+          echo "GeoSite MRS files: $(find geosite -type f -name '*.mrs' | wc -l)"
+          echo "GeoIP MRS files:   $(find geoip -type f -name '*.mrs' | wc -l)"
+
+      - name: Commit generated files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- \
+            geosite \
+            geoip \
+            geosite-categories.txt \
+            geoip-categories.txt \
+            categories.md \
+            geoip.dat.sha256 \
+            geosite.dat.sha256 \
+            build-info.txt
+
+          if git diff --cached --quiet; then
+            echo "No generated files changed."
+            exit 0
+          fi
+
+          BUILD_TIME="$(date '+%Y-%m-%d %H:%M:%S %Z')"
+
+          git commit -m "Update MRS rule sets (${BUILD_TIME})"
+          git push origin HEAD:main
