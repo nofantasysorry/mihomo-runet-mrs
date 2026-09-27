@@ -338,7 +338,6 @@ Generated automatically from the current conversion output.
 - `category-enterprise-query-platform-cn.mrs`
 - `category-entertainment-cn.mrs`
 - `category-entertainment-cn@ads.mrs`
-- `category-entertainment-cn@cn.mrs`
 - `category-entertainment-ru.mrs`
 - `category-entertainment.mrs`
 - `category-entertainment@!cn.mrs`
@@ -362,7 +361,6 @@ Generated automatically from the current conversion output.
 - `category-games-!cn@cn.mrs`
 - `category-games-cn.mrs`
 - `category-games-cn@ads.mrs`
-- `category-games-cn@cn.mrs`
 - `category-games.mrs`
 - `category-games@ads.mrs`
 - `category-games@cn.mrs`
@@ -434,7 +432,6 @@ Generated automatically from the current conversion output.
 - `category-social-media-ir.mrs`
 - `category-speedtest.mrs`
 - `category-speedtest@!cn.mrs`
-- `category-speedtest@ads.mrs`
 - `category-speedtest@cn.mrs`
 - `category-stun.mrs`
 - `category-tech-ir.mrs`
@@ -670,7 +667,6 @@ Generated automatically from the current conversion output.
 - `envybox.mrs`
 - `epicbrowser.mrs`
 - `epicgames.mrs`
-- `epicgames@cn.mrs`
 - `epochmediagroup.mrs`
 - `erolabs.mrs`
 - `escapefromtarkov.mrs`
@@ -1135,10 +1131,8 @@ Generated automatically from the current conversion output.
 - `midea.mrs`
 - `mihoyo-cn.mrs`
 - `mihoyo-cn@ads.mrs`
-- `mihoyo-cn@cn.mrs`
 - `mihoyo.mrs`
 - `mihoyo@ads.mrs`
-- `mihoyo@cn.mrs`
 - `mikrotik.mrs`
 - `mindbox.mrs`
 - `mindbox@ads.mrs`
@@ -1255,7 +1249,6 @@ Generated automatically from the current conversion output.
 - `ogury@ads.mrs`
 - `ok.mrs`
 - `okaapps.mrs`
-- `okaapps@cn.mrs`
 - `okjike.mrs`
 - `okko.mrs`
 - `okx.mrs`
@@ -1266,7 +1259,6 @@ Generated automatically from the current conversion output.
 - `oneplus.mrs`
 - `oneplus@!cn.mrs`
 - `ookla-speedtest.mrs`
-- `ookla-speedtest@ads.mrs`
 - `op.mrs`
 - `openai.mrs`
 - `openai@ads.mrs`
@@ -1529,7 +1521,6 @@ Generated automatically from the current conversion output.
 - `spacex.mrs`
 - `spankbang.mrs`
 - `speedtest.mrs`
-- `speedtest@ads.mrs`
 - `spiceworks.mrs`
 - `spotify.mrs`
 - `spotify@ads.mrs`

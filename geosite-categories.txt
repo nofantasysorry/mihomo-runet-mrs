@@ -332,7 +332,6 @@ category-enhance-gaming@cn.mrs
 category-enterprise-query-platform-cn.mrs
 category-entertainment-cn.mrs
 category-entertainment-cn@ads.mrs
-category-entertainment-cn@cn.mrs
 category-entertainment-ru.mrs
 category-entertainment.mrs
 category-entertainment@!cn.mrs
@@ -356,7 +355,6 @@ category-games-!cn@ads.mrs
 category-games-!cn@cn.mrs
 category-games-cn.mrs
 category-games-cn@ads.mrs
-category-games-cn@cn.mrs
 category-games.mrs
 category-games@ads.mrs
 category-games@cn.mrs
@@ -428,7 +426,6 @@ category-social-media-cn@ads.mrs
 category-social-media-ir.mrs
 category-speedtest.mrs
 category-speedtest@!cn.mrs
-category-speedtest@ads.mrs
 category-speedtest@cn.mrs
 category-stun.mrs
 category-tech-ir.mrs
@@ -664,7 +661,6 @@ envato.mrs
 envybox.mrs
 epicbrowser.mrs
 epicgames.mrs
-epicgames@cn.mrs
 epochmediagroup.mrs
 erolabs.mrs
 escapefromtarkov.mrs
@@ -1129,10 +1125,8 @@ microsoft@cn.mrs
 midea.mrs
 mihoyo-cn.mrs
 mihoyo-cn@ads.mrs
-mihoyo-cn@cn.mrs
 mihoyo.mrs
 mihoyo@ads.mrs
-mihoyo@cn.mrs
 mikrotik.mrs
 mindbox.mrs
 mindbox@ads.mrs
@@ -1249,7 +1243,6 @@ ogury.mrs
 ogury@ads.mrs
 ok.mrs
 okaapps.mrs
-okaapps@cn.mrs
 okjike.mrs
 okko.mrs
 okx.mrs
@@ -1260,7 +1253,6 @@ onekey.mrs
 oneplus.mrs
 oneplus@!cn.mrs
 ookla-speedtest.mrs
-ookla-speedtest@ads.mrs
 op.mrs
 openai.mrs
 openai@ads.mrs
@@ -1523,7 +1515,6 @@ spaceship.mrs
 spacex.mrs
 spankbang.mrs
 speedtest.mrs
-speedtest@ads.mrs
 spiceworks.mrs
 spotify.mrs
 spotify@ads.mrs
