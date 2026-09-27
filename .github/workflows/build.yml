@@ -176,6 +176,7 @@ jobs:
             "source.commit"
             "converter.commit"
             "mrs-manifest.sha256"
+            "skipped-empty-rules.txt"
             "build-info.txt"
           )
 
@@ -365,6 +366,50 @@ jobs:
         run: |
           set -euo pipefail
 
+          SKIPPED_FILE="${WORK_DIR}/skipped-empty-rules.txt"
+          : > "${SKIPPED_FILE}"
+
+          # Some attribute-only categories legitimately contain no rules.
+          # The converter reports them as "empty rule" and leaves zero-byte
+          # output files behind. They are not valid MRS files, so exclude them
+          # from the published rule set instead of failing the entire build.
+          find "${WORK_DIR}/output/geosite" \
+            -type f \
+            -name "*.mrs" \
+            -size 0 \
+            -printf 'geosite/%P\n' \
+            >> "${SKIPPED_FILE}"
+
+          find "${WORK_DIR}/output/geoip" \
+            -type f \
+            -name "*.mrs" \
+            -size 0 \
+            -printf 'geoip/%P\n' \
+            >> "${SKIPPED_FILE}"
+
+          LC_ALL=C sort -o "${SKIPPED_FILE}" "${SKIPPED_FILE}"
+
+          SKIPPED_COUNT="$(
+            grep -c . "${SKIPPED_FILE}" || true
+          )"
+
+          if [ "${SKIPPED_COUNT}" -gt 0 ]; then
+            echo "Skipping ${SKIPPED_COUNT} empty rule set(s):"
+            sed 's/^/  - /' "${SKIPPED_FILE}"
+
+            find "${WORK_DIR}/output/geosite" \
+              -type f \
+              -name "*.mrs" \
+              -size 0 \
+              -delete
+
+            find "${WORK_DIR}/output/geoip" \
+              -type f \
+              -name "*.mrs" \
+              -size 0 \
+              -delete
+          fi
+
           GEOSITE_COUNT="$(
             find "${WORK_DIR}/output/geosite" \
               -type f \
@@ -380,45 +425,19 @@ jobs:
           )"
 
           if [ "${GEOSITE_COUNT}" -eq 0 ]; then
-            echo "Error: GeoSite conversion produced no .mrs files." >&2
+            echo "Error: GeoSite conversion produced no usable .mrs files." >&2
             exit 1
           fi
 
           if [ "${GEOIP_COUNT}" -eq 0 ]; then
-            echo "Error: GeoIP conversion produced no .mrs files." >&2
+            echo "Error: GeoIP conversion produced no usable .mrs files." >&2
             exit 1
           fi
 
-          EMPTY_GEOSITE="$(
-            find "${WORK_DIR}/output/geosite" \
-              -type f \
-              -name "*.mrs" \
-              -size 0 \
-              -print \
-              -quit
-          )"
-
-          EMPTY_GEOIP="$(
-            find "${WORK_DIR}/output/geoip" \
-              -type f \
-              -name "*.mrs" \
-              -size 0 \
-              -print \
-              -quit
-          )"
-
-          if [ -n "${EMPTY_GEOSITE}" ]; then
-            echo "Error: empty GeoSite MRS file: ${EMPTY_GEOSITE}" >&2
-            exit 1
-          fi
-
-          if [ -n "${EMPTY_GEOIP}" ]; then
-            echo "Error: empty GeoIP MRS file: ${EMPTY_GEOIP}" >&2
-            exit 1
-          fi
-
-          echo "GeoSite MRS files: ${GEOSITE_COUNT}"
-          echo "GeoIP MRS files:   ${GEOIP_COUNT}"
+          echo
+          echo "Usable GeoSite MRS files: ${GEOSITE_COUNT}"
+          echo "Usable GeoIP MRS files:   ${GEOIP_COUNT}"
+          echo "Skipped empty rule sets:  ${SKIPPED_COUNT}"
 
       - name: Sync with latest main branch
         if: steps.state.outputs.build_required == 'true'
@@ -447,6 +466,7 @@ jobs:
           cp "${WORK_DIR}/geosite.dat.sha256" geosite.dat.sha256
           cp "${WORK_DIR}/source.commit" source.commit
           cp "${WORK_DIR}/converter.commit" converter.commit
+          cp "${WORK_DIR}/skipped-empty-rules.txt" skipped-empty-rules.txt
 
       - name: Generate indexes and manifest
         if: steps.state.outputs.build_required == 'true'
@@ -513,6 +533,10 @@ jobs:
               | wc -l
           )"
 
+          SKIPPED_COUNT="$(
+            grep -c . skipped-empty-rules.txt || true
+          )"
+
           BUILD_TIME="$(date '+%Y-%m-%d %H:%M:%S %Z')"
 
           {
@@ -533,6 +557,7 @@ jobs:
             echo
             echo "GeoSite MRS files: ${GEOSITE_COUNT}"
             echo "GeoIP MRS files:   ${GEOIP_COUNT}"
+            echo "Skipped empty MRS: ${SKIPPED_COUNT}"
             echo
             echo -n "geoip.dat SHA256:   "
             cat geoip.dat.sha256
@@ -560,6 +585,7 @@ jobs:
             source.commit \
             converter.commit \
             mrs-manifest.sha256 \
+            skipped-empty-rules.txt \
             build-info.txt
 
           if git diff --cached --quiet; then
