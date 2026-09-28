@@ -4,10 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Run at 00:00 and 12:00 in New York local time.
-    # GitHub handles the EDT/EST transition automatically.
     - cron: "0 0,12 * * *"
-      timezone: "America/New_York"
 
 permissions:
   contents: write
@@ -17,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  TZ: America/New_York
+  TZ: UTC
   SOURCE_REPOSITORY: https://github.com/runetfreedom/russia-v2ray-rules-dat.git
   CONVERTER_REPOSITORY: https://github.com/MetaCubeX/meta-rules-converter.git
 
@@ -541,7 +538,7 @@ jobs:
 
           {
             echo "Built at: ${BUILD_TIME}"
-            echo "Timezone: America/New_York"
+            echo "Timezone: UTC"
             echo
             echo "Source repository:"
             echo "https://github.com/runetfreedom/russia-v2ray-rules-dat"
