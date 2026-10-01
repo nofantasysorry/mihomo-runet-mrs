@@ -1,11 +1,11 @@
-Built at: 2026-09-30 17:14:27 UTC
+Built at: 2026-10-01 17:43:33 UTC
 Timezone: UTC
 
 Source repository:
 https://github.com/runetfreedom/russia-v2ray-rules-dat
 
 Source snapshot:
-b6b94d0dcb876058e61e3f14ce7e74c4b991df48
+9ac91f686d1bf6b8a4e515ec6da5daedbc84a28a
 
 Converter repository:
 https://github.com/MetaCubeX/meta-rules-converter
@@ -17,5 +17,5 @@ GeoSite MRS files: 1888
 GeoIP MRS files:   266
 Skipped empty MRS: 9
 
-geoip.dat SHA256:   ee93182f7663bcd917c602c0d7b3efabfaafc9341fad33b42e93306c0a25ed5f
+geoip.dat SHA256:   310d4f695f8d6270e24a992885abaa25de7cfcae4e948b73230f9dee723699a1
 geosite.dat SHA256: 76fdbe01687a6cc7683b50c38ceea84941458e8371d215918daf555665a537cd
