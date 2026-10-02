@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
 
   schedule:
+    # Run at 00:00 and 12:00 Moscow time.
     - cron: "0 0,12 * * *"
+      timezone: "Europe/Moscow"
 
 permissions:
   contents: write
@@ -14,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  TZ: UTC
+  TZ: Europe/Moscow
   SOURCE_REPOSITORY: https://github.com/runetfreedom/russia-v2ray-rules-dat.git
   CONVERTER_REPOSITORY: https://github.com/MetaCubeX/meta-rules-converter.git
 
@@ -538,7 +540,7 @@ jobs:
 
           {
             echo "Built at: ${BUILD_TIME}"
-            echo "Timezone: UTC"
+            echo "Timezone: Europe/Moscow"
             echo
             echo "Source repository:"
             echo "https://github.com/runetfreedom/russia-v2ray-rules-dat"
