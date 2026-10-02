@@ -20,7 +20,7 @@ The generated rule sets are intended for use with [Mihomo](https://github.com/Me
 - Detects missing or modified generated MRS files
 - Automatically skips empty rule sets produced by the converter
 - Generates GeoIP and GeoSite category indexes
-- Uses UTC for build timestamps and scheduling
+- Uses Moscow time (`Europe/Moscow`) for scheduling and build timestamps
 - Publishes directly to the `main` branch without force-pushing
 
 ## Update schedule
@@ -28,15 +28,13 @@ The generated rule sets are intended for use with [Mihomo](https://github.com/Me
 The workflow checks for updates twice a day:
 
 ```text
-00:00 UTC
-12:00 UTC
+00:00 MSK
+12:00 MSK
 ```
 
-GitHub Actions cron schedules use UTC, so the update times remain fixed throughout the year and are not affected by daylight saving time.
+The workflow uses the IANA time zone `Europe/Moscow`, so the schedule is expressed directly in Moscow local time.
 
-A scheduled check does not necessarily result in a new commit.
-
-The repository is rebuilt only when one of the following conditions is detected:
+A scheduled check does not necessarily result in a new commit. The repository is rebuilt only when one of the following conditions is detected:
 
 - `geoip.dat` has changed
 - `geosite.dat` has changed
@@ -52,11 +50,7 @@ The source databases are provided by:
 
 [RunetFreedom / russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat)
 
-The workflow tracks the upstream `release` branch.
-
-Before downloading the databases, the workflow resolves the current upstream commit and uses that exact commit as a fixed source snapshot.
-
-Both databases are therefore downloaded from the same upstream revision.
+The workflow tracks the upstream `release` branch. Before downloading the databases, it resolves the current upstream commit and uses that exact revision as a fixed source snapshot. Both databases are therefore downloaded from the same upstream revision.
 
 ### GeoIP
 
@@ -100,19 +94,13 @@ meta-rules-converter
 geosite/*.mrs
 ```
 
-No category list is maintained manually.
-
-If a new category appears in the upstream GeoDAT files, it is automatically included during the next rebuild.
+No category list is maintained manually. If a new category appears in the upstream GeoDAT files, it is automatically included during the next rebuild.
 
 ## Empty rule sets
 
-Some upstream categories or attribute-specific variants contain no rules that can be emitted as an MRS file.
+Some upstream categories or attribute-specific variants contain no rules that can be emitted as an MRS file. In these cases, `meta-rules-converter` may create an empty output file.
 
-In these cases, `meta-rules-converter` may create an empty output file.
-
-Empty `.mrs` files are not published.
-
-Instead, the workflow:
+Empty `.mrs` files are not published. Instead, the workflow:
 
 1. detects zero-byte MRS files;
 2. records their names;
@@ -125,9 +113,7 @@ The list of skipped rule sets is stored in:
 skipped-empty-rules.txt
 ```
 
-An empty rule set does not cause the entire build to fail.
-
-The build fails only if no usable GeoSite or GeoIP MRS files remain after validation.
+An empty rule set does not cause the entire build to fail. The build fails only if no usable GeoSite or GeoIP MRS files remain after validation.
 
 ## Repository structure
 
@@ -136,23 +122,10 @@ The build fails only if no usable GeoSite or GeoIP MRS files remain after valida
 ├── .github/
 │   └── workflows/
 │       └── build.yml
-│
 ├── geoip/
-│   ├── private.mrs
-│   ├── ru.mrs
-│   ├── ru-blocked.mrs
-│   ├── ru-whitelist.mrs
-│   └── ...
-│
+│   └── *.mrs
 ├── geosite/
-│   ├── private.mrs
-│   ├── category-ru.mrs
-│   ├── category-ads.mrs
-│   ├── github.mrs
-│   ├── apple.mrs
-│   ├── ru-blocked.mrs
-│   └── ...
-│
+│   └── *.mrs
 ├── categories.md
 ├── geoip-categories.txt
 ├── geosite-categories.txt
@@ -250,9 +223,7 @@ geoip-categories.txt
 categories.md
 ```
 
-These files are regenerated automatically from the actual conversion output.
-
-Only successfully generated, non-empty MRS files are included.
+These files are regenerated automatically from the actual conversion output. Only successfully generated, non-empty MRS files are included.
 
 ## Source tracking
 
@@ -279,9 +250,7 @@ geoip.dat.sha256
 geosite.dat.sha256
 ```
 
-The downloaded source files are also verified against the checksum information published by the upstream repository before conversion begins.
-
-If checksum verification fails, the build stops before any repository files are replaced.
+The downloaded source files are also verified against the checksum information published by the upstream repository before conversion begins. If checksum verification fails, the build stops before any repository files are replaced.
 
 ## MRS integrity manifest
 
@@ -291,9 +260,7 @@ Checksums for all published `.mrs` files are stored in:
 mrs-manifest.sha256
 ```
 
-During scheduled checks, the workflow verifies the existing generated files against this manifest.
-
-If a generated MRS file has been modified, corrupted, or removed, the workflow automatically triggers a rebuild even if the upstream databases have not changed.
+During scheduled checks, the workflow verifies the existing generated files against this manifest. If a generated MRS file has been modified, corrupted, or removed, the workflow automatically triggers a rebuild even if the upstream databases have not changed.
 
 ## Build information
 
@@ -306,8 +273,8 @@ build-info.txt
 Example:
 
 ```text
-Built at: 2026-09-28 12:04:15 UTC
-Timezone: UTC
+Built at: 2026-10-02 12:04:15 MSK
+Timezone: Europe/Moscow
 
 Source repository:
 https://github.com/runetfreedom/russia-v2ray-rules-dat
@@ -329,15 +296,11 @@ geoip.dat SHA256:   ...
 geosite.dat SHA256: ...
 ```
 
-`build-info.txt` represents the time of the latest **actual rebuild**, not the time of every scheduled check.
-
-If a scheduled run detects no changes, no new commit is created and `build-info.txt` remains unchanged.
+`build-info.txt` represents the time of the latest **actual rebuild**, not the time of every scheduled check. If a scheduled run detects no changes, no new commit is created and `build-info.txt` remains unchanged.
 
 ## Build safety
 
-The workflow is designed to avoid replacing working rule sets with incomplete output.
-
-Before the generated directories are updated, the workflow verifies that:
+The workflow is designed to avoid replacing working rule sets with incomplete output. Before the generated directories are updated, the workflow verifies that:
 
 - both source GeoDAT files were downloaded successfully;
 - their SHA-256 checksums match the upstream values;
@@ -347,25 +310,13 @@ Before the generated directories are updated, the workflow verifies that:
 - empty rule sets were removed;
 - the final MRS integrity manifest can be verified successfully.
 
-Repository files such as:
-
-```text
-README.md
-LICENSE
-.github/
-```
-
-are not replaced by the build process.
-
-The workflow does not use force pushes.
+Repository files such as `README.md`, `LICENSE` and `.github/` are not replaced by the build process. The workflow does not use force pushes.
 
 ## Notes
 
 The files in this repository are generated automatically from third-party data.
 
-This project does not independently determine whether a domain, IP address, network, service, or resource should be blocked, proxied, bypassed, or routed in any particular way.
-
-The meaning and contents of individual categories are determined by their respective upstream sources.
+This project does not independently determine whether a domain, IP address, network, service, or resource should be blocked, proxied, bypassed, or routed in any particular way. The meaning and contents of individual categories are determined by their respective upstream sources.
 
 Some upstream entries may be ignored or rejected by the converter if they cannot be represented in the target MRS format. Converter warnings remain visible in the GitHub Actions build logs.
 
@@ -380,9 +331,7 @@ This repository depends on the work of the following projects and their contribu
 - [MetaCubeX / meta-rules-converter](https://github.com/MetaCubeX/meta-rules-converter)
 - [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo)
 
-Additional upstream data sources may be included indirectly through the RunetFreedom databases.
-
-Please refer to the respective upstream repositories for complete source information, attribution, and licensing terms.
+Additional upstream data sources may be included indirectly through the RunetFreedom databases. Please refer to the respective upstream repositories for complete source information, attribution, and licensing terms.
 
 ## License
 
@@ -416,7 +365,7 @@ See [`LICENSE`](./LICENSE) for details.
 - Обнаружение удалённых или изменённых MRS-файлов
 - Автоматический пропуск пустых rule set, создаваемых конвертером
 - Автоматическое создание индексов категорий GeoIP и GeoSite
-- Использование UTC для расписания и времени сборки
+- Использование московского времени (`Europe/Moscow`) для расписания и времени сборки
 - Публикация непосредственно в ветку `main` без force push
 
 ## Расписание обновлений
@@ -424,15 +373,13 @@ See [`LICENSE`](./LICENSE) for details.
 Workflow проверяет наличие обновлений два раза в сутки:
 
 ```text
-00:00 UTC
-12:00 UTC
+00:00 MSK
+12:00 MSK
 ```
 
-Расписание остаётся неизменным в течение всего года и не зависит от перехода на летнее или зимнее время.
+Используется часовой пояс `Europe/Moscow`, поэтому расписание задаётся непосредственно по московскому времени.
 
-Запуск workflow по расписанию не обязательно приводит к созданию нового commit.
-
-Пересборка выполняется только в следующих случаях:
+Запуск workflow по расписанию не обязательно приводит к созданию нового commit. Пересборка выполняется только в следующих случаях:
 
 - изменился `geoip.dat`;
 - изменился `geosite.dat`;
@@ -449,11 +396,7 @@ Workflow проверяет наличие обновлений два раза 
 
 [RunetFreedom / russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat)
 
-Workflow отслеживает upstream-ветку `release`.
-
-Перед скачиванием баз определяется точный commit текущего состояния `release`.
-
-После этого обе базы скачиваются именно из этого commit, поэтому `geoip.dat` и `geosite.dat` всегда относятся к одному и тому же снимку upstream.
+Workflow отслеживает upstream-ветку `release`. Перед скачиванием баз определяется точный commit текущего состояния `release`. После этого обе базы скачиваются именно из этого commit, поэтому `geoip.dat` и `geosite.dat` всегда относятся к одному и тому же снимку upstream.
 
 ### GeoIP
 
@@ -497,19 +440,13 @@ meta-rules-converter
 geosite/*.mrs
 ```
 
-Список категорий вручную не поддерживается.
-
-Если upstream добавляет новую категорию в GeoDAT, она автоматически появится в репозитории после следующей пересборки.
+Список категорий вручную не поддерживается. Если upstream добавляет новую категорию в GeoDAT, она автоматически появится в репозитории после следующей пересборки.
 
 ## Пустые наборы правил
 
-Некоторые upstream-категории или варианты категорий с атрибутами могут не содержать правил, которые возможно сохранить в MRS.
+Некоторые upstream-категории или варианты категорий с атрибутами могут не содержать правил, которые возможно сохранить в MRS. В таких случаях `meta-rules-converter` может создать пустой файл.
 
-В таких случаях `meta-rules-converter` может создать пустой файл.
-
-Пустые `.mrs` в репозиторий не публикуются.
-
-Workflow автоматически:
+Пустые `.mrs` в репозиторий не публикуются. Workflow автоматически:
 
 1. находит MRS-файлы размером 0 байт;
 2. записывает их имена в отдельный список;
@@ -522,9 +459,7 @@ Workflow автоматически:
 skipped-empty-rules.txt
 ```
 
-Наличие отдельных пустых rule set не приводит к ошибке всей сборки.
-
-Workflow завершится ошибкой только в случае, если после проверки вообще не останется пригодных файлов GeoSite или GeoIP.
+Наличие отдельных пустых rule set не приводит к ошибке всей сборки. Workflow завершится ошибкой только в случае, если после проверки вообще не останется пригодных файлов GeoSite или GeoIP.
 
 ## Структура репозитория
 
@@ -533,23 +468,10 @@ Workflow завершится ошибкой только в случае, ес�
 ├── .github/
 │   └── workflows/
 │       └── build.yml
-│
 ├── geoip/
-│   ├── private.mrs
-│   ├── ru.mrs
-│   ├── ru-blocked.mrs
-│   ├── ru-whitelist.mrs
-│   └── ...
-│
+│   └── *.mrs
 ├── geosite/
-│   ├── private.mrs
-│   ├── category-ru.mrs
-│   ├── category-ads.mrs
-│   ├── github.mrs
-│   ├── apple.mrs
-│   ├── ru-blocked.mrs
-│   └── ...
-│
+│   └── *.mrs
 ├── categories.md
 ├── geoip-categories.txt
 ├── geosite-categories.txt
@@ -647,9 +569,7 @@ geoip-categories.txt
 categories.md
 ```
 
-Эти файлы автоматически создаются на основе фактического результата конвертации.
-
-В списки попадают только успешно созданные непустые MRS-файлы.
+Эти файлы автоматически создаются на основе фактического результата конвертации. В списки попадают только успешно созданные непустые MRS-файлы.
 
 ## Отслеживание исходных версий
 
@@ -676,9 +596,7 @@ geoip.dat.sha256
 geosite.dat.sha256
 ```
 
-Перед началом конвертации скачанные GeoDAT также сверяются с контрольными суммами, опубликованными upstream.
-
-При несовпадении SHA-256 workflow останавливается до замены каких-либо файлов в репозитории.
+Перед началом конвертации скачанные GeoDAT также сверяются с контрольными суммами, опубликованными upstream. При несовпадении SHA-256 workflow останавливается до замены каких-либо файлов в репозитории.
 
 ## Проверка целостности MRS
 
@@ -688,9 +606,7 @@ SHA-256 всех опубликованных `.mrs` хранятся в:
 mrs-manifest.sha256
 ```
 
-Во время плановых запусков workflow проверяет существующие MRS по этому manifest.
-
-Если один из сгенерированных файлов был изменён, повреждён или удалён, будет автоматически запущена полная пересборка, даже если исходные GeoDAT не изменились.
+Во время плановых запусков workflow проверяет существующие MRS по этому manifest. Если один из сгенерированных файлов был изменён, повреждён или удалён, будет автоматически запущена полная пересборка, даже если исходные GeoDAT не изменились.
 
 ## Информация о сборке
 
@@ -703,8 +619,8 @@ build-info.txt
 Пример:
 
 ```text
-Built at: 2026-09-28 12:04:15 UTC
-Timezone: UTC
+Built at: 2026-10-02 12:04:15 MSK
+Timezone: Europe/Moscow
 
 Source repository:
 https://github.com/runetfreedom/russia-v2ray-rules-dat
@@ -726,15 +642,11 @@ geoip.dat SHA256:   ...
 geosite.dat SHA256: ...
 ```
 
-`build-info.txt` содержит время последней **фактической пересборки**, а не каждого запуска workflow.
-
-Если очередная проверка не обнаруживает изменений, новый commit не создаётся и `build-info.txt` остаётся без изменений.
+`build-info.txt` содержит время последней **фактической пересборки**, а не каждого запуска workflow. Если очередная проверка не обнаруживает изменений, новый commit не создаётся и `build-info.txt` остаётся без изменений.
 
 ## Безопасность сборки
 
-Workflow спроектирован так, чтобы не заменять рабочие rule set неполным или повреждённым результатом.
-
-Перед обновлением каталогов с MRS проверяется следующее:
+Workflow спроектирован так, чтобы не заменять рабочие rule set неполным или повреждённым результатом. Перед обновлением каталогов с MRS проверяется следующее:
 
 - оба GeoDAT-файла успешно скачаны;
 - их SHA-256 соответствуют upstream;
@@ -744,29 +656,15 @@ Workflow спроектирован так, чтобы не заменять р�
 - пустые rule set удалены;
 - итоговый manifest MRS успешно проходит проверку.
 
-Ручные файлы репозитория, включая:
-
-```text
-README.md
-LICENSE
-.github/
-```
-
-workflow не заменяет и не удаляет.
-
-Force push не используется.
+Ручные файлы репозитория, включая `README.md`, `LICENSE` и `.github/`, workflow не заменяет и не удаляет. Force push не используется.
 
 ## Примечания
 
 Файлы в этом репозитории автоматически создаются из данных сторонних проектов.
 
-Этот проект самостоятельно не определяет, должен ли конкретный домен, IP-адрес, сервис или ресурс блокироваться, проксироваться, обходиться напрямую или маршрутизироваться каким-либо другим способом.
+Этот проект самостоятельно не определяет, должен ли конкретный домен, IP-адрес, сервис или ресурс блокироваться, проксироваться, обходиться напрямую или маршрутизироваться каким-либо другим способом. Содержимое и назначение отдельных категорий определяется соответствующими upstream-источниками.
 
-Содержимое и назначение отдельных категорий определяется соответствующими upstream-источниками.
-
-Некоторые upstream-записи могут быть проигнорированы или отклонены конвертером, если их невозможно представить в целевом формате MRS.
-
-Предупреждения converter остаются доступными в логах GitHub Actions.
+Некоторые upstream-записи могут быть проигнорированы или отклонены конвертером, если их невозможно представить в целевом формате MRS. Предупреждения converter остаются доступными в логах GitHub Actions.
 
 ## Благодарности
 
@@ -779,9 +677,7 @@ Force push не используется.
 - [MetaCubeX / meta-rules-converter](https://github.com/MetaCubeX/meta-rules-converter)
 - [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo)
 
-Дополнительные источники данных могут использоваться косвенно через базы RunetFreedom.
-
-Полную информацию об источниках, авторах и лицензиях следует смотреть в соответствующих upstream-репозиториях.
+Дополнительные источники данных могут использоваться косвенно через базы RunetFreedom. Полную информацию об источниках, авторах и лицензиях следует смотреть в соответствующих upstream-репозиториях.
 
 ## Лицензия
 
