@@ -224,6 +224,8 @@ This repository is built on the work of these projects and their contributors:
 
 Additional upstream data sources may be included indirectly through the RunetFreedom databases. Please refer to the respective upstream repositories for complete source information, attribution, and licensing terms.
 
+- Workflow scheduling fix and README restructuring — [Claude](https://claude.com) by Anthropic
+
 ## License
 
 This repository is distributed under the **GNU General Public License v3.0 (GPL-3.0)**.
@@ -458,6 +460,8 @@ GitHub Actions вычисляет cron только по UTC — у тригге
 - [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo)
 
 Дополнительные upstream-источники данных могут использоваться косвенно через базы RunetFreedom. Полную информацию об источниках, авторах и лицензиях смотрите в соответствующих upstream-репозиториях.
+
+- Исправление расписания workflow и переработка README — [Claude](https://claude.com) от Anthropic
 
 ## Примечания
 
