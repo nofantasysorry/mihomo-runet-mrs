@@ -4,9 +4,13 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Run at 00:00 and 12:00 Moscow time.
-    - cron: "0 0,12 * * *"
-      timezone: "Europe/Moscow"
+    # IMPORTANT: GitHub Actions evaluates cron in UTC only. The schedule
+    # trigger has no "timezone" option (that is GitLab CI syntax), so the old
+    # "timezone: Europe/Moscow" line was silently ignored and runs actually
+    # happened at 03:00 and 15:00 MSK. Moscow time is UTC+3:
+    #   00:00 MSK -> 21:00 UTC, 12:00 MSK -> 09:00 UTC.
+    # Scheduled runs may start a few minutes late (shared GitHub queue).
+    - cron: "0 9,21 * * *"
 
 permissions:
   contents: write
@@ -24,6 +28,7 @@ jobs:
   build:
     name: Check, build and publish MRS
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository
