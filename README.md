@@ -26,7 +26,7 @@
 4. Результат публикуется коммитом в `main` — **только если содержимое действительно изменилось**; если upstream не обновлялся, пустой коммит не создаётся.
 5. Ваш Mihomo сам подхватывает обновления по `interval` из конфига провайдеров.
 
-Последний прогон: время сборки, коммиты upstream и конвертера, хэши исходных dat-файлов — всё в [`build-info.txt`](build-info.txt). Список всех доступных наборов — в [`categories.md`](categories.md) и [`geosite-categories.txt`](geosite-categories.txt) / [`geoip-categories.txt`](geoip-categories.txt).
+Последний прогон: коммиты upstream и конвертера, хэши исходных dat-файлов и количество наборов — всё в [`build-info.txt`](build-info.txt). Список всех доступных наборов — в [`categories.md`](categories.md) и [`geosite-categories.txt`](geosite-categories.txt) / [`geoip-categories.txt`](geoip-categories.txt).
 
 ## Быстрый старт
 
@@ -136,6 +136,6 @@ rules:
 
 Auto-updated **MRS rule sets** for [Mihomo](https://github.com/MetaCubeX/mihomo) (Clash Meta) and clients built on it. Twice a day — at 01:37 and 13:37 UTC — a GitHub Actions workflow downloads the current `geoip.dat` and `geosite.dat` from the `release` branch of [RunetFreedom / russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat), converts every category into a separate `.mrs` file with [MetaCubeX / meta-rules-converter](https://github.com/MetaCubeX/meta-rules-converter), and publishes the result to this repository. A commit is created only when the generated content actually changes.
 
-Point your `rule-providers` at this repository (see the examples above; swap `DIRECT`/`PROXY` to match your routing policy). Each client re-checks the files on its own `interval` — no restarts, no manual work. The full catalogue of available sets is in [`categories.md`](categories.md); hashes of every published file are in [`mrs-manifest.sha256`](mrs-manifest.sha256); build provenance is in [`build-info.txt`](build-info.txt).
+Point your `rule-providers` at this repository (see the examples above; swap `DIRECT`/`PROXY` to match your routing policy). Each client re-checks the files on its own `interval` — no restarts, no manual work. The full catalogue of available sets is in [`categories.md`](categories.md); hashes of every published file are in [`mrs-manifest.sha256`](mrs-manifest.sha256); build provenance (upstream and converter snapshots, source hashes) is in [`build-info.txt`](build-info.txt).
 
 Licensed under **GPL-3.0**. © 2026 [nofantasysorry](https://github.com/nofantasysorry) — owner and maintainer; automation, CI redesign and documentation by [GPT-6 Astra](https://openai.com) (OpenAI).

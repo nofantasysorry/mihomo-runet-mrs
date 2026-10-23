@@ -189,8 +189,9 @@ jobs:
           SKIPPED="$(grep -c . skipped-empty-rules.txt || true)"
 
           {
-            echo "Built at (UTC): $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            echo
+            # No build timestamp here: it would change on every run and
+            # produce a commit even when the generated content is identical.
+            # The upstream snapshot below already identifies the exact data.
             echo "Source repository: ${SOURCE_REPO} (branch ${SOURCE_BRANCH})"
             echo "Source snapshot:   $(cat source.commit)"
             echo
