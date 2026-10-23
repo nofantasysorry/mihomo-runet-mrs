@@ -1,0 +1,253 @@
+name: Convert Runet dat to MRS
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Twice a day: 01:37 and 13:37 UTC. All times in this workflow are UTC.
+    # The minute is deliberately 37, not 0: GitHub queues scheduled jobs on
+    # shared infrastructure, and the top of the hour is the busiest moment —
+    # jobs scheduled exactly at :00 are the ones most likely to be delayed.
+    - cron: "37 1,13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: convert-mrs-main
+  cancel-in-progress: false
+
+env:
+  SOURCE_REPO: https://github.com/runetfreedom/russia-v2ray-rules-dat
+  SOURCE_BRANCH: release
+  CONVERTER_REPO: https://github.com/MetaCubeX/meta-rules-converter
+
+jobs:
+  convert:
+    name: Convert and publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Build the converter
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git clone --quiet --depth 1 "${CONVERTER_REPO}" converter-src
+
+          (
+            cd converter-src
+            go build -trimpath -o "${RUNNER_TEMP}/converter" .
+          )
+
+          # Record the exact converter snapshot used for this build. Pure
+          # information for the published metadata, never a build condition.
+          git -C converter-src rev-parse HEAD > converter.commit
+
+      - name: Download source databases
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_COMMIT="$(
+            git ls-remote "${SOURCE_REPO}" "refs/heads/${SOURCE_BRANCH}" \
+              | awk 'NR == 1 {print $1}'
+          )"
+
+          if [ -z "${SOURCE_COMMIT}" ]; then
+            echo "Error: cannot resolve branch '${SOURCE_BRANCH}' of ${SOURCE_REPO}." >&2
+            exit 1
+          fi
+
+          echo "Upstream snapshot: ${SOURCE_COMMIT}"
+          printf '%s\n' "${SOURCE_COMMIT}" > source.commit
+
+          download() {
+            local url="$1"
+            local output="$2"
+
+            curl \
+              --fail \
+              --location \
+              --silent \
+              --show-error \
+              --retry 5 \
+              --retry-delay 5 \
+              --retry-all-errors \
+              --output "${output}" \
+              "${url}"
+
+            test -s "${output}"
+          }
+
+          BASE_URL="https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/${SOURCE_COMMIT}"
+
+          download "${BASE_URL}/geoip.dat"   "${RUNNER_TEMP}/geoip.dat"
+          download "${BASE_URL}/geosite.dat" "${RUNNER_TEMP}/geosite.dat"
+
+          # Published for information: hashes of the exact upstream files used.
+          sha256sum "${RUNNER_TEMP}/geoip.dat"   | awk '{print $1}' > geoip.dat.sha256
+          sha256sum "${RUNNER_TEMP}/geosite.dat" | awk '{print $1}' > geosite.dat.sha256
+
+          ls -lh "${RUNNER_TEMP}/geoip.dat" "${RUNNER_TEMP}/geosite.dat"
+
+      - name: Convert databases to MRS
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p output/geosite output/geoip
+
+          "${RUNNER_TEMP}/converter" geosite \
+            -f "${RUNNER_TEMP}/geosite.dat" \
+            -o output/geosite
+
+          "${RUNNER_TEMP}/converter" geoip \
+            -f "${RUNNER_TEMP}/geoip.dat" \
+            -o output/geoip
+
+      - name: Validate conversion output
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Some upstream categories legitimately contain no rules; the
+          # converter leaves zero-byte .mrs files for them. Zero bytes is not
+          # a valid MRS payload, so drop them and record the list.
+          : > skipped-empty-rules.txt
+
+          find output/geosite -type f -name "*.mrs" -size 0 -printf 'geosite/%P\n' >> skipped-empty-rules.txt
+          find output/geoip   -type f -name "*.mrs" -size 0 -printf 'geoip/%P\n'   >> skipped-empty-rules.txt
+
+          LC_ALL=C sort -o skipped-empty-rules.txt skipped-empty-rules.txt
+
+          find output/geosite -type f -name "*.mrs" -size 0 -delete
+          find output/geoip   -type f -name "*.mrs" -size 0 -delete
+
+          SKIPPED="$(grep -c . skipped-empty-rules.txt || true)"
+          GEOSITE_COUNT="$(find output/geosite -type f -name '*.mrs' | wc -l)"
+          GEOIP_COUNT="$(find output/geoip -type f -name '*.mrs' | wc -l)"
+
+          echo "GeoSite MRS files:        ${GEOSITE_COUNT}"
+          echo "GeoIP MRS files:          ${GEOIP_COUNT}"
+          echo "Skipped empty rule sets:  ${SKIPPED}"
+
+          if [ "${GEOSITE_COUNT}" -eq 0 ] || [ "${GEOIP_COUNT}" -eq 0 ]; then
+            echo "Error: conversion produced no usable .mrs files." >&2
+            exit 1
+          fi
+
+      - name: Publish generated rule sets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Only generated content is replaced; hand-maintained files such as
+          # README.md, LICENSE and the workflow itself are never touched.
+          rm -rf geosite geoip
+          mkdir -p geosite geoip
+
+          cp -a output/geosite/. geosite/
+          cp -a output/geoip/.   geoip/
+
+          find geosite -type f -name "*.mrs" -printf "%f\n" | LC_ALL=C sort > geosite-categories.txt
+          find geoip   -type f -name "*.mrs" -printf "%f\n" | LC_ALL=C sort > geoip-categories.txt
+
+          {
+            echo "# Available rule sets"
+            echo
+            echo "Generated automatically from the latest conversion output."
+            echo
+            echo "## GeoSite"
+            echo
+            sed 's/^/- `/' geosite-categories.txt | sed 's/$/`/'
+            echo
+            echo "## GeoIP"
+            echo
+            sed 's/^/- `/' geoip-categories.txt | sed 's/$/`/'
+          } > categories.md
+
+          find geosite geoip -type f -name "*.mrs" -print0 \
+            | LC_ALL=C sort -z \
+            | xargs -0 sha256sum > mrs-manifest.sha256
+
+          test -s mrs-manifest.sha256
+          sha256sum --check --quiet mrs-manifest.sha256
+
+          GEOSITE_COUNT="$(find geosite -type f -name '*.mrs' | wc -l)"
+          GEOIP_COUNT="$(find geoip   -type f -name '*.mrs' | wc -l)"
+          SKIPPED="$(grep -c . skipped-empty-rules.txt || true)"
+
+          {
+            echo "Built at (UTC): $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo
+            echo "Source repository: ${SOURCE_REPO} (branch ${SOURCE_BRANCH})"
+            echo "Source snapshot:   $(cat source.commit)"
+            echo
+            echo "Converter repository: ${CONVERTER_REPO}"
+            echo "Converter commit:     $(cat converter.commit)"
+            echo
+            echo "GeoSite MRS files: ${GEOSITE_COUNT}"
+            echo "GeoIP MRS files:   ${GEOIP_COUNT}"
+            echo "Skipped empty MRS: ${SKIPPED}"
+            echo
+            echo "geoip.dat SHA256:   $(cat geoip.dat.sha256)"
+            echo "geosite.dat SHA256: $(cat geosite.dat.sha256)"
+          } > build-info.txt
+
+          rm -rf output converter-src
+
+      - name: Commit and push
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- \
+            geosite \
+            geoip \
+            geosite-categories.txt \
+            geoip-categories.txt \
+            categories.md \
+            geoip.dat.sha256 \
+            geosite.dat.sha256 \
+            source.commit \
+            converter.commit \
+            mrs-manifest.sha256 \
+            skipped-empty-rules.txt \
+            build-info.txt
+
+          if git diff --cached --quiet; then
+            echo "Conversion output is identical to what is already published. Nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "Convert Runet dat to MRS ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+
+          # Pick up commits that may have landed while this job was running.
+          # A real conflict fails the job; nothing is ever force-pushed.
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Write job summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Convert Runet dat to MRS"
+            echo
+            echo "Job status: ${{ job.status }}"
+            echo "Checked at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          } >> "${GITHUB_STEP_SUMMARY}"
