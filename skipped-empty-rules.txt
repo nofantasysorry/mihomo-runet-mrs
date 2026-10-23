@@ -1,0 +1,9 @@
+geosite/category-entertainment-cn@cn.mrs
+geosite/category-games-cn@cn.mrs
+geosite/category-speedtest@ads.mrs
+geosite/epicgames@cn.mrs
+geosite/mihoyo-cn@cn.mrs
+geosite/mihoyo@cn.mrs
+geosite/okaapps@cn.mrs
+geosite/ookla-speedtest@ads.mrs
+geosite/speedtest@ads.mrs
