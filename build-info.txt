@@ -1,5 +1,5 @@
 Source repository: https://github.com/runetfreedom/russia-v2ray-rules-dat (branch release)
-Source snapshot:   306167681dc7de8deeee75efe97da528aad1cd10
+Source snapshot:   2451b2af3c9a9108e6cb845f32f8f4d9e9379206
 
 Converter repository: https://github.com/MetaCubeX/meta-rules-converter
 Converter commit:     7dea27841a3579a633189830c98c08a0434e8b79
