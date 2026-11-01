@@ -1,13 +1,14 @@
 payload:
     - DOMAIN,cueme-api.quark.cn
     - DOMAIN,ai.zhaomi.cn
-    - DOMAIN-SUFFIX,clawhub-mirror.com
-    - DOMAIN-SUFFIX,mcprev.cn
+    - DOMAIN-SUFFIX,zhiexa.com
+    - DOMAIN-SUFFIX,doubaocdn.com
     - DOMAIN-SUFFIX,liblib.tv
     - DOMAIN-SUFFIX,rwkv.cn
     - DOMAIN-SUFFIX,rwkv.com
     - DOMAIN-SUFFIX,tapnow.top
     - DOMAIN-SUFFIX,qianwen.com
+    - DOMAIN-SUFFIX,qianwenai.com
     - DOMAIN-SUFFIX,qwen.ai
     - DOMAIN-SUFFIX,qwenlm.ai
     - DOMAIN-SUFFIX,tongyi.com
@@ -19,8 +20,8 @@ payload:
     - DOMAIN-SUFFIX,sleeplesshorizon.cn
     - DOMAIN-SUFFIX,dumate.cn
     - DOMAIN-SUFFIX,miaoda.cn
-    - DOMAIN-SUFFIX,xiaomimimo.com
-    - DOMAIN-SUFFIX,mcpworld.com
+    - DOMAIN-SUFFIX,deepseeksvc.com
+    - DOMAIN-SUFFIX,liblib.art
     - DOMAIN-SUFFIX,tiangong.cn
     - DOMAIN-SUFFIX,bigmodel.cn
     - DOMAIN-SUFFIX,chatglm.cn
@@ -28,18 +29,18 @@ payload:
     - DOMAIN-SUFFIX,zhipuai.cn
     - DOMAIN-SUFFIX,zhipucn.com
     - DOMAIN-SUFFIX,kimi.com
-    - DOMAIN-SUFFIX,moonshot.ai
     - DOMAIN-SUFFIX,moonshot.cn
-    - DOMAIN-SUFFIX,xiaoaiassist.com
-    - DOMAIN-SUFFIX,miaibox.com
-    - DOMAIN-SUFFIX,liblib.art
+    - DOMAIN-SUFFIX,deepseek.com
+    - DOMAIN-SUFFIX,diandianlife.top
+    - DOMAIN-SUFFIX,askdiandian.com
     - DOMAIN-SUFFIX,hailuoai.com
     - DOMAIN-SUFFIX,minimaxi.com
     - DOMAIN-SUFFIX,xingyeai.com
     - DOMAIN-SUFFIX,codebuddy.cn
-    - DOMAIN-SUFFIX,trae.guru
-    - DOMAIN-SUFFIX,trae.cn
-    - DOMAIN-SUFFIX,tcwqqdy.guru
+    - DOMAIN-SUFFIX,workbuddy.cn
+    - DOMAIN-SUFFIX,xiaomimimo.com
+    - DOMAIN-SUFFIX,xiaoaiassist.com
+    - DOMAIN-SUFFIX,miaibox.com
     - DOMAIN-SUFFIX,baichuan-ai.com
     - DOMAIN-SUFFIX,cueme.cn
     - DOMAIN-SUFFIX,n.cn
@@ -55,20 +56,21 @@ payload:
     - DOMAIN-SUFFIX,aispeech.com
     - DOMAIN-SUFFIX,dui.ai
     - DOMAIN-SUFFIX,duiopen.com
-    - DOMAIN-SUFFIX,yoma.cn
-    - DOMAIN-SUFFIX,liblib.cloud
-    - DOMAIN-SUFFIX,coze.cn
-    - DOMAIN-SUFFIX,zhiexa.com
-    - DOMAIN-SUFFIX,linka2a.net
     - DOMAIN-SUFFIX,yzsgo.com
+    - DOMAIN-SUFFIX,skillhub.cn
+    - DOMAIN-SUFFIX,safeskill.cn
+    - DOMAIN-SUFFIX,mcpworld.com
+    - DOMAIN-SUFFIX,kakaxing.com
+    - DOMAIN-SUFFIX,clawhub-mirror.com
     - DOMAIN-SUFFIX,shunjing.xin
-    - DOMAIN-SUFFIX,askdiandian.com
-    - DOMAIN-SUFFIX,diandianlife.top
-    - DOMAIN-SUFFIX,deepseek.com
+    - DOMAIN-SUFFIX,linka2a.net
+    - DOMAIN-SUFFIX,favonis.cloud
+    - DOMAIN-SUFFIX,favonis.com
+    - DOMAIN-SUFFIX,favonis.space
     - DOMAIN-SUFFIX,butterfly-static.cn
     - DOMAIN-SUFFIX,butterflyai.cn
     - DOMAIN-SUFFIX,coze-dns-01.com
-    - DOMAIN-SUFFIX,safeskill.cn
+    - DOMAIN-SUFFIX,coze.cn
     - DOMAIN-SUFFIX,coze.email
     - DOMAIN-SUFFIX,coze.site
     - DOMAIN-SUFFIX,cozeapp.net
@@ -87,7 +89,7 @@ payload:
     - DOMAIN-SUFFIX,instreet.com
     - DOMAIN-SUFFIX,doubao-dev.com
     - DOMAIN-SUFFIX,doubao.com
-    - DOMAIN-SUFFIX,doubaocdn.com
+    - DOMAIN-SUFFIX,liblib.cloud
     - DOMAIN-SUFFIX,hi-butterfly.cn
     - DOMAIN-SUFFIX,maoxiangai.com
     - DOMAIN-SUFFIX,myparallelstory.com
@@ -102,13 +104,17 @@ payload:
     - DOMAIN-SUFFIX,mcbaas.work
     - DOMAIN-SUFFIX,mcdemo.show
     - DOMAIN-SUFFIX,mchost.guru
-    - DOMAIN-SUFFIX,skillhub.cn
+    - DOMAIN-SUFFIX,mcprev.cn
+    - DOMAIN-SUFFIX,tcwqqdy.guru
+    - DOMAIN-SUFFIX,trae.cn
+    - DOMAIN-SUFFIX,trae.guru
+    - DOMAIN-SUFFIX,yoma.cn
+    - DOMAIN-SUFFIX,marscode.com.cn
+    - DOMAIN-SUFFIX,trae.com.cn
     - DOMAIN-SUFFIX,yuanqi.tencent.com
     - DOMAIN-SUFFIX,yuanbao.tencent.com
     - DOMAIN-SUFFIX,hunyuan.tencent.com
     - DOMAIN-SUFFIX,xinghuo.xfyun.cn
-    - DOMAIN-SUFFIX,marscode.com.cn
-    - DOMAIN-SUFFIX,trae.com.cn
     - DOMAIN-SUFFIX,yiyan.baidu.com
     - DOMAIN-SUFFIX,tongyi.aliyun.com
     - DOMAIN-SUFFIX,qianwen.aliyun.com

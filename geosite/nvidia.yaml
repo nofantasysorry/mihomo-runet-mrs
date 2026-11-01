@@ -1,14 +1,14 @@
 payload:
     - nvidia.custhelp.com
     - nvidia.tt.omtrdc.net
-    - +.nvidia.nl
-    - +.nvidiaforhp.com
+    - +.nvidia.ro
+    - +.nvidia.no
     - +.geforce.com
+    - +.huggingface.co
+    - +.hf.space
+    - +.gputechconf.com
     - +.tegrazone.kr
     - +.tegrazone.jp
-    - +.gputechconf.com
-    - +.tegrazone.com
-    - +.tegrazone.co
     - +.gputechconf.eu
     - +.gputechconf.in
     - +.gputechconf.jp
@@ -16,48 +16,51 @@ payload:
     - +.nvidia.at
     - +.nvidia.be
     - +.nvidia.ch
+    - +.tegrazone.com
+    - +.tegrazone.co
     - +.shotwithgeforce.com
     - +.nvidiagrid.net
-    - +.nvidia.fr
-    - +.nvidia.tw
-    - +.nvidia.cz
+    - +.nvidiaforhp.com
     - +.nvidia.com
+    - +.nvidia.tw
     - +.nvidia.se
     - +.nvidia.ru
-    - +.nvidia.ro
     - +.nvidia.pl
-    - +.nvidia.no
+    - +.nvidia.nl
     - +.nvidia.mx
     - +.nvidia.lu
+    - +.hf.co
     - +.nvidia.jp
-    - +.nvidia.it
-    - +.nvidia.in
+    - +.nvidia.cz
     - +.nvidia.de
     - +.nvidia.dk
     - +.nvidia.es
     - +.nvidia.eu
     - +.nvidia.fi
-    - +.nvidia.co.at
+    - +.nvidia.fr
+    - +.nvidia.in
+    - +.nvidia.it
+    - +.nvidia.com.tw
+    - +.geforce.co.uk
+    - +.gputechconf.co.kr
+    - +.nvidia.co.jp
+    - +.nvidia.com.mx
+    - +.nvidia.com.pe
+    - +.geforce.co.kr
+    - +.nvidia.co.kr
+    - +.nvidia.com.br
+    - +.geforce.com.tw
+    - +.nvidia.com.tr
     - +.nvidia.co.uk
+    - +.nvidia.com.pl
+    - +.nvidia.co.in
+    - +.tegrazone.co.kr
+    - +.nvidia.co.at
+    - +.gputechconf.com.tw
     - +.gputechconf.com.au
     - +.nvidia.com.ua
-    - +.nvidia.com.tw
-    - +.nvidia.com.tr
-    - +.geforce.co.kr
-    - +.nvidia.com.pl
-    - +.nvidia.com.pe
-    - +.nvidia.com.mx
-    - +.nvidia.com.br
-    - +.nvidia.com.au
-    - +.nvidia.co.kr
-    - +.nvidia.co.jp
-    - +.nvidia.co.in
-    - +.geforce.co.uk
-    - +.gputechconf.com.tw
-    - +.tegrazone.co.kr
     - +.nvidia.com.ve
-    - +.gputechconf.co.kr
-    - +.geforce.com.tw
+    - +.nvidia.com.au
     - +.geforce.cn
     - +.gputechconf.cn
     - +.nvidia.cn

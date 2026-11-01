@@ -3,25 +3,27 @@ payload:
     - +.shouji
     - +.xihuan
     - +.yun
-    - +.360.cn
-    - +.360.com
+    - +.qhimgs1.com
+    - +.360os.com
     - +.360.net
     - +.360-jr.com
     - +.360chou.com
     - +.360daikuan.com
     - +.360huzhubao.com
     - +.360jie.com
-    - +.360jinrong.net
+    - +.qhimgs3.com
     - +.360kan.com
     - +.360kuai.com
-    - +.360os.com
+    - +.qhimgs4.com
     - +.360panyun.cn
     - +.360qhcdn.com
     - +.360safe.com
+    - +.360scdn.com
     - +.360shouji.com
     - +.360so.com
     - +.360sou.cn
     - +.360sou.com
+    - +.wztsy.com
     - +.360sou.net
     - +.360taojin.com
     - +.360totalsecurity.com
@@ -35,6 +37,7 @@ payload:
     - +.dhsvc.cn
     - +.haoso.com
     - +.haosou.com
+    - +.wztsy.cn
     - +.haosou.net
     - +.i360mall.com
     - +.ludashi.com
@@ -46,10 +49,10 @@ payload:
     - +.qhcdn.com
     - +.qhimg.com
     - +.qhimgs0.com
-    - +.qhimgs1.com
+    - +.360.cn
     - +.qhimgs2.com
-    - +.qhimgs3.com
-    - +.qhimgs4.com
+    - +.360jinrong.net
+    - +.360.com
     - +.qhimgs5.com
     - +.qhimgs6.com
     - +.qhmsg.com
@@ -95,10 +98,8 @@ payload:
     - +.wotgame.cn
     - +.wowsgame.cn
     - +.woxihuan.com
-    - +.wztsy.cn
-    - +.wztsy.com
-    - +.360sou.com.cn
     - +.haosou.com.cn
+    - +.360sou.com.cn
     - +.worldoftanks.com.cn
     - +.c.sayhi.360.cn
     - +.fenxi.360.cn

@@ -1,28 +1,36 @@
 payload:
-    - +.ivwen.com
-    - +.dandanvoice.com
+    - +.tieba.com
+    - +.baihe.com
     - +.dandan818.com
-    - +.meipian.cn
+    - +.dandanvoice.com
+    - +.duoduo.link
+    - +.hammi.cn
+    - +.uboxs.com
     - +.fanfou.com
-    - +.meipian.me
+    - +.immomo.com
+    - +.momocdn.com
+    - +.izuiyou.com
     - +.ixiaochuan.cn
     - +.xiaochuankeji.cn
+    - +.zuiyou.tv
+    - +.jiayuan.com
     - +.maimai.cn
     - +.taou.com
+    - +.qianliaowang.com
+    - +.qlchat.com
+    - +.soulapp.cn
+    - +.tancdn.com
+    - +.tantanapp.com
+    - +.uneed.com
+    - +.uneedx.com
+    - +.zastatic.com
+    - +.zhenai.com
     - +.zsxq.com
-    - +.douban.com
-    - +.douban.fm
-    - +.doubanio.com
     - +.gracg.com
     - +.procg.cn
+    - +.hupu.com
+    - +.hupucdn.com
     - +.shihuo.cn
-    - +.tieba.com
-    - +.izuiyou.com
-    - +.jike.city
-    - +.jikecdn.com
-    - +.okjike.com
-    - +.okjk.co
-    - +.ruguoapp.com
     - +.zhihu.com
     - +.zhimg.com
     - +.laiyagushi.com
@@ -30,8 +38,17 @@ payload:
     - +.coolapk.com
     - +.coolapkmarket.com
     - +.coolapkmarket.net
-    - +.hupu.com
-    - +.hupucdn.com
+    - +.douban.com
+    - +.douban.fm
+    - +.doubanio.com
+    - +.ivwen.com
+    - +.meipian.cn
+    - +.meipian.me
+    - +.jike.city
+    - +.jikecdn.com
+    - +.okjike.com
+    - +.okjk.co
+    - +.ruguoapp.com
     - +.tieba.baidu.com
     - +.hoopchina.com.cn
     - +.crash2.zhihu.com

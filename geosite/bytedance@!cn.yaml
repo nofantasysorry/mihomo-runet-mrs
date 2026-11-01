@@ -7,6 +7,13 @@ payload:
     - bytedance.map.fastly.net
     - +.capcut.com
     - +.capcutcdn-us.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - +.bytedapm.com
     - +.muscdn.com
     - +.musical.ly
@@ -23,9 +30,12 @@ payload:
     - +.tiktokglobalshopv.com
     - +.tiktokminis.us
     - +.tiktokrow-cdn.com
+    - +.tiktokshop.com
+    - +.tiktokstaticb.com
     - +.tiktokv.com
     - +.tiktokv.eu
     - +.tiktokv.us
+    - +.tiktokvapp.com
     - +.tiktokw.eu
     - +.tiktokw.us
     - +.ttcdn-us.com
@@ -38,14 +48,8 @@ payload:
     - +.tiktokv.com.edgekey.net
     - +.tiktokv.com.edgesuite.net
     - p16-tiktokcdn-com.akamaized.net
+    - p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
     - roovza-launches.appsflyersdk.com
     - roovza.inapps.appsflyersdk.com
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com

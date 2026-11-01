@@ -1,6 +1,6 @@
 payload:
-    - DOMAIN-SUFFIX,tencentcloud-aiot.com
-    - DOMAIN-SUFFIX,acctdns.com
+    - DOMAIN-SUFFIX,tencentclb.com
+    - DOMAIN-SUFFIX,tencentcdb.cn
     - DOMAIN-SUFFIX,aitransfy.com
     - DOMAIN-SUFFIX,apaas-zone-test.com
     - DOMAIN-SUFFIX,apdcdn.com
@@ -90,7 +90,7 @@ payload:
     - DOMAIN-SUFFIX,qcloudsmartiot.com
     - DOMAIN-SUFFIX,qcloudtcic.com
     - DOMAIN-SUFFIX,qcloudtiw.com
-    - DOMAIN-SUFFIX,qcloudtrip.com
+    - DOMAIN-SUFFIX,tencentcloud-aiot.com
     - DOMAIN-SUFFIX,qcloudtt.com
     - DOMAIN-SUFFIX,qcloudwaf.com
     - DOMAIN-SUFFIX,qdwebim.com
@@ -141,11 +141,13 @@ payload:
     - DOMAIN-SUFFIX,tencent-cloud.net
     - DOMAIN-SUFFIX,tencentapps.com
     - DOMAIN-SUFFIX,tencentbyod.com
-    - DOMAIN-SUFFIX,tencentcdb.cn
+    - DOMAIN-SUFFIX,dnsv4.com
     - DOMAIN-SUFFIX,tencentcdb.com
-    - DOMAIN-SUFFIX,rumt-zh.com
+    - DOMAIN-SUFFIX,dns.pub
+    - DOMAIN-SUFFIX,tencentclb.cn
+    - DOMAIN-SUFFIX,testmeet.cn
     - DOMAIN-SUFFIX,acctdns.net
-    - DOMAIN-SUFFIX,txbyod.com
+    - DOMAIN-SUFFIX,qcloudtrip.com
     - DOMAIN-SUFFIX,tencentcloudapi.com
     - DOMAIN-SUFFIX,tencentcloudclub.com
     - DOMAIN-SUFFIX,tencentcloudcr.com
@@ -155,7 +157,7 @@ payload:
     - DOMAIN-SUFFIX,tencentcloudses.com
     - DOMAIN-SUFFIX,tencentcos.cn
     - DOMAIN-SUFFIX,tencentcos.com
-    - DOMAIN-SUFFIX,dnsv4.com
+    - DOMAIN-SUFFIX,dnsapi.cn
     - DOMAIN-SUFFIX,tencentcs.cn
     - DOMAIN-SUFFIX,tencentcs.com
     - DOMAIN-SUFFIX,tencentdayu.com
@@ -175,12 +177,12 @@ payload:
     - DOMAIN-SUFFIX,tencentyun.com
     - DOMAIN-SUFFIX,tendbcluster.com
     - DOMAIN-SUFFIX,tendis.net
-    - DOMAIN-SUFFIX,dns.pub
-    - DOMAIN-SUFFIX,testmeet.cn
+    - DOMAIN-SUFFIX,dnspod.mobi
+    - DOMAIN-SUFFIX,acctdns.com
     - DOMAIN-SUFFIX,testwaf.com
     - DOMAIN-SUFFIX,tgovcloud.com
     - DOMAIN-SUFFIX,tidaas.com
-    - DOMAIN-SUFFIX,dnsapi.cn
+    - DOMAIN-SUFFIX,dot.pub
     - DOMAIN-SUFFIX,timmerse.com
     - DOMAIN-SUFFIX,tlivecdn.com
     - DOMAIN-SUFFIX,tlivemcdn.com
@@ -190,7 +192,7 @@ payload:
     - DOMAIN-SUFFIX,tourismuser.cn
     - DOMAIN-SUFFIX,tsparkling.com
     - DOMAIN-SUFFIX,tx-exhibition.com
-    - DOMAIN-SUFFIX,tencentclb.com
+    - DOMAIN-SUFFIX,txbyod.com
     - DOMAIN-SUFFIX,txidc.wang
     - DOMAIN-SUFFIX,txlivecdn.com
     - DOMAIN-SUFFIX,txtyxg.com
@@ -205,7 +207,7 @@ payload:
     - DOMAIN-SUFFIX,wework-studio.com
     - DOMAIN-SUFFIX,xqymuy.com
     - DOMAIN-SUFFIX,yufuid.com
-    - DOMAIN-SUFFIX,dnspod.mobi
+    - DOMAIN-SUFFIX,dnspod.com
     - DOMAIN-SUFFIX,yufuid.net
     - DOMAIN-SUFFIX,yunjitele.com
     - DOMAIN-SUFFIX,dnse0.cn
@@ -250,37 +252,37 @@ payload:
     - DOMAIN-SUFFIX,tdnsv13.net
     - DOMAIN-SUFFIX,tdnsv14.net
     - DOMAIN-SUFFIX,tdnsv15.net
-    - DOMAIN-SUFFIX,dot.pub
-    - DOMAIN-SUFFIX,dnspod.com
     - DOMAIN-SUFFIX,dnspod.cn
     - DOMAIN-SUFFIX,dnsv2.com
     - DOMAIN-SUFFIX,dnspod.net
     - DOMAIN-SUFFIX,discuz.org
     - DOMAIN-SUFFIX,discuz.net
     - DOMAIN-SUFFIX,comsenz.com
+    - DOMAIN-SUFFIX,rumt-zh.com
     - DOMAIN-SUFFIX,tamaegis.com
     - DOMAIN-SUFFIX,ym.run
+    - DOMAIN-SUFFIX,um.run
     - DOMAIN-SUFFIX,oracle-tencent.cn
     - DOMAIN-SUFFIX,oracle-tencent.com
-    - DOMAIN-SUFFIX,um.run
-    - DOMAIN-SUFFIX,oracle-tencent.net
     - DOMAIN-SUFFIX,ma.run
+    - DOMAIN-SUFFIX,oracle-tencent.net
+    - DOMAIN-SUFFIX,m9.run
     - DOMAIN-SUFFIX,m1.run
     - DOMAIN-SUFFIX,m6.run
-    - DOMAIN-SUFFIX,m9.run
+    - DOMAIN-SUFFIX,tencentclb.com.cn
     - DOMAIN-SUFFIX,ectencent.com.cn
-    - DOMAIN-SUFFIX,testjrzk.net.cn
-    - DOMAIN-SUFFIX,oracle-tencent.net.cn
     - DOMAIN-SUFFIX,aegis.qq.com
-    - DOMAIN-SUFFIX,tencentcdb.com.cn
     - DOMAIN-SUFFIX,dnsv1.com.cn
+    - DOMAIN-SUFFIX,yufuid.com.cn
+    - DOMAIN-SUFFIX,oracle-tencent.com.cn
+    - DOMAIN-SUFFIX,dnspod.com.cn
+    - DOMAIN-SUFFIX,timatrix.com.cn
     - DOMAIN-SUFFIX,jrzk.net.cn
     - DOMAIN-SUFFIX,qcloudcos.com.cn
-    - DOMAIN-SUFFIX,dnspod.com.cn
-    - DOMAIN-SUFFIX,yufuid.com.cn
-    - DOMAIN-SUFFIX,timatrix.com.cn
-    - DOMAIN-SUFFIX,oracle-tencent.com.cn
+    - DOMAIN-SUFFIX,testjrzk.net.cn
     - DOMAIN-SUFFIX,tencentcos.com.cn
+    - DOMAIN-SUFFIX,tencentcdb.com.cn
+    - DOMAIN-SUFFIX,oracle-tencent.net.cn
     - DOMAIN-SUFFIX,intltencentcos.com
     - DOMAIN-SUFFIX,ap-hongkong.myqcloud.com
     - DOMAIN-SUFFIX,ap-singapore.myqcloud.com

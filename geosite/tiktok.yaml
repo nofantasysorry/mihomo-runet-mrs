@@ -15,9 +15,12 @@ payload:
     - +.tiktokglobalshopv.com
     - +.tiktokminis.us
     - +.tiktokrow-cdn.com
+    - +.tiktokshop.com
+    - +.tiktokstaticb.com
     - +.tiktokv.com
     - +.tiktokv.eu
     - +.tiktokv.us
+    - +.tiktokvapp.com
     - +.tiktokw.eu
     - +.tiktokw.us
     - +.ttcdn-us.com
@@ -30,6 +33,7 @@ payload:
     - +.tiktokv.com.edgekey.net
     - +.tiktokv.com.edgesuite.net
     - p16-tiktokcdn-com.akamaized.net
+    - p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
     - roovza-launches.appsflyersdk.com
     - roovza.inapps.appsflyersdk.com
     - roovza.launches.appsflyersdk.com

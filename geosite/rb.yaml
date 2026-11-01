@@ -1,9 +1,9 @@
 payload:
     - nurofensk-prod-env.eu-west-1.elasticbeanstalk.com
-    - +.strepsils.fr
-    - +.strepsils.ch
+    - +.repsils.no
+    - +.strepsils.ru
     - +.rb.com
-    - +.rb.net
+    - +.dobendan.de
     - +.rbbusinessshop.com
     - +.rbdigitalab.com
     - +.rbdigitallab.com
@@ -15,21 +15,102 @@ payload:
     - +.rbplc.com
     - +.rbrandlibrary.com
     - +.rbspeakup.com
-    - +.reckitt.net
+    - +.durex.it
     - +.reckittbenckiser.com
     - +.reckittbenckiser.net
     - +.reckittbenckiser.tv
     - +.reckittprofessional.com
-    - +.mucinex.ca
-    - +.mucinex.cn
-    - +.mucinex.com
-    - +.mucinex.net
-    - +.mucinex.tv
-    - +.mucinexprofessional.com
-    - +.nurofen.no
-    - +.nurofen.net
     - +.aerogardcn.com
+    - +.mucinexprofessional.com
+    - +.clearasil.us
+    - +.lysol.ca
+    - +.lysol.cl
+    - +.lysol.com
+    - +.lysol.net
+    - +.mucinex.tv
+    - +.mucinex.net
+    - +.mucinex.com
+    - +.mortein.com
+    - +.morteincam.com
+    - +.pifpafarabia.com
+    - +.mucinex.cn
+    - +.mucinex.ca
+    - +.meadjohnson.net
+    - +.meadjohnson.com
+    - +.enfamil.ca
+    - +.enfamil.com
+    - +.enfamil.es
+    - +.nurofen.fr
+    - +.nurofen.pl
+    - +.nurofen.at
+    - +.nurofengel.com
+    - +.nurofen.hr
+    - +.nurofen.ru
+    - +.nurofen.com
+    - +.nurofen.hu
+    - +.nurofen.sk
+    - +.nurofen.cz
+    - +.nurofen.de
+    - +.nurofen.es
+    - +.nurofen.ro
+    - +.nurofen.pt
+    - +.nurofen.bg
+    - +.nurofen.ie
     - +.nurofen.it
+    - +.nurofen.net
+    - +.nurofen.no
+    - +.enfamil.pl
+    - +.enfamil.pt
+    - +.enfasmart.com
+    - +.enspireformula.com
+    - +.enfabebe.com
+    - +.enfababy.com
+    - +.vanish.se
+    - +.vanish.es
+    - +.powerofresolve.com
+    - +.spraynwash.com
+    - +.vanish.at
+    - +.vanish.be
+    - +.vanish.ch
+    - +.vanish.cl
+    - +.vanishstains.com
+    - +.vanishinfo.cz
+    - +.vanishcentroamerica.com
+    - +.vanisharabia.com
+    - +.vanish.fr
+    - +.powerofresolve.ca
+    - +.vanish.pl
+    - +.vanish.ru
+    - +.vanish.ro
+    - +.vanish.pt
+    - +.vanish.hu
+    - +.vanish.no
+    - +.vanish.nl
+    - +.vanish.it
+    - +.vanish.ie
+    - +.vanish.de
+    - +.vanish.dk
+    - +.vanish.si
+    - +.vanish.fi
+    - +.vanish.sk
+    - +.enfaaplus.com
+    - +.nutramigen.net
+    - +.nutramigen.pl
+    - +.enfagrow4.com
+    - +.strepsils.us
+    - +.strepsils.fi
+    - +.strepsils.si
+    - +.strepsils.hu
+    - +.strepsils.ie
+    - +.strepsils.net
+    - +.strepsils.pl
+    - +.strepsils.pt
+    - +.strepsils.ro
+    - +.cepacol.ca
+    - +.digital-rb.com
+    - +.cepacol.com
+    - +.strepsils.fr
+    - +.strepsils.hr
     - +.airwick.fi
     - +.airwick.pl
     - +.airwick.ca
@@ -61,14 +142,86 @@ payload:
     - +.airwick.be
     - +.airwick.pt
     - +.airwick.ro
-    - +.nurofen.ie
-    - +.nurofen.bg
-    - +.nurofen.pt
-    - +.nurofen.ro
-    - +.nurofen.es
-    - +.nurofen.de
-    - +.nurofen.cz
-    - +.nurofen.sk
+    - +.strepsils.ch
+    - +.strepsils.at
+    - +.reckitt.net
+    - +.rb-crisis.com
+    - +.rb.net
+    - +.strepsils.es
+    - +.strepsilsarabia.com
+    - +.finishinfo.fi
+    - +.calgon.fr
+    - +.calgon.ru
+    - +.calgon.ie
+    - +.calgon.it
+    - +.calgon.com
+    - +.calgon.at
+    - +.calgon.de
+    - +.calgon.es
+    - +.calgonit.com
+    - +.calgon.ch
+    - +.calgoncarbon.com
+    - +.calgon.nl
+    - +.calgon.pt
+    - +.calgon.be
+    - +.calgon.tv
+    - +.calgoncarbon-china.com
+    - +.finishinfo.cz
+    - +.finishinfo.it
+    - +.keepmovingwithmovefree.com
+    - +.move-free.net
+    - +.movefrees.com
+    - +.movefreeoffers.com
+    - +.movefreerewards.com
+    - +.schiffvitamins.com
+    - +.veet.tv
+    - +.veet.cl
+    - +.veet.dk
+    - +.veet.ch
+    - +.veet.se
+    - +.veetclub.it
+    - +.veetcentroamerica.com
+    - +.veet.ru
+    - +.veetarabia.com
+    - +.veet.us
+    - +.veet.at
+    - +.veet.com
+    - +.veet.ca
+    - +.veet.be
+    - +.veetbangladesh.com
+    - +.veet.ro
+    - +.veet.pt
+    - +.veet.no
+    - +.veet.nl
+    - +.veet.jp
+    - +.veet.hu
+    - +.veet.fr
+    - +.veet.fi
+    - +.veet.es
+    - +.veet.de
+    - +.finishinfo.jp
+    - +.finishinfo.com
+    - +.finishinfo.cl
+    - +.finishinfo.be
+    - +.finishdishwashing.com
+    - +.finishdishwashing.ca
+    - +.finish.lv
+    - +.finish.bg
+    - +.finishwin.be
+    - +.finish.si
+    - +.finish.ro
+    - +.finish.pt
+    - +.finish.pl
+    - +.finishinfo.nl
+    - +.finish.hu
+    - +.finish.gr
+    - +.finish.fr
+    - +.finish.es
+    - +.woolite.ca
+    - +.woolite.com
+    - +.woolite.pl
+    - +.woolite.us
+    - +.woolitecarpet.com
     - +.dettol-prize.com
     - +.dettol.fr
     - +.dettol.cz
@@ -88,21 +241,21 @@ payload:
     - +.dettol.ie
     - +.dettol.hu
     - +.dettol.ru
-    - +.nurofen.hu
-    - +.nurofen.com
-    - +.nurofen.ru
-    - +.nurofen.hr
-    - +.nurofengel.com
-    - +.nurofen.at
-    - +.nurofen.pl
-    - +.nurofen.fr
-    - +.lysol.net
-    - +.lysol.com
-    - +.lysol.cl
-    - +.lysol.ca
-    - +.clearasil.us
-    - +.woolitecarpet.com
-    - +.woolite.us
+    - +.finish.de
+    - +.finisharabia.com
+    - +.finishinfo.ru
+    - +.finishinfo.se
+    - +.finishkilpailu.fi
+    - +.finish.at
+    - +.yarininsuyu.com
+    - +.finishinfo.no
+    - +.finish.sk
+    - +.durex.pl
+    - +.durex.no
+    - +.durex.nl
+    - +.durex.mx
+    - +.durex.lv
+    - +.durex.jp
     - +.durex.pt
     - +.durex.ro
     - +.durex-shop.ch
@@ -138,201 +291,89 @@ payload:
     - +.durex.fr
     - +.durex.hu
     - +.durex.ie
-    - +.durex.it
-    - +.durex.jp
-    - +.durex.lv
-    - +.durex.mx
-    - +.durex.nl
-    - +.durex.no
-    - +.durex.pl
-    - +.woolite.pl
-    - +.woolite.com
-    - +.woolite.ca
-    - +.vanish.sk
-    - +.vanish.fi
-    - +.vanish.si
-    - +.vanish.dk
-    - +.vanish.de
-    - +.vanish.ie
-    - +.vanish.it
-    - +.vanish.nl
-    - +.vanish.no
-    - +.vanish.hu
-    - +.vanish.pt
-    - +.vanish.ro
-    - +.vanish.ru
-    - +.vanish.pl
-    - +.meadjohnson.com
-    - +.meadjohnson.net
-    - +.powerofresolve.ca
-    - +.vanish.fr
-    - +.mortein.com
-    - +.morteincam.com
-    - +.pifpafarabia.com
-    - +.vanisharabia.com
-    - +.vanishcentroamerica.com
-    - +.vanishinfo.cz
-    - +.vanishstains.com
-    - +.vanish.cl
-    - +.vanish.ch
-    - +.vanish.be
-    - +.veet.tv
-    - +.veet.cl
-    - +.veet.dk
-    - +.veet.ch
-    - +.veet.se
-    - +.veetclub.it
-    - +.veetcentroamerica.com
-    - +.veet.ru
-    - +.veetarabia.com
-    - +.veet.us
-    - +.veet.at
-    - +.veet.com
-    - +.veet.ca
-    - +.veet.be
-    - +.veetbangladesh.com
-    - +.veet.ro
-    - +.veet.pt
-    - +.veet.no
-    - +.veet.nl
-    - +.veet.jp
-    - +.veet.hu
-    - +.veet.fr
-    - +.veet.fi
-    - +.veet.es
-    - +.veet.de
-    - +.vanish.at
-    - +.spraynwash.com
-    - +.powerofresolve.com
-    - +.vanish.es
-    - +.vanish.se
-    - +.strepsils.us
-    - +.strepsils.fi
-    - +.strepsils.si
-    - +.strepsils.hu
-    - +.strepsils.ie
-    - +.strepsils.net
-    - +.strepsils.pl
-    - +.finishinfo.com
-    - +.strepsils.pt
-    - +.strepsils.ro
-    - +.cepacol.ca
-    - +.cepacol.com
-    - +.digital-rb.com
-    - +.calgon.fr
-    - +.calgon.ru
-    - +.calgon.ie
-    - +.calgon.it
-    - +.calgon.com
-    - +.calgon.at
-    - +.calgon.de
-    - +.calgon.es
-    - +.calgonit.com
-    - +.calgon.ch
-    - +.calgoncarbon.com
-    - +.calgon.nl
-    - +.calgon.pt
-    - +.calgon.be
-    - +.calgon.tv
-    - +.calgoncarbon-china.com
-    - +.strepsils.hr
-    - +.rb-crisis.com
-    - +.enfagrow4.com
-    - +.nutramigen.pl
-    - +.nutramigen.net
-    - +.enfaaplus.com
-    - +.enfababy.com
-    - +.enfabebe.com
-    - +.enspireformula.com
-    - +.enfasmart.com
-    - +.enfamil.pt
-    - +.enfamil.pl
-    - +.enfamil.es
-    - +.enfamil.com
-    - +.enfamil.ca
-    - +.strepsils.at
-    - +.repsils.no
-    - +.strepsilsarabia.com
-    - +.dobendan.de
-    - +.strepsils.es
-    - +.strepsils.ru
-    - +.schiffvitamins.com
-    - +.movefreerewards.com
-    - +.movefreeoffers.com
-    - +.movefrees.com
-    - +.move-free.net
-    - +.keepmovingwithmovefree.com
-    - +.finishinfo.fi
-    - +.finishinfo.cz
-    - +.finishinfo.it
-    - +.finishinfo.jp
-    - +.finishinfo.cl
-    - +.finishinfo.be
-    - +.finish.sk
-    - +.finishinfo.no
-    - +.yarininsuyu.com
-    - +.finish.at
-    - +.finishkilpailu.fi
-    - +.finishinfo.se
-    - +.finishinfo.ru
-    - +.finisharabia.com
-    - +.finish.de
-    - +.finish.es
-    - +.finish.fr
-    - +.finish.gr
-    - +.finish.hu
-    - +.finishinfo.nl
-    - +.finish.pl
-    - +.finish.pt
-    - +.finish.ro
-    - +.finish.si
-    - +.finishwin.be
-    - +.finish.bg
-    - +.finish.lv
-    - +.finishdishwashing.ca
-    - +.finishdishwashing.com
-    - +.finishinfo.com.ar
-    - +.finishbrasil.com.br
-    - +.veet.com.ar
-    - +.enfabebe.com.br
-    - +.enfabebe.com.co
-    - +.enfabebe.com.do
-    - +.enfabebe.com.ec
-    - +.finishinfo.com.au
-    - +.durex.co.il
-    - +.o2action.co.kr
-    - +.finish.com.tr
-    - +.finish.com.hr
-    - +.finish.co.za
-    - +.finish.co.uk
-    - +.finish.co.nz
-    - +.finish.co.kr
-    - +.enfabebe.com.mx
+    - +.vanish.co.in
+    - +.espadoldettol.com.ar
+    - +.dettol.co.id
+    - +.dettolsitishield.co.in
+    - +.dettol.co.in
+    - +.dettol.co.ke
+    - +.dettol.co.uk
+    - +.durex.com.sg
+    - +.durex.com.pe
+    - +.durex.com.tr
+    - +.durex.com.ph
+    - +.durex.com.pk
+    - +.durex.com.ng
+    - +.durex.com.my
+    - +.durex.com.au
+    - +.durex.com.bd
+    - +.durex.com.co
+    - +.durex.co.id
+    - +.durex.co.za
+    - +.durex.co.uk
     - +.durex.co.th
-    - +.bebepremium3.com.bo
-    - +.enfamama.com.ph
-    - +.enfamama.com.ar
-    - +.enfabebe3.com.ar
-    - +.enfagrow.com.sg
-    - +.enfagrow.com.ph
+    - +.durex.co.nz
+    - +.durex.co.il
     - +.durex.com.hr
-    - +.enfagrow.com.bn
-    - +.enfabebe.com.ve
-    - +.enfagrow.co.in
-    - +.calgon.com.tr
-    - +.calgon.co.uk
+    - +.dettol.com.au
+    - +.dettol.com.bd
+    - +.dettol.com.br
+    - +.dettol.com.eg
+    - +.dettol.com.hk
+    - +.dettol.com.my
+    - +.dettol.com.ng
+    - +.dettol.com.sg
+    - +.dettol.co.nz
     - +.veet.co.id
     - +.veet.co.in
     - +.veet.co.kr
     - +.veet.co.nz
-    - +.vanish.com.hr
-    - +.lysol.com.mx
+    - +.veet.co.uk
+    - +.veet.com.ar
+    - +.veet.com.au
     - +.veet.com.bd
     - +.veet.com.br
     - +.veet.com.co
     - +.veet.com.hk
     - +.veet.com.mx
     - +.veet.com.my
+    - +.veet.com.ph
+    - +.veet.com.pk
+    - +.veet.com.sg
+    - +.veet.com.tr
+    - +.veet.co.za
+    - +.calgon.com.tr
+    - +.calgon.co.uk
+    - +.airwick.co.in
+    - +.finishinfo.com.au
+    - +.finishinfo.com.ar
+    - +.finishbrasil.com.br
+    - +.finish.com.tr
+    - +.finish.com.hr
+    - +.finish.co.za
+    - +.finish.co.uk
+    - +.finish.co.nz
+    - +.finish.co.kr
+    - +.airwick.co.nz
+    - +.airwick.co.uk
+    - +.airwick.co.za
+    - +.airwick.com.au
+    - +.airwick.com.br
+    - +.airwick.com.mx
+    - +.airwick.com.tr
+    - +.vanishstains.com.au
+    - +.vanish.co.id
+    - +.vanish.co.il
+    - +.vanishbancaseulook.com.br
+    - +.o2action.co.kr
+    - +.vanish.co.uk
+    - +.vanish.co.za
+    - +.vanish.com.ar
+    - +.vanish.com.br
+    - +.vanish.com.co
+    - +.vanish.com.hr
+    - +.vanish.com.mx
+    - +.vanish.com.my
     - +.strepsils.co.kr
     - +.strepsils.com.tw
     - +.strepsils.com.ph
@@ -344,115 +385,74 @@ payload:
     - +.strepsils.co.za
     - +.strepsils.co.nz
     - +.graneodin.com.mx
-    - +.veet.com.ph
-    - +.veet.com.pk
-    - +.veet.com.sg
-    - +.veet.com.tr
-    - +.veet.co.za
+    - +.vanish.com.pe
+    - +.vanish.com.sg
+    - +.vanish.com.tr
+    - +.vanish.co.nz
+    - +.nurofen.co.nz
+    - +.nurofen.co.za
+    - +.nurofen.com.sg
+    - +.nurofen.co.il
+    - +.nurofen.co.uk
+    - +.nurofen.com.au
     - +.mortein.com.pk
     - +.mortein.com.ng
     - +.mortein.com.br
+    - +.enfagrow.co.in
+    - +.enfabebe.com.ve
+    - +.enfagrow.com.bn
+    - +.enfagrow.com.my
+    - +.enfagrow.com.ph
+    - +.enfagrow.com.sg
+    - +.enfabebe3.com.ar
+    - +.enfamama.com.ar
+    - +.enfamama.com.ph
+    - +.bebepremium3.com.bo
+    - +.enfabebe.com.pe
+    - +.enfabebe.com.mx
+    - +.enfabebe.com.ec
+    - +.enfabebe.com.do
+    - +.enfabebe.com.co
+    - +.enfabebe.com.br
+    - +.enfa.com.vn
+    - +.enfa.co.id
     - +.mortein.com.au
     - +.mortein.co.za
+    - +.meadjohnson.com.hk
+    - +.meadjohnson.com.tw
     - +.mortein.co.nz
     - +.mortein.co.in
-    - +.meadjohnson.com.tw
-    - +.meadjohnson.com.hk
-    - +.enfagrow.com.my
-    - +.mucinex.com.cn
-    - +.enfa.com.vn
-    - +.enfabebe.com.pe
-    - +.durex.co.uk
-    - +.durex.co.za
-    - +.durex.co.id
-    - +.durex.com.co
-    - +.durex.com.bd
-    - +.durex.com.au
-    - +.durex.com.my
-    - +.durex.com.ng
-    - +.durex.com.pk
-    - +.durex.com.ph
-    - +.vanish.co.nz
-    - +.vanish.com.tr
-    - +.vanish.com.sg
-    - +.vanish.com.pe
-    - +.vanish.com.my
-    - +.vanish.com.mx
-    - +.veet.co.uk
-    - +.vanish.com.co
-    - +.vanish.com.br
-    - +.vanish.com.ar
-    - +.vanish.co.za
-    - +.vanish.co.uk
-    - +.durex.co.nz
-    - +.vanishbancaseulook.com.br
-    - +.vanish.co.in
-    - +.vanish.co.il
-    - +.vanish.co.id
-    - +.vanishstains.com.au
-    - +.durex.com.tr
-    - +.durex.com.pe
-    - +.durex.com.sg
-    - +.espadoldettol.com.ar
-    - +.dettol.co.id
-    - +.dettolsitishield.co.in
-    - +.dettol.co.in
-    - +.dettol.co.ke
-    - +.dettol.co.uk
-    - +.dettol.com.au
-    - +.lizol.co.in
+    - +.lysol.com.mx
     - +.lysol.co.cr
-    - +.veet.com.au
-    - +.dettol.com.bd
-    - +.dettol.com.br
-    - +.dettol.com.eg
-    - +.dettol.com.hk
-    - +.dettol.com.my
-    - +.dettol.com.ng
-    - +.dettol.com.sg
-    - +.dettol.co.nz
-    - +.airwick.co.in
-    - +.airwick.co.nz
-    - +.airwick.co.uk
-    - +.airwick.co.za
-    - +.airwick.com.au
-    - +.airwick.com.br
-    - +.airwick.com.mx
-    - +.airwick.com.tr
+    - +.lizol.co.in
     - +.aerogard.com.au
-    - +.enfa.co.id
     - +.mucinex.co.nz
-    - +.nurofen.com.au
-    - +.nurofen.co.uk
-    - +.nurofen.co.il
-    - +.nurofen.com.sg
-    - +.nurofen.co.za
-    - +.nurofen.co.nz
+    - +.mucinex.com.cn
     - +.reckittbenckiser.cn
     - +.reckittbenckiser.com.cn
     - +.aerogard.com.cn
-    - +.airwick.com.cn
-    - +.dettol.com.cn
-    - +.durex.com.cn
-    - +.durexchina.com.cn
-    - +.lovesexdurex.cn
-    - +.enfinitas.com.cn
-    - +.meadjohnson.com.cn
-    - +.mortein.cn
-    - +.veet.cn
-    - +.veet.com.cn
-    - +.calgon.cn
-    - +.dishwashingexpert.com.cn
-    - +.finish.com.cn
-    - +.movefree.cn
-    - +.strepsils.cn
-    - +.strepsils.com.cn
-    - +.vanish.cn
-    - +.woolite.cn
-    - +.woolite.com.cn
     - +.clearasil.cn
     - +.clearasil.com.cn
     - +.lysol.cn
     - +.lysol.com.cn
+    - +.mortein.cn
     - +.nurofen.cn
     - +.nurofen.com.cn
+    - +.vanish.cn
+    - +.airwick.com.cn
+    - +.calgon.cn
+    - +.movefree.cn
+    - +.veet.cn
+    - +.veet.com.cn
+    - +.woolite.cn
+    - +.woolite.com.cn
+    - +.dettol.com.cn
+    - +.durex.com.cn
+    - +.durexchina.com.cn
+    - +.lovesexdurex.cn
+    - +.dishwashingexpert.com.cn
+    - +.finish.com.cn
+    - +.strepsils.cn
+    - +.strepsils.com.cn
+    - +.enfinitas.com.cn
+    - +.meadjohnson.com.cn

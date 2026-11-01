@@ -1,11 +1,10 @@
 payload:
     - +.aws
     - +.awsbraket.com
-    - +.elasticbeanstalk.com
-    - +.aesworkshops.com
-    - +.amazonaws-china.com
     - +.amazonaws.biz
-    - +.amzndns.org
+    - +.awscommandlineinterface.com
+    - +.amazonaws-china.com
+    - +.awsedstart.com
     - +.amazonaws.com
     - +.amazonaws.info
     - +.amazonaws.net
@@ -13,21 +12,22 @@ payload:
     - +.amazonaws.tv
     - +.amazoncognito.com
     - +.amazonses.com
+    - +.amazonwebservices.com
     - +.amazonworkdocs.com
     - +.amplifyapp.com
-    - +.amplifyframework.com
+    - +.awseducate.com
     - +.aws-iot-hackathon.com
     - +.aws.com
     - +.aws.dev
     - +.awsapprunner.com
     - +.awsapps.com
     - +.awsautopilot.com
-    - +.amzndns.net
+    - +.awsautoscaling.com
+    - +.acmvalidations.com
+    - +.aesworkshops.com
     - +.acmvalidationsaws.com
+    - +.amplifyframework.com
     - +.awseducate.net
-    - +.awsedstart.com
-    - +.awseducate.com
-    - +.awscommandlineinterface.com
     - +.awseducate.org
     - +.awsglobalaccelerator.com
     - +.awsloft-johannesburg.com
@@ -41,12 +41,15 @@ payload:
     - +.cloudfront.com
     - +.cloudfront.net
     - +.containersonaws.com
-    - +.acmvalidations.com
+    - +.elasticbeanstalk.com
     - +.thinkboxsoftware.com
-    - +.awsautoscaling.com
     - +.amzndns.com
-    - +.amzndns.co.uk
+    - +.amzndns.org
+    - +.amzndns.net
+    - +.aws.amazon.com
+    - +.aws.a2z.com
     - +.amazonaws.co.uk
+    - +.amzndns.co.uk
     - +.a2z.org.cn
     - +.amazonaws.cn
     - +.amazonaws.com.cn
