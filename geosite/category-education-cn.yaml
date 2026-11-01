@@ -14,33 +14,33 @@ payload:
     - +.chesicc.com
     - +.chesicc.net
     - +.chsi.cn
-    - +.fenbilantian.com
-    - +.fenbilantian.cn
-    - +.fenbike.com
-    - +.fenbike.cn
-    - +.fenbi.com
-    - +.fbstatic.cn
-    - +.yuantiku.com
-    - +.yuansouti.com
-    - +.yuanfudao.com
+    - +.shanbay.com
+    - +.baydn.com
+    - +.mojidict.com
+    - +.shareintelli.com
+    - +.hugecore.net
+    - +.applysquare.net
+    - +.applysquare.com
+    - +.17zuoye.net
+    - +.17zuoye.com
     - +.markji.com
     - +.gfbzb.cn
     - +.gfbzb.com
-    - +.ybccode.com
-    - +.xiaoyuankousuan.com
+    - +.17zuoye.cn
+    - +.kuaiduizuoye.com
     - +.gfbzb.net
     - +.ncss.cn
-    - +.banmaaike.com
-    - +.tongxuepie.com
-    - +.schoopia.com
+    - +.zybang.com
+    - +.zuoyebang.com
+    - +.zuoyebang.cc
     - +.qgzb.net
-    - +.yeshj.com
+    - +.fenbilantian.com
     - +.zbbm.net
     - +.neea.cn
-    - +.hujiang.com
+    - +.fenbilantian.cn
     - +.mypep.cn
-    - +.hjfile.cn
-    - +.hjapi.com
+    - +.fenbike.com
+    - +.fenbike.cn
     - +.21cnjy.com
     - +.91yunxiao.com
     - +.aiyunxiao.com
@@ -83,7 +83,7 @@ payload:
     - +.huijiaoyun.com
     - +.ictbda.cn
     - +.ictbda.com
-    - +.cctalk.com
+    - +.fenbi.com
     - +.xir.cn
     - +.j-test.com
     - +.nattest-china.com
@@ -99,7 +99,7 @@ payload:
     - +.magedu.com
     - +.maimemo.com
     - +.szu.moe
-    - +.17zuoye.net
+    - +.fbstatic.cn
     - +.yudou.cn
     - +.sksight.com
     - +.neoscholar.com
@@ -109,7 +109,7 @@ payload:
     - +.qingtingai.net
     - +.quyixian.com
     - +.rongdeji.cn
-    - +.17zuoye.com
+    - +.yuantiku.com
     - +.saduck.top
     - +.szu.app
     - +.edu.cn
@@ -147,17 +147,17 @@ payload:
     - +.mooc.cn
     - +.openlearning.com
     - +.pmphmooc.com
-    - +.17zuoye.cn
-    - +.applysquare.com
-    - +.applysquare.net
-    - +.hugecore.net
-    - +.shareintelli.com
-    - +.mojidict.com
+    - +.yuansouti.com
+    - +.cctalk.com
+    - +.hjapi.com
+    - +.hjfile.cn
+    - +.hujiang.com
+    - +.yeshj.com
     - +.koocdn.com
     - +.koolearn.com
     - +.koopass.com
-    - +.baydn.com
-    - +.shanbay.com
+    - +.schoopia.com
+    - +.tongxuepie.com
     - +.100tal.com
     - +.aoshu.com
     - +.eduu.com
@@ -170,10 +170,10 @@ payload:
     - +.youjiao.com
     - +.zhongkao.com
     - +.zuowen.com
-    - +.zuoyebang.cc
-    - +.zuoyebang.com
-    - +.zybang.com
-    - +.kuaiduizuoye.com
+    - +.banmaaike.com
+    - +.xiaoyuankousuan.com
+    - +.ybccode.com
+    - +.yuanfudao.com
     - +.cbern.com.cn
     - +.gatzs.com.cn
     - +.qgzb.gov.cn

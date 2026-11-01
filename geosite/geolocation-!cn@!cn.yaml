@@ -1,4 +1,5 @@
 payload:
+    - +.webnovel.com
     - +.bytedapm.com
     - +.muscdn.com
     - +.musical.ly
@@ -38,7 +39,9 @@ payload:
     - roovza.inapps.appsflyersdk.com
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
-    - +.webnovel.com
+    - +.esp32.com
+    - +.esp8266.com
+    - +.espressif.com
     - +.coze.com
     - +.marscode.com
     - +.trae.ai
@@ -46,9 +49,6 @@ payload:
     - +.ciciai.com
     - +.ciciaicdn.com
     - +.dola.com
-    - +.esp32.com
-    - +.esp8266.com
-    - +.espressif.com
     - +.alibabacloud.co.in
     - +.alibabacloud.com
     - +.alibabacloud.com.au

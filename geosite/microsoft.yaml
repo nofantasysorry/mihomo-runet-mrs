@@ -6,6 +6,30 @@ payload:
     - statics-marketingsites-eas-ms-com.akamaized.net
     - statics-marketingsites-eus-ms-com.akamaized.net
     - statics-marketingsites-wcus-ms-com.akamaized.net
+    - az764295.vo.msecnd.net
+    - bingsettingssearch.trafficmanager.net
+    - default.exp-tas.com
+    - developer.microsoft.com
+    - dtlgalleryint.cloudapp.net
+    - packages.microsoft.com
+    - poshtestgallery.cloudapp.net
+    - psg-int-centralus.cloudapp.net
+    - psg-int-eastus.cloudapp.net
+    - rink.hockeyapp.net
+    - vscode-sync-insiders.trafficmanager.net
+    - vscode-sync.trafficmanager.net
+    - vscode.blob.core.windows.net
+    - vscode.search.windows.net
+    - vsmarketplacebadge.apphb.com
+    - crl.microsoft.com
+    - mscrl.microsoft.com
+    - ocsp.microsoft.com
+    - oneocsp.microsoft.com
+    - www.microsoft.com
+    - prodforza.blob.core.windows.net
+    - azure.microsoft.com
+    - azuremarketplace.microsoft.com
+    - location.microsoft.com
     - github-api.arkoselabs.com
     - github-cloud.s3.amazonaws.com
     - github-production-release-asset-2e65be.s3.amazonaws.com
@@ -36,30 +60,6 @@ payload:
     - copilot-proxy.githubusercontent.com
     - copilot-workspace.githubnext.com
     - copilotprodattachments.blob.core.windows.net
-    - az764295.vo.msecnd.net
-    - bingsettingssearch.trafficmanager.net
-    - default.exp-tas.com
-    - developer.microsoft.com
-    - dtlgalleryint.cloudapp.net
-    - packages.microsoft.com
-    - poshtestgallery.cloudapp.net
-    - psg-int-centralus.cloudapp.net
-    - psg-int-eastus.cloudapp.net
-    - rink.hockeyapp.net
-    - vscode-sync-insiders.trafficmanager.net
-    - vscode-sync.trafficmanager.net
-    - vscode.blob.core.windows.net
-    - vscode.search.windows.net
-    - vsmarketplacebadge.apphb.com
-    - crl.microsoft.com
-    - mscrl.microsoft.com
-    - ocsp.microsoft.com
-    - oneocsp.microsoft.com
-    - www.microsoft.com
-    - prodforza.blob.core.windows.net
-    - azure.microsoft.com
-    - azuremarketplace.microsoft.com
-    - location.microsoft.com
     - +.xbox
     - +.hotmail
     - +.office
@@ -68,7 +68,7 @@ payload:
     - +.bing
     - +.azure
     - +.microsoft
-    - +.xbox.com
+    - +.bethsoft.com
     - +.managedmeetingrooms.com
     - +.microsoft.ch
     - +.microsoft.cl
@@ -161,12 +161,12 @@ payload:
     - +.l-msedge.net
     - +.latampartneruniversity.com
     - +.live.com
-    - +.copilot.com
+    - +.npmjs.org
     - +.live.eu
     - +.live.net
     - +.livingyourambition.com
     - +.makecode.org
-    - +.ghe.com
+    - +.blazor.net
     - +.meetfasttrack.com
     - +.meetyourdevices.com
     - +.mepn.com
@@ -193,12 +193,12 @@ payload:
     - +.microsoftlinc.com
     - +.microsoftonline-p.com
     - +.microsoftonline.com
-    - +.ghcr.io
+    - +.appcenter.ms
     - +.microsoftpersonalcontent.com
     - +.microsoftready.com
     - +.microsoftsiteselection.com
     - +.microsoftstore.com
-    - +.copilot-stg.com
+    - +.npmjs.com
     - +.microsoftstream.com
     - +.microsoftteams.com
     - +.microsofttradein.com
@@ -273,7 +273,7 @@ payload:
     - +.successwithteams.com
     - +.surface.com
     - +.svc.ms
-    - +.git.io
+    - +.botframework.com
     - +.sway.com
     - +.sysinternals.com
     - +.t-msedge.net
@@ -303,45 +303,14 @@ payload:
     - +.winhec.com
     - +.winhec.net
     - +.yammer.com
-    - +.sprinklesapp.com
-    - +.renovacionoffice.com
-    - +.atom.io
-    - +.dependabot.com
-    - +.gh.io
-    - +.microsoftpartnercommunity.com
-    - +.microsoft.cat
-    - +.sway-cdn.com
-    - +.github.ai
-    - +.github.blog
-    - +.github.career
-    - +.github.com
-    - +.github.community
-    - +.github.dev
-    - +.github.io
-    - +.githubapp.com
-    - +.githubassets.com
-    - +.githubhackathon.com
-    - +.githubnext.com
-    - +.githubpreview.dev
-    - +.githubstatus.com
-    - +.githubsupport.com
-    - +.githubuniverse.com
-    - +.githubusercontent.com
-    - +.myoctocat.com
-    - +.octocaptcha.com
-    - +.opensource.guide
-    - +.repo.new
-    - +.thegithubshop.com
-    - +.githubcopilot.com
     - +.npm.community
-    - +.npmjs.com
-    - +.npmjs.org
+    - +.githubcopilot.com
     - +.adaptivecards.io
     - +.api-extractor.com
     - +.apisof.net
-    - +.appcenter.ms
-    - +.blazor.net
-    - +.botframework.com
+    - +.microsoftpartnercommunity.com
+    - +.microsoft.cat
+    - +.sway-cdn.com
     - +.codethemicrobit.com
     - +.devopsassessment.net
     - +.dot.net
@@ -390,7 +359,7 @@ payload:
     - +.vscodeedu.app
     - +.vscodeedu.com
     - +.xamarin.com
-    - +.office365tw.com
+    - +.thegithubshop.com
     - +.msocsp.com
     - +.microsoftnews.cc
     - +.microsoftnews.com
@@ -417,16 +386,16 @@ payload:
     - +.onedrive.eu
     - +.onedrive.net
     - +.onedrive.org
-    - +.office365love.com
-    - +.msunlimitedcloudsummit.com
-    - +.microsoftpartnersolutions.com
+    - +.repo.new
+    - +.opensource.guide
+    - +.octocaptcha.com
     - +.microsoft.ca
     - +.gamepass.com
     - +.orithegame.com
     - +.renovacionxboxlive.com
     - +.tellmewhygame.com
     - +.xbox.co
-    - +.microsoft.by
+    - +.xbox.com
     - +.xbox.eu
     - +.xbox.org
     - +.xbox360.co
@@ -457,7 +426,7 @@ payload:
     - +.beth.games
     - +.bethesda.net
     - +.bethesdagamestudios.com
-    - +.bethsoft.com
+    - +.microsoft.by
     - +.doom.com
     - +.elderscrolls.com
     - +.microsoft.be
@@ -540,6 +509,37 @@ payload:
     - +.microsoftdiplomados.com
     - +.microsoftlatamholiday.com
     - +.microsoftmxfilantropia.com
+    - +.microsoftpartnersolutions.com
+    - +.msunlimitedcloudsummit.com
+    - +.office365love.com
+    - +.office365tw.com
+    - +.renovacionoffice.com
+    - +.sprinklesapp.com
+    - +.copilot-stg.com
+    - +.copilot.com
+    - +.myoctocat.com
+    - +.githubusercontent.com
+    - +.atom.io
+    - +.dependabot.com
+    - +.gh.io
+    - +.ghcr.io
+    - +.ghe.com
+    - +.git.io
+    - +.github.ai
+    - +.github.blog
+    - +.github.career
+    - +.github.com
+    - +.github.community
+    - +.github.dev
+    - +.github.io
+    - +.githubapp.com
+    - +.githubassets.com
+    - +.githubhackathon.com
+    - +.githubnext.com
+    - +.githubpreview.dev
+    - +.githubstatus.com
+    - +.githubsupport.com
+    - +.githubuniverse.com
     - +.onedrive.co.uk
     - +.visualstudio.co.uk
     - +.skypedata.akadns.net
@@ -640,10 +640,6 @@ payload:
     - vscode.download.prss.microsoft.com
     - vz.download.prss.microsoft.com
     - windbg.download.prss.microsoft.com
-    - +.cafe.github.com
-    - +.collector.github.com
-    - copilot-telemetry-service.githubusercontent.com
-    - copilot-telemetry.githubusercontent.com
     - +.microsoftreactor.cn
     - +.microsoftreactor.com.cn
     - +.reactorms.com.cn
@@ -756,3 +752,7 @@ payload:
     - +.r.bing.com
     - +.th.bing.com
     - bj1.api.bing.com
+    - +.cafe.github.com
+    - +.collector.github.com
+    - copilot-telemetry-service.githubusercontent.com
+    - copilot-telemetry.githubusercontent.com

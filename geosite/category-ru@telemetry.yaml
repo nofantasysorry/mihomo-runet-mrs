@@ -1,4 +1,14 @@
 payload:
+    - metrika.kontur.ru
+    - sentry.kontur.host
+    - sentry.x5.ru
+    - sentry.ozon.ru
+    - analytics-stage.wildberries.ru
+    - analytics.wildberries.ru
+    - marketplace-sentry.wb.ru
+    - sentry.wb.ru
+    - web-analytics.wildberries.ru
+    - stats.avito.ru
     - +.apptracer.ru
     - +.metrics.viqeo.tv
     - sentry-ng.g.smailru.net
@@ -13,6 +23,8 @@ payload:
     - stats.telega.info
     - +.log.dzen.ru
     - stats.vk-portal.net
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
     - +.appmetrica.yandex.com
     - +.appmetrica.yandex.net
     - +.appmetrica.yandex.ru
@@ -37,16 +49,4 @@ payload:
     - tracing-http.megamarket.tech
     - +.clickstream.sberbank.ru
     - sentry.iptv.rt.ru
-    - metrika.kontur.ru
-    - sentry.kontur.host
-    - sentry.x5.ru
-    - analytics-stage.wildberries.ru
-    - analytics.wildberries.ru
-    - marketplace-sentry.wb.ru
-    - sentry.wb.ru
-    - web-analytics.wildberries.ru
-    - stats.avito.ru
-    - sentry.ozon.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
     - +.clickstream.sberbank.ru

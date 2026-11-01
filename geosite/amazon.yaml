@@ -9,15 +9,15 @@ payload:
     - images-fe.ssl-images-amazon.com
     - msh.amazon.co.uk
     - static.siege-amazon.com
-    - +.amazon
+    - +.kindle
     - +.xn--cckwcxetd
     - +.xn--jlq480n2rg
     - +.yamaxun
     - +.zappos
-    - +.kindle
     - +.imdb
     - +.aws
-    - +.amazonvideo.com
+    - +.amazon
+    - +.kindle.com
     - +.amazondevicesupport.com
     - +.aboutamazon.fr
     - +.aboutamazon.in
@@ -35,17 +35,17 @@ payload:
     - +.amazon.cl
     - +.amazon.com
     - +.amazon.de
-    - +.kindleoasis.us
-    - +.primevideo.tv
-    - +.kindleoasis.jp
-    - +.kindleoasis.info
-    - +.kindleoasis.com
+    - +.media-imdb.com
+    - +.imdb.to
+    - +.imdb.com
     - +.kindle.es
-    - +.kindleoasisnews.com
-    - +.kindleproject.com
-    - +.kindle.fr
-    - +.kindle.jp
-    - +.kindle.de
+    - +.a2z.com
+    - +.amzndns.net
+    - +.amzndns.org
+    - +.amzndns.com
+    - +.thinkboxsoftware.com
+    - +.elasticbeanstalk.com
+    - +.containersonaws.com
     - +.amazon.dev
     - +.amazon.eg
     - +.amazon.es
@@ -54,7 +54,7 @@ payload:
     - +.amazon.in
     - +.amazon.it
     - +.amazon.jobs
-    - +.primevideo.info
+    - +.kindleproject.com
     - +.amazon.lu
     - +.amazon.nl
     - +.amazon.pl
@@ -66,7 +66,7 @@ payload:
     - +.amazonauthorinsights.com
     - +.amazonbusiness.org
     - +.amazonbusinessblog.com
-    - +.primevideo.org
+    - +.kindleoasisnews.com
     - +.amazonfctours.com
     - +.amazonianblog.com
     - +.amazonimages.com
@@ -96,30 +96,47 @@ payload:
     - +.alexa.com
     - +.audible.com
     - +.createspace.com
+    - +.aboutamazon.es
+    - +.kindle.it
+    - +.kindle.in
+    - +.aboutamazon.de
+    - +.kindle.de
+    - +.kindle.jp
+    - +.kindle.fr
+    - +.amazon.jp
+    - +.aboutamazon.eu
+    - +.boxofficemojo.com
+    - +.kindleoasis.com
+    - +.kindleoasis.info
+    - +.kindleoasis.jp
+    - +.kindleoasis.org
+    - +.kindleoasis.us
+    - +.cloudfront.net
+    - +.cloudfront.com
+    - +.cdkworkshop.com
     - +.aiv-cdn.net
     - +.amazonprimevideos.com
     - +.amazonvideo.cc
-    - +.aboutamazon.es
+    - +.amazonvideo.com
     - +.prime-video.com
     - +.primevideo.cc
     - +.primevideo.com
-    - +.amazon.jp
-    - +.aboutamazon.eu
-    - +.kindleoasis.org
+    - +.primevideo.info
+    - +.primevideo.org
+    - +.primevideo.tv
     - +.pv-cdn.net
-    - +.kindle.com
-    - +.kindle.in
+    - +.awswaf.com
     - +.wfm.com
     - +.wholecitiesfoundation.org
     - +.wholefoods.com
     - +.wholefoodsmarket.com
     - +.wholekidsfoundation.org
     - +.wholeplanetfoundation.org
-    - +.kindle.it
+    - +.awstrack.me
     - +.amazontrust.com
     - +.awstrust.com
     - +.ss2.us
-    - +.aboutamazon.de
+    - +.aboutamazon.com
     - +.awsbraket.com
     - +.amazonaws.biz
     - +.awscommandlineinterface.com
@@ -155,40 +172,23 @@ payload:
     - +.awssecworkshops.com
     - +.awsstatic.com
     - +.awsthinkbox.com
-    - +.awstrack.me
-    - +.awswaf.com
-    - +.cdkworkshop.com
-    - +.cloudfront.com
-    - +.cloudfront.net
-    - +.containersonaws.com
-    - +.elasticbeanstalk.com
-    - +.thinkboxsoftware.com
-    - +.amzndns.com
-    - +.amzndns.org
-    - +.amzndns.net
-    - +.a2z.com
-    - +.media-imdb.com
-    - +.imdb.to
-    - +.imdb.com
-    - +.aboutamazon.com
-    - +.boxofficemojo.com
-    - +.amazon.co.jp
-    - +.amazon.co.za
-    - +.amazon.com.be
-    - +.amazon.com.br
-    - +.wholefoodsmarket.co.uk
-    - +.amazon.com.mx
-    - +.amazon.com.tr
-    - +.kindle.co.uk
-    - +.aboutamazon.co.uk
-    - +.amazon.com.ng
-    - +.amazon.com.au
-    - +.amazon.com.co
-    - +.amazon.co.uk
-    - +.amzndns.co.uk
-    - +.aboutamazon.com.au
-    - +.amazonaws.co.uk
     - +.kindle.co.jp
+    - +.amazon.co.jp
+    - +.amazon.com.au
+    - +.amazon.com.tr
+    - +.amazon.com.ng
+    - +.amazon.com.mx
+    - +.wholefoodsmarket.co.uk
+    - +.aboutamazon.co.uk
+    - +.amazon.com.be
+    - +.amazon.com.co
+    - +.kindle.co.uk
+    - +.amazonaws.co.uk
+    - +.amzndns.co.uk
+    - +.amazon.co.za
+    - +.amazon.co.uk
+    - +.amazon.com.br
+    - +.aboutamazon.com.au
     - +.aboutamazon.cn
     - +.alexafund.cn
     - +.alexafund.com.cn
@@ -215,6 +215,9 @@ payload:
     - images-cn-8.ssl-images-amazon.com
     - +.amazon-adsystem.com
     - +.serving-sys.com
+    - +.kindle.cn
+    - +.kindleoasis.cn
+    - +.kindleoasis.com.cn
     - +.amazonprimevideo.cn
     - +.amazonprimevideo.com.cn
     - +.a2z.org.cn
@@ -243,6 +246,3 @@ payload:
     - +.amzndns-cn.cn
     - +.amzndns-cn.com
     - +.amzndns-cn.net
-    - +.kindle.cn
-    - +.kindleoasis.cn
-    - +.kindleoasis.com.cn

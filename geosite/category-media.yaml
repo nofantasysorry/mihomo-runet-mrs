@@ -1,11 +1,4 @@
 payload:
-    - cbsi.live.ott.irdeto.com
-    - cbsplaylistserver.aws.syncbak.com
-    - cbsservice.aws.syncbak.com
-    - link.theplatform.com
-    - deutschewelle.h-cdn.com
-    - zeenews-fonts.s3.amazonaws.com
-    - foxnewsplayer-a.akamaihd.net
     - aod-pod-uk-live.akamaized.net
     - as-dash-uk-live.akamaized.net
     - as-hls-uk-live.akamaized.net
@@ -21,32 +14,39 @@ payload:
     - vs-cmaf-pushb-ww-live.akamaized.net
     - vs-hls-push-uk-live.akamaized.net
     - vs-hls-pushb-uk-live.akamaized.net
+    - foxnewsplayer-a.akamaihd.net
+    - deutschewelle.h-cdn.com
     - asahishimbun.sc.omtrdc.net
+    - cbsi.live.ott.irdeto.com
+    - cbsplaylistserver.aws.syncbak.com
+    - cbsservice.aws.syncbak.com
+    - link.theplatform.com
     - himalaya-exchange.zendesk.com
+    - zeenews-fonts.s3.amazonaws.com
     - +.bloomberg
     - +.nhk
     - +.sky
-    - +.bbc
     - +.fox
-    - +.shenyunperformingarts.org
-    - +.kanzlerdaddy.ru
+    - +.bbc
+    - +.urduvoa.com
+    - +.whatthefox.com
     - +.chinadecoding.com
-    - +.hketgroup.com
-    - +.hket.com
+    - +.forbesimg.com
+    - +.forbes.com
     - +.chinadigitaltimes.net
     - +.chinaeconomicreview.com
-    - +.etwealth.com
-    - +.yiqiedoushiganggangkaishi.org
-    - +.rolsociety.org
-    - +.rolfoundation.org
+    - +.realclearworld.com
+    - +.realclearscience.com
+    - +.realclearreligion.org
+    - +.realclearpublicaffairs.com
     - +.cnyes.com
     - +.cool3c.com
-    - +.rexcha.com
-    - +.nfscofficial.com
-    - +.nfscdict.com
+    - +.realclearpolitics.com
+    - +.realclearpolicy.com
+    - +.realclearmarkets.com
     - +.d100.net
     - +.donga.com
-    - +.nfsc.global
+    - +.realclearlife.com
     - +.ettoday.net
     - +.eventsinfocus.org
     - +.factwire.org
@@ -63,19 +63,19 @@ payload:
     - +.infoq.com
     - +.inmediahk.net
     - +.inquirer.net
-    - +.hpayshop.com
-    - +.himalaya.exchange
+    - +.realclearinvestigations.com
+    - +.realclearhistory.com
     - +.jfengtime.com
     - +.landofhope.tv
     - +.limedia.tw
     - +.localpresshk.com
-    - +.gwins.org
+    - +.realclearhealth.com
     - +.macaodaily.com
     - +.maidonanews.jp
     - +.mdnkids.com
-    - +.gwiki.net
+    - +.realclearfoundation.org
     - +.mirrormedia.mg
-    - +.guo.media
+    - +.realclearenergy.org
     - +.my-formosa.com
     - +.newtalk.tw
     - +.newyorker.com
@@ -93,12 +93,12 @@ payload:
     - +.rsf.org
     - +.rtings.com
     - +.shuziyimin.org
-    - +.gtvmediagroupfairfund.com
+    - +.realcleareducation.com
     - +.sinoinsider.com
     - +.socrec.org
     - +.storm.mg
     - +.taipeitimes.com
-    - +.gtv1.org
+    - +.realcleardefense.com
     - +.theaffairs.com
     - +.theatlantic.com
     - +.thegatewaypundit.com
@@ -106,137 +106,137 @@ payload:
     - +.thenewslens.com
     - +.thestandnews.com
     - +.tnntoday.com
-    - +.gtv.org
-    - +.gnews.org
+    - +.realclearbooks.com
+    - +.realclear.com
     - +.twgreatnews.com
     - +.twreporter.org
     - +.unwire.hk
     - +.upmedia.mg
-    - +.gfashion.com
+    - +.newsmaxtv.com
     - +.warroom.org
     - +.washingtonpost.com
-    - +.gettr.com
-    - +.gclubs.com
+    - +.newsmax.in
+    - +.newsmax.com
     - +.weiyuksj.com
     - +.wenzhao.ca
     - +.wired.com
-    - +.g-tvapp.com
+    - +.andysparis.com
     - +.yibaochina.com
     - +.youlucky.com
     - +.zerohedge.com
     - +.zoomingin.tv
-    - +.ap.org
-    - +.apnews.com
-    - +.cbs.com
-    - +.cbscorporation.com
-    - +.cbsi.com
-    - +.cbsi.video
-    - +.cbsiam.com
-    - +.cbsig.net
-    - +.cbsimg.net
-    - +.cbsinteractive.com
-    - +.cbsistatic.com
-    - +.cbsivideo.com
-    - +.cbsnews.com
-    - +.cbspressexpress.com
-    - +.cbssports.com
-    - +.cbsstatic.com
-    - +.cbssvideo.com
-    - +.viacbs.com
-    - +.viacom.com
-    - +.viacomcbs.com
-    - +.viacomcbspressexpress.com
-    - +.paramount.com
-    - +.amlg.io
-    - +.cbsaavideo.com
-    - +.mtvnservices.com
-    - +.paramountplus.com
-    - +.pplusstatic.com
-    - +.dw.com
-    - +.now.com
-    - +.nowe.com
-    - +.nowe.hk
-    - +.now-tv.com
-    - +.now-ashare.com
-    - +.eiu.com
-    - +.medium.com
-    - +.medium.systems
-    - +.andysparis.com
-    - +.newsmax.com
-    - +.newsmax.in
-    - +.newsmaxtv.com
-    - +.amerikaninsesi.com
-    - +.amerikaninsesi.org
-    - +.amerikaovozi.com
-    - +.amerikayidzayn.com
-    - +.amerikiskhma.com
-    - +.bbg.gov
-    - +.dandalinvoa.com
-    - +.darivoa.com
-    - +.dengeamerika.com
-    - +.dengiamerika.com
-    - +.glasamerike.net
-    - +.golos-ameriki.ru
-    - +.golosameriki.com
-    - +.insidevoa.com
-    - +.pashtovoa.com
-    - +.persagg.com
-    - +.radiyoyacuvoa.com
-    - +.urduvoa.com
-    - +.voa.gov
-    - +.voaafaanoromoo.com
-    - +.voaafrique.com
-    - +.voabambara.com
-    - +.voabangla.com
-    - +.voacambodia.com
-    - +.voacantonese.com
-    - +.voachinese.com
-    - +.voadeewanews.com
-    - +.voadeewaradio.com
-    - +.voahausa.com
-    - +.voaindonesia.com
-    - +.voakorea.com
-    - +.voalingala.com
-    - +.voandebele.com
-    - +.voanews.com
-    - +.voanews.eu
-    - +.voanoticias.com
-    - +.voanouvel.com
-    - +.voaportugues.com
-    - +.voashona.com
-    - +.voasomali.com
-    - +.voaswahili.com
-    - +.voathai.com
-    - +.voatibetan.com
-    - +.voatibetanenglish.com
-    - +.voatiengviet.com
-    - +.voatour.com
-    - +.voazimbabwe.com
-    - +.zeriamerikes.com
-    - +.bgr.in
-    - +.bollywoodlife.com
-    - +.careerfundas.com
-    - +.cricketcountry.com
-    - +.dnai.in
-    - +.dnaindia.com
-    - +.earngeek.com
-    - +.ekhindi.com
-    - +.ind.sh
-    - +.india.com
-    - +.indiancolleges.com
-    - +.itripto.com
-    - +.oncars.in
-    - +.prepsure.com
-    - +.thehealthsite.com
-    - +.wionews.com
-    - +.yo1health.com
-    - +.zee.com
-    - +.zeebiz.com
-    - +.zeeentertainment.com
-    - +.zeenews.com
-    - +.zaobao.com
-    - +.zaobao.sg
-    - +.economistgroupcareers.com
+    - +.asiangooglenetwork.com
+    - +.rt.com
+    - +.rtnewsru.com
+    - +.rtrunews.com
+    - +.rtxv.ru
+    - +.runewsrt.com
+    - +.rurtnews.com
+    - +.russiatoday.com
+    - +.russiatoday.net
+    - +.russiatoday.tv
+    - +.swentr.site
+    - +.watchingthehawks.com
+    - +.arabicrt.ru
+    - +.rtarabic.com
+    - +.rtarabic.net
+    - +.rtarabic.org
+    - +.rtarabic.ru
+    - +.rtenafrique.tv
+    - +.rtenfrancais.tv
+    - +.rtenfrance.tv
+    - +.rtfrance.tv
+    - +.russieactuelle.fr
+    - +.de-rt.com
+    - +.de-rt.org
+    - +.de-rtnews.com
+    - +.de-rtnews.net
+    - +.dert.online
+    - +.dert.site
+    - +.dert.tech
+    - +.freeassange.tech
+    - +.freede.tech
+    - +.freedert.online
+    - +.rtde.agency
+    - +.rtde.expert
+    - +.rtde.express
+    - +.rtde.info
+    - +.rtde.life
+    - +.rtde.live
+    - +.rtde.me
+    - +.rtde.media
+    - +.rtde.online
+    - +.rtde.org
+    - +.rtde.press
+    - +.rtde.site
+    - +.rtde.team
+    - +.rtde.tech
+    - +.rtde.website
+    - +.rtde.world
+    - +.rtde.xyz
+    - +.rtdefree.info
+    - +.rtdefree.me
+    - +.rtdefree.online
+    - +.rtdefree.tech
+    - +.rtnewsde.com
+    - +.rtnewsde.online
+    - +.rtnewsde.pro
+    - +.rtnewsde.site
+    - +.rtnewsde.tech
+    - +.rtbrasil.com
+    - +.rtbrasil.info
+    - +.russiatoday.ru
+    - +.rt.rs
+    - +.actualidad-rt.com
+    - +.es-rt.com
+    - +.esrt.online
+    - +.esrt.press
+    - +.esrt.space
+    - +.esrt.tech
+    - +.noticias-rt.com
+    - +.notimundo.press
+    - +.rtespanol.com
+    - +.sn-esp.site
+    - +.b37mrtl.ru
+    - +.esrt.site
+    - +.esrt.website
+    - +.green-box-tv.com
+    - +.rttv.com
+    - +.rttv.ru
+    - +.rteam.dev
+    - +.rteam.tech
+    - +.ktech.team
+    - +.shop-rt.com
+    - +.1917live.red
+    - +.ahilesva.info
+    - +.book-catalog.ru
+    - +.book1917.live
+    - +.drobbox.pro
+    - +.kanzlerdaddy.ru
+    - +.khangar.net
+    - +.pobeda.page
+    - +.premiumlive.site
+    - +.romanovs100.com
+    - +.worldcuprussia.com
+    - +.baranky.com
+    - +.gatewaytorussia.ru
+    - +.gw2ru.com
+    - +.oknovrossiu.ru
+    - +.rbth.com
+    - +.russiabeyond.com
+    - +.russiaislove.com
+    - +.slavicstar.com
+    - +.artel.watch
+    - +.arteldoc.com
+    - +.arteldoc.tv
+    - +.rtdoc.tv
+    - +.rtdocumentary.online
+    - +.rtfestival.ru
+    - +.rt-school.online
+    - +.ruptly.agency
+    - +.ruptly.tv
+    - +.ruptly.video
+    - +.mattersprotocol.io
     - +.businessfocus.io
     - +.bbgevent.com
     - +.bbhub.io
@@ -295,10 +295,216 @@ payload:
     - +.quicktake.video
     - +.techatbloomberg.com
     - +.tictoc.video
-    - +.economistgroup.com
-    - +.economist.com
-    - +.bowenpress.com
+    - +.matters.town
+    - +.matters.one
+    - +.matters.news
+    - +.manoto1.tv
+    - +.manototv.com
+    - +.mingpaomonthly.com
+    - +.mingpaocanada.com
+    - +.mediachinese.com
+    - +.mingpaovan.com
+    - +.mingpaotor.com
+    - +.enanyang.my
+    - +.mysinchew.com
+    - +.mings-fashion.com
+    - +.mingpao.com
+    - +.yzzk.com
+    - +.mings.hk
+    - +.omghk.com
+    - +.sinchew.my
+    - +.mingshengbao.com
+    - +.mingwatch.com
+    - +.mpfinance.com
+    - +.mpweekly.com
+    - +.weekly-economist.com
+    - +.newsgawakaru.com
+    - +.mottainai.info
+    - +.mirailab.tech
+    - +.medium.com
+    - +.medium.systems
+    - +.nikkei.com
+    - +.nikkei.jp
+    - +.nikkei4946.com
+    - +.meijinsen.jp
+    - +.mainichibooks.com
+    - +.mainichi.jp
     - +.breitbart.com
+    - +.bbc-reporting-api.app
+    - +.bbcverticals.com
+    - +.bbc.com
+    - +.bbc.in
+    - +.bbcpersian.com
+    - +.mainichi-athletepartners.jp
+    - +.machigoto.jp
+    - +.usatodaynetworkservice.com
+    - +.usatoday.com
+    - +.gannettdigital.com
+    - +.gannett.com
+    - +.gannett-cdn.com
+    - +.privilege.tw
+    - +.atnext.com
+    - +.tomonews.net
+    - +.appledaily.hk
+    - +.appledaily.com
+    - +.sharpdaily.tw
+    - +.twnextdigital.com
+    - +.bestmallawards.com
+    - +.applefruity.com
+    - +.privilege.hk
+    - +.next.hk
+    - +.omoplanet.com
+    - +.nextwork.tw
+    - +.nextwork.hk
+    - +.nextmgz.com
+    - +.nextmedia.com
+    - +.syhacked.com
+    - +.srebrenica360.com
+    - +.sarajevopodopsadom.com
+    - +.palestineremix.com
+    - +.aljazeera.net
+    - +.aljazeera.com
+    - +.ajplus.net
+    - +.voxops.net
+    - +.voxmedia.com
+    - +.voxfieldguide.com
+    - +.voxcreative.com
+    - +.vox.com
+    - +.vox-cdn.com
+    - +.theverge.com
+    - +.sbnation.com
+    - +.recode.net
+    - +.etvonline.hk
+    - +.rthk.hk
+    - +.6park.com
+    - +.6parkbbs.com
+    - +.6parknews.com
+    - +.cool18.com
+    - +.popo8.com
+    - +.parkvv.com
+    - +.xwbo.com
+    - +.freedomplatform.tv
+    - +.londonreal.tv
+    - +.1prime.ru
+    - +.rossiyasegodnya.com
+    - +.ria.ru
+    - +.jinrieluosi.cn
+    - +.arctic.ru
+    - +.baltnews.com
+    - +.baltnews.lt
+    - +.inosmi.ru
+    - +.ukraina.ru
+    - +.pressria.ru
+    - +.xn--c1acbl2abdlkab1og.xn--p1ai
+    - +.radiosputnik.ru
+    - +.sputnikglobe.com
+    - +.sputnikimages.com
+    - +.sputnikmediabank.com
+    - +.sputniknews.com
+    - +.tok.media
+    - +.racked.com
+    - +.scmp.com
+    - +.i-scmp.com
+    - +.afp.com
+    - +.afpforum.com
+    - +.rferl.org
+    - +.azadiradio.com
+    - +.azadliq.org
+    - +.azathabar.com
+    - +.azatliq.org
+    - +.azattyk.org
+    - +.azattyq.org
+    - +.azatutyun.am
+    - +.currenttime.tv
+    - +.ekhokavkaza.com
+    - +.europalibera.org
+    - +.evropaelire.org
+    - +.factograph.info
+    - +.idelreal.org
+    - +.kavkazr.com
+    - +.krymr.com
+    - +.mashaalradio.com
+    - +.ozodi.org
+    - +.ozodlik.org
+    - +.radiofarda.com
+    - +.radiomarsho.com
+    - +.radiosvoboda.org
+    - +.radiotavisupleba.ge
+    - +.severreal.org
+    - +.sibreal.org
+    - +.slobodnaevropa.mk
+    - +.svaboda.org
+    - +.svoboda.org
+    - +.svobodnaevropa.bg
+    - +.szabadeuropa.hu
+    - +.dev-guardianapis.com
+    - +.dev-theguardian.com
+    - +.gu-web.net
+    - +.guardianapis.com
+    - +.theguardian.com
+    - +.theguardiandns.com
+    - +.polygon.com
+    - +.meridian.net
+    - +.funnyordie.com
+    - +.banned.video
+    - +.infowars.com
+    - +.infowarsmedia.com
+    - +.4gtv.tv
+    - +.eater.com
+    - +.curbed.com
+    - +.etwealth.com
+    - +.hket.com
+    - +.hketgroup.com
+    - +.cstatic.net
+    - +.udnfunlife.com
+    - +.udndata.com
+    - +.udn.com
+    - +.now-ashare.com
+    - +.now-tv.com
+    - +.nowe.hk
+    - +.nowe.com
+    - +.47gyosei.jp
+    - +.47news.jp
+    - +.kyodo-d.info
+    - +.kyodo-d.jp
+    - +.kyodoimages.jp
+    - +.kyodonews.jp
+    - +.kyodonews.net
+    - +.newsmart.jp
+    - +.nna.jp
+    - +.thomsonreuters.ru
+    - +.reuters.com
+    - +.elite.com
+    - +.legaltracker.com
+    - +.reuters.tv
+    - +.reutersagency.cn
+    - +.reut.rs
+    - +.thomsonreuters.ca
+    - +.thomsonreuters.cn
+    - +.tr.com
+    - +.tmsnrt.rs
+    - +.thomsonreutersmexico.com
+    - +.aranzadi.es
+    - +.thomsonreuters.com
+    - +.reutersmedia.net
+    - +.corepublishingsolutions.com
+    - +.thomsonreuters.in
+    - +.thomsonreuters.es
+    - +.now.com
+    - +.universalstudioshollywood.com
+    - +.universalpicturesinternational.com
+    - +.universalpictures.com
+    - +.universalorlando.com
+    - +.peacocktv.com
+    - +.s-nbcnews.com
+    - +.nbcuniversal.com
+    - +.nbcuni.com
+    - +.nbcsports.com
+    - +.nbcolympics.com
+    - +.nbcnews.com
+    - +.nbc.com
+    - +.nbc.co
+    - +.bbgwatch.com
     - +.foxsoccershop.com
     - +.fox7.com
     - +.fox.com
@@ -439,7 +645,7 @@ payload:
     - +.woflthenewsstation.com
     - +.wofl.tv
     - +.whosthehost.com
-    - +.whatthefox.com
+    - +.voaafaanoromoo.com
     - +.thegeorgiascene.com
     - +.thefoxnation.com
     - +.theclasshroom.com
@@ -521,27 +727,34 @@ payload:
     - +.realamericanstories.org
     - +.realamericanstories.tv
     - +.realmilwaukeenow.com
-    - +.rprimelab.com
+    - +.voaafrique.com
     - +.shopspeedtv.com
     - +.soccermatchpass.com
     - +.speeddreamride.com
     - +.speedfantasybid.com
     - +.speedracegear.com
     - +.speedxtra.com
-    - +.boxun.com
-    - +.syhacked.com
-    - +.srebrenica360.com
-    - +.sarajevopodopsadom.com
-    - +.palestineremix.com
-    - +.aljazeera.net
-    - +.aljazeera.com
-    - +.ajplus.net
+    - +.msnbc.com
+    - +.cnbcfm.com
+    - +.cnbc.com
+    - +.dreamworks.com
+    - +.mol.im
+    - +.mailonline.com
+    - +.dailymailonline.com
+    - +.dailymail.dk
+    - +.thismon.ee
+    - +.dailymail.com
+    - +.mailhealth.com
+    - +.dailym.ai
+    - +.mailonsunday.ie
     - +.nhkworld.jp
+    - +.dw.com
+    - +.i-cablecomm.com
+    - +.fantv.hk
+    - +.hkopentv.com
+    - +.hoy.tv
+    - +.i-cable.com
     - +.nhk.jp
-    - +.americasvoice.news
-    - +.manototv.com
-    - +.manoto1.tv
-    - +.myradio.hk
     - +.businessinsider.jp
     - +.businessinsider.my
     - +.insiderintelligence.com
@@ -555,216 +768,95 @@ payload:
     - +.businessinsider.in
     - +.businessinsider.nl
     - +.businessinsider.sg
-    - +.globalvoicesonline.org
-    - +.globalvoices.org
-    - +.cnbetacdn.com
-    - +.asiangooglenetwork.com
-    - +.rt.com
-    - +.rtnewsru.com
-    - +.rtrunews.com
-    - +.rtxv.ru
-    - +.runewsrt.com
-    - +.rurtnews.com
-    - +.russiatoday.com
-    - +.russiatoday.net
-    - +.russiatoday.tv
-    - +.swentr.site
-    - +.watchingthehawks.com
-    - +.arabicrt.ru
-    - +.rtarabic.com
-    - +.rtarabic.net
-    - +.rtarabic.org
-    - +.rtarabic.ru
-    - +.rtenafrique.tv
-    - +.rtenfrancais.tv
-    - +.rtenfrance.tv
-    - +.rtfrance.tv
-    - +.russieactuelle.fr
-    - +.de-rt.com
-    - +.de-rt.org
-    - +.de-rtnews.com
-    - +.de-rtnews.net
-    - +.dert.online
-    - +.dert.site
-    - +.dert.tech
-    - +.freeassange.tech
-    - +.freede.tech
-    - +.freedert.online
-    - +.rtde.agency
-    - +.rtde.expert
-    - +.rtde.express
-    - +.rtde.info
-    - +.rtde.life
-    - +.rtde.live
-    - +.rtde.me
-    - +.rtde.media
-    - +.rtde.online
-    - +.rtde.org
-    - +.rtde.press
-    - +.rtde.site
-    - +.rtde.team
-    - +.rtde.tech
-    - +.rtde.website
-    - +.rtde.world
-    - +.rtde.xyz
-    - +.rtdefree.info
-    - +.rtdefree.me
-    - +.rtdefree.online
-    - +.rtdefree.tech
-    - +.rtnewsde.com
-    - +.rtnewsde.online
-    - +.rtnewsde.pro
-    - +.rtnewsde.site
-    - +.rtnewsde.tech
-    - +.rtbrasil.com
-    - +.rtbrasil.info
-    - +.russiatoday.ru
-    - +.rt.rs
-    - +.actualidad-rt.com
-    - +.es-rt.com
-    - +.esrt.online
-    - +.esrt.press
-    - +.esrt.space
-    - +.esrt.tech
-    - +.noticias-rt.com
-    - +.notimundo.press
-    - +.rtespanol.com
-    - +.sn-esp.site
-    - +.b37mrtl.ru
-    - +.esrt.site
-    - +.esrt.website
-    - +.green-box-tv.com
-    - +.rttv.com
-    - +.rttv.ru
-    - +.rteam.dev
-    - +.rteam.tech
-    - +.ktech.team
-    - +.shop-rt.com
-    - +.1917live.red
-    - +.ahilesva.info
-    - +.book-catalog.ru
-    - +.book1917.live
-    - +.drobbox.pro
-    - +.ntdtv.ru
-    - +.khangar.net
-    - +.pobeda.page
-    - +.premiumlive.site
-    - +.romanovs100.com
-    - +.worldcuprussia.com
-    - +.baranky.com
-    - +.gatewaytorussia.ru
-    - +.gw2ru.com
-    - +.oknovrossiu.ru
-    - +.rbth.com
-    - +.russiabeyond.com
-    - +.russiaislove.com
-    - +.slavicstar.com
-    - +.artel.watch
-    - +.arteldoc.com
-    - +.arteldoc.tv
-    - +.rtdoc.tv
-    - +.rtdocumentary.online
-    - +.rtfestival.ru
-    - +.rt-school.online
-    - +.ruptly.agency
-    - +.ruptly.tv
-    - +.ruptly.video
-    - +.cnbeta.com
-    - +.thomsonreuters.ru
-    - +.reuters.com
-    - +.elite.com
-    - +.legaltracker.com
-    - +.reuters.tv
-    - +.reutersagency.cn
-    - +.reut.rs
-    - +.thomsonreuters.ca
-    - +.thomsonreuters.cn
-    - +.tr.com
-    - +.tmsnrt.rs
-    - +.thomsonreutersmexico.com
-    - +.aranzadi.es
-    - +.thomsonreuters.com
-    - +.reutersmedia.net
-    - +.corepublishingsolutions.com
-    - +.thomsonreuters.in
-    - +.thomsonreuters.es
-    - +.xwbo.com
-    - +.parkvv.com
-    - +.popo8.com
-    - +.cool18.com
-    - +.6parknews.com
-    - +.6parkbbs.com
-    - +.6park.com
-    - +.i-scmp.com
-    - +.scmp.com
-    - +.sankei.jp
-    - +.sankeibiz.jp
-    - +.sankei-tours.com
-    - +.sankei-shougakukai.jp
-    - +.sankei-kurashi.com
-    - +.rferl.org
-    - +.azadiradio.com
-    - +.azadliq.org
-    - +.azathabar.com
-    - +.azatliq.org
-    - +.azattyk.org
-    - +.azattyq.org
-    - +.azatutyun.am
-    - +.currenttime.tv
-    - +.ekhokavkaza.com
-    - +.europalibera.org
-    - +.evropaelire.org
-    - +.factograph.info
-    - +.idelreal.org
-    - +.kavkazr.com
-    - +.krymr.com
-    - +.mashaalradio.com
-    - +.ozodi.org
-    - +.ozodlik.org
-    - +.radiofarda.com
-    - +.radiomarsho.com
-    - +.radiosvoboda.org
-    - +.radiotavisupleba.ge
-    - +.severreal.org
-    - +.sibreal.org
-    - +.edninfo.com
-    - +.svaboda.org
-    - +.svoboda.org
-    - +.svobodnaevropa.bg
-    - +.szabadeuropa.hu
-    - +.hkheadline.com
-    - +.singtao.com
-    - +.singtaonewscorp.com
-    - +.my-magazine.me
-    - +.singtaola.com
-    - +.singtaousa.com
-    - +.stheadline.com
-    - +.singtaoopo.com
-    - +.headlinejobs.hk
-    - +.sing68.com
-    - +.singtaobooks.com
-    - +.eduplus.hk
-    - +.bastillepost.com
-    - +.sankeishop.jp
-    - +.sanspo.com
-    - +.seasidestory.tokyo
-    - +.sankei-call.jp
-    - +.metropolitana.tokyo
-    - +.afp.com
-    - +.afpforum.com
-    - +.bbgwatch.com
-    - +.bbc-reporting-api.app
-    - +.bbcverticals.com
-    - +.bbc.com
-    - +.bbc.in
-    - +.bbcpersian.com
-    - +.ign.jp
-    - +.sankei.com
-    - +.mostly.jp
-    - +.seiron-sankei.com
-    - +.business-i.jp
-    - +.keiba.net
-    - +.japan-forward.com
+    - +.americasvoice.news
+    - +.zwtvusa.com
+    - +.benliton.com
+    - +.myradio.hk
+    - +.lecoin.cc
+    - +.aweencore.com
+    - +.awetv.com
+    - +.herringnetwork.com
+    - +.oanencore.com
+    - +.oann.com
+    - +.aiasahi.jp
+    - +.asagaku.com
+    - +.asahi.com
+    - +.asahicom.jp
+    - +.nikkansports.com
+    - +.ctwant.com
+    - +.amerikaninsesi.com
+    - +.amerikaninsesi.org
+    - +.amerikaovozi.com
+    - +.amerikayidzayn.com
+    - +.amerikiskhma.com
+    - +.bbg.gov
+    - +.dandalinvoa.com
+    - +.darivoa.com
+    - +.dengeamerika.com
+    - +.dengiamerika.com
+    - +.glasamerike.net
+    - +.golos-ameriki.ru
+    - +.golosameriki.com
+    - +.insidevoa.com
+    - +.pashtovoa.com
+    - +.persagg.com
+    - +.radiyoyacuvoa.com
+    - +.881903.com
+    - +.visiontimes.de
+    - +.caijinglengyan.com
+    - +.rprimelab.com
+    - +.voabambara.com
+    - +.voabangla.com
+    - +.voacambodia.com
+    - +.voacantonese.com
+    - +.voachinese.com
+    - +.voadeewanews.com
+    - +.voadeewaradio.com
+    - +.voahausa.com
+    - +.voaindonesia.com
+    - +.voakorea.com
+    - +.voalingala.com
+    - +.voandebele.com
+    - +.voanews.com
+    - +.voanews.eu
+    - +.voanoticias.com
+    - +.voanouvel.com
+    - +.voaportugues.com
+    - +.voashona.com
+    - +.voasomali.com
+    - +.voaswahili.com
+    - +.voathai.com
+    - +.voatibetan.com
+    - +.voatibetanenglish.com
+    - +.voatiengviet.com
+    - +.voatour.com
+    - +.voazimbabwe.com
+    - +.zeriamerikes.com
+    - +.cbs.com
+    - +.cbscorporation.com
+    - +.cbsi.com
+    - +.cbsi.video
+    - +.cbsiam.com
+    - +.cbsig.net
+    - +.cbsimg.net
+    - +.cbsinteractive.com
+    - +.cbsistatic.com
+    - +.cbsivideo.com
+    - +.cbsnews.com
+    - +.cbspressexpress.com
+    - +.cbssports.com
+    - +.cbsstatic.com
+    - +.cbssvideo.com
+    - +.viacbs.com
+    - +.viacom.com
+    - +.viacomcbs.com
+    - +.viacomcbspressexpress.com
+    - +.paramount.com
+    - +.amlg.io
+    - +.cbsaavideo.com
+    - +.mtvnservices.com
+    - +.paramountplus.com
+    - +.pplusstatic.com
     - +.dajiyuan.eu
     - +.upholdjustice.org
     - +.bannedbook.org
@@ -801,10 +893,10 @@ payload:
     - +.shenyun.com
     - +.shenyun.org
     - +.shenyuncreations.com
-    - +.881903.com
-    - +.ftadviser.com
-    - +.caijinglengyan.com
-    - +.slobodnaevropa.mk
+    - +.shenyunperformingarts.org
+    - +.epochtimes.eu
+    - +.ntdtv.ru
+    - +.edninfo.com
     - +.epoch.cloud
     - +.velkaepocha.cz
     - +.epochbase.com
@@ -879,99 +971,30 @@ payload:
     - +.trithucvn.org
     - +.vct.news
     - +.visiontimes.com
-    - +.visiontimes.de
+    - +.voa.gov
     - +.visiontimes.fr
     - +.visiontimes.it
-    - +.tvnaviweb.jp
-    - +.ironna.jp
-    - +.sankei-ad.net
-    - +.innovations-i.com
-    - +.sankei-ad-info.com
-    - +.oann.com
-    - +.oanencore.com
-    - +.herringnetwork.com
-    - +.awetv.com
-    - +.aweencore.com
-    - +.nna.jp
-    - +.newsmart.jp
-    - +.kyodonews.net
-    - +.kyodonews.jp
-    - +.banned.video
-    - +.infowars.com
-    - +.infowarsmedia.com
-    - +.realclear.com
-    - +.realclearbooks.com
-    - +.realcleardefense.com
-    - +.realcleareducation.com
-    - +.realclearenergy.org
-    - +.realclearfoundation.org
-    - +.realclearhealth.com
-    - +.realclearhistory.com
-    - +.realclearinvestigations.com
-    - +.realclearlife.com
-    - +.realclearmarkets.com
-    - +.realclearpolicy.com
-    - +.realclearpolitics.com
-    - +.realclearpublicaffairs.com
-    - +.realclearreligion.org
-    - +.realclearscience.com
-    - +.realclearworld.com
-    - +.privilege.tw
-    - +.atnext.com
-    - +.tomonews.net
-    - +.appledaily.hk
-    - +.appledaily.com
-    - +.sharpdaily.tw
-    - +.twnextdigital.com
-    - +.bestmallawards.com
-    - +.applefruity.com
-    - +.privilege.hk
-    - +.next.hk
-    - +.omoplanet.com
-    - +.nextwork.tw
-    - +.nextwork.hk
-    - +.nextmgz.com
-    - +.nextmedia.com
-    - +.kyodoimages.jp
-    - +.kyodo-d.jp
-    - +.kyodo-d.info
-    - +.47news.jp
-    - +.47gyosei.jp
-    - +.theguardiandns.com
-    - +.theguardian.com
-    - +.guardianapis.com
-    - +.gu-web.net
-    - +.dev-theguardian.com
-    - +.dev-guardianapis.com
-    - +.skysportsracing.com
-    - +.skysportsonline.com
-    - +.skysports.ie
-    - +.skysports.fr
-    - +.skysports.com
-    - +.nikkei.com
-    - +.nikkei.jp
-    - +.nikkei4946.com
-    - +.skyoceanrescue.it
-    - +.skyoceanrescue.de
-    - +.skyoceanrescue.com
-    - +.nyt.com
-    - +.nyt.net
-    - +.nytchina.com
-    - +.nytcn.me
-    - +.nytco.com
-    - +.nyti.ms
-    - +.nytimes.com
-    - +.nytstyle.com
-    - +.timestalks.com
-    - +.tospo-keiba.jp
-    - +.skymansion.net
+    - +.want-media.com
+    - +.loveparents.org
+    - +.chinatimes.com
+    - +.wantblogger.com
+    - +.bastillepost.com
+    - +.eduplus.hk
+    - +.singtaobooks.com
+    - +.sing68.com
+    - +.headlinejobs.hk
+    - +.singtaoopo.com
+    - +.stheadline.com
+    - +.singtaousa.com
+    - +.singtaola.com
+    - +.my-magazine.me
     - +.gisplanning.com
     - +.exec-appointments.com
     - +.globalriskregulator.com
     - +.fdiintelligence.com
     - +.financialadvisoriq.com
     - +.ft.com
-    - +.epochtimes.eu
+    - +.ftadviser.com
     - +.ftchinese.com
     - +.ignites.com
     - +.fundfire.com
@@ -986,111 +1009,200 @@ payload:
     - +.pwmnet.com
     - +.thebanker.com
     - +.thebankerdatabase.com
+    - +.singtaonewscorp.com
+    - +.opinionjournal.com
+    - +.collegejournal.com
+    - +.adhelpnews.com
+    - +.api.news
+    - +.harpercollinsadvantage.com
+    - +.bigcharts.com
+    - +.harpercollinschristian.com
+    - +.harpercollins.ca
+    - +.harpercollinsspeakersbureau.com
+    - +.shelfstuff.com
+    - +.bookclubgirl.com
+    - +.harperapps.com
+    - +.harperacademic.com
+    - +.epicreads.com
+    - +.fnlondon.com
+    - +.hcpdts.com
+    - +.collins.in
+    - +.librarylovefest.com
+    - +.huanyuju.com
+    - +.harpercollins.com
+    - +.dowjoneson.com
+    - +.mansionglobal.com
+    - +.marketwatch.com
+    - +.dowjones.io
+    - +.dowjones.com
+    - +.djreprints.com
+    - +.wsjbarrons.com
+    - +.barrons.com
+    - +.barrons-conferences.com
+    - +.newsamerica.com
+    - +.barrons-advisor.com
+    - +.wsjwine.com
+    - +.wsjshop.com
+    - +.wsjplus.com
+    - +.wsjmediakit.com
+    - +.newscorp.com
+    - +.newscorpaustralia.com
+    - +.wsj.net
+    - +.wsj.jobs
+    - +.wsj.com
+    - +.newssyndication.com
+    - +.newsukadops.com
+    - +.startupjournal.com
+    - +.nlm.io
+    - +.realestatejournal.com
+    - +.getwsj.com
+    - +.careerjournal.com
+    - +.storyful.com
+    - +.timesmembership.com
+    - +.thetimes.ie
+    - +.thesun.ie
+    - +.talksport.com
+    - +.page3.com
+    - +.move.com
+    - +.moveaws.com
+    - +.rea.global
+    - +.rea.design
+    - +.rea-group.com
+    - +.wireless.radio
+    - +.ippstatic.com
+    - +.nypost.com
+    - +.nypost.help
+    - +.myfun.com
+    - +.realtor.com
+    - +.reastatic.net
+    - +.proptiger.com
+    - +.housing.com
+    - +.housingcdn.com
+    - +.smartexpos.com
+    - +.rea-asia.com
+    - +.iproperty.com
+    - +.rumah123.com
+    - +.rea.io
+    - +.makaan.com
+    - +.dreamteamfc.com
+    - +.rea.tech
+    - +.nypostreprints.com
+    - +.thinkofliving.com
+    - +.singtao.com
+    - +.hkheadline.com
+    - +.bowenpress.com
+    - +.boxun.com
+    - +.the-japan-news.com
+    - +.yomilogi.com
+    - +.hochi.news
+    - +.fujinkoron.jp
+    - +.chuokoron.jp
+    - +.nikkan-gendai.com
+    - +.gendai.net
+    - +.c-spanvideo.org
+    - +.c-span.org
+    - +.nbcudigitaladops.com
+    - +.zaobao.sg
+    - +.zaobao.com
+    - +.waa.tw
+    - +.watchout.tw
+    - +.init.shop
+    - +.theinitium.com
+    - +.skysportsracing.com
+    - +.skysportsonline.com
+    - +.skysports.ie
+    - +.skysports.fr
+    - +.skysports.com
+    - +.skyoceanrescue.it
+    - +.skyoceanrescue.de
+    - +.skyoceanrescue.com
+    - +.skymansion.net
     - +.skyassets.com
-    - +.etvonline.hk
-    - +.rthk.hk
-    - +.huffingtonpost.jp
-    - +.huffingtonpost.es
-    - +.huffingtonpost.gr
-    - +.huffingtonpost.in
-    - +.huffingtonpost.fr
-    - +.huffpostbrasil.com
-    - +.huffingtonpost.de
-    - +.huffpost.com
-    - +.huffpostmaghreb.com
-    - +.huffpostarabi.com
-    - +.huffingtonpost.com
-    - +.huffingtonpost.it
-    - +.huffingtonpost.ca
-    - +.huffingtonpost.kr
     - +.sky.com
     - +.axios.com
-    - +.voxops.net
-    - +.voxmedia.com
-    - +.mingpaomonthly.com
-    - +.mingpaocanada.com
-    - +.mediachinese.com
-    - +.mingpaovan.com
-    - +.mingpaotor.com
-    - +.enanyang.my
-    - +.mysinchew.com
-    - +.mings-fashion.com
-    - +.mingpao.com
-    - +.yzzk.com
-    - +.mings.hk
-    - +.omghk.com
-    - +.sinchew.my
-    - +.mingshengbao.com
-    - +.mingwatch.com
-    - +.mpfinance.com
-    - +.mpweekly.com
-    - +.voxfieldguide.com
-    - +.voxcreative.com
-    - +.vox.com
-    - +.vox-cdn.com
-    - +.dreamworks.com
-    - +.cnbc.com
-    - +.cnbcfm.com
-    - +.msnbc.com
-    - +.nbc.co
-    - +.nbc.com
-    - +.nbcnews.com
-    - +.nbcolympics.com
-    - +.nbcsports.com
-    - +.nbcuni.com
-    - +.nbcuniversal.com
-    - +.s-nbcnews.com
-    - +.peacocktv.com
-    - +.universalorlando.com
-    - +.universalpictures.com
-    - +.universalpicturesinternational.com
-    - +.universalstudioshollywood.com
-    - +.setn.com
-    - +.theverge.com
-    - +.wantblogger.com
-    - +.chinatimes.com
-    - +.loveparents.org
-    - +.want-media.com
-    - +.ctwant.com
-    - +.lecoin.cc
-    - +.benliton.com
-    - +.zwtvusa.com
-    - +.sbnation.com
-    - +.recode.net
-    - +.racked.com
-    - +.polygon.com
-    - +.meridian.net
-    - +.funnyordie.com
-    - +.zdnet.com
-    - +.engadget.com
-    - +.androidauthority.com
-    - +.digitaltrends.com
-    - +.ycombinator.com
-    - +.macrumors.com
-    - +.slashdot.org
-    - +.9to5google.com
-    - +.techradar.com
-    - +.techspot.com
-    - +.tomsguide.com
-    - +.appleinsider.com
-    - +.androidpolice.com
-    - +.technews.tw
-    - +.9to5mac.com
-    - +.9to5terminal.com
-    - +.9to5toys.com
-    - +.dronedj.com
-    - +.electrek.co
-    - +.spaceexplored.com
-    - +.thetype.com
-    - +.typeisbeautiful.com
+    - +.huffingtonpost.kr
+    - +.huffingtonpost.ca
+    - +.huffingtonpost.it
+    - +.huffingtonpost.com
+    - +.huffpostarabi.com
+    - +.huffpostmaghreb.com
+    - +.huffpost.com
+    - +.huffingtonpost.de
+    - +.huffpostbrasil.com
+    - +.huffingtonpost.fr
+    - +.huffingtonpost.in
+    - +.huffingtonpost.gr
+    - +.huffingtonpost.es
+    - +.huffingtonpost.jp
+    - +.cnbetacdn.com
+    - +.cnbeta.com
     - +.startupschool.org
-    - +.eater.com
-    - +.freedomplatform.tv
-    - +.londonreal.tv
-    - +.watchout.tw
-    - +.waa.tw
-    - +.c-span.org
-    - +.c-spanvideo.org
+    - +.typeisbeautiful.com
+    - +.thetype.com
+    - +.spaceexplored.com
+    - +.electrek.co
+    - +.dronedj.com
+    - +.9to5toys.com
+    - +.9to5terminal.com
+    - +.9to5mac.com
+    - +.technews.tw
+    - +.androidpolice.com
+    - +.appleinsider.com
+    - +.tomsguide.com
+    - +.techspot.com
+    - +.techradar.com
+    - +.9to5google.com
+    - +.slashdot.org
+    - +.macrumors.com
+    - +.ycombinator.com
+    - +.digitaltrends.com
+    - +.androidauthority.com
+    - +.engadget.com
+    - +.sankei-ad-info.com
+    - +.innovations-i.com
+    - +.sankei-ad.net
+    - +.ironna.jp
+    - +.tvnaviweb.jp
+    - +.japan-forward.com
+    - +.keiba.net
+    - +.business-i.jp
+    - +.seiron-sankei.com
+    - +.mostly.jp
+    - +.sankei.com
+    - +.ign.jp
+    - +.metropolitana.tokyo
+    - +.sankei-call.jp
+    - +.seasidestory.tokyo
+    - +.sanspo.com
+    - +.sankeishop.jp
+    - +.sankei-kurashi.com
+    - +.sankei-shougakukai.jp
+    - +.sankei-tours.com
+    - +.sankeibiz.jp
+    - +.sankei.jp
+    - +.zdnet.com
+    - +.zeenews.com
+    - +.zeeentertainment.com
+    - +.zeebiz.com
+    - +.zee.com
+    - +.yo1health.com
+    - +.wionews.com
+    - +.thehealthsite.com
+    - +.tospo-keiba.jp
+    - +.prepsure.com
+    - +.tvbanywhere.com
+    - +.bigbigshop.com
+    - +.encoretvb.com
+    - +.neigbuy.com
+    - +.tvb.com
+    - +.tvbusa.com
+    - +.tvbweekly.com
+    - +.mytvsuper.com
+    - +.oncars.in
+    - +.itripto.com
+    - +.indiancolleges.com
+    - +.india.com
+    - +.ind.sh
     - +.cnn.com
     - +.cnn.io
     - +.cnn.it
@@ -1100,81 +1212,68 @@ payload:
     - +.cnnmoney.com
     - +.cnnmoneystream.com
     - +.cnnpolitics.com
-    - +.mailonsunday.ie
-    - +.dailym.ai
-    - +.mailhealth.com
-    - +.dailymail.com
-    - +.thismon.ee
-    - +.dailymail.dk
-    - +.dailymailonline.com
-    - +.mailonline.com
-    - +.mol.im
-    - +.curbed.com
-    - +.cstatic.net
-    - +.gshow.com
-    - +.globo.com
-    - +.autoesporte.com
-    - +.revistaepoca.com
-    - +.revistapegn.com
-    - +.techtudo.com
-    - +.udn.com
-    - +.udndata.com
-    - +.udnfunlife.com
-    - +.umsoplaneta.com
-    - +.1prime.ru
-    - +.rossiyasegodnya.com
-    - +.ria.ru
-    - +.jinrieluosi.cn
-    - +.arctic.ru
-    - +.baltnews.com
-    - +.baltnews.lt
-    - +.inosmi.ru
-    - +.ukraina.ru
-    - +.pressria.ru
-    - +.xn--c1acbl2abdlkab1og.xn--p1ai
-    - +.radiosputnik.ru
-    - +.sputnikglobe.com
-    - +.sputnikimages.com
-    - +.sputnikmediabank.com
-    - +.sputniknews.com
-    - +.tok.media
-    - +.valorinveste.com
-    - +.theinitium.com
-    - +.init.shop
-    - +.tvbanywhere.com
-    - +.bigbigshop.com
-    - +.encoretvb.com
-    - +.neigbuy.com
-    - +.tvb.com
-    - +.tvbusa.com
-    - +.tvbweekly.com
-    - +.mytvsuper.com
-    - +.globoplay.com
     - +.pegn.com
-    - +.nikkansports.com
-    - +.asahicom.jp
-    - +.asahi.com
-    - +.9cdn.net
+    - +.globoplay.com
+    - +.valorinveste.com
+    - +.umsoplaneta.com
+    - +.techtudo.com
+    - +.revistapegn.com
+    - +.revistaepoca.com
+    - +.autoesporte.com
+    - +.globo.com
+    - +.gshow.com
+    - +.ekhindi.com
+    - +.earngeek.com
+    - +.dnaindia.com
+    - +.dnai.in
+    - +.cricketcountry.com
+    - +.careerfundas.com
+    - +.bollywoodlife.com
+    - +.bgr.in
+    - +.setn.com
+    - +.globalvoicesonline.org
+    - +.globalvoices.org
+    - +.eiu.com
+    - +.economistgroupcareers.com
+    - +.economistgroup.com
+    - +.economist.com
+    - +.apnews.com
+    - +.ap.org
     - +.mi9cdn.com
-    - +.asagaku.com
-    - +.aiasahi.jp
-    - +.nikkan-gendai.com
-    - +.gendai.net
+    - +.9cdn.net
+    - +.timestalks.com
+    - +.nytstyle.com
+    - +.nytimes.com
+    - +.nyti.ms
+    - +.nytco.com
+    - +.nytcn.me
+    - +.nytchina.com
+    - +.nyt.net
+    - +.nyt.com
     - +.neowin.net
     - +.neow.in
-    - +.mattersprotocol.io
-    - +.matters.town
-    - +.matters.one
-    - +.matters.news
-    - +.usatodaynetworkservice.com
-    - +.usatoday.com
-    - +.nbcudigitaladops.com
-    - +.i-cablecomm.com
-    - +.fantv.hk
-    - +.hkopentv.com
-    - +.hoy.tv
-    - +.i-cable.com
-    - +.gannettdigital.com
+    - +.g-tvapp.com
+    - +.gclubs.com
+    - +.gettr.com
+    - +.gfashion.com
+    - +.gnews.org
+    - +.gtv.org
+    - +.gtv1.org
+    - +.gtvmediagroupfairfund.com
+    - +.guo.media
+    - +.gwiki.net
+    - +.gwins.org
+    - +.himalaya.exchange
+    - +.hpayshop.com
+    - +.nfsc.global
+    - +.nfscdict.com
+    - +.nfscofficial.com
+    - +.rexcha.com
+    - +.rolfoundation.org
+    - +.rolsociety.org
+    - +.yiqiedoushiganggangkaishi.org
+    - +.vanithaveedu.com
+    - +.vanitha.in
     - +.malayalamanorama.com
     - +.manorama.com
     - +.manoramanews.com
@@ -1185,178 +1284,142 @@ payload:
     - +.theman.in
     - +.theweek.in
     - +.vanitaonline.com
-    - +.vanitha.in
-    - +.vanithaveedu.com
-    - +.makaan.com
-    - +.nypost.com
-    - +.adhelpnews.com
-    - +.api.news
-    - +.timesmembership.com
-    - +.bigcharts.com
-    - +.thetimes.ie
-    - +.thesun.ie
-    - +.talksport.com
-    - +.page3.com
-    - +.dreamteamfc.com
-    - +.rea.global
-    - +.rea.design
-    - +.rea-group.com
-    - +.fnlondon.com
-    - +.ippstatic.com
-    - +.rea.tech
-    - +.thinkofliving.com
-    - +.huanyuju.com
-    - +.myfun.com
-    - +.moveaws.com
-    - +.mansionglobal.com
-    - +.marketwatch.com
-    - +.move.com
-    - +.rea.io
-    - +.rumah123.com
-    - +.iproperty.com
-    - +.rea-asia.com
-    - +.smartexpos.com
-    - +.newsamerica.com
-    - +.housingcdn.com
-    - +.housing.com
-    - +.proptiger.com
-    - +.reastatic.net
-    - +.realtor.com
-    - +.newscorp.com
-    - +.newscorpaustralia.com
-    - +.nypostreprints.com
-    - +.nypost.help
-    - +.dowjones.com
-    - +.newssyndication.com
-    - +.newsukadops.com
-    - +.barrons-conferences.com
-    - +.nlm.io
-    - +.harpercollinsadvantage.com
-    - +.harpercollinschristian.com
-    - +.harpercollins.ca
-    - +.storyful.com
-    - +.harpercollinsspeakersbureau.com
-    - +.shelfstuff.com
-    - +.bookclubgirl.com
-    - +.harperapps.com
-    - +.harperacademic.com
-    - +.epicreads.com
-    - +.barrons.com
-    - +.hcpdts.com
-    - +.collins.in
-    - +.librarylovefest.com
-    - +.wireless.radio
-    - +.harpercollins.com
-    - +.careerjournal.com
-    - +.collegejournal.com
-    - +.wsjbarrons.com
-    - +.opinionjournal.com
-    - +.realestatejournal.com
-    - +.startupjournal.com
-    - +.wsj.com
-    - +.wsj.jobs
-    - +.wsj.net
-    - +.wsjmediakit.com
-    - +.wsjplus.com
-    - +.wsjshop.com
-    - +.wsjwine.com
-    - +.barrons-advisor.com
-    - +.dowjoneson.com
-    - +.dowjones.io
-    - +.getwsj.com
-    - +.djreprints.com
-    - +.gannett.com
-    - +.gannett-cdn.com
-    - +.forbesimg.com
-    - +.forbes.com
-    - +.the-japan-news.com
-    - +.yomilogi.com
-    - +.hochi.news
-    - +.fujinkoron.jp
-    - +.chuokoron.jp
-    - +.weekly-economist.com
-    - +.newsgawakaru.com
-    - +.mottainai.info
-    - +.mirailab.tech
-    - +.meijinsen.jp
-    - +.mainichibooks.com
-    - +.mainichi.jp
-    - +.mainichi-athletepartners.jp
-    - +.machigoto.jp
-    - +.4gtv.tv
-    - +.superstation.com.tw
-    - +.ctv.com.tw
-    - +.natgeokidsbooks.co.uk
-    - +.chinatimes.com.tw
-    - +.newsprinters.co.uk
-    - +.adelaidenow.com.au
-    - +.newslicensing.co.uk
-    - +.newsconcierge.com.au
-    - +.newscommercial.co.uk
-    - +.newscdn.com.au
-    - +.newscareers.co.uk
-    - +.newsapi.com.au
-    - +.newsadds.com.au
-    - +.news.net.au
-    - +.news.com.au
-    - +.egmontbooks.co.uk
-    - +.newcastlenewslocal.com.au
+    - +.whimn.com.au
+    - +.investorschronicle.co.uk
+    - +.xuxaverso.com.br
     - +.1degree.com.au
-    - +.nativeincolour.com.au
-    - +.kidspot.com.au
-    - +.intheknow.com.au
-    - +.heraldsun.com.au
-    - +.goldcoastbulletin.com.au
-    - +.geelongadvertiser.com.au
-    - +.escape.com.au
-    - +.delicious.com.au
-    - +.dailytelegraph.com.au
-    - +.spacely.com.au
-    - +.hackday.com.au
-    - +.realcommercial.com.au
-    - +.realestate.com.au
-    - +.flatmates.com.au
-    - +.iproperty.com.sg
-    - +.iproperty.com.my
-    - +.inventorship.com.au
-    - +.smartline.com.au
-    - +.hometrack.com.au
-    - +.squarefoot.com.hk
-    - +.property.com.au
-    - +.couriermail.com.au
-    - +.cnivogue.com.au
-    - +.cairnspost.com.au
-    - +.bridge-studio.co.uk
-    - +.sunbingo.co.uk
-    - +.thescottishsun.co.uk
-    - +.thesun.co.uk
-    - +.bodyandsoul.com.au
-    - +.bestrecipes.com.au
-    - +.driving.co.uk
-    - +.mytimesplus.co.uk
-    - +.sportswomanoftheyear.co.uk
-    - +.sportswomenoftheyear.co.uk
-    - +.the-tls.co.uk
-    - +.thesundaytimes.co.uk
-    - +.thetimes.co.uk
+    - +.bhfm.com.br
+    - +.valoreconomico.com.br
+    - +.valor.com.br
+    - +.oglobo.com.br
+    - +.cartola.com.br
+    - +.techtudo.com.br
+    - +.cbn.com.br
+    - +.sgr.com.br
+    - +.revistavalor.com.br
+    - +.revistaquem.com.br
+    - +.revistapegn.com.br
+    - +.yes123.com.tw
+    - +.9news.com.au
+    - +.freeviewplus.net.au
+    - +.mi9.com.au
+    - +.9nation.com.au
+    - +.nine.com.au
+    - +.nineentertainment.com.au
+    - +.nineentertainmentco.com.au
+    - +.ninemediaroom.com.au
+    - +.ninemsn.com.au
+    - +.static9.net.au
+    - +.yourtv.com.au
+    - +.epoca.com.br
+    - +.globoplay.com.br
+    - +.revistaepoca.com.br
+    - +.oghost.com.br
+    - +.radioglobo.com.br
+    - +.pegn.com.br
+    - +.infoglobo.com.br
+    - +.autoesporte.com.br
+    - +.epocanegocios.com.br
+    - +.settv.com.tw
+    - +.g1.com.br
+    - +.gshow.com.br
+    - +.globo.com.br
+    - +.globorural.com.br
+    - +.globoreporter.com.br
+    - +.globoradio.com.br
+    - +.revistagalileu.com.br
+    - +.umsoplaneta.com.br
+    - +.tvmedia.net.au
+    - +.tvbeventpower.com.hk
+    - +.tvbanywhere.com.sg
+    - +.bigbigchannel.com.hk
+    - +.tvb.com.au
+    - +.tokyo-sports.co.jp
+    - +.zakzak.co.jp
+    - +.iza.ne.jp
+    - +.sankei-books.co.jp
+    - +.sankei-digital.co.jp
+    - +.sankei-eiga.co.jp
+    - +.sankei-kaihatsu.co.jp
+    - +.sankei.co.jp
+    - +.knowswho.co.jp
+    - +.harpercollins.co.in
+    - +.natgeokidsbooks.co.uk
+    - +.harpercollins.co.uk
+    - +.townsvillebulletin.com.au
     - +.collins.co.uk
-    - +.ftv.com.tw
-    - +.ftvnews.com.tw
-    - +.newsxtend.com.au
+    - +.harpercollins.com.au
     - +.harpercollinschildrensbooks.co.uk
+    - +.bestrecipes.com.au
+    - +.bodyandsoul.com.au
+    - +.bridge-studio.co.uk
+    - +.cairnspost.com.au
+    - +.cnivogue.com.au
+    - +.couriermail.com.au
+    - +.dailytelegraph.com.au
+    - +.delicious.com.au
+    - +.escape.com.au
+    - +.geelongadvertiser.com.au
+    - +.goldcoastbulletin.com.au
+    - +.heraldsun.com.au
+    - +.newsxtend.com.au
+    - +.kidspot.com.au
+    - +.nativeincolour.com.au
+    - +.newcastlenewslocal.com.au
+    - +.zdnet.redvideo.io
+    - +.news.co.uk
+    - +.news.com.au
+    - +.cnbeta.com.tw
     - +.ntnews.com.au
-    - +.placemyad.com.au
+    - +.newsadds.com.au
+    - +.newsapi.com.au
+    - +.newscareers.co.uk
+    - +.newscdn.com.au
+    - +.newscommercial.co.uk
+    - +.newsconcierge.com.au
+    - +.newslicensing.co.uk
+    - +.newsprestigenetwork.com.au
+    - +.newsprinters.co.uk
+    - +.intheknow.com.au
+    - +.wirelessgroup.co.uk
+    - +.news.net.au
+    - +.hometrack.com.au
+    - +.huffingtonpost.com.mx
+    - +.huffingtonpost.co.za
+    - +.huffingtonpost.co.uk
+    - +.huffingtonpost.com.au
+    - +.adelaidenow.com.au
     - +.savvyshopper.net.au
+    - +.thetimes.co.uk
+    - +.thesundaytimes.co.uk
+    - +.the-tls.co.uk
+    - +.sportswomenoftheyear.co.uk
+    - +.sportswomanoftheyear.co.uk
+    - +.mytimesplus.co.uk
+    - +.driving.co.uk
     - +.supercoach.com.au
     - +.taste.com.au
+    - +.thesun.co.uk
+    - +.thescottishsun.co.uk
+    - +.sunbingo.co.uk
     - +.theaustralian.com.au
     - +.thechronicle.com.au
-    - +.sponichi.co.jp
     - +.themercury.com.au
     - +.themessengeradelaide.com.au
+    - +.zaobao.com.sg
+    - +.property.com.au
+    - +.squarefoot.com.hk
+    - +.placemyad.com.au
+    - +.smartline.com.au
+    - +.inventorship.com.au
+    - +.iproperty.com.my
+    - +.iproperty.com.sg
+    - +.flatmates.com.au
+    - +.realestate.com.au
+    - +.realcommercial.com.au
+    - +.hackday.com.au
+    - +.spacely.com.au
     - +.weeklytimesnow.com.au
-    - +.whereilive.com.au
-    - +.whimn.com.au
     - +.yomikyo.or.jp
     - +.ync.ne.jp
     - +.ryokoyomiuri.co.jp
@@ -1364,90 +1427,95 @@ payload:
     - +.yomiuri-ryokou.co.jp
     - +.yomiuri-shimbun.pressreader.com
     - +.yomiuri-systec.co.jp
-    - +.yomiuri.co.jp
-    - +.wirelessgroup.co.uk
-    - +.harpercollins.com.au
-    - +.townsvillebulletin.com.au
-    - +.newsprestigenetwork.com.au
-    - +.cabletv.com.hk
-    - +.yourtv.com.au
-    - +.static9.net.au
-    - +.ninemsn.com.au
-    - +.ninemediaroom.com.au
-    - +.nineentertainmentco.com.au
-    - +.nineentertainment.com.au
-    - +.nine.com.au
-    - +.9nation.com.au
-    - +.mi9.com.au
-    - +.freeviewplus.net.au
-    - +.9news.com.au
+    - +.tvbs.com.tw
     - +.9now.com.au
-    - +.tvmedia.net.au
-    - +.tvbeventpower.com.hk
-    - +.tvbanywhere.com.sg
-    - +.asakonet.co.jp
-    - +.bigbigchannel.com.hk
-    - +.tvb.com.au
-    - +.udn.com.tw
-    - +.mailonline.co.uk
-    - +.thisismoney.co.uk
-    - +.dailymail.co.uk
-    - +.metro.co.uk
-    - +.anm.co.uk
-    - +.mailonsunday.co.uk
-    - +.umsoplaneta.com.br
-    - +.revistagalileu.com.br
-    - +.globoradio.com.br
-    - +.globoreporter.com.br
-    - +.globorural.com.br
-    - +.globo.com.br
-    - +.gshow.com.br
-    - +.g1.com.br
-    - +.epocanegocios.com.br
-    - +.autoesporte.com.br
-    - +.infoglobo.com.br
-    - +.pegn.com.br
-    - +.radioglobo.com.br
-    - +.oghost.com.br
-    - +.revistaepoca.com.br
-    - +.globoplay.com.br
-    - +.epoca.com.br
-    - +.revistapegn.com.br
-    - +.revistaquem.com.br
-    - +.revistavalor.com.br
-    - +.sgr.com.br
-    - +.cbn.com.br
-    - +.techtudo.com.br
-    - +.cartola.com.br
-    - +.oglobo.com.br
-    - +.valor.com.br
-    - +.valoreconomico.com.br
-    - +.bhfm.com.br
+    - +.ltn.com.tw
     - +.valorinveste.com.br
-    - +.xuxaverso.com.br
-    - +.dmgmediaprivacy.co.uk
-    - +.ebc.net.tw
-    - +.news.co.uk
-    - +.harpercollins.co.uk
-    - +.harpercollins.co.in
-    - +.ctee.com.tw
+    - +.egmontbooks.co.uk
+    - +.foxsports.com.py
+    - +.epoch.org.il
+    - +.epochtimes.co.kr
+    - +.falundafa.org.tw
+    - +.ntdtv.com.tw
     - +.epochtimes.co.il
-    - +.ctitv.com.tw
+    - +.yuming.qxbbs.org
+    - +.epochtimes.com.ua
+    - +.epochtimes.com.au
+    - +.epochtimes.co.uk
+    - +.epochtimes.com.tw
+    - +.easttouch.com.hk
+    - +.pcmarket.com.hk
+    - +.jobmarket.com.hk
+    - +.eastweek.com.hk
+    - +.thestandard.com.hk
+    - +.epochtimes.com.sg
+    - +.epochtimes.com.br
+    - +.ntdtv.co.il
+    - +.ntdtv.co.kr
+    - +.asakonet.co.jp
+    - +.myradio.com.hk
+    - +.businessinsider.com.au
+    - +.businessinsider.com.pl
     - +.infotimes.com.tw
-    - +.settv.com.tw
-    - +.guangming.com.my
-    - +.sinchew.com.my
-    - +.soccerfanz.com.my
-    - +.chinapress.com.my
-    - +.huffingtonpost.com.au
-    - +.huffingtonpost.co.uk
-    - +.huffingtonpost.co.za
-    - +.huffingtonpost.com.mx
-    - +.investorschronicle.co.uk
-    - +.tokyo-sports.co.jp
-    - +.nikkeibp.co.jp
-    - +.nikkei.co.jp
-    - +.nikkei-cnbc.co.jp
+    - +.ctitv.com.tw
+    - +.ctv.com.tw
+    - +.ctee.com.tw
+    - +.chinatimes.com.tw
+    - +.superstation.com.tw
+    - +.businessinsider.co.za
+    - +.cabletv.com.hk
+    - +.foxsports.co.ve
+    - +.nhk.or.jp
+    - +.foxsports.com.ar
+    - +.foxsports.com.bo
+    - +.foxsports.com.ec
+    - +.foxsports.com.co
+    - +.foxsports.com.br
+    - +.foxsports.com.pe
+    - +.foxsports.net.br
+    - +.foxtel.com.au
+    - +.whereilive.com.au
+    - +.dailymail.com.au
+    - +.dmgmediaprivacy.co.uk
+    - +.mailonsunday.co.uk
+    - +.anm.co.uk
+    - +.metro.co.uk
+    - +.dailymail.co.uk
+    - +.thisismoney.co.uk
+    - +.mailonline.co.uk
+    - +.foxsports.com.uy
+    - +.foxsports.com.ve
+    - +.foxsports.com.mx
+    - +.foxsports.com.gt
+    - +.thomsonreuters.com.ar
+    - +.livrariart.com.br
+    - +.thomsonreuters.com.au
+    - +.thomsonreuters.co.kr
+    - +.thomsonreuters.co.jp
+    - +.thomsonreuters.com.br
+    - +.sweetandmaxwell.co.uk
+    - +.thomsonreuters.com.pe
+    - +.thomsonreuters.com.my
+    - +.thomsonreuters.com.hk
+    - +.thomsonreuters.com.tr
+    - +.thomsonreuters.com.sg
+    - +.thomsonreuters.co.uk
+    - +.thomsonreuters.co.nz
+    - +.umagazine.com.hk
+    - +.ulifestyle.com.hk
+    - +.ettrade.com.hk
+    - +.etpress.com.hk
+    - +.now.com.hk
+    - +.etnet.com.hk
+    - +.etbc.com.hk
+    - +.eprc.com.hk
+    - +.udn.com.tw
+    - +.apexprint.com.hk
+    - +.ftvnews.com.tw
+    - +.ftv.com.tw
+    - +.guimcode.co.uk
+    - +.guim.co.uk
+    - +.guardianapps.co.uk
     - +.appledaily.com.hk
     - +.appledaily.com.tw
     - +.applehealth.com.hk
@@ -1459,96 +1527,36 @@ payload:
     - +.nextdigital.com.tw
     - +.nextfilm.com.hk
     - +.nextwork.com.tw
-    - +.guardianapps.co.uk
-    - +.guim.co.uk
-    - +.guimcode.co.uk
     - +.nextwork.com.hk
     - +.nexttv.com.tw
     - +.nextplus.com.hk
     - +.nextmag.com.tw
     - +.nextmedia.com.tw
-    - +.epoch.org.il
-    - +.epochtimes.co.kr
-    - +.falundafa.org.tw
-    - +.ntdtv.com.tw
-    - +.ltn.com.tw
-    - +.yes123.com.tw
-    - +.zdnet.redvideo.io
-    - +.yuming.qxbbs.org
-    - +.epochtimes.com.ua
-    - +.epochtimes.com.au
-    - +.epochtimes.co.uk
-    - +.epochtimes.com.tw
-    - +.epochtimes.com.sg
-    - +.epochtimes.com.br
-    - +.ntdtv.co.il
-    - +.ntdtv.co.kr
-    - +.umagazine.com.hk
+    - +.am730.com.hk
     - +.bidi.net.uk
     - +.bbc.co.uk
     - +.bbc.mp-pxcdn.com
     - +.bbcmedia.co.uk
     - +.bbci.co.uk
     - +.bbc.net.uk
-    - +.thestandard.com.hk
-    - +.eastweek.com.hk
-    - +.jobmarket.com.hk
-    - +.pcmarket.com.hk
-    - +.easttouch.com.hk
-    - +.thomsonreuters.com.ar
-    - +.livrariart.com.br
-    - +.thomsonreuters.com.au
-    - +.thomsonreuters.co.kr
-    - +.thomsonreuters.co.jp
-    - +.knowswho.co.jp
-    - +.sankei.co.jp
-    - +.sankei-kaihatsu.co.jp
-    - +.sankei-eiga.co.jp
-    - +.sankei-digital.co.jp
-    - +.sankei-books.co.jp
-    - +.iza.ne.jp
-    - +.zakzak.co.jp
-    - +.thomsonreuters.com.br
-    - +.sweetandmaxwell.co.uk
-    - +.thomsonreuters.com.pe
-    - +.thomsonreuters.com.my
-    - +.thomsonreuters.com.hk
-    - +.thomsonreuters.com.tr
-    - +.thomsonreuters.com.sg
-    - +.thomsonreuters.co.uk
-    - +.thomsonreuters.co.nz
-    - +.gazetarussa.com.br
-    - +.businessinsider.com.au
-    - +.cnbeta.com.tw
-    - +.businessinsider.com.pl
-    - +.businessinsider.co.za
-    - +.foxsports.co.ve
-    - +.myradio.com.hk
-    - +.foxsports.com.ar
-    - +.foxsports.com.bo
-    - +.foxsports.com.ec
-    - +.foxsports.com.co
-    - +.foxsports.com.br
-    - +.nhk.or.jp
-    - +.foxsports.com.pe
-    - +.foxsports.net.br
-    - +.foxtel.com.au
-    - +.foxsports.com.py
-    - +.foxsports.com.uy
-    - +.foxsports.com.ve
-    - +.foxsports.com.mx
-    - +.foxsports.com.gt
+    - +.nikkeibp.co.jp
+    - +.nikkei.co.jp
+    - +.nikkei-cnbc.co.jp
+    - +.guangming.com.my
+    - +.sinchew.com.my
+    - +.soccerfanz.com.my
+    - +.chinapress.com.my
+    - +.sponichi.co.jp
     - +.bloomberg.com.br
     - +.bloomberg.co.kr
     - +.bloomberg.co.jp
-    - +.zaobao.com.sg
-    - +.now.com.hk
+    - +.gazetarussa.com.br
     - +.ydn.com.tw
     - +.wealth.com.tw
-    - +.ulifestyle.com.hk
+    - +.bnext.com.tw
     - +.vjmedia.com.hk
     - +.tvmost.com.hk
-    - +.tvbs.com.tw
+    - +.yomiuri.co.jp
     - +.taiwannews.com.tw
     - +.singpao.com.hk
     - +.money-link.com.tw
@@ -1556,7 +1564,7 @@ payload:
     - +.ltsports.com.tw
     - +.itmedia.co.jp
     - +.inside.com.tw
-    - +.dailymail.com.au
+    - +.ebc.net.tw
     - +.cw.com.tw
     - +.cup.com.hk
     - +.coolloud.org.tw
@@ -1564,18 +1572,10 @@ payload:
     - +.cmmedia.com.tw
     - +.businessweekly.com.tw
     - +.businesstoday.com.tw
-    - +.bnext.com.tw
-    - +.am730.com.hk
-    - +.apexprint.com.hk
-    - +.eprc.com.hk
-    - +.etbc.com.hk
-    - +.etnet.com.hk
-    - +.etpress.com.hk
-    - +.ettrade.com.hk
     - +.watch.impress.co.jp
     - +.bbcfmt.s.llnwi.net
-    - +.thetype.cloud
-    - +.tvbc.com.cn
-    - +.cn-cdn1.skymansion.net
     - +.etnet.com.cn
     - +.etnetchina.com.cn
+    - +.tvbc.com.cn
+    - +.thetype.cloud
+    - +.cn-cdn1.skymansion.net
