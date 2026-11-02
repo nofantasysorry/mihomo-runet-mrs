@@ -86,15 +86,6 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.openmaps.org
-    - +.openstreetmap.com
-    - +.openstreetmap.net
-    - +.openstreetmap.org
-    - +.openstreetmaps.org
-    - +.osm.org
-    - +.osmfoundation.org
-    - +.stateofthemap.com
-    - +.stateofthemap.org
     - +.paskoocheh.com
     - +.rolfoundation.org
     - +.rolsociety.org
@@ -128,5 +119,14 @@ payload:
     - +.musicbrainz.org
     - +.nist.gov
     - +.time.gov
+    - +.openmaps.org
+    - +.openstreetmap.com
+    - +.openstreetmap.net
+    - +.openstreetmap.org
+    - +.openstreetmaps.org
+    - +.osm.org
+    - +.osmfoundation.org
+    - +.stateofthemap.com
+    - +.stateofthemap.org
     - +.ppy.sh
     - sentry.ppy.sh

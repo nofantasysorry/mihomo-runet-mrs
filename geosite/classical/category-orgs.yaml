@@ -86,15 +86,6 @@ payload:
     - DOMAIN-SUFFIX,signalprocessingsociety.org
     - DOMAIN-SUFFIX,technologyandsociety.org
     - DOMAIN-SUFFIX,vtsociety.org
-    - DOMAIN-SUFFIX,openmaps.org
-    - DOMAIN-SUFFIX,openstreetmap.com
-    - DOMAIN-SUFFIX,openstreetmap.net
-    - DOMAIN-SUFFIX,openstreetmap.org
-    - DOMAIN-SUFFIX,openstreetmaps.org
-    - DOMAIN-SUFFIX,osm.org
-    - DOMAIN-SUFFIX,osmfoundation.org
-    - DOMAIN-SUFFIX,stateofthemap.com
-    - DOMAIN-SUFFIX,stateofthemap.org
     - DOMAIN-SUFFIX,paskoocheh.com
     - DOMAIN-SUFFIX,rolfoundation.org
     - DOMAIN-SUFFIX,rolsociety.org
@@ -128,5 +119,14 @@ payload:
     - DOMAIN-SUFFIX,musicbrainz.org
     - DOMAIN-SUFFIX,nist.gov
     - DOMAIN-SUFFIX,time.gov
+    - DOMAIN-SUFFIX,openmaps.org
+    - DOMAIN-SUFFIX,openstreetmap.com
+    - DOMAIN-SUFFIX,openstreetmap.net
+    - DOMAIN-SUFFIX,openstreetmap.org
+    - DOMAIN-SUFFIX,openstreetmaps.org
+    - DOMAIN-SUFFIX,osm.org
+    - DOMAIN-SUFFIX,osmfoundation.org
+    - DOMAIN-SUFFIX,stateofthemap.com
+    - DOMAIN-SUFFIX,stateofthemap.org
     - DOMAIN-SUFFIX,ppy.sh
     - DOMAIN,sentry.ppy.sh

@@ -5,22 +5,20 @@ payload:
     - +.targetads.io
     - +.terratraf.com
     - +.terratraf.io
-    - metrika.kontur.ru
-    - sentry.kontur.host
     - ads.x5.ru
     - ads.x5media.ru
     - sentry.x5.ru
-    - api-eu.carrotquest.app
-    - api-eu.carrotquest.io
-    - api-ru.carrotquest.app
-    - api-ru.carrotquest.io
-    - api-secure.carrotquest.app
-    - api-secure.carrottrack.app
-    - api.carrotquest.app
-    - api.carrotquest.io
-    - api.carrottrack.app
-    - api.dashly.app
-    - api.dashlytrack.app
+    - sentry.iptv.rt.ru
+    - +.e.mindbox.ru
+    - +.g.mindbox.ru
+    - +.s.mindbox.ru
+    - api-js.mindbox.ru
+    - api-ru.mindbox.cloud
+    - api-staging.mindbox.ru
+    - api.mindbox.cloud
+    - api.mindbox.ru
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
     - ad.ozone.ru
     - adv.ozon.ru
     - agency-adv.ozon.ru
@@ -108,8 +106,6 @@ payload:
     - top-staging.mail.ru
     - whiteline.mail.ru
     - xray.mail.ru
-    - +.log.dzen.ru
-    - +.ms.dzen.ru
     - +.adv.vk.com
     - +.analytics.vk.com
     - +.ms.vk.com
@@ -125,16 +121,8 @@ payload:
     - analytics.vk.ru
     - stats.vk-portal.net
     - target.vk.com
-    - +.e.mindbox.ru
-    - +.g.mindbox.ru
-    - +.s.mindbox.ru
-    - api-js.mindbox.ru
-    - api-ru.mindbox.cloud
-    - api-staging.mindbox.ru
-    - api.mindbox.cloud
-    - api.mindbox.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
+    - +.log.dzen.ru
+    - +.ms.dzen.ru
     - +.adfox.ru
     - +.adfox.yandex.ru
     - +.admetrica.ru
@@ -176,8 +164,6 @@ payload:
     - mc.yango.com
     - pixel.yandex.com
     - report.ap.yandex-net.ru
-    - +.a.mts.ru
-    - +.obs.mts.ru
     - +.neon.click
     - +.sbermarketing.ru
     - error-tracking.megamarket.tech
@@ -187,7 +173,21 @@ payload:
     - +.ads.sber.ru
     - +.clickstream.sberbank.ru
     - visor.sberbank.ru
-    - sentry.iptv.rt.ru
     - +.ads.sber.ru
     - +.clickstream.sberbank.ru
     - visor.sberbank.ru
+    - metrika.kontur.ru
+    - sentry.kontur.host
+    - api-eu.carrotquest.app
+    - api-eu.carrotquest.io
+    - api-ru.carrotquest.app
+    - api-ru.carrotquest.io
+    - api-secure.carrotquest.app
+    - api-secure.carrottrack.app
+    - api.carrotquest.app
+    - api.carrotquest.io
+    - api.carrottrack.app
+    - api.dashly.app
+    - api.dashlytrack.app
+    - +.a.mts.ru
+    - +.obs.mts.ru

@@ -8,10 +8,6 @@ payload:
     - +.metaaiusercontent.com
     - +.metaaivm.com
     - +.muse.ai
-    - +.fbmessenger.com
-    - +.m.me
-    - +.messenger.com
-    - +.nbabot.net
     - +.binoculus.com
     - +.buyoculus.com
     - +.ocul.us
@@ -550,6 +546,10 @@ payload:
     - +.onlineinstagram.com
     - +.web-instagram.net
     - +.wwwinstagram.com
+    - +.fbmessenger.com
+    - +.m.me
+    - +.messenger.com
+    - +.nbabot.net
     - +.analytics.facebook.com
     - +.facebookads.com
     - +.pixel.facebook.com
