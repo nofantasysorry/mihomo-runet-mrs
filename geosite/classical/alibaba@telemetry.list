@@ -15,6 +15,9 @@ DOMAIN-SUFFIX,h-adashx4yt.ut.taobao.com
 DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,retcode.taobao.com
 DOMAIN-SUFFIX,v6-adashx.ut.taobao.com
+DOMAIN-SUFFIX,adashx.ut.ele.me
+DOMAIN-SUFFIX,h-adashx.ut.ele.me
+DOMAIN-SUFFIX,v6-adashx.ut.ele.me
 DOMAIN-SUFFIX,shuqistat.com
 DOMAIN-SUFFIX,adashx.ut.youku.com
 DOMAIN-SUFFIX,e.stat.ykimg.com
@@ -32,9 +35,7 @@ DOMAIN-SUFFIX,adashx.ut.amap.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,logs.amap.com
 DOMAIN-SUFFIX,v6-adashx.ut.amap.com
-DOMAIN-SUFFIX,adashx.ut.ele.me
-DOMAIN-SUFFIX,h-adashx.ut.ele.me
-DOMAIN-SUFFIX,v6-adashx.ut.ele.me
+DOMAIN-SUFFIX,v6-adashx.ut.cainiao.com
 DOMAIN-SUFFIX,alog.umeng.com
 DOMAIN-SUFFIX,alog.umengcloud.com
 DOMAIN-SUFFIX,alogs.umeng.com
@@ -44,4 +45,3 @@ DOMAIN-SUFFIX,cnlogs.umengcloud.com
 DOMAIN-SUFFIX,plbslog.umeng.com
 DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,ulogs.umengcloud.com
-DOMAIN-SUFFIX,v6-adashx.ut.cainiao.com

@@ -1,14 +1,14 @@
 payload:
     - bybit-exchange.github.io
     - bybit.ada.support
+    - deribit.cdn.prismic.io
     - d3r7nsslvs6aaf.cloudfront.net
     - straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
-    - deribit.cdn.prismic.io
     - onekey.zendesk.com
     - zftksc.cdn-settings.appsflyersdk.com
     - zftksc.launches.appsflyersdk.com
+    - +.bymj.io
     - +.byd3c3.com
-    - +.bybit-global.com
     - +.base.org
     - +.1inch.io
     - +.bitbank.cc
@@ -102,43 +102,52 @@ payload:
     - +.web3modal.org
     - +.wintermute.com
     - +.zapper.fi
-    - +.bestchange.com
-    - +.bestchange.net
-    - +.bestchange.ru
-    - +.coinonecore.com
-    - +.coinonecorp.com
-    - +.kraken.com
-    - +.kraken.onl
-    - +.kucoin.com
-    - +.kucoin.plus
     - +.asproex.com
     - +.asproexapi.com
+    - +.okex.com
+    - +.okx-dns.com
+    - +.okx-dns1.com
+    - +.okx-dns2.com
+    - +.okx.ac
+    - +.okx.cab
+    - +.okx.com
+    - +.xlayer.tech
+    - +.trustwallet.com
+    - +.wisecoin.com
+    - +.wiseid.com
+    - +.wisekey.com
     - +.bybit.com
     - +.bycsi.com
     - +.bytick.com
     - +.byapis.com
     - +.bycbe.com
-    - +.bymj.io
-    - +.byabcde.com
-    - +.byapps.net
     - +.bingx.com
     - +.aave.com
-    - +.okx.com
+    - +.saasexch.co
+    - +.byabcde.com
     - +.bybit.biz
+    - +.bybdc6.com
+    - +.bybit-global.com
     - +.bybit.cloud
     - +.bybitglobal.com
-    - +.devcon.org
-    - +.ethereum.foundation
-    - +.ethereum.org
-    - +.etherscan.io
-    - +.nexo.com
-    - +.nexo.io
-    - +.straitsx.com
-    - +.wisecoin.com
-    - +.wiseid.com
-    - +.wisekey.com
-    - +.bitflyer.com
-    - +.bitflyer.jp
+    - +.gate.com
+    - +.gate.io
+    - +.gate.tv
+    - +.gateapi.io
+    - +.gatedata.org
+    - +.gateimg.com
+    - +.gateio.live
+    - +.gateio.services
+    - +.bisq.io
+    - +.bisq.network
+    - +.bitsquare.io
+    - +.localbitcoins.com
+    - +.localbitcoinschain.com
+    - +.isafepal.com
+    - +.safepal.com
+    - +.zb.app
+    - +.zb.com
+    - +.zb.io
     - +.zb.live
     - +.htx.com
     - +.hbabit.com
@@ -150,18 +159,34 @@ payload:
     - +.huobiasia.vip
     - +.huobigroup.com
     - +.huobitoken.com
-    - +.trustwallet.com
+    - +.redotpay.com
+    - +.wynd.network
+    - +.wyndlabs.ai
+    - +.nexo.io
+    - +.nexo.com
+    - +.etherscan.io
+    - +.ethereum.org
+    - +.ethereum.foundation
+    - +.bestchange.com
+    - +.bestchange.net
+    - +.bestchange.ru
     - +.deribit.com
+    - +.lighter.exchange
+    - +.lighter.xyz
+    - +.devcon.org
+    - +.straitsx.com
+    - +.bitflyer.com
+    - +.bitflyer.jp
+    - +.kraken.com
+    - +.kraken.onl
     - +.onekey-asset.com
     - +.onekey.so
     - +.onekeycn.com
-    - +.wyndlabs.ai
-    - +.wynd.network
-    - +.lighter.exchange
-    - +.lighter.xyz
-    - +.zb.io
-    - +.zb.com
-    - +.zb.app
+    - +.coinonecore.com
+    - +.coinonecorp.com
+    - +.saasexch.io
+    - +.kucoin.com
+    - +.kucoin.plus
     - +.binance.cc
     - +.binance.charity
     - +.binance.cloud
@@ -201,41 +226,16 @@ payload:
     - +.bscdnweb.com
     - +.nftstatic.com
     - +.saasexch.cc
-    - +.saasexch.co
+    - +.byapps.net
     - +.saasexch.com
     - +.saasexch.info
-    - +.saasexch.io
-    - +.gate.com
-    - +.gate.io
-    - +.gate.tv
-    - +.gateapi.io
-    - +.gatedata.org
-    - +.gateimg.com
-    - +.gateio.live
-    - +.gateio.services
-    - +.localbitcoins.com
-    - +.localbitcoinschain.com
-    - +.redotpay.com
-    - +.safepal.com
-    - +.isafepal.com
-    - +.bitsquare.io
-    - +.bisq.network
-    - +.okex.com
-    - +.okx-dns.com
-    - +.okx-dns1.com
-    - +.okx-dns2.com
-    - +.okx.ac
-    - +.okx.cab
-    - +.bybdc6.com
-    - +.xlayer.tech
-    - +.bisq.io
+    - +.coinone.co.kr
+    - +.zklighter.elliot.ai
     - +.xhpjc6-cdn-settings.appsflyersdk.com
     - +.pod-15-sunco-ws.zendesk.com
     - +.redotpay.zendesk.com
-    - +.zklighter.elliot.ai
     - +.wisekey.com.hk
-    - +.coinone.co.kr
     - +.btcbox.co.jp
-    - +.okx.com.cdn.cloudflare.net
     - +.rp-static-apne1.s3.ap-northeast-1.amazonaws.com
+    - +.okx.com.cdn.cloudflare.net
     - +.oklink.com

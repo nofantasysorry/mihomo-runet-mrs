@@ -1,3 +1,8 @@
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
++.paypalbeacon.com
++.cloudflareinsights.com
++.akstat.io
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 +.cafe.github.com
@@ -6,12 +11,8 @@ copilot-telemetry-service.githubusercontent.com
 copilot-telemetry.githubusercontent.com
 dc.services.visualstudio.com
 rt.services.visualstudio.com
-copilot-telemetry-service.githubusercontent.com
-copilot-telemetry.githubusercontent.com
-+.paypalbeacon.com
-incoming.telemetry.mozilla.org
-incoming-telemetry.thunderbird.net
-+.adobestats.io
+sentry.ppy.sh
+sentry.ppy.sh
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 +.applicationinsights.io
@@ -28,7 +29,6 @@ copilot-telemetry-service.githubusercontent.com
 copilot-telemetry.githubusercontent.com
 dc.services.visualstudio.com
 rt.services.visualstudio.com
-sentry.ppy.sh
-+.akstat.io
-+.cloudflareinsights.com
-sentry.ppy.sh
+incoming.telemetry.mozilla.org
+incoming-telemetry.thunderbird.net
++.adobestats.io

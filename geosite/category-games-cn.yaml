@@ -1,7 +1,7 @@
 payload:
     - end-api.shallow.ink
     - end.shallow.ink
-    - +.anticheatexpert.com
+    - +.yximg.cn
     - +.gameabc.com
     - +.37wanimg.com
     - +.7k7k.com
@@ -17,7 +17,7 @@ payload:
     - +.feihuo.com
     - +.forevernine.com
     - +.fxt365.com
-    - +.wegame.com
+    - +.nagcloudcs.com
     - +.gamemei.com
     - +.happyelements.com
     - +.leyuansu.com
@@ -49,7 +49,23 @@ payload:
     - +.ycgame.com
     - +.yjwujian.cn
     - +.yysls.cn
-    - +.sl916.com
+    - +.vrzwk.cn
+    - +.vrzwk.com
+    - +.vrzwk.net
+    - +.vrzwk.top
+    - +.dobest.com
+    - +.langrenclub.com
+    - +.sanguosha.com
+    - +.xhlsgs.com
+    - +.xinwuji.com
+    - +.yokaverse.com
+    - +.zhuoyou.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
     - +.17173.com
     - +.17173cdn.com
     - +.changyou.com
@@ -57,14 +73,35 @@ payload:
     - +.playcool.com
     - +.yeyou.com
     - +.yeyoucdn.com
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
+    - +.mhystatic.com
+    - +.mhyurl.cn
+    - +.mihayo.com
+    - +.mihayou.com
+    - +.mihoyo.com
+    - +.mihoyocg.com
+    - +.37.com
+    - +.mihoyomall.com
+    - +.miyoushe.com
+    - +.benghuai.com
+    - +.bh3.com
+    - +.bhsr.com
+    - +.themisweeps.com
+    - +.yuanshen.com
+    - +.juequling.com
+    - +.seasungames.cn
+    - +.seasungames.com
+    - +.seasunwbl.com
+    - +.xishanju.com
+    - +.xoyo.com
+    - +.xoyocdn.com
+    - +.cbjq.com
+    - +.testplus.cn
+    - +.sl916.com
+    - +.hero.com
+    - +.herogame.com
+    - +.heroesports.com
+    - +.shyxhy.com
+    - +.yingxiong.com
     - +.cowlevel.net
     - +.cdncl.net
     - +.wcbygame.com
@@ -77,9 +114,9 @@ payload:
     - +.gcloudsdk.com
     - +.gcloudsvcs.com
     - +.goto-game.com
-    - +.goto-game.mobi
+    - +.midasbuy.com
     - +.goto-game.org
-    - +.37.com
+    - +.happyhlddz.com
     - +.hdyxgame.com
     - +.hkgcloudcs.com
     - +.ihappystudio.cn
@@ -92,9 +129,9 @@ payload:
     - +.mahjongcup.com
     - +.mahjongcup.net
     - +.metalrevolution.com
-    - +.midasbuy.com
-    - +.nagcloudcs.com
-    - +.yximg.cn
+    - +.goto-game.mobi
+    - +.37wan.net
+    - +.mihoyogift.com
     - +.yxdmgame.com
     - +.pubgno1.cn
     - +.battlecare.net
@@ -114,7 +151,7 @@ payload:
     - +.proximabeta.com
     - +.yxwsgame.com
     - +.yzyxgame.com
-    - +.realcybertron.com
+    - +.zcjbgame.com
     - +.zhuoyuegame.com
     - +.xn--owtw8cc49ajfl.cn
     - +.roblox.cn
@@ -129,9 +166,9 @@ payload:
     - +.gotolink.net
     - +.17roco.com
     - +.gtgres.com
-    - +.zcjbgame.com
-    - +.37wan.net
-    - +.happyhlddz.com
+    - +.realcybertron.com
+    - +.wegame.com
+    - +.anticheatexpert.com
     - +.tcfmglobal.com
     - +.bcfmglobal.com
     - +.wegameplus.com
@@ -146,31 +183,14 @@ payload:
     - +.scsentry.cn
     - +.supercellcommunity.cn
     - +.supercellsupport.cn
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.juequling.com
-    - +.yuanshen.com
-    - +.themisweeps.com
-    - +.bhsr.com
-    - +.bh3.com
-    - +.benghuai.com
-    - +.vrzwk.net
-    - +.vrzwk.top
-    - +.seasungames.cn
-    - +.seasungames.com
-    - +.seasunwbl.com
-    - +.xishanju.com
-    - +.xoyo.com
-    - +.xoyocdn.com
-    - +.cbjq.com
-    - +.testplus.cn
-    - +.dobest.com
-    - +.langrenclub.com
-    - +.sanguosha.com
-    - +.xhlsgs.com
-    - +.xinwuji.com
-    - +.yokaverse.com
-    - +.zhuoyou.com
+    - +.tiancity.com
+    - +.tiancitycdn.com
+    - +.lingxigames.com
+    - +.jiaoyimao.com
+    - +.jiaoyimao.cn
+    - +.aligames.com
+    - +.9game.cn
+    - +.yxhimg.com
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -233,26 +253,6 @@ payload:
     - +.youba.com
     - +.yxhapi.com
     - +.yxhhdl.com
-    - +.yxhimg.com
-    - +.9game.cn
-    - +.aligames.com
-    - +.jiaoyimao.cn
-    - +.jiaoyimao.com
-    - +.lingxigames.com
-    - +.hero.com
-    - +.herogame.com
-    - +.heroesports.com
-    - +.shyxhy.com
-    - +.yingxiong.com
-    - +.mhystatic.com
-    - +.mhyurl.cn
-    - +.mihayo.com
-    - +.mihayou.com
-    - +.mihoyo.com
-    - +.mihoyocg.com
-    - +.mihoyogift.com
-    - +.mihoyomall.com
-    - +.miyoushe.com
     - +.roblox.qq.com
     - +.gouhuo.qq.com
     - +.wegame.com.cn
