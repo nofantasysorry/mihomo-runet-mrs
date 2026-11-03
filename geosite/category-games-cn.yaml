@@ -1,8 +1,8 @@
 payload:
     - end-api.shallow.ink
     - end.shallow.ink
-    - +.yximg.cn
-    - +.gameabc.com
+    - +.37.com
+    - +.37wan.net
     - +.37wanimg.com
     - +.7k7k.com
     - +.9xgame.com
@@ -17,7 +17,7 @@ payload:
     - +.feihuo.com
     - +.forevernine.com
     - +.fxt365.com
-    - +.nagcloudcs.com
+    - +.gameabc.com
     - +.gamemei.com
     - +.happyelements.com
     - +.leyuansu.com
@@ -49,10 +49,9 @@ payload:
     - +.ycgame.com
     - +.yjwujian.cn
     - +.yysls.cn
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
-    - +.vrzwk.top
+    - +.sl916.com
+    - +.tiancity.com
+    - +.tiancitycdn.com
     - +.dobest.com
     - +.langrenclub.com
     - +.sanguosha.com
@@ -60,12 +59,11 @@ payload:
     - +.xinwuji.com
     - +.yokaverse.com
     - +.zhuoyou.com
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
+    - +.9game.cn
+    - +.aligames.com
+    - +.jiaoyimao.cn
+    - +.jiaoyimao.com
+    - +.lingxigames.com
     - +.17173.com
     - +.17173cdn.com
     - +.changyou.com
@@ -79,7 +77,7 @@ payload:
     - +.mihayou.com
     - +.mihoyo.com
     - +.mihoyocg.com
-    - +.37.com
+    - +.mihoyogift.com
     - +.mihoyomall.com
     - +.miyoushe.com
     - +.benghuai.com
@@ -96,101 +94,6 @@ payload:
     - +.xoyocdn.com
     - +.cbjq.com
     - +.testplus.cn
-    - +.sl916.com
-    - +.hero.com
-    - +.herogame.com
-    - +.heroesports.com
-    - +.shyxhy.com
-    - +.yingxiong.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.wcbygame.com
-    - +.pubghelper.com
-    - +.gameloop.com
-    - +.gcloudcs.com
-    - +.gcloudcstest.com
-    - +.gcloudcstestonly.com
-    - +.gclouddolphin.com
-    - +.gcloudsdk.com
-    - +.gcloudsvcs.com
-    - +.goto-game.com
-    - +.midasbuy.com
-    - +.goto-game.org
-    - +.happyhlddz.com
-    - +.hdyxgame.com
-    - +.hkgcloudcs.com
-    - +.ihappystudio.cn
-    - +.ihappystudio.com
-    - +.in.th
-    - +.ludosuperstar.cn
-    - +.ludoworld.net
-    - +.mahjongai.net
-    - +.mahjongcup.cn
-    - +.mahjongcup.com
-    - +.mahjongcup.net
-    - +.metalrevolution.com
-    - +.goto-game.mobi
-    - +.37wan.net
-    - +.mihoyogift.com
-    - +.yxdmgame.com
-    - +.pubgno1.cn
-    - +.battlecare.net
-    - +.qqgameapp.com
-    - +.rmwxgame.com
-    - +.skydweller.cn
-    - +.syxlgame.com
-    - +.tencent-gcloud.com
-    - +.tencentstart.com
-    - +.texasholdemcup.cn
-    - +.texasholdemcup.com
-    - +.texasholdemcup.net
-    - +.timibase.com
-    - +.videoxiaoyouxi.com
-    - +.pubgtool.com
-    - +.gameitop.com
-    - +.proximabeta.com
-    - +.yxwsgame.com
-    - +.yzyxgame.com
-    - +.zcjbgame.com
-    - +.zhuoyuegame.com
-    - +.xn--owtw8cc49ajfl.cn
-    - +.roblox.cn
-    - +.robloxdev.cn
-    - +.nextstudios.com
-    - +.nextworkshop.net
-    - +.mszdld.cn
-    - +.mszdld.com
-    - +.mszdld.net
-    - +.gamebonfire.com
-    - +.ffbuddy.com
-    - +.gotolink.net
-    - +.17roco.com
-    - +.gtgres.com
-    - +.realcybertron.com
-    - +.wegame.com
-    - +.anticheatexpert.com
-    - +.tcfmglobal.com
-    - +.bcfmglobal.com
-    - +.wegameplus.com
-    - +.codm.com
-    - +.brawlstars.cn
-    - +.haydaypop.cn
-    - +.labycore.cn
-    - +.sccreator.cn
-    - +.sccreators.cn
-    - +.scescdn.cn
-    - +.scid.cn
-    - +.scsentry.cn
-    - +.supercellcommunity.cn
-    - +.supercellsupport.cn
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.lingxigames.com
-    - +.jiaoyimao.com
-    - +.jiaoyimao.cn
-    - +.aligames.com
-    - +.9game.cn
-    - +.yxhimg.com
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -253,12 +156,109 @@ payload:
     - +.youba.com
     - +.yxhapi.com
     - +.yxhhdl.com
-    - +.roblox.qq.com
-    - +.gouhuo.qq.com
-    - +.wegame.com.cn
-    - +.werepository.com.cn
-    - +.nikkigames.com.cn
+    - +.yxhimg.com
+    - +.hero.com
+    - +.herogame.com
+    - +.heroesports.com
+    - +.shyxhy.com
+    - +.yingxiong.com
+    - +.vrzwk.cn
+    - +.vrzwk.com
+    - +.vrzwk.net
+    - +.vrzwk.top
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.cowlevel.net
+    - +.cdncl.net
+    - +.wcbygame.com
+    - +.pubghelper.com
+    - +.gameloop.com
+    - +.gcloudcs.com
+    - +.gcloudcstest.com
+    - +.gcloudcstestonly.com
+    - +.gclouddolphin.com
+    - +.gcloudsdk.com
+    - +.gcloudsvcs.com
+    - +.goto-game.com
+    - +.goto-game.mobi
+    - +.goto-game.org
+    - +.happyhlddz.com
+    - +.hdyxgame.com
+    - +.hkgcloudcs.com
+    - +.ihappystudio.cn
+    - +.ihappystudio.com
+    - +.in.th
+    - +.ludosuperstar.cn
+    - +.ludoworld.net
+    - +.mahjongai.net
+    - +.mahjongcup.cn
+    - +.mahjongcup.com
+    - +.mahjongcup.net
+    - +.metalrevolution.com
+    - +.midasbuy.com
+    - +.nagcloudcs.com
+    - +.yximg.cn
+    - +.yxdmgame.com
+    - +.pubgno1.cn
+    - +.battlecare.net
+    - +.qqgameapp.com
+    - +.rmwxgame.com
+    - +.skydweller.cn
+    - +.syxlgame.com
+    - +.tencent-gcloud.com
+    - +.tencentstart.com
+    - +.texasholdemcup.cn
+    - +.texasholdemcup.com
+    - +.texasholdemcup.net
+    - +.timibase.com
+    - +.videoxiaoyouxi.com
+    - +.pubgtool.com
+    - +.gameitop.com
+    - +.proximabeta.com
+    - +.yxwsgame.com
+    - +.yzyxgame.com
+    - +.zcjbgame.com
+    - +.zhuoyuegame.com
+    - +.xn--owtw8cc49ajfl.cn
+    - +.roblox.cn
+    - +.robloxdev.cn
+    - +.nextstudios.com
+    - +.nextworkshop.net
+    - +.mszdld.cn
+    - +.mszdld.com
+    - +.mszdld.net
+    - +.gamebonfire.com
+    - +.ffbuddy.com
+    - +.gotolink.net
+    - +.17roco.com
+    - +.gtgres.com
+    - +.realcybertron.com
+    - +.wegame.com
+    - +.anticheatexpert.com
+    - +.tcfmglobal.com
+    - +.bcfmglobal.com
+    - +.wegameplus.com
+    - +.codm.com
+    - +.brawlstars.cn
+    - +.haydaypop.cn
+    - +.labycore.cn
+    - +.sccreator.cn
+    - +.sccreators.cn
+    - +.scescdn.cn
+    - +.scid.cn
+    - +.scsentry.cn
+    - +.supercellcommunity.cn
+    - +.supercellsupport.cn
     - +.37.com.cn
+    - +.nikkigames.com.cn
+    - +.werepository.com.cn
+    - +.wegame.com.cn
+    - +.gouhuo.qq.com
+    - +.roblox.qq.com
     - +.goto-game.net.cn
     - +.roco.qq.com
     - +.log-upload.mihoyo.com

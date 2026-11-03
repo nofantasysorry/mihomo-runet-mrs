@@ -1,6 +1,8 @@
 payload:
-    - +.sslcom.cn
     - www.entrust.cn
+    - +.sslcom.cn
+    - +.dcocsp.cn
+    - +.digicert.cn
     - +.alphassl.com
     - +.easy-signing.com
     - +.globalsign.cn
@@ -16,8 +18,6 @@ payload:
     - ocsp2.apple.com
     - valid.apple.com
     - valid.origin-apple.com.akadns.net
-    - +.dcocsp.cn
-    - +.digicert.cn
     - +.oemssl.cn
     - +.oemssl.cn.cdn.cloudflare.net
     - +.sectigochina.com
