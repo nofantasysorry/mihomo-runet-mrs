@@ -25,15 +25,22 @@ payload:
     - +.wto.org
     - +.nist.gov
     - +.time.gov
+    - +.openmaps.org
+    - +.openstreetmap.com
+    - +.openstreetmap.net
+    - +.openstreetmap.org
+    - +.openstreetmaps.org
+    - +.osm.org
+    - +.osmfoundation.org
+    - +.stateofthemap.com
+    - +.stateofthemap.org
+    - +.paskoocheh.com
     - +.ppy.sh
-    - +.ccstatic.org
-    - +.creativecommons.org
-    - +.creativecommons.engineering
-    - +.licensebuttons.net
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
+    - +.csis.org
+    - +.f-dro1d.org
+    - +.f-droid.com
+    - +.f-droid.org
+    - +.fdroid.org
     - +.attestation.app
     - +.grapheneos.app
     - +.grapheneos.ca
@@ -50,31 +57,6 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
-    - +.acousticbrainz.org
-    - +.bookbrainz.org
-    - +.coverartarchive.org
-    - +.critiquebrainz.org
-    - +.listenbrainz.org
-    - +.messybrainz.org
-    - +.metabrainz.org
-    - +.musicbrainz.org
-    - +.openmaps.org
-    - +.openstreetmap.com
-    - +.openstreetmap.net
-    - +.openstreetmap.org
-    - +.openstreetmaps.org
-    - +.osm.org
-    - +.osmfoundation.org
-    - +.stateofthemap.com
-    - +.stateofthemap.org
-    - +.paskoocheh.com
-    - +.rolfoundation.org
-    - +.rolsociety.org
-    - +.csis.org
-    - +.f-dro1d.org
-    - +.f-droid.com
-    - +.f-droid.org
-    - +.fdroid.org
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -129,4 +111,22 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
+    - +.rolfoundation.org
+    - +.rolsociety.org
+    - +.ccstatic.org
+    - +.creativecommons.org
+    - +.creativecommons.engineering
+    - +.licensebuttons.net
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
+    - +.acousticbrainz.org
+    - +.bookbrainz.org
+    - +.coverartarchive.org
+    - +.critiquebrainz.org
+    - +.listenbrainz.org
+    - +.messybrainz.org
+    - +.metabrainz.org
+    - +.musicbrainz.org
     - sentry.ppy.sh

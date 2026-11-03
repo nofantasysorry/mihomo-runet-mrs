@@ -1,4 +1,22 @@
 payload:
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
+    - +.apptracer.ru
+    - +.metrics.viqeo.tv
+    - sentry-ng.g.smailru.net
+    - srch-telemeter10.g.smailru.net
+    - sentry.dev-my.com
+    - sentry.dev-my.games
+    - sentry.rustore.ru
+    - sentry.viqeo.tv
+    - stats.dahlmessenger.com
+    - stats.dev.telega.info
+    - stats.rustore.ru
+    - stats.telega.info
+    - +.log.dzen.ru
+    - stats.vk-portal.net
+    - +.adobestats.io
+    - sentry.hetzner.company
     - +.applicationinsights.io
     - +.applicationinsights.net
     - +.aria.ms
@@ -16,31 +34,16 @@ payload:
     - rt.services.visualstudio.com
     - +.browser.events.data.msn.cn
     - +.browser.events.data.msn.com
-    - sentry.iptv.rt.ru
-    - sentry.hetzner.company
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
     - crashlyticsreports-pa.googleapis.com
     - firebase-settings.crashlytics.com
     - firebaselogging-pa.googleapis.com
     - firebaselogging.googleapis.com
     - update.crashlytics.com
-    - +.apptracer.ru
-    - +.metrics.viqeo.tv
-    - sentry-ng.g.smailru.net
-    - srch-telemeter10.g.smailru.net
-    - sentry.dev-my.com
-    - sentry.dev-my.games
-    - sentry.rustore.ru
-    - sentry.viqeo.tv
-    - stats.dahlmessenger.com
-    - stats.dev.telega.info
-    - stats.rustore.ru
-    - stats.telega.info
-    - +.log.dzen.ru
-    - stats.vk-portal.net
     - +.analytics.vpc.duolingo.com
     - +.metrics.duolingo.com
+    - sentry.iptv.rt.ru
+    - incoming.telemetry.mozilla.org
+    - incoming-telemetry.thunderbird.net
     - +.appmetrica.yandex.com
     - +.appmetrica.yandex.net
     - +.appmetrica.yandex.ru
@@ -59,6 +62,3 @@ payload:
     - mc.yandex.com
     - mc.yandex.net
     - mc.yango.com
-    - +.adobestats.io
-    - incoming.telemetry.mozilla.org
-    - incoming-telemetry.thunderbird.net

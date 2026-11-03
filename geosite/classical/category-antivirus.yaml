@@ -1,8 +1,8 @@
 payload:
     - DOMAIN,eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com
     - DOMAIN,epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
-    - DOMAIN-SUFFIX,kaspersky.rs
-    - DOMAIN-SUFFIX,drweb.kz
+    - DOMAIN-SUFFIX,avast.com
+    - DOMAIN-SUFFIX,avg.com
     - DOMAIN-SUFFIX,avira.com
     - DOMAIN-SUFFIX,bitdefender.com
     - DOMAIN-SUFFIX,clamwin.com
@@ -10,11 +10,13 @@ payload:
     - DOMAIN-SUFFIX,mcafee.com
     - DOMAIN-SUFFIX,norton.com
     - DOMAIN-SUFFIX,pandasecurity.com
+    - DOMAIN-SUFFIX,comodo.com
+    - DOMAIN-SUFFIX,comodo.net
     - DOMAIN-SUFFIX,drweb.by
     - DOMAIN-SUFFIX,drweb.cn
     - DOMAIN-SUFFIX,drweb.com
     - DOMAIN-SUFFIX,drweb.fr
-    - DOMAIN-SUFFIX,kaspersky.ro
+    - DOMAIN-SUFFIX,drweb.kz
     - DOMAIN-SUFFIX,drweb.ru
     - DOMAIN-SUFFIX,drweb.uz
     - DOMAIN-SUFFIX,drweb-av.de
@@ -31,14 +33,14 @@ payload:
     - DOMAIN-SUFFIX,kaspersky.be
     - DOMAIN-SUFFIX,kaspersky.my
     - DOMAIN-SUFFIX,kaspersky.ca
-    - DOMAIN-SUFFIX,kaspersky.ma
-    - DOMAIN-SUFFIX,kaspersky.ru
-    - DOMAIN-SUFFIX,kaspersky.com
-    - DOMAIN-SUFFIX,avg.com
     - DOMAIN-SUFFIX,kaspersky.se
+    - DOMAIN-SUFFIX,kaspersky.ru
+    - DOMAIN-SUFFIX,kaspersky.rs
+    - DOMAIN-SUFFIX,kaspersky.ro
+    - DOMAIN-SUFFIX,kaspersky.ma
     - DOMAIN-SUFFIX,kaspersky.pt
     - DOMAIN-SUFFIX,kaspersky.es
-    - DOMAIN-SUFFIX,avast.com
+    - DOMAIN-SUFFIX,kaspersky.com
     - DOMAIN-SUFFIX,kaspersky-labs.com
     - DOMAIN-SUFFIX,kaspersky.kz
     - DOMAIN-SUFFIX,kaspersky.it
@@ -51,19 +53,17 @@ payload:
     - DOMAIN-SUFFIX,kaspersky.fi
     - DOMAIN-SUFFIX,symantec.com
     - DOMAIN-SUFFIX,symantecliveupdate.com
-    - DOMAIN-SUFFIX,comodo.com
-    - DOMAIN-SUFFIX,comodo.net
-    - DOMAIN-SUFFIX,kaspersky.com.br
-    - DOMAIN-SUFFIX,kaspersky.com.hk
+    - DOMAIN-SUFFIX,drweb.co.jp
+    - DOMAIN-SUFFIX,kaspersky.co.uk
     - DOMAIN-SUFFIX,kaspersky.com.vn
     - DOMAIN-SUFFIX,kaspersky.com.tw
     - DOMAIN-SUFFIX,kaspersky.com.tr
-    - DOMAIN-SUFFIX,drweb.co.jp
-    - DOMAIN-SUFFIX,kaspersky.co.uk
     - DOMAIN-SUFFIX,kaspersky.com.pl
-    - DOMAIN-SUFFIX,kaspersky.co.th
-    - DOMAIN-SUFFIX,kaspersky.co.za
+    - DOMAIN-SUFFIX,kaspersky.com.hk
+    - DOMAIN-SUFFIX,kaspersky.com.br
     - DOMAIN-SUFFIX,kaspersky.com.au
+    - DOMAIN-SUFFIX,kaspersky.co.za
+    - DOMAIN-SUFFIX,kaspersky.co.th
     - DOMAIN-SUFFIX,kaspersky.co.kr
     - DOMAIN-SUFFIX,kaspersky.co.jp
     - DOMAIN-SUFFIX,kaspersky.co.in
