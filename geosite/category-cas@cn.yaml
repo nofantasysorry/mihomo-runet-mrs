@@ -1,5 +1,6 @@
 payload:
-    - www.entrust.cn
+    - +.dcocsp.cn
+    - +.digicert.cn
     - +.oemssl.cn
     - +.oemssl.cn.cdn.cloudflare.net
     - +.sectigochina.com
@@ -21,6 +22,7 @@ payload:
     - crls.pki.goog
     - ocsp.pki.goog
     - +.sslcom.cn
+    - www.entrust.cn
     - +.alphassl.com
     - +.easy-signing.com
     - +.globalsign.cn
@@ -28,5 +30,3 @@ payload:
     - +.globalsigncdn.com
     - cdn.globalsigncdn.com.cdn.cloudflare.net
     - crl.globalsign.net
-    - +.dcocsp.cn
-    - +.digicert.cn
