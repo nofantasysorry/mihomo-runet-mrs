@@ -1451,6 +1451,7 @@ Generated automatically from the latest conversion output.
 - `primevideo@cn.mrs`
 - `private.mrs`
 - `progress.mrs`
+- `projectmoon.mrs`
 - `projectpoi.mrs`
 - `projectsekai.mrs`
 - `proquest.mrs`

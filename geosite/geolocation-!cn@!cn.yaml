@@ -1,4 +1,22 @@
 payload:
+    - +.alibabacloud.co.in
+    - +.alibabacloud.com
+    - +.alibabacloud.com.au
+    - +.alibabacloud.com.hk
+    - +.alibabacloud.com.my
+    - +.alibabacloud.com.sg
+    - +.alibabacloud.com.tw
+    - +.alicloud.com
+    - alt1-mtalk.google.com
+    - alt2-mtalk.google.com
+    - alt3-mtalk.google.com
+    - alt4-mtalk.google.com
+    - alt5-mtalk.google.com
+    - alt6-mtalk.google.com
+    - mtalk.google.com
+    - +.esp32.com
+    - +.esp8266.com
+    - +.espressif.com
     - +.webnovel.com
     - +.bytedapm.com
     - +.muscdn.com
@@ -39,24 +57,6 @@ payload:
     - roovza.inapps.appsflyersdk.com
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
-    - +.esp32.com
-    - +.esp8266.com
-    - +.espressif.com
-    - alt1-mtalk.google.com
-    - alt2-mtalk.google.com
-    - alt3-mtalk.google.com
-    - alt4-mtalk.google.com
-    - alt5-mtalk.google.com
-    - alt6-mtalk.google.com
-    - mtalk.google.com
-    - +.alibabacloud.co.in
-    - +.alibabacloud.com
-    - +.alibabacloud.com.au
-    - +.alibabacloud.com.hk
-    - +.alibabacloud.com.my
-    - +.alibabacloud.com.sg
-    - +.alibabacloud.com.tw
-    - +.alicloud.com
     - +.coze.com
     - +.marscode.com
     - +.trae.ai
