@@ -1,26 +1,23 @@
 payload:
     - kp-config-smart-tv.akamaized.net
     - kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
-    - +.promodj.com
-    - +.beeline.tv
-    - +.kinescopecdn.net
     - +.cdnvideo.ru
+    - +.cdnvideohub.com
+    - +.kinescopecdn.net
+    - +.trbcdn.net
     - +.kinorium.com
     - +.24h.tv
     - +.amediateka.ru
-    - +.kinopoisk.ru
+    - +.beeline.tv
     - +.ivi.ru
     - +.ivi.tv
     - +.ivicdn.tv
     - +.premier.one
     - +.smotreshka.tv
-    - +.rutube.sport
+    - +.start.ru
     - +.tvigle.ru
     - +.viju.ru
-    - +.trbcdn.net
-    - +.cdnvideohub.com
-    - +.start.ru
-    - +.rtbcdn.ru
+    - +.promodj.com
     - +.okkoapi.tv
     - +.playfamily.ru
     - +.okko.sport
@@ -32,5 +29,8 @@ payload:
     - +.wink.ru
     - +.rutube.ru
     - +.rutubelist.ru
-    - +.kp.yandex.net
+    - +.rtbcdn.ru
+    - +.rutube.sport
+    - +.kinopoisk.ru
     - +.kinopoisk-ru.clstorage.net
+    - +.kp.yandex.net

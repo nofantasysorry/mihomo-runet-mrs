@@ -1,16 +1,16 @@
 payload:
     - d3r7nsslvs6aaf.cloudfront.net
     - straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+    - deribit.cdn.prismic.io
     - zftksc.cdn-settings.appsflyersdk.com
     - zftksc.launches.appsflyersdk.com
-    - deribit.cdn.prismic.io
-    - onekey.zendesk.com
     - bybit-exchange.github.io
     - bybit.ada.support
-    - +.gate.tv
-    - +.gateimg.com
+    - onekey.zendesk.com
+    - +.wisecoin.com
+    - +.wisekey.com
     - +.base.org
-    - +.1inch.io
+    - +.safepal.com
     - +.bitbank.cc
     - +.bitcoin.org
     - +.bitcoincore.org
@@ -26,6 +26,7 @@ payload:
     - +.blockchair.com
     - +.blockchair.net
     - +.blockfrost.io
+    - +.isafepal.com
     - +.cex.io
     - +.chainid.network
     - +.clearpool.finance
@@ -102,42 +103,49 @@ payload:
     - +.web3modal.org
     - +.wintermute.com
     - +.zapper.fi
-    - +.nexo.com
-    - +.nexo.io
-    - +.zb.app
-    - +.zb.com
-    - +.zb.io
-    - +.zb.live
+    - +.htx.com
+    - +.hbabit.com
+    - +.hbfile.net
+    - +.huobi.com
+    - +.huobi.me
+    - +.huobi.pro
+    - +.huobi.sc
+    - +.huobiasia.vip
+    - +.huobigroup.com
+    - +.huobitoken.com
+    - +.kucoin.com
+    - +.kucoin.plus
     - +.straitsx.com
-    - +.wisecoin.com
-    - +.wiseid.com
-    - +.wisekey.com
-    - +.localbitcoins.com
-    - +.localbitcoinschain.com
-    - +.lighter.exchange
-    - +.lighter.xyz
-    - +.bitflyer.com
-    - +.bitflyer.jp
+    - +.bestchange.com
+    - +.bestchange.net
+    - +.bestchange.ru
+    - +.coinonecore.com
+    - +.coinonecorp.com
+    - +.bingx.com
+    - +.aave.com
+    - +.okx-dns1.com
+    - +.1inch.io
+    - +.onekeycn.com
+    - +.asproex.com
+    - +.asproexapi.com
+    - +.deribit.com
+    - +.devcon.org
+    - +.ethereum.foundation
+    - +.ethereum.org
     - +.etherscan.io
     - +.gate.com
     - +.gate.io
-    - +.bingx.com
-    - +.aave.com
-    - +.kraken.com
+    - +.gate.tv
     - +.gateapi.io
+    - +.gatedata.org
+    - +.gateimg.com
     - +.gateio.live
     - +.gateio.services
     - +.redotpay.com
-    - +.ethereum.org
-    - +.ethereum.foundation
-    - +.devcon.org
-    - +.coinonecorp.com
-    - +.coinonecore.com
-    - +.bestchange.ru
-    - +.wyndlabs.ai
-    - +.wynd.network
-    - +.asproex.com
-    - +.asproexapi.com
+    - +.onekey.so
+    - +.onekey-asset.com
+    - +.xlayer.tech
+    - +.okx.com
     - +.binance.cc
     - +.binance.charity
     - +.binance.cloud
@@ -181,27 +189,16 @@ payload:
     - +.saasexch.com
     - +.saasexch.info
     - +.saasexch.io
-    - +.deribit.com
-    - +.onekey-asset.com
-    - +.onekey.so
-    - +.onekeycn.com
-    - +.isafepal.com
-    - +.safepal.com
-    - +.bisq.io
-    - +.bisq.network
-    - +.bitsquare.io
-    - +.okex.com
-    - +.okx-dns.com
-    - +.okx-dns1.com
-    - +.okx-dns2.com
-    - +.okx.ac
-    - +.okx.cab
-    - +.okx.com
-    - +.xlayer.tech
-    - +.bestchange.net
-    - +.kucoin.com
-    - +.kucoin.plus
-    - +.trustwallet.com
+    - +.kraken.com
+    - +.kraken.onl
+    - +.localbitcoins.com
+    - +.localbitcoinschain.com
+    - +.nexo.com
+    - +.nexo.io
+    - +.zb.app
+    - +.zb.com
+    - +.zb.io
+    - +.zb.live
     - +.bybit.com
     - +.bycsi.com
     - +.bytick.com
@@ -216,26 +213,29 @@ payload:
     - +.bybit-global.com
     - +.bybit.cloud
     - +.bybitglobal.com
-    - +.htx.com
-    - +.hbabit.com
-    - +.hbfile.net
-    - +.huobi.com
-    - +.huobi.me
-    - +.huobi.pro
-    - +.huobi.sc
-    - +.huobiasia.vip
-    - +.huobigroup.com
-    - +.huobitoken.com
-    - +.gatedata.org
-    - +.kraken.onl
-    - +.bestchange.com
+    - +.lighter.exchange
+    - +.lighter.xyz
+    - +.okx.cab
+    - +.trustwallet.com
+    - +.wyndlabs.ai
+    - +.wynd.network
+    - +.bitflyer.com
+    - +.bitflyer.jp
+    - +.bisq.io
+    - +.bisq.network
+    - +.bitsquare.io
+    - +.okex.com
+    - +.okx-dns.com
+    - +.wiseid.com
+    - +.okx-dns2.com
+    - +.okx.ac
+    - +.zklighter.elliot.ai
     - +.xhpjc6-cdn-settings.appsflyersdk.com
     - +.pod-15-sunco-ws.zendesk.com
-    - +.coinone.co.kr
     - +.redotpay.zendesk.com
-    - +.zklighter.elliot.ai
     - +.wisekey.com.hk
     - +.btcbox.co.jp
-    - +.okx.com.cdn.cloudflare.net
+    - +.coinone.co.kr
     - +.rp-static-apne1.s3.ap-northeast-1.amazonaws.com
+    - +.okx.com.cdn.cloudflare.net
     - +.oklink.com

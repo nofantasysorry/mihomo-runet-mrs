@@ -1,6 +1,6 @@
 payload:
-    - +.wcbygame.com
-    - +.pubghelper.com
+    - +.yxdmgame.com
+    - +.pubgtool.com
     - +.gameloop.com
     - +.gcloudcs.com
     - +.gcloudcstest.com
@@ -16,20 +16,19 @@ payload:
     - +.hkgcloudcs.com
     - +.ihappystudio.cn
     - +.ihappystudio.com
-    - +.in.th
     - +.ludosuperstar.cn
     - +.ludoworld.net
     - +.mahjongai.net
     - +.mahjongcup.cn
     - +.mahjongcup.com
     - +.mahjongcup.net
-    - +.metalrevolution.com
+    - +.videoxiaoyouxi.com
     - +.midasbuy.com
     - +.nagcloudcs.com
-    - +.yximg.cn
-    - +.yxdmgame.com
+    - +.proximabeta.com
+    - +.pubghelper.com
     - +.pubgno1.cn
-    - +.battlecare.net
+    - +.wcbygame.com
     - +.qqgameapp.com
     - +.rmwxgame.com
     - +.skydweller.cn
@@ -40,10 +39,10 @@ payload:
     - +.texasholdemcup.com
     - +.texasholdemcup.net
     - +.timibase.com
-    - +.videoxiaoyouxi.com
-    - +.pubgtool.com
+    - +.metalrevolution.com
     - +.gameitop.com
-    - +.proximabeta.com
+    - +.wegameplus.com
+    - +.yximg.cn
     - +.yxwsgame.com
     - +.yzyxgame.com
     - +.zcjbgame.com
@@ -66,7 +65,7 @@ payload:
     - +.anticheatexpert.com
     - +.tcfmglobal.com
     - +.bcfmglobal.com
-    - +.wegameplus.com
+    - +.battlecare.net
     - +.codm.com
     - +.brawlstars.cn
     - +.haydaypop.cn
@@ -84,3 +83,6 @@ payload:
     - +.roblox.qq.com
     - +.goto-game.net.cn
     - +.roco.qq.com
+    - +.tencentgames.com
+    - +.levelinfinite.com
+    - +.nikke-en.com

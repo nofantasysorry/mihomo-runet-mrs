@@ -1715,6 +1715,7 @@ Generated automatically from the latest conversion output.
 - `tencent-dev@ads.mrs`
 - `tencent-dev@telemetry.mrs`
 - `tencent-games.mrs`
+- `tencent-games@!cn.mrs`
 - `tencent-tme.mrs`
 - `tencent-tme@ads.mrs`
 - `tencent-tme@telemetry.mrs`
