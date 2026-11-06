@@ -1,4 +1,7 @@
 payload:
+    - DOMAIN-SUFFIX,esp32.com
+    - DOMAIN-SUFFIX,esp8266.com
+    - DOMAIN-SUFFIX,espressif.com
     - DOMAIN-SUFFIX,coze.com
     - DOMAIN-SUFFIX,marscode.com
     - DOMAIN-SUFFIX,trae.ai
@@ -46,9 +49,6 @@ payload:
     - DOMAIN,roovza.launches.appsflyersdk.com
     - DOMAIN,roovza.skadsdk.appsflyersdk.com
     - DOMAIN-SUFFIX,webnovel.com
-    - DOMAIN-SUFFIX,esp32.com
-    - DOMAIN-SUFFIX,esp8266.com
-    - DOMAIN-SUFFIX,espressif.com
     - DOMAIN,alt1-mtalk.google.com
     - DOMAIN,alt2-mtalk.google.com
     - DOMAIN,alt3-mtalk.google.com
