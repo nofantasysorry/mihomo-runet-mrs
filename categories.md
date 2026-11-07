@@ -118,6 +118,7 @@ Generated automatically from the latest conversion output.
 - `annas-archive.mrs`
 - `anon-v.mrs`
 - `anthropic.mrs`
+- `anthropic@telemetry.mrs`
 - `antifilter-download-community.mrs`
 - `antifilter-download.mrs`
 - `ap.mrs`

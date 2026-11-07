@@ -23,7 +23,14 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
+    - +.nist.gov
+    - +.time.gov
+    - +.paskoocheh.com
     - +.csis.org
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
     - +.attestation.app
     - +.grapheneos.app
     - +.grapheneos.ca
@@ -94,8 +101,7 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.nist.gov
-    - +.time.gov
+    - +.ppy.sh
     - +.rolfoundation.org
     - +.rolsociety.org
     - +.ccstatic.org
@@ -123,10 +129,4 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
-    - +.ppy.sh
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
     - sentry.ppy.sh

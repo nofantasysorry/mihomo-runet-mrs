@@ -26,6 +26,14 @@ payload:
     - +.zastatic.com
     - +.zhenai.com
     - +.zsxq.com
+    - +.gracg.com
+    - +.procg.cn
+    - +.hupu.com
+    - +.hupucdn.com
+    - +.shihuo.cn
+    - +.ivwen.com
+    - +.meipian.cn
+    - +.meipian.me
     - +.jike.city
     - +.jikecdn.com
     - +.okjike.com
@@ -41,14 +49,6 @@ payload:
     - +.douban.com
     - +.douban.fm
     - +.doubanio.com
-    - +.gracg.com
-    - +.procg.cn
-    - +.hupu.com
-    - +.hupucdn.com
-    - +.shihuo.cn
-    - +.ivwen.com
-    - +.meipian.cn
-    - +.meipian.me
     - +.tieba.baidu.com
     - +.hoopchina.com.cn
     - +.crash2.zhihu.com

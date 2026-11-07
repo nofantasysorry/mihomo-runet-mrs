@@ -112,6 +112,7 @@ anker@!cn.mrs
 annas-archive.mrs
 anon-v.mrs
 anthropic.mrs
+anthropic@telemetry.mrs
 antifilter-download-community.mrs
 antifilter-download.mrs
 ap.mrs
