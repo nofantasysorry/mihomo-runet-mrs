@@ -1,36 +1,12 @@
 payload:
-    - a.ppy.sh
-    - assets.ppy.sh
-    - c.ppy.sh
-    - osu.ppy.sh
-    - m1.ppy.sh
-    - lazer.ppy.sh
-    - notify.ppy.sh
-    - spectator.ppy.sh
-    - gamedownloads-rockstargames-com.akamaized.net
-    - media-rockstargames-com.akamaized.net
-    - videos-rockstargames-com.akamaized.net
-    - opgg-static.akamaized.net
     - ea.tt.omtrdc.net
     - eaassets-a.akamaihd.net
     - cloudsync-prod.s3.amazonaws.com
     - origin-a.akamaihd.net
     - rtm.tnt-ea.com
     - ssl-lvlt.cdn.ea.com
-    - d1unuk07s6td74.cloudfront.net
-    - d348twzf7a8p5.cloudfront.net
-    - devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
-    - doy2mn9upadnk.cloudfront.net
-    - roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
-    - roblox-poc.global.ssl.fastly.net
-    - robloxcorp.s.llnwi.net
-    - supercell.helpshift.com
-    - supercell.zendesk.com
-    - gog-cdn-lumen.secure2.footprint.net
-    - gog-cdn.akamaized.net
-    - prd-priconne-redive.akamaized.net
-    - lolstatic-a.akamaihd.net
     - hb.imgix.net
+    - prodforza.blob.core.windows.net
     - blizzard.nefficient.co.kr
     - blzddist1-a.akamaihd.net
     - blzddistkr1-a.akamaihd.net
@@ -40,6 +16,34 @@ payload:
     - blizzcon-a.akamaihd.net
     - blzmedia-a.akamaihd.net
     - blznav.akamaized.net
+    - supercell.helpshift.com
+    - supercell.zendesk.com
+    - lolstatic-a.akamaihd.net
+    - opgg-static.akamaized.net
+    - pubg1.battleye.com
+    - gog-cdn-lumen.secure2.footprint.net
+    - gog-cdn.akamaized.net
+    - a.ppy.sh
+    - assets.ppy.sh
+    - c.ppy.sh
+    - osu.ppy.sh
+    - m1.ppy.sh
+    - lazer.ppy.sh
+    - notify.ppy.sh
+    - spectator.ppy.sh
+    - avatargarenanow-a.akamaihd.net
+    - cdngarenanow-a.akamaihd.net
+    - dlgarenanow-a.akamaihd.net
+    - dlmobilegarena-a.akamaihd.net
+    - d1unuk07s6td74.cloudfront.net
+    - d348twzf7a8p5.cloudfront.net
+    - devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
+    - doy2mn9upadnk.cloudfront.net
+    - roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+    - roblox-poc.global.ssl.fastly.net
+    - robloxcorp.s.llnwi.net
+    - datarouter.apps.netherrealm.com
+    - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
     - ubisoft-uplay-savegames.s3.amazonaws.com
     - ubisoft-orbit-savegames.s3.amazonaws.com
     - ubistatic1-a.akamaihd.net
@@ -67,9 +71,6 @@ payload:
     - ubistatic23-a.akamaihd.net
     - ubistatic24-a.akamaihd.net
     - ubisoft.siteintercept.qualtrics.com
-    - pubg1.battleye.com
-    - datarouter.apps.netherrealm.com
-    - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
     - steamcommunity-a.akamaihd.net.edgesuite.net
     - a4e8s8k3.map2.ssl.hwcdn.net
     - f3b7q2p3.ssl.hwcdn.net
@@ -86,15 +87,14 @@ payload:
     - steamvideo-a.akamaihd.net
     - steamcloudsweden.blob.core.windows.net
     - steamugcquincy.blob.core.windows.net
-    - prodforza.blob.core.windows.net
-    - avatargarenanow-a.akamaihd.net
-    - cdngarenanow-a.akamaihd.net
-    - dlgarenanow-a.akamaihd.net
-    - dlmobilegarena-a.akamaihd.net
-    - +.playstation
+    - prd-priconne-redive.akamaized.net
+    - gamedownloads-rockstargames-com.akamaized.net
+    - media-rockstargames-com.akamaized.net
+    - videos-rockstargames-com.akamaized.net
     - +.xbox
-    - +.nintendo3ds.com
-    - +.heroesofdragonage.com
+    - +.playstation
+    - +.leagueoflegends.com
+    - +.maddenrewards.com
     - +.dodi-repacks.site
     - +.fabricmc.net
     - +.fanatical.com
@@ -129,49 +129,46 @@ payload:
     - +.thunderstore.io
     - +.thunderstore.org
     - +.wplace.live
-    - +.cygames.jp
-    - +.worldflipper.jp
-    - +.nexus-cdn.com
-    - +.nexusmods.com
-    - +.masteroforion.com
-    - +.wargaming.com
-    - +.wargaming.net
-    - +.wgcdn.co
-    - +.wgcrowd.io
-    - +.worldoftanks.com
-    - +.worldoftanks.eu
-    - +.worldofwarplanes.com
-    - +.worldofwarships.asia
-    - +.worldofwarships.com
-    - +.wotblitz.com
-    - +.wowsblitz.com
-    - +.itch.io
-    - +.itch.zone
-    - +.joyjoy.net
-    - +.pandanet-igs.com
+    - +.playparagon.com
+    - +.cubicmotion.com
+    - +.quixel.com
+    - +.battlebreakers.com
+    - +.eac-cdn.com
+    - +.easy.ac
+    - +.easyanticheat.net
+    - +.epicgames.com
+    - +.epicgames.dev
+    - +.epicgamescdn.com
+    - +.fab.com
+    - +.fortnite.com
+    - +.hyprsense.com
+    - +.paragon.com
+    - +.artstationmedia.com
+    - +.capturingreality.com
+    - +.quixel.se
+    - +.radgametools.com
+    - +.realityscan.com
+    - +.roborecall.com
+    - +.shadowcomplex.com
+    - +.sketchfab.com
+    - +.spyjinx.com
+    - +.twinmotion.com
+    - +.unrealengine.com
+    - +.unrealtournament.com
+    - +.3lateral.com
+    - +.artstation.com
+    - +.projectmoon.studio
+    - +.limbuscompany.global
+    - +.limbuscompanyapi.com
+    - +.limbuscompanycdn.org
     - +.snk-corp.info
     - +.snkplaymore.info
-    - +.seagroup.com
-    - +.garenanow.com
-    - +.garena.vn
-    - +.garena.tw
-    - +.garena.tv
-    - +.take2games.com
-    - +.2k.com
-    - +.2kcoretech.online
-    - +.2kct.onl
-    - +.2kgames.com
-    - +.2ksports.com
-    - +.2kweb.online
-    - +.rockstargames.com
-    - +.rockstarnorth.com
-    - +.rsg.ms
-    - +.rsg.sc
-    - +.zynga.com
-    - +.zyngaplayersupport.com
+    - +.sih-db.com
     - +.zyngapoker.com
-    - +.modrinth.com
-    - +.op.gg
+    - +.zyngaplayersupport.com
+    - +.zynga.com
+    - +.sih.app
+    - +.steaminventoryhelper.com
     - +.awayoutgame.com
     - +.battlefieldbadcompany2.com
     - +.battlefront2.com
@@ -206,10 +203,10 @@ payload:
     - +.futpromos.com
     - +.futunited.com
     - +.ghostgames.com
-    - +.nintendodsi.com
+    - +.heroesofdragonage.com
     - +.hutpromos.com
     - +.maddenchampionship.com
-    - +.maddenrewards.com
+    - +.riot-games.com
     - +.maddenseason.info
     - +.maddenseason.net
     - +.maddenseason.org
@@ -329,17 +326,231 @@ payload:
     - +.lordofultima.com
     - +.origin.com
     - +.origin.tv
-    - +.garena.sg
-    - +.garena.ph
+    - +.rsg.sc
+    - +.rsg.ms
+    - +.rockstarnorth.com
+    - +.tarkov.com
+    - +.eft-store.com
+    - +.escapefromtarkov.com
+    - +.humblebundle.com
+    - +.itch.io
+    - +.itch.zone
+    - +.bluearchive.jp
+    - +.rockstargames.com
+    - +.cdpred.services
+    - +.cdprojekt.com
+    - +.cdprojekt.red
+    - +.cdprojektred.com
+    - +.cyberpunk.net
+    - +.playgwent.com
+    - +.thewitcher.com
     - +.arcraiders.com
     - +.embark-studios.com
     - +.embark.games
     - +.reachthefinals.com
+    - +.lowiro.com
     - +.dinopoloclub.com
-    - +.playstation.com
-    - +.playstation.net
-    - +.playstationnetwork.com
-    - +.sonyentertainmentnetwork.com
+    - +.gamepass.com
+    - +.orithegame.com
+    - +.renovacionxboxlive.com
+    - +.tellmewhygame.com
+    - +.xbox.co
+    - +.xbox.com
+    - +.xbox.eu
+    - +.xbox.org
+    - +.xbox360.co
+    - +.xbox360.com
+    - +.xbox360.eu
+    - +.xbox360.org
+    - +.xboxab.com
+    - +.xboxgamepass.com
+    - +.xboxgamestudios.com
+    - +.xboxlive.com
+    - +.xboxone.co
+    - +.xboxone.com
+    - +.xboxone.eu
+    - +.xboxplayanywhere.com
+    - +.xboxservices.com
+    - +.xboxstudios.com
+    - +.xbx.lv
+    - +.beth.games
+    - +.bethesda.net
+    - +.bethesdagamestudios.com
+    - +.bethsoft.com
+    - +.doom.com
+    - +.elderscrolls.com
+    - +.forza.net
+    - +.forzamotorsport.net
+    - +.forzaracingchampionship.com
+    - +.forzarc.com
+    - +.callersbane.com
+    - +.minecraft-services.net
+    - +.minecraft.net
+    - +.minecraftservices.com
+    - +.minecraftshop.com
+    - +.mojang.com
+    - +.curseforge.com
+    - +.forgecdn.net
+    - +.faceit.com
+    - +.faceit-cdn.net
+    - +.joyjoy.net
+    - +.pandanet-igs.com
+    - +.candycrush.com
+    - +.king.com
+    - +.activisionblizzard.com
+    - +.activisionblizzardmedia.com
+    - +.benefitsforeveryworld.com
+    - +.europeanwarzoneseries.com
+    - +.activision.com
+    - +.callofduty.com
+    - +.callofdutyendowment.com
+    - +.callofdutyendowment.org
+    - +.callofdutyleague.com
+    - +.callofdutymobile.com
+    - +.crashbandicoot.com
+    - +.demonware.net
+    - +.highmoonstudios.com
+    - +.infinityward.com
+    - +.ravensoftware.com
+    - +.sekirothegame.com
+    - +.sierragames.com
+    - +.skylanders.com
+    - +.sledgehammergames.com
+    - +.solidstate.com
+    - +.spyrothedragon.com
+    - +.tonyhawk.com
+    - +.tonyhawkthegame.com
+    - +.treyarch.com
+    - +.worldseriesofwarzone.com
+    - +.blizzard.com
+    - +.blizzardgearstore.com
+    - +.blz-contentstack.com
+    - +.battle.net
+    - +.diablo.com
+    - +.diablo3.com
+    - +.diablo4.com
+    - +.diabloimmortal.com
+    - +.firesidegatherings.com
+    - +.playhearthstone.com
+    - +.heroesofthestorm.com
+    - +.playoverwatch.com
+    - +.starcraft.com
+    - +.starcraft2.com
+    - +.playwarcraft3.com
+    - +.worldofwarcraft.com
+    - +.nexon.com
+    - +.nexon.io
+    - +.nexon.net
+    - +.2kweb.online
+    - +.2ksports.com
+    - +.2kgames.com
+    - +.2kct.onl
+    - +.2kcoretech.online
+    - +.boombeach.com
+    - +.brawlstars.com
+    - +.brawlstarsgame.com
+    - +.clash.com
+    - +.clashmini.com
+    - +.clashofclans.com
+    - +.clashroyale.com
+    - +.clashroyaleapp.com
+    - +.gamesfirsthelsinki.com
+    - +.hayday.com
+    - +.haydaygame.com
+    - +.mo.co
+    - +.seeurlpcl.com
+    - +.squadbusters.com
+    - +.supercell.com
+    - +.supercell.net
+    - +.supercellcreators.com
+    - +.supercellgames.com
+    - +.supercellid.com
+    - +.supercellstore.com
+    - +.supr.cl
+    - +.take2games.com
+    - +.dodi-repacks.download
+    - +.gloryofheracles.com
+    - +.instituteofwar.org
+    - +.molesports.com
+    - +.rgpub.io
+    - +.leagueoflegends.info
+    - +.riot.com
+    - +.riot.net
+    - +.riotcdn.net
+    - +.riotgames.com
+    - +.riotgames.info
+    - +.riotgames.jp
+    - +.riotgames.net
+    - +.riotgames.tv
+    - +.riotpin.com
+    - +.riotpoints.com
+    - +.rstatic.net
+    - +.historyofdota.com
+    - +.supremacy.net
+    - +.championshipseriesleague.com
+    - +.lcsmerch.com
+    - +.leaguehighschool.com
+    - +.leagueoflegends.ca
+    - +.supremacy.com
+    - +.historyofdota.net
+    - +.leagueoflegends.kr
+    - +.leagueoflegends.net
+    - +.leagueoflegends.org
+    - +.leagueoflegendsscripts.com
+    - +.leaguesharp.info
+    - +.leaguoflegends.com
+    - +.learnwithleague.com
+    - +.lol-europe.com
+    - +.lolclub.org
+    - +.lolespor.com
+    - +.lolesports.com
+    - +.lolfanart.net
+    - +.lolpcs.com
+    - +.lolstatic.com
+    - +.lolusercontent.com
+    - +.convrgencegame.com
+    - +.pvp.net
+    - +.pvp.tv
+    - +.ulol.com
+    - +.playvalorant.com
+    - +.riotforgegames.com
+    - +.ruinedking.com
+    - +.2k.com
+    - +.amdgaming.com
+    - +.priconne-redive.jp
+    - +.nexus-cdn.com
+    - +.nexusmods.com
+    - +.op.gg
+    - +.kraftonde.com
+    - +.playbattlegrounds.com
+    - +.pubg.com
+    - +.gog.com
+    - +.gog-services.com
+    - +.gog-statics.com
+    - +.gogalaxy.com
+    - +.pinkcore.com
+    - +.pinkcore.net
+    - +.ynoproject.net
+    - +.steamunlocked.net
+    - +.garena.com
+    - +.garena.live
+    - +.garena.my
+    - +.garena.ph
+    - +.garena.sg
+    - +.garena.tv
+    - +.garena.tw
+    - +.garena.vn
+    - +.garenanow.com
+    - +.seagroup.com
+    - +.resellablue.com
+    - +.resella.jp
+    - +.modrinth.com
+    - +.nikke-de.com
+    - +.nikke-en.com
+    - +.nikke-fr.com
+    - +.nikke-jp.com
+    - +.nikke-kr.com
+    - +.nikke-sea.com
     - +.roblox.com
     - +.gooblox.com
     - +.goblox.com
@@ -381,64 +592,72 @@ payload:
     - +.roblox.uk
     - +.roblox.us
     - +.roblox.vn
-    - +.garena.my
-    - +.garena.live
-    - +.garena.com
-    - +.ynoproject.net
-    - +.curseforge.com
-    - +.forgecdn.net
-    - +.konamionline.com
-    - +.yugioh-card.com
-    - +.konamicrossmedia.com
-    - +.konami-igaming.online
-    - +.konamigaming.com
-    - +.konami.com
-    - +.konami.net
-    - +.konami.org
-    - +.kiwi.jp
-    - +.kgisystems.com
-    - +.konamigaming.online
-    - +.konamigaming.net
-    - +.573.jp
-    - +.konamiopen.jp
-    - +.konamisportsclub.jp
     - +.konamistyle.jp
-    - +.resella.jp
-    - +.resellablue.com
-    - +.mojang.com
-    - +.steamunlocked.net
-    - +.boombeach.com
-    - +.brawlstars.com
-    - +.brawlstarsgame.com
-    - +.clash.com
-    - +.clashmini.com
-    - +.clashofclans.com
-    - +.clashroyale.com
-    - +.clashroyaleapp.com
-    - +.gamesfirsthelsinki.com
-    - +.hayday.com
-    - +.haydaygame.com
-    - +.mo.co
-    - +.seeurlpcl.com
-    - +.squadbusters.com
-    - +.supercell.com
-    - +.supercell.net
-    - +.supercellcreators.com
-    - +.supercellgames.com
-    - +.supercellid.com
-    - +.supercellstore.com
-    - +.supr.cl
-    - +.gog.com
-    - +.gog-services.com
-    - +.gog-statics.com
-    - +.gogalaxy.com
+    - +.konamisportsclub.jp
+    - +.konamiopen.jp
+    - +.warnerbrosgames.com
+    - +.wbagora.com
+    - +.wbgames.com
+    - +.wbinsights.com
+    - +.genshinimpact.com
+    - +.honkaiimpact3.com
+    - +.honkaistarrail.com
+    - +.hoyo.link
+    - +.hoyolab.com
+    - +.hoyoverse.com
+    - +.n0vadesktop.com
+    - +.zenlesszonezero.com
+    - +.gamesplanet.com
+    - +.gametap.com
+    - +.gpstatic.com
+    - +.masteroforion.com
+    - +.wargaming.com
+    - +.wargaming.net
+    - +.wgcdn.co
+    - +.wgcrowd.io
+    - +.worldoftanks.com
+    - +.worldoftanks.eu
+    - +.worldofwarplanes.com
+    - +.worldofwarships.asia
+    - +.worldofwarships.com
+    - +.wotblitz.com
+    - +.wowsblitz.com
+    - +.yo-star.com
+    - +.yostar.net
+    - +.yostarplat.com
+    - +.stargazer-games.com
+    - +.stellasora.global
+    - +.stellasora.jp
+    - +.573.jp
+    - +.konamigaming.net
+    - +.arma3.com
+    - +.armaplatform.com
+    - +.bistudio.com
+    - +.bohemia.net
+    - +.dayz.com
+    - +.makearmanotwar.com
+    - +.silicagame.com
+    - +.vigorgame.com
+    - +.ylands.com
+    - +.cygames.jp
+    - +.worldflipper.jp
+    - +.konamigaming.online
+    - +.kgisystems.com
+    - +.kiwi.jp
+    - +.ubi.com
+    - +.ubisoft.com
+    - +.ubisoftconnect.com
+    - +.uplay.com
+    - +.vrchat.cloud
+    - +.vrchat.com
+    - +.vrchat.net
     - +.fireemblemawakening.com
     - +.wiipartyu.com
     - +.ayudanintendo.com
     - +.bowsersinsidestory.com
     - +.excitebots.com
     - +.flipnotestudio.com
-    - +.gloryofheracles.com
+    - +.historyofdota.org
     - +.hackyourconsole.com
     - +.100classicbooks.com
     - +.kirbysepicyarn.com
@@ -467,9 +686,9 @@ payload:
     - +.nintendo.ru
     - +.nintendo.se
     - +.nintendo.tw
-    - +.minecraftshop.com
-    - +.dodi-repacks.download
-    - +.diabloimmortal.com
+    - +.nintendo3ds.com
+    - +.nintendodsi.com
+    - +.nintendoeurope.com
     - +.nintendonetwork.net
     - +.nintendonyc.com
     - +.nintendostore.com
@@ -538,233 +757,17 @@ payload:
     - +.wiisports.com
     - +.wiisportsresort.com
     - +.wiiugamepad.com
-    - +.amdgaming.com
-    - +.minecraftservices.com
-    - +.minecraft.net
-    - +.minecraft-services.net
-    - +.callersbane.com
-    - +.forzarc.com
-    - +.priconne-redive.jp
-    - +.forzaracingchampionship.com
-    - +.forzamotorsport.net
-    - +.leagueoflegends.com
-    - +.riot-games.com
-    - +.historyofdota.org
-    - +.instituteofwar.org
-    - +.molesports.com
-    - +.rgpub.io
-    - +.leagueoflegends.info
-    - +.riot.com
-    - +.riot.net
-    - +.riotcdn.net
-    - +.riotgames.com
-    - +.riotgames.info
-    - +.riotgames.jp
-    - +.riotgames.net
-    - +.riotgames.tv
-    - +.riotpin.com
-    - +.riotpoints.com
-    - +.rstatic.net
-    - +.historyofdota.com
-    - +.supremacy.net
-    - +.championshipseriesleague.com
-    - +.lcsmerch.com
-    - +.leaguehighschool.com
-    - +.leagueoflegends.ca
-    - +.supremacy.com
-    - +.historyofdota.net
-    - +.leagueoflegends.kr
-    - +.leagueoflegends.net
-    - +.leagueoflegends.org
-    - +.leagueoflegendsscripts.com
-    - +.leaguesharp.info
-    - +.leaguoflegends.com
-    - +.learnwithleague.com
-    - +.lol-europe.com
-    - +.lolclub.org
-    - +.lolespor.com
-    - +.lolesports.com
-    - +.lolfanart.net
-    - +.lolpcs.com
-    - +.lolstatic.com
-    - +.lolusercontent.com
-    - +.convrgencegame.com
-    - +.pvp.net
-    - +.pvp.tv
-    - +.ulol.com
-    - +.playvalorant.com
-    - +.riotforgegames.com
-    - +.ruinedking.com
-    - +.forza.net
-    - +.elderscrolls.com
-    - +.doom.com
-    - +.gamesplanet.com
-    - +.gametap.com
-    - +.gpstatic.com
-    - +.genshinimpact.com
-    - +.honkaiimpact3.com
-    - +.honkaistarrail.com
-    - +.hoyo.link
-    - +.hoyolab.com
-    - +.hoyoverse.com
-    - +.n0vadesktop.com
-    - +.zenlesszonezero.com
-    - +.humblebundle.com
-    - +.bethsoft.com
-    - +.bethesdagamestudios.com
-    - +.tarkov.com
-    - +.eft-store.com
-    - +.escapefromtarkov.com
-    - +.yo-star.com
-    - +.yostar.net
-    - +.yostarplat.com
-    - +.stargazer-games.com
-    - +.stellasora.global
-    - +.stellasora.jp
-    - +.bethesda.net
-    - +.beth.games
-    - +.candycrush.com
-    - +.king.com
-    - +.activisionblizzard.com
-    - +.activisionblizzardmedia.com
-    - +.benefitsforeveryworld.com
-    - +.europeanwarzoneseries.com
-    - +.activision.com
-    - +.callofduty.com
-    - +.callofdutyendowment.com
-    - +.callofdutyendowment.org
-    - +.callofdutyleague.com
-    - +.callofdutymobile.com
-    - +.crashbandicoot.com
-    - +.demonware.net
-    - +.highmoonstudios.com
-    - +.infinityward.com
-    - +.ravensoftware.com
-    - +.sekirothegame.com
-    - +.sierragames.com
-    - +.skylanders.com
-    - +.sledgehammergames.com
-    - +.solidstate.com
-    - +.spyrothedragon.com
-    - +.tonyhawk.com
-    - +.tonyhawkthegame.com
-    - +.treyarch.com
-    - +.worldseriesofwarzone.com
-    - +.blizzard.com
-    - +.blizzardgearstore.com
-    - +.blz-contentstack.com
-    - +.battle.net
-    - +.diablo.com
-    - +.diablo3.com
-    - +.diablo4.com
-    - +.nintendoeurope.com
-    - +.firesidegatherings.com
-    - +.playhearthstone.com
-    - +.heroesofthestorm.com
-    - +.playoverwatch.com
-    - +.starcraft.com
-    - +.starcraft2.com
-    - +.playwarcraft3.com
-    - +.worldofwarcraft.com
-    - +.lowiro.com
-    - +.ubi.com
-    - +.ubisoft.com
-    - +.ubisoftconnect.com
-    - +.uplay.com
-    - +.bluearchive.jp
-    - +.xbx.lv
-    - +.nikke-de.com
-    - +.nikke-en.com
-    - +.nikke-fr.com
-    - +.nikke-jp.com
-    - +.nikke-kr.com
-    - +.nikke-sea.com
-    - +.kraftonde.com
-    - +.playbattlegrounds.com
-    - +.pubg.com
-    - +.sih-db.com
-    - +.sih.app
-    - +.steaminventoryhelper.com
-    - +.nexon.com
-    - +.nexon.io
-    - +.nexon.net
-    - +.xboxstudios.com
-    - +.xboxservices.com
-    - +.xboxplayanywhere.com
-    - +.cdpred.services
-    - +.cdprojekt.com
-    - +.cdprojekt.red
-    - +.cdprojektred.com
-    - +.cyberpunk.net
-    - +.playgwent.com
-    - +.thewitcher.com
-    - +.playparagon.com
-    - +.cubicmotion.com
-    - +.quixel.com
-    - +.battlebreakers.com
-    - +.eac-cdn.com
-    - +.easy.ac
-    - +.easyanticheat.net
-    - +.epicgames.com
-    - +.epicgames.dev
-    - +.epicgamescdn.com
-    - +.fab.com
-    - +.fortnite.com
-    - +.hyprsense.com
-    - +.paragon.com
-    - +.artstationmedia.com
-    - +.capturingreality.com
-    - +.quixel.se
-    - +.radgametools.com
-    - +.realityscan.com
-    - +.roborecall.com
-    - +.shadowcomplex.com
-    - +.sketchfab.com
-    - +.spyjinx.com
-    - +.twinmotion.com
-    - +.unrealengine.com
-    - +.unrealtournament.com
-    - +.3lateral.com
-    - +.artstation.com
-    - +.xboxone.eu
-    - +.xboxone.com
-    - +.faceit.com
-    - +.faceit-cdn.net
-    - +.acesofthunder.net
-    - +.activematter.game
-    - +.artstorm.com
-    - +.crossout.net
-    - +.crsed.net
-    - +.cubicodyssey.game
-    - +.enlisted.net
-    - +.gaijin.net
-    - +.gaijinent.com
-    - +.modernwarships.com
-    - +.star-conflict.com
-    - +.warthunder.com
-    - +.wtmobile.com
-    - +.projectmoon.studio
-    - +.limbuscompany.global
-    - +.limbuscompanyapi.com
-    - +.limbuscompanycdn.org
-    - +.vrchat.cloud
-    - +.vrchat.com
-    - +.vrchat.net
-    - +.warnerbrosgames.com
-    - +.wbagora.com
-    - +.wbgames.com
-    - +.wbinsights.com
-    - +.arma3.com
-    - +.armaplatform.com
-    - +.bistudio.com
-    - +.bohemia.net
-    - +.dayz.com
-    - +.makearmanotwar.com
-    - +.silicagame.com
-    - +.vigorgame.com
-    - +.ylands.com
-    - +.pinkcore.com
-    - +.pinkcore.net
+    - +.konami.org
+    - +.konami.net
+    - +.konami.com
+    - +.konamigaming.com
+    - +.konami-igaming.online
+    - +.konamicrossmedia.com
+    - +.chunkbase.com
+    - +.playstation.com
+    - +.playstation.net
+    - +.playstationnetwork.com
+    - +.sonyentertainmentnetwork.com
     - +.steamusercontent.com
     - +.s.team
     - +.steam.tv
@@ -784,55 +787,52 @@ payload:
     - +.valve.net
     - +.valvesoftware.com
     - +.playartifact.com
-    - +.xboxone.co
-    - +.xboxlive.com
-    - +.xboxgamestudios.com
-    - +.xboxgamepass.com
-    - +.xboxab.com
-    - +.xbox360.org
-    - +.xbox360.eu
-    - +.xbox360.com
-    - +.xbox360.co
-    - +.chunkbase.com
-    - +.gamepass.com
-    - +.orithegame.com
-    - +.renovacionxboxlive.com
-    - +.tellmewhygame.com
-    - +.xbox.co
-    - +.xbox.com
-    - +.xbox.eu
-    - +.xbox.org
-    - +.konami.co.jp
-    - +.roblox.co.uk
-    - +.leagueoflegends.co.kr
-    - +.nexongames.co.kr
-    - +.garena.co.th
-    - +.mobimon.com.tw
-    - +.cygames.co.jp
-    - +.worldflipper.akamaized.net
-    - +.umamusume.akamaized.net
-    - +.lolshop.co.kr
-    - +.fortnite-vod.akamaized.net
+    - +.yugioh-card.com
+    - +.konamionline.com
+    - +.wtmobile.com
+    - +.warthunder.com
+    - +.star-conflict.com
+    - +.modernwarships.com
+    - +.gaijinent.com
+    - +.gaijin.net
+    - +.enlisted.net
+    - +.acesofthunder.net
+    - +.activematter.game
+    - +.artstorm.com
+    - +.crossout.net
+    - +.crsed.net
+    - +.cubicodyssey.game
     - +.riotgames.co.kr
-    - +.nexoncdn.co.kr
-    - +.nexon.co.jp
-    - +.yostar.co.jp
     - +.pjsekai.sega.jp
-    - +.sekai.colorfulpalette.org
-    - +.egdownload.fastly-edge.com
-    - +.garena.co.id
-    - +.snk-corp.co.jp
-    - +.yostar-pictures.co.jp
-    - +.nintendo.com.pt
-    - +.nintendo.com.hk
+    - +.roblox.co.uk
     - +.nintendo.co.za
+    - +.mobimon.com.tw
+    - +.egdownload.fastly-edge.com
+    - +.snk-corp.co.jp
+    - +.eakorea.co.kr
+    - +.dungeonkeeper.com.cn
+    - +.yostar.co.jp
+    - +.nintendo.com.hk
+    - +.roblox.co.jp
     - +.nintendo.co.uk
     - +.nintendo.co.jp
     - +.nintendo.co.kr
-    - +.eakorea.co.kr
-    - +.dungeonkeeper.com.cn
-    - +.roblox.co.jp
     - +.roblox-api.arkoselabs.com
+    - +.worldflipper.akamaized.net
+    - +.cygames.co.jp
+    - +.yostar-pictures.co.jp
+    - +.nintendo.com.pt
+    - +.fortnite-vod.akamaized.net
+    - +.umamusume.akamaized.net
+    - +.garena.co.th
+    - +.garena.co.id
+    - +.konami.co.jp
+    - +.lolshop.co.kr
+    - +.leagueoflegends.co.kr
+    - +.nexon.co.jp
+    - +.nexoncdn.co.kr
+    - +.sekai.colorfulpalette.org
+    - +.nexongames.co.kr
     - +.steam.cdn.on.net
     - +.steam.cdn.webra.ru
     - +.steam.apac.qtlglb.com
@@ -842,9 +842,15 @@ payload:
     - +.steam.cdn.slingshot.co.nz
     - +.edge.steam-dns.top.comcast.net
     - +.steam.cdn.orcon.net.nz
-    - sentry.ppy.sh
+    - +.bluearchive-cn.com
+    - +.xboxlive.cn
+    - +.leagueoflegends.cn
+    - +.lpl.com.cn
     - gog.qtlglb.com
     - +.insights-collector.gog.com
+    - sentry.ppy.sh
+    - +.log-upload-os.hoyoverse.com
+    - +.yostar.cn
     - +.legendofzelda.cn
     - +.legendofzelda.com.cn
     - +.miitomo.com.cn
@@ -857,11 +863,6 @@ payload:
     - +.mariokart.cn
     - +.mariokart.com.cn
     - +.supermariobros.com.cn
-    - +.leagueoflegends.cn
-    - +.lpl.com.cn
-    - +.log-upload-os.hoyoverse.com
-    - +.yostar.cn
-    - +.bluearchive-cn.com
     - +.csgo.com.cn
     - +.csgo.wmsj.cn
     - +.dota2.com.cn
@@ -879,4 +880,3 @@ payload:
     - xz.pphimalayanrt.com
     - +.steamchina.com
     - +.gstore.val.manlaxy.com
-    - +.xboxlive.cn

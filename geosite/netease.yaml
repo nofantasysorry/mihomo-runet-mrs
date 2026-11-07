@@ -1,12 +1,12 @@
 payload:
     - +.lf127.net
-    - +.youdao.com
-    - +.126.net
-    - +.127.com
-    - +.127.net
-    - +.163.com
-    - +.kada.com
     - +.163industry.com
+    - +.126.net
+    - +.126.com
+    - +.127.net
+    - +.nease.net
+    - +.163cn.tv
+    - +.lofter.com
     - +.163jiasu.com
     - +.163mail.com
     - +.163qiyukf.com
@@ -16,12 +16,12 @@ payload:
     - +.188.com
     - +.321fenx.com
     - +.haowu.link
-    - +.126.com
-    - +.163cn.tv
-    - +.126.link
     - +.icourse163.org
-    - +.lofter.com
-    - +.nease.net
+    - +.kada.com
+    - +.lf126.net
+    - +.127.com
+    - +.126.link
+    - +.163.com
     - +.netease-inc.com
     - +.netease.com
     - +.netease.im
@@ -31,9 +31,10 @@ payload:
     - +.yysls.cn
     - +.static163.net
     - +.weiyang.cn
+    - +.ydshengxue.com
     - +.ydstatic.com
     - +.yeah.net
-    - +.lf126.net
+    - +.youdao.com
     - +.yunxindns.com
     - +.yunxinfw.com
     - +.zhuanzfx.com

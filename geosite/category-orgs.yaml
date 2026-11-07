@@ -1,4 +1,5 @@
 payload:
+    - csis-prod.s3.amazonaws.com
     - a.ppy.sh
     - assets.ppy.sh
     - c.ppy.sh
@@ -7,7 +8,6 @@ payload:
     - lazer.ppy.sh
     - notify.ppy.sh
     - spectator.ppy.sh
-    - csis-prod.s3.amazonaws.com
     - +.aomedia.org
     - +.atypi.org
     - +.change.org
@@ -23,9 +23,7 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
-    - +.nist.gov
-    - +.time.gov
-    - +.ppy.sh
+    - +.csis.org
     - +.attestation.app
     - +.grapheneos.app
     - +.grapheneos.ca
@@ -42,15 +40,6 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
-    - +.csis.org
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
-    - +.f-dro1d.org
-    - +.f-droid.com
-    - +.f-droid.org
-    - +.fdroid.org
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -105,6 +94,18 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
+    - +.nist.gov
+    - +.time.gov
+    - +.rolfoundation.org
+    - +.rolsociety.org
+    - +.ccstatic.org
+    - +.creativecommons.org
+    - +.creativecommons.engineering
+    - +.licensebuttons.net
+    - +.f-dro1d.org
+    - +.f-droid.com
+    - +.f-droid.org
+    - +.fdroid.org
     - +.acousticbrainz.org
     - +.bookbrainz.org
     - +.coverartarchive.org
@@ -123,10 +124,9 @@ payload:
     - +.stateofthemap.com
     - +.stateofthemap.org
     - +.paskoocheh.com
-    - +.ccstatic.org
-    - +.creativecommons.org
-    - +.creativecommons.engineering
-    - +.licensebuttons.net
-    - +.rolfoundation.org
-    - +.rolsociety.org
+    - +.ppy.sh
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
     - sentry.ppy.sh

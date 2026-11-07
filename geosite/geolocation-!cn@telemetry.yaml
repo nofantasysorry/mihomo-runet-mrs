@@ -1,4 +1,6 @@
 payload:
+    - +.akstat.io
+    - +.cloudflareinsights.com
     - firebaselogging-pa.googleapis.com
     - firebaselogging.googleapis.com
     - +.adobestats.io
@@ -7,22 +9,17 @@ payload:
     - +.aria.ms
     - +.data.microsoft.com
     - +.telemetry.microsoft.com
+    - +.in.applicationinsights.azure.com
+    - dc.applicationinsights.azure.com
+    - live.applicationinsights.azure.com
     - +.cafe.github.com
     - +.collector.github.com
     - copilot-telemetry-service.githubusercontent.com
     - copilot-telemetry.githubusercontent.com
     - dc.services.visualstudio.com
     - rt.services.visualstudio.com
-    - +.in.applicationinsights.azure.com
-    - dc.applicationinsights.azure.com
-    - live.applicationinsights.azure.com
     - incoming.telemetry.mozilla.org
     - incoming-telemetry.thunderbird.net
-    - +.cloudflareinsights.com
-    - +.akstat.io
-    - sentry.ppy.sh
-    - copilot-telemetry-service.githubusercontent.com
-    - copilot-telemetry.githubusercontent.com
     - sentry.ppy.sh
     - dc.services.visualstudio.com
     - rt.services.visualstudio.com
@@ -33,3 +30,6 @@ payload:
     - copilot-telemetry-service.githubusercontent.com
     - copilot-telemetry.githubusercontent.com
     - +.paypalbeacon.com
+    - sentry.ppy.sh
+    - copilot-telemetry-service.githubusercontent.com
+    - copilot-telemetry.githubusercontent.com

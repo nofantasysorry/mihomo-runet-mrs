@@ -1700,6 +1700,7 @@ Generated automatically from the latest conversion output.
 - `tbank-ru.mrs`
 - `tcl.mrs`
 - `tcl@ads.mrs`
+- `tcl@telemetry.mrs`
 - `teambition.mrs`
 - `teamspeak.mrs`
 - `teamviewer.mrs`

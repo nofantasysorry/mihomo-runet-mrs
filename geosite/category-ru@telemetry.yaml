@@ -1,4 +1,34 @@
 payload:
+    - sentry.x5.ru
+    - sentry.iptv.rt.ru
+    - +.appmetrica.yandex.com
+    - +.appmetrica.yandex.net
+    - +.appmetrica.yandex.ru
+    - +.appmetrica.yango.com
+    - +.counter.yandex.ru
+    - +.mc.yandex.ru
+    - +.metrika.yandex.com
+    - +.metrika.yandex.net
+    - +.metrika.yandex.ru
+    - +.webvisor.com
+    - +.webvisor.org
+    - +.yandex-metrica.ru
+    - +.yandexmetrica.com
+    - analytics.mobile.yandex.net
+    - log.strm.yandex.ru
+    - mc.yandex.com
+    - mc.yandex.net
+    - mc.yango.com
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
+    - +.clickstream.sberbank.ru
+    - stats.avito.ru
+    - sentry.ozon.ru
+    - analytics-stage.wildberries.ru
+    - analytics.wildberries.ru
+    - marketplace-sentry.wb.ru
+    - sentry.wb.ru
+    - web-analytics.wildberries.ru
     - metrika.kontur.ru
     - sentry.kontur.host
     - +.apptracer.ru
@@ -19,34 +49,4 @@ payload:
     - metrics.21-school.ru
     - sentry.sberauto.com
     - tracing-http.megamarket.tech
-    - +.clickstream.sberbank.ru
-    - sentry.ozon.ru
-    - analytics-stage.wildberries.ru
-    - analytics.wildberries.ru
-    - marketplace-sentry.wb.ru
-    - sentry.wb.ru
-    - web-analytics.wildberries.ru
-    - stats.avito.ru
-    - sentry.x5.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
-    - sentry.iptv.rt.ru
-    - +.appmetrica.yandex.com
-    - +.appmetrica.yandex.net
-    - +.appmetrica.yandex.ru
-    - +.appmetrica.yango.com
-    - +.counter.yandex.ru
-    - +.mc.yandex.ru
-    - +.metrika.yandex.com
-    - +.metrika.yandex.net
-    - +.metrika.yandex.ru
-    - +.webvisor.com
-    - +.webvisor.org
-    - +.yandex-metrica.ru
-    - +.yandexmetrica.com
-    - analytics.mobile.yandex.net
-    - log.strm.yandex.ru
-    - mc.yandex.com
-    - mc.yandex.net
-    - mc.yango.com
     - +.clickstream.sberbank.ru
