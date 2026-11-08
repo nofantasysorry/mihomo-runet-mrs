@@ -6,7 +6,7 @@ payload:
     - trojan-gfw.github.io
     - xtls.github.io
     - +.wikileaks.org
-    - +.amnezia.org
+    - +.zeronet.io
     - +.akasha.world
     - +.2dust.link
     - +.browserleaks.com
@@ -63,23 +63,21 @@ payload:
     - +.uproxy.org
     - +.vpnrouter.homes
     - +.vuvuzela.io
-    - +.wgtunnel.com
-    - +.zeronet.io
+    - +.log.rw
     - +.ahmia.fi
+    - +.amnezia.org
     - +.wireguard.com
     - +.wiresock.net
     - +.whonix.org
-    - +.epicbrowser.com
-    - +.haveibeenpwned.com
-    - +.pwnedpasswords.com
-    - +.v2ray.com
-    - +.v2ray.cool
-    - +.v2fly.org
-    - +.citizenlab.ca
-    - +.citizenlab.org
-    - +.torproject.org
     - +.getlantern.org
     - +.lantern.io
+    - +.ceno.app
+    - +.censorship.no
+    - +.citizenlab.ca
+    - +.citizenlab.org
+    - +.opengw.net
+    - +.vpngate.jp
+    - +.vpngate.net
     - +.applecensorship.com
     - +.freebrowser.org
     - +.freewechat.com
@@ -91,14 +89,12 @@ payload:
     - +.greatfirevpn.com
     - +.pao-pao.net
     - +.wikiunblocked.org
+    - +.haveibeenpwned.com
+    - +.pwnedpasswords.com
     - +.paskoocheh.com
-    - +.opengw.net
-    - +.vpngate.jp
-    - +.vpngate.net
-    - +.docs.rw
-    - +.log.rw
-    - +.remna.st
-    - +.try.rw
+    - +.softether.org
+    - +.softether-download.com
+    - +.torproject.org
     - +.ipns.co
     - +.ipfs.tech
     - +.cloudflare-ipfs.com
@@ -112,15 +108,19 @@ payload:
     - +.crustwebsites.net
     - +.4everland.io
     - +.dweb.link
-    - +.softether.org
-    - +.softether-download.com
-    - +.ceno.app
-    - +.censorship.no
-    - +.twister.net.co
-    - +.ipfs.anonymize.com
-    - +.ipfs.runfission.com
-    - +.gateway.pinata.cloud
+    - +.epicbrowser.com
+    - +.v2ray.com
+    - +.v2ray.cool
+    - +.v2fly.org
+    - +.try.rw
+    - +.remna.st
+    - +.wgtunnel.com
+    - +.docs.rw
     - +.ipfs.eternum.io
+    - +.gateway.pinata.cloud
+    - +.ipfs.runfission.com
+    - +.ipfs.anonymize.com
+    - +.twister.net.co
     - +.ipfs.best-practice.se
     - +.ipfs.lain.la
     - +.ipfs.fleek.co
