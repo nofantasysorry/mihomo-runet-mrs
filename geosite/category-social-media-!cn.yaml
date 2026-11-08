@@ -1,29 +1,17 @@
 payload:
-    - e122475.dscg.akamaiedge.net
-    - licdn.cn.cdn20.com
-    - linkedin.sc.omtrdc.net
     - fbcdn-a.akamaihd.net
     - st-ok-pts.cdn-vk.ru
     - st-ok.cdn-vk.ru
-    - +.fbmarketing.com
-    - +.fcebookk.com
+    - e122475.dscg.akamaiedge.net
+    - licdn.cn.cdn20.com
+    - linkedin.sc.omtrdc.net
+    - +.fcacebook.com
+    - +.feceboox.com
     - +.truthsocial.com
     - +.joinmastodon.org
     - +.mastodon.online
     - +.mastodon.social
     - +.pawoo.net
-    - +.bizographics.com
-    - +.licdn.com
-    - +.linkedin.at
-    - +.linkedin.com
-    - +.lnkd.in
-    - +.mixi.jp
-    - +.mixi.net
-    - +.threads.com
-    - +.threads.net
-    - +.bsky.app
-    - +.bsky.network
-    - +.bsky.social
     - +.aboutfacebook.com
     - +.accessfacebookfromschool.com
     - +.acebooik.com
@@ -97,7 +85,7 @@ payload:
     - +.facebooik.com
     - +.facebooik.org
     - +.facebooj.com
-    - +.fbrpms.com
+    - +.facebook-corp.com
     - +.facebook-covid-19.com
     - +.facebook-ebook.com
     - +.facebook-forum.com
@@ -109,7 +97,7 @@ payload:
     - +.facebook-pmdcenter.com
     - +.facebook-pmdcenter.net
     - +.facebook-pmdcenter.org
-    - +.facebook-privacy.com
+    - +.fcebook.com
     - +.facebook-program.com
     - +.facebook-studio.com
     - +.facebook-support.org
@@ -118,7 +106,7 @@ payload:
     - +.facebook.br
     - +.facebook.ca
     - +.facebook.cc
-    - +.fansly.com
+    - +.facebook.com
     - +.facebook.design
     - +.facebook.hu
     - +.facebook.in
@@ -130,7 +118,7 @@ payload:
     - +.facebook.tv
     - +.facebook.us
     - +.facebook.wang
-    - +.facebook123.org
+    - +.fansly.com
     - +.facebook30.com
     - +.facebook30.net
     - +.facebook30.org
@@ -303,9 +291,9 @@ payload:
     - +.fbidb.io
     - +.fbinc.com
     - +.fbinnovation.com
-    - +.facebook.com
-    - +.onlyfans.com
-    - +.facebook-corp.com
+    - +.fbmarketing.com
+    - +.fbreg.com
+    - +.fbrpms.com
     - +.fbsbx.com
     - +.fbsbx.net
     - +.fbsupport-covid.net
@@ -315,10 +303,10 @@ payload:
     - +.fburl.com
     - +.fbwat.ch
     - +.fbworkmail.com
-    - +.fcacebook.com
-    - +.fcaebook.com
-    - +.fcebook.com
-    - +.fbreg.com
+    - +.facebook123.org
+    - +.onlyfans.com
+    - +.facebook-privacy.com
+    - +.fcebookk.com
     - +.fcfacebook.com
     - +.fdacebook.info
     - +.feacboo.com
@@ -330,7 +318,7 @@ payload:
     - +.fecbook.com
     - +.feceboock.com
     - +.fecebook.net
-    - +.feceboox.com
+    - +.fcaebook.com
     - +.fececbook.com
     - +.feook.com
     - +.ferabook.com
@@ -508,6 +496,11 @@ payload:
     - +.misskey.design
     - +.misskey.flowers
     - +.9ineverse.com
+    - +.odnoklassniki.eu
+    - +.odnoklasniki.ua
+    - +.apiok.ru
+    - +.odnoklasniki.by
+    - +.odnoklassniki.lv
     - +.vkpay.ru
     - +.vkpay.io
     - +.vkpay.com
@@ -518,19 +511,6 @@ payload:
     - +.vkuservideo.ru
     - +.vkuservideo.net
     - +.vkuservideo.com
-    - +.vkuserlive.net
-    - +.vkuserlive.com
-    - +.vkuseraudio.ru
-    - +.vkuseraudio.net
-    - +.vkuseraudio.com
-    - +.vkuserphoto.ru
-    - +.vkusercdn.ru
-    - +.vkuser.net
-    - +.odnoklassniki.eu
-    - +.odnoklasniki.ua
-    - +.apiok.ru
-    - +.odnoklasniki.by
-    - +.odnoklassniki.lv
     - +.odnoklassniki.am
     - +.odnoklassniki.by
     - +.odnoklassniki.ru
@@ -542,7 +522,27 @@ payload:
     - +.ok.ru
     - +.okl.lt
     - +.oktech.ru
+    - +.vkuserlive.net
+    - +.vkuserlive.com
+    - +.vkuseraudio.ru
+    - +.vkuseraudio.net
+    - +.vkuseraudio.com
+    - +.vkuserphoto.ru
+    - +.bsky.app
+    - +.bsky.network
+    - +.bsky.social
+    - +.bizographics.com
+    - +.licdn.com
+    - +.linkedin.at
+    - +.linkedin.com
+    - +.lnkd.in
+    - +.vkusercdn.ru
+    - +.vkuser.net
+    - +.mixi.jp
+    - +.mixi.net
     - +.vktech-static.ru
+    - +.threads.com
+    - +.threads.net
     - +.twitter.jp
     - +.x.com
     - +.cms-twdigitalassets.com
@@ -583,33 +583,33 @@ payload:
     - +.vk-portal.net
     - +.vkcache.com
     - +.vkcdnservice.com
-    - +.mi.kochudaho.me
-    - +.mixi.co.jp
-    - +.mk.shrimpia.network
-    - +.mk.yopo.work
-    - +.mi.mashiro.site
-    - +.mi.nakn.jp
-    - +.misskey.04.si
-    - +.msk.ilnk.info
     - +.l-0005.dc-msedge.net
-    - +.mof.kemomi.me
+    - +.misskey.ranranhome.info
+    - +.msk.ilnk.info
     - +.msk.kitazawa.me
+    - +.odnoklassniki.co.ee
     - +.labo.wovs.tk
+    - +.mi.kochudaho.me
+    - +.mi.nakn.jp
+    - +.misskey.gamelore.fun
+    - +.misskey.04.si
+    - +.mi.mashiro.site
+    - +.l-0005.l-msedge.net
+    - +.mof.kemomi.me
+    - +.mk.yopo.work
+    - +.mk.shrimpia.network
     - +.misskey.yukineko.me
     - +.misskey.always-we-need.games
-    - +.misskey.ranranhome.info
+    - +.mixi.co.jp
     - +.misskey.noellabo.jp
-    - +.misskey.gamelore.fun
-    - +.odnoklassniki.co.ee
-    - +.l-0005.l-msedge.net
     - +.twitter.map.fastly.net
-    - +.licdn.cn
-    - +.linkedin.cn
     - +.analytics.facebook.com
     - +.facebookads.com
     - +.pixel.facebook.com
     - +.graph.instagram.com
     - +.graph-fallback.instagram.com
+    - +.licdn.cn
+    - +.linkedin.cn
     - +.ads-twitter.com
     - +.adv.vk.com
     - +.analytics.vk.com

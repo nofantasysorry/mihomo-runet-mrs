@@ -7,8 +7,8 @@ payload:
     - bybit-exchange.github.io
     - bybit.ada.support
     - deribit.cdn.prismic.io
-    - +.binance.cloud
-    - +.binance.info
+    - +.localbitcoins.com
+    - +.straitsx.com
     - +.base.org
     - +.1inch.io
     - +.bitbank.cc
@@ -102,29 +102,50 @@ payload:
     - +.web3modal.org
     - +.wintermute.com
     - +.zapper.fi
-    - +.onekey-asset.com
-    - +.onekey.so
-    - +.onekeycn.com
+    - +.bisq.io
+    - +.bisq.network
+    - +.bitsquare.io
+    - +.coinonecore.com
+    - +.coinonecorp.com
+    - +.kucoin.com
+    - +.kucoin.plus
+    - +.bitflyer.com
+    - +.bitflyer.jp
     - +.isafepal.com
     - +.safepal.com
     - +.trustwallet.com
-    - +.wisecoin.com
-    - +.wiseid.com
-    - +.wisekey.com
-    - +.bestchange.com
-    - +.bestchange.net
-    - +.bestchange.ru
-    - +.kraken.com
-    - +.kraken.onl
-    - +.straitsx.com
+    - +.nexo.com
+    - +.nexo.io
+    - +.onekey-asset.com
+    - +.onekey.so
+    - +.onekeycn.com
     - +.asproex.com
     - +.asproexapi.com
-    - +.binance.cc
-    - +.binance.charity
     - +.bingx.com
     - +.aave.com
-    - +.gateimg.com
+    - +.huobi.me
+    - +.localbitcoinschain.com
+    - +.wisecoin.com
+    - +.lighter.xyz
+    - +.lighter.exchange
+    - +.deribit.com
+    - +.kraken.onl
+    - +.wiseid.com
+    - +.wisekey.com
+    - +.kraken.com
+    - +.huobitoken.com
+    - +.wyndlabs.ai
+    - +.wynd.network
+    - +.zb.app
+    - +.zb.com
+    - +.zb.io
+    - +.zb.live
+    - +.binance.cc
+    - +.binance.charity
+    - +.binance.cloud
     - +.binance.co
+    - +.binance.com
+    - +.binance.info
     - +.binance.me
     - +.binance.net
     - +.binance.org
@@ -162,13 +183,29 @@ payload:
     - +.saasexch.com
     - +.saasexch.info
     - +.saasexch.io
-    - +.nexo.com
-    - +.nexo.io
-    - +.lighter.exchange
-    - +.lighter.xyz
+    - +.gate.com
+    - +.gate.io
+    - +.gate.tv
+    - +.gateapi.io
+    - +.gatedata.org
+    - +.gateimg.com
+    - +.gateio.live
+    - +.gateio.services
+    - +.okex.com
+    - +.okx-dns.com
+    - +.okx-dns1.com
+    - +.okx-dns2.com
+    - +.okx.ac
+    - +.okx.cab
+    - +.okx.com
+    - +.xlayer.tech
+    - +.huobigroup.com
+    - +.huobiasia.vip
+    - +.bestchange.com
+    - +.bestchange.net
+    - +.bestchange.ru
     - +.bybit.com
     - +.bycsi.com
-    - +.bitflyer.jp
     - +.bytick.com
     - +.byapis.com
     - +.bycbe.com
@@ -181,61 +218,24 @@ payload:
     - +.bybit-global.com
     - +.bybit.cloud
     - +.bybitglobal.com
-    - +.coinonecore.com
-    - +.coinonecorp.com
-    - +.bitflyer.com
-    - +.wynd.network
-    - +.wyndlabs.ai
-    - +.htx.com
-    - +.hbabit.com
-    - +.hbfile.net
-    - +.huobi.com
-    - +.huobi.me
-    - +.huobi.pro
-    - +.huobi.sc
-    - +.huobiasia.vip
-    - +.huobigroup.com
-    - +.huobitoken.com
-    - +.kucoin.com
-    - +.kucoin.plus
-    - +.okex.com
-    - +.okx-dns.com
-    - +.okx-dns1.com
-    - +.okx-dns2.com
-    - +.okx.ac
-    - +.okx.cab
-    - +.okx.com
-    - +.xlayer.tech
-    - +.redotpay.com
-    - +.zb.app
-    - +.zb.com
-    - +.zb.io
-    - +.zb.live
-    - +.bisq.io
-    - +.bisq.network
-    - +.bitsquare.io
-    - +.deribit.com
     - +.devcon.org
     - +.ethereum.foundation
     - +.ethereum.org
     - +.etherscan.io
-    - +.localbitcoins.com
-    - +.localbitcoinschain.com
-    - +.gate.com
-    - +.gate.io
-    - +.gate.tv
-    - +.gateapi.io
-    - +.gatedata.org
-    - +.binance.com
-    - +.gateio.live
-    - +.gateio.services
-    - +.redotpay.zendesk.com
-    - +.pod-15-sunco-ws.zendesk.com
-    - +.xhpjc6-cdn-settings.appsflyersdk.com
-    - +.coinone.co.kr
-    - +.zklighter.elliot.ai
+    - +.htx.com
+    - +.hbabit.com
+    - +.hbfile.net
+    - +.huobi.com
+    - +.redotpay.com
+    - +.huobi.pro
+    - +.huobi.sc
     - +.wisekey.com.hk
+    - +.xhpjc6-cdn-settings.appsflyersdk.com
+    - +.pod-15-sunco-ws.zendesk.com
+    - +.redotpay.zendesk.com
+    - +.coinone.co.kr
     - +.btcbox.co.jp
+    - +.zklighter.elliot.ai
     - +.okx.com.cdn.cloudflare.net
     - +.rp-static-apne1.s3.ap-northeast-1.amazonaws.com
     - +.oklink.com
