@@ -1,14 +1,24 @@
 payload:
     - discord-attachments-uploads-prd.storage.googleapis.com
     - hammerandchisel.ssl.zendesk.com
-    - +.botim.me
-    - +.fbmessenger.com
+    - +.whatsapp.org
+    - +.gcld-line.com
     - +.m.me
     - +.messenger.com
     - +.nbabot.net
+    - +.signal.art
+    - +.signal.group
+    - +.signal.link
+    - +.signal.me
+    - +.signal.tube
+    - +.signal.org
+    - +.signalusers.org
+    - +.whispersystems.org
+    - +.myteamspeak.com
+    - +.teamspeak.com
+    - +.teamspeak-services.com
     - +.temp-mail.org
-    - +.keybase.io
-    - +.keybaseapi.com
+    - +.freenode.net
     - +.arewereadyyet.com
     - +.cinny.in
     - +.element.io
@@ -18,62 +28,34 @@ payload:
     - +.modular.im
     - +.riot.im
     - +.vector.im
-    - +.pm.me
-    - +.proton.me
-    - +.protonmail.ch
-    - +.protonmail.com
-    - +.protonstatus.com
-    - +.protontech.ch
-    - +.protonvpn.ch
-    - +.protonvpn.com
-    - +.protonweb.com
-    - +.signal.art
-    - +.signal.group
-    - +.signal.link
-    - +.signal.me
-    - +.signal.tube
-    - +.signal.org
-    - +.signalusers.org
-    - +.whispersystems.org
-    - +.clubhouse.com
-    - +.clubhouseapi.com
-    - +.joinclubhouse.com
-    - +.fluxer.app
-    - +.fluxer.com
-    - +.fluxer.dev
-    - +.fluxer.gg
-    - +.fluxer.gift
-    - +.fluxer.media
-    - +.fluxer.tools
-    - +.fluxerapp.com
-    - +.fluxerstatus.com
-    - +.fluxerstatic.com
-    - +.fluxerusercontent.com
-    - +.freenode.net
-    - +.intercom.com
-    - +.intercom.io
-    - +.intercomassets.com
-    - +.intercomcdn.com
-    - +.slack-core.com
-    - +.slack-edge.com
-    - +.slack-files.com
-    - +.slack-imgs.com
-    - +.slack-msgs.com
-    - +.slack-redir.net
-    - +.slack.com
-    - +.slackb.com
-    - +.slackcertified.com
-    - +.slackdemo.com
-    - +.slackhq.com
-    - +.myteamspeak.com
-    - +.teamspeak.com
-    - +.teamspeak-services.com
+    - +.keybase.io
+    - +.keybaseapi.com
+    - +.linemobile.com
+    - +.lineshoppingseller.com
+    - +.line-apps-beta.com
+    - +.line-apps-rc.com
+    - +.line-apps.com
+    - +.line-beta.me
+    - +.line-cdn.net
+    - +.line.biz
+    - +.nhncorp.jp
+    - +.lin.ee
+    - +.line-scdn.net
+    - +.linecorp.com
+    - +.linefriends.com
+    - +.linetv.tw
+    - +.linegame.jp
+    - +.whatsapp.tv
+    - +.linemyshop.com
+    - +.line.me
+    - +.nicegram.cloud
+    - +.nicegram.app
     - +.cdn-telegram.org
     - +.comments.app
     - +.contest.com
     - +.fragment.com
     - +.graph.org
-    - +.quiz.directory
+    - +.botim.me
     - +.t.me
     - +.tdesktop.com
     - +.telega.one
@@ -97,9 +79,9 @@ payload:
     - +.whatsapp.com
     - +.whatsapp.info
     - +.whatsapp.net
-    - +.whatsapp.org
-    - +.whatsapp.tv
-    - +.whatsappbrand.com
+    - +.quiz.directory
+    - +.fbmessenger.com
+    - +.discord.store
     - +.dis.gd
     - +.discord.co
     - +.discord.com
@@ -110,7 +92,7 @@ payload:
     - +.discord.gifts
     - +.discord.media
     - +.discord.new
-    - +.discord.store
+    - +.whatsappbrand.com
     - +.discord.tools
     - +.discord-activities.com
     - +.discordactivities.com
@@ -126,36 +108,54 @@ payload:
     - +.watchanimeattheoffice.com
     - +.discordapp.io
     - +.discordcdn.com
-    - +.linemobile.com
-    - +.lineshoppingseller.com
-    - +.line-apps-beta.com
-    - +.line-apps-rc.com
-    - +.line-apps.com
-    - +.line-beta.me
-    - +.line-cdn.net
-    - +.line.biz
-    - +.nhncorp.jp
-    - +.lin.ee
-    - +.line-scdn.net
-    - +.linecorp.com
-    - +.linefriends.com
-    - +.linetv.tw
-    - +.linegame.jp
-    - +.gcld-line.com
-    - +.linemyshop.com
-    - +.line.me
-    - +.mail.com
-    - +.ui-portal.de
-    - +.uicdn.com
-    - +.uimserv.net
-    - +.nicegram.app
-    - +.nicegram.cloud
+    - +.intercom.com
+    - +.intercom.io
+    - +.intercomassets.com
+    - +.intercomcdn.com
     - +.viber.com
     - +.viber.co
     - +.viber.me
     - +.vbcdn.com
     - +.vbcdn.net
-    - +.linefriends.com.tw
+    - +.fluxerusercontent.com
+    - +.clubhouse.com
+    - +.clubhouseapi.com
+    - +.joinclubhouse.com
+    - +.mail.com
+    - +.ui-portal.de
+    - +.uicdn.com
+    - +.uimserv.net
+    - +.pm.me
+    - +.proton.me
+    - +.protonmail.ch
+    - +.protonmail.com
+    - +.protonstatus.com
+    - +.protontech.ch
+    - +.protonvpn.ch
+    - +.protonvpn.com
+    - +.protonweb.com
+    - +.slack-core.com
+    - +.slack-edge.com
+    - +.slack-files.com
+    - +.slack-imgs.com
+    - +.slack-msgs.com
+    - +.slack-redir.net
+    - +.slack.com
+    - +.slackb.com
+    - +.slackcertified.com
+    - +.slackdemo.com
+    - +.slackhq.com
+    - +.fluxer.app
+    - +.fluxer.com
+    - +.fluxer.dev
+    - +.fluxer.gg
+    - +.fluxer.gift
+    - +.fluxer.media
+    - +.fluxer.tools
+    - +.fluxerapp.com
+    - +.fluxerstatus.com
+    - +.fluxerstatic.com
     - +.line.naver.jp
+    - +.linefriends.com.tw
     - +.s-bid.rmp.rakuten.com
     - +.adsgram.ai
