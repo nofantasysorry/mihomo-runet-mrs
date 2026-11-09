@@ -6,7 +6,8 @@
 +.gcdn.co
 +.gcore.com
 +.gcore.pro
-+.quantil.com
++.stackpath.com
++.stackpath.dev
 +.ak1.net
 +.aka-ai.com
 +.aka-ai.net
@@ -75,8 +76,6 @@
 +.iamakamai.net
 +.soasta-dswb.com
 +.srtcdn.net
-+.cdn77.com
-+.cdn77.org
 +.argotunnel.com
 +.browser.run
 +.cfargotunnel.com
@@ -142,6 +141,11 @@
 +.esm.run
 +.jsdelivr.com
 +.jsdelivr.net
++.pagecdn.com
++.pagecdn.io
++.quantil.com
++.cdn77.com
++.cdn77.org
 +.imgix.com
 +.imgix.net
 +.delvenetworks.com
@@ -152,10 +156,6 @@
 +.llnw.net
 +.llnwd.net
 +.llnwi.net
-+.pagecdn.com
-+.pagecdn.io
-+.stackpath.com
-+.stackpath.dev
 +.vrcdn.cloud
 +.vrcdn.live
 +.vrcdn.video

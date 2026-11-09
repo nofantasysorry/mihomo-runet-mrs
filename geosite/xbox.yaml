@@ -24,10 +24,6 @@ payload:
     - +.xboxservices.com
     - +.xboxstudios.com
     - +.xbx.lv
-    - +.forza.net
-    - +.forzamotorsport.net
-    - +.forzaracingchampionship.com
-    - +.forzarc.com
     - +.callersbane.com
     - +.minecraft-services.net
     - +.minecraft.net
@@ -40,4 +36,8 @@ payload:
     - +.bethsoft.com
     - +.doom.com
     - +.elderscrolls.com
+    - +.forza.net
+    - +.forzamotorsport.net
+    - +.forzaracingchampionship.com
+    - +.forzarc.com
     - +.xboxlive.cn

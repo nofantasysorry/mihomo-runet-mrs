@@ -63,21 +63,30 @@ payload:
     - +.uproxy.org
     - +.vpnrouter.homes
     - +.vuvuzela.io
-    - +.log.rw
+    - +.getlantern.org
     - +.ahmia.fi
     - +.amnezia.org
     - +.wireguard.com
     - +.wiresock.net
     - +.whonix.org
-    - +.paskoocheh.com
+    - +.epicbrowser.com
+    - +.applecensorship.com
+    - +.freebrowser.org
+    - +.freewechat.com
+    - +.freeweibo.com
+    - +.freezhihu.org
+    - +.googlecensorship.org
+    - +.googleplaycensorship.com
+    - +.greatfire.org
+    - +.greatfirevpn.com
+    - +.pao-pao.net
+    - +.wikiunblocked.org
+    - +.v2ray.com
+    - +.v2ray.cool
+    - +.v2fly.org
     - +.opengw.net
     - +.vpngate.jp
     - +.vpngate.net
-    - +.haveibeenpwned.com
-    - +.pwnedpasswords.com
-    - +.softether.org
-    - +.softether-download.com
-    - +.torproject.org
     - +.ipns.co
     - +.ipfs.tech
     - +.cloudflare-ipfs.com
@@ -91,31 +100,22 @@ payload:
     - +.crustwebsites.net
     - +.4everland.io
     - +.dweb.link
-    - +.citizenlab.ca
-    - +.citizenlab.org
-    - +.applecensorship.com
-    - +.freebrowser.org
-    - +.try.rw
-    - +.remna.st
-    - +.wgtunnel.com
-    - +.docs.rw
-    - +.lantern.io
-    - +.freewechat.com
-    - +.freeweibo.com
-    - +.freezhihu.org
-    - +.googlecensorship.org
-    - +.googleplaycensorship.com
-    - +.greatfire.org
-    - +.greatfirevpn.com
-    - +.pao-pao.net
-    - +.wikiunblocked.org
-    - +.v2ray.com
-    - +.v2ray.cool
-    - +.v2fly.org
     - +.ceno.app
     - +.censorship.no
-    - +.epicbrowser.com
-    - +.getlantern.org
+    - +.softether.org
+    - +.softether-download.com
+    - +.paskoocheh.com
+    - +.lantern.io
+    - +.wgtunnel.com
+    - +.pwnedpasswords.com
+    - +.haveibeenpwned.com
+    - +.torproject.org
+    - +.docs.rw
+    - +.log.rw
+    - +.remna.st
+    - +.try.rw
+    - +.citizenlab.ca
+    - +.citizenlab.org
     - +.ipfs.eternum.io
     - +.gateway.pinata.cloud
     - +.ipfs.runfission.com
