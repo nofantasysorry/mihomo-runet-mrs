@@ -1,40 +1,40 @@
 payload:
-    - +.shrbank.com
-    - +.bankcomm.com
-    - +.bankcomm.cn
+    - +.chinapay.com
     - +.kcbebank.com
-    - +.unionpaysecure.com
-    - +.cup62.cn
+    - +.bankcomm.cn
+    - +.bankcomm.com
+    - +.csxbank.com
+    - +.webankcdn.net
     - +.bosc.cn
-    - +.unionpay.com
+    - +.unionpaysecure.com
     - +.cdrcb.com
     - +.cdrcbank.com
-    - +.whccb.com
-    - +.unionpay.net
-    - +.chinaunionpay.net
-    - +.95516.net
-    - +.95508.com
-    - +.unionpayintl.com
-    - +.ibangbank.com
-    - +.chinaunionpay.com
-    - +.psbc.com
-    - +.chinaums.com
     - +.cebbank.com
+    - +.cup62.cn
+    - +.unionpay.com
+    - +.unionpay.net
     - +.abchina.com
     - +.unionpayintl.cn
+    - +.ibangbank.com
+    - +.95516.net
+    - +.psbc.com
+    - +.unionpayintl.com
+    - +.whccb.com
+    - +.95516.com
+    - +.shrbank.com
     - +.mybank.cn
     - +.ms-bank.cn
     - +.tctpwebankcdn.net
     - +.wbweilicai.com
     - +.webank.com
-    - +.webankcdn.net
-    - +.csxbank.com
+    - +.chinaunionpay.com
+    - +.chinaums.com
     - +.fbank.com
     - +.xwbank.com
     - +.zgcbank.com
     - +.yillionbank.com
     - +.z-bank.com
-    - +.chinapay.com
+    - +.95508.com
     - +.wegobank.cn
     - +.suningbank.com
     - +.kshbank.cn
@@ -42,12 +42,11 @@ payload:
     - +.newupbank.com
     - +.ymbank.com
     - +.wxsbank.com
-    - +.95516.com
+    - +.chinaunionpay.net
     - +.cmbc.com.cn
-    - +.hsbcinsurance.com.cn
-    - +.hsbcqh.com.cn
-    - +.hsbc.com.cn
     - +.onebank.com.cn
+    - +.bankofbeijing.com.cn
+    - +.hsbc.com.cn
     - +.spdb.com.cn
     - +.njcb.com.cn
     - +.hxb.com.cn
@@ -55,7 +54,8 @@ payload:
     - +.cib.com.cn
     - +.cgbchina.com.cn
     - +.bsb.com.cn
-    - +.bocd.com.cn
-    - +.bankofbeijing.com.cn
     - +.cup.com.cn
     - +.chinaunionpay.com.cn
+    - +.bocd.com.cn
+    - +.hsbcqh.com.cn
+    - +.hsbcinsurance.com.cn

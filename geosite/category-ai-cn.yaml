@@ -1,8 +1,8 @@
 payload:
     - cueme-api.quark.cn
     - ai.zhaomi.cn
-    - +.clawhub-mirror.com
-    - +.dui.ai
+    - +.xiaohuanxiong.com
+    - +.senseaudio.cn
     - +.liblib.tv
     - +.rwkv.cn
     - +.rwkv.com
@@ -22,7 +22,7 @@ payload:
     - +.sleeplesshorizon.cn
     - +.miaibox.com
     - +.dumate.cn
-    - +.miaoda.cn
+    - +.skillhub.cn
     - +.mcpworld.com
     - +.tiangong.cn
     - +.bigmodel.cn
@@ -42,6 +42,7 @@ payload:
     - +.trae.cn
     - +.tcwqqdy.guru
     - +.baichuan-ai.com
+    - +.nia-teams.com
     - +.cueme.cn
     - +.n.cn
     - +.namiso.com
@@ -54,18 +55,18 @@ payload:
     - +.metaso.cn
     - +.xiezuocat.com
     - +.aispeech.com
-    - +.skillhub.cn
+    - +.dui.ai
     - +.duiopen.com
-    - +.senseaudio.cn
+    - +.clawhub-mirror.com
     - +.senseavatar.com
     - +.sensecore.cn
     - +.sensefoundry.cn
-    - +.liblib.art
-    - +.sensetime.com
-    - +.xiaohuanxiong.com
     - +.sensenova.cn
+    - +.sensetime.com
+    - +.cozefn.cn
     - +.liblib.cloud
-    - +.cozetest.cn
+    - +.miaoda.cn
+    - +.safeskill.cn
     - +.zhiexa.com
     - +.linka2a.net
     - +.yzsgo.com
@@ -90,10 +91,10 @@ payload:
     - +.cozebuild.com
     - +.cozecdn.com
     - +.cozedeploy.com
-    - +.cozefn.cn
+    - +.liblib.art
     - +.cozeide.cn
     - +.cozesdk.com
-    - +.safeskill.cn
+    - +.cozetest.cn
     - +.cozetest2.cn
     - +.cozetest3.cn
     - +.dbbuilding.fun
