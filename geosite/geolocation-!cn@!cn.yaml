@@ -14,6 +14,13 @@ payload:
     - alt5-mtalk.google.com
     - alt6-mtalk.google.com
     - mtalk.google.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - +.webnovel.com
     - +.bytedapm.com
     - +.muscdn.com
@@ -57,10 +64,3 @@ payload:
     - +.esp32.com
     - +.esp8266.com
     - +.espressif.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com

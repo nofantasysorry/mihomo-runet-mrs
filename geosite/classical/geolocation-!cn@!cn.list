@@ -13,6 +13,13 @@ DOMAIN,alt4-mtalk.google.com
 DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,mtalk.google.com
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,ciciaicdn.com
+DOMAIN-SUFFIX,dola.com
 DOMAIN-SUFFIX,webnovel.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,muscdn.com
@@ -56,10 +63,3 @@ DOMAIN,roovza.skadsdk.appsflyersdk.com
 DOMAIN-SUFFIX,esp32.com
 DOMAIN-SUFFIX,esp8266.com
 DOMAIN-SUFFIX,espressif.com
-DOMAIN-SUFFIX,coze.com
-DOMAIN-SUFFIX,marscode.com
-DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,cici.com
-DOMAIN-SUFFIX,ciciai.com
-DOMAIN-SUFFIX,ciciaicdn.com
-DOMAIN-SUFFIX,dola.com

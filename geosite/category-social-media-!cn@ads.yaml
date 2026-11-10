@@ -1,4 +1,5 @@
 payload:
+    - +.ads-twitter.com
     - +.adv.vk.com
     - +.analytics.vk.com
     - +.ms.vk.com
@@ -14,9 +15,8 @@ payload:
     - analytics.vk.ru
     - stats.vk-portal.net
     - target.vk.com
+    - +.graph.instagram.com
+    - +.graph-fallback.instagram.com
     - +.analytics.facebook.com
     - +.facebookads.com
     - +.pixel.facebook.com
-    - +.ads-twitter.com
-    - +.graph.instagram.com
-    - +.graph-fallback.instagram.com

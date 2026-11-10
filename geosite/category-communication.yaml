@@ -1,13 +1,108 @@
 payload:
     - discord-attachments-uploads-prd.storage.googleapis.com
     - hammerandchisel.ssl.zendesk.com
-    - +.intercom.com
-    - +.discord.design
+    - +.discord.com
+    - +.gcld-line.com
+    - +.whatsapp-plus.info
+    - +.whatsapp-plus.me
+    - +.whatsapp-plus.net
+    - +.whatsapp.cc
+    - +.whatsapp.com
+    - +.whatsapp.info
+    - +.whatsapp.net
+    - +.whatsapp.org
+    - +.whatsapp.tv
+    - +.whatsappbrand.com
+    - +.keybase.io
     - +.keybaseapi.com
-    - +.mail.com
-    - +.ui-portal.de
-    - +.uicdn.com
-    - +.uimserv.net
+    - +.fbmessenger.com
+    - +.m.me
+    - +.messenger.com
+    - +.nbabot.net
+    - +.signal.art
+    - +.signal.group
+    - +.signal.link
+    - +.signal.me
+    - +.signal.tube
+    - +.signal.org
+    - +.signalusers.org
+    - +.whispersystems.org
+    - +.myteamspeak.com
+    - +.teamspeak.com
+    - +.teamspeak-services.com
+    - +.linemobile.com
+    - +.lineshoppingseller.com
+    - +.line-apps-beta.com
+    - +.line-apps-rc.com
+    - +.line-apps.com
+    - +.line-beta.me
+    - +.line-cdn.net
+    - +.line.biz
+    - +.nhncorp.jp
+    - +.lin.ee
+    - +.line-scdn.net
+    - +.linecorp.com
+    - +.linefriends.com
+    - +.linetv.tw
+    - +.linegame.jp
+    - +.discord.design
+    - +.linemyshop.com
+    - +.line.me
+    - +.pm.me
+    - +.proton.me
+    - +.protonmail.ch
+    - +.protonmail.com
+    - +.protonstatus.com
+    - +.protontech.ch
+    - +.protonvpn.ch
+    - +.botim.me
+    - +.protonweb.com
+    - +.slack-core.com
+    - +.slack-edge.com
+    - +.slack-files.com
+    - +.slack-imgs.com
+    - +.slack-msgs.com
+    - +.slack-redir.net
+    - +.slack.com
+    - +.slackb.com
+    - +.slackcertified.com
+    - +.slackdemo.com
+    - +.slackhq.com
+    - +.temp-mail.org
+    - +.viber.com
+    - +.viber.co
+    - +.viber.me
+    - +.vbcdn.com
+    - +.vbcdn.net
+    - +.clubhouse.com
+    - +.clubhouseapi.com
+    - +.joinclubhouse.com
+    - +.dis.gd
+    - +.discord.co
+    - +.protonvpn.com
+    - +.wa.me
+    - +.discordapp.net
+    - +.discord.gg
+    - +.discord.gift
+    - +.discord.gifts
+    - +.discord.media
+    - +.discord.new
+    - +.discord.store
+    - +.discord.tools
+    - +.discord-activities.com
+    - +.discordactivities.com
+    - +.discordapp.com
+    - +.discord.dev
+    - +.discordmerch.com
+    - +.discordpartygames.com
+    - +.discordsays.com
+    - +.discordstatus.com
+    - +.airhorn.solutions
+    - +.airhornbot.com
+    - +.bigbeans.solutions
+    - +.watchanimeattheoffice.com
+    - +.discordapp.io
+    - +.discordcdn.com
     - +.arewereadyyet.com
     - +.cinny.in
     - +.element.io
@@ -17,10 +112,12 @@ payload:
     - +.modular.im
     - +.riot.im
     - +.vector.im
-    - +.fbmessenger.com
-    - +.m.me
-    - +.messenger.com
-    - +.nbabot.net
+    - +.mail.com
+    - +.ui-portal.de
+    - +.uicdn.com
+    - +.uimserv.net
+    - +.nicegram.app
+    - +.nicegram.cloud
     - +.cdn-telegram.org
     - +.comments.app
     - +.contest.com
@@ -42,32 +139,6 @@ payload:
     - +.toncenter.com
     - +.tx.me
     - +.usercontent.dev
-    - +.dis.gd
-    - +.discord.co
-    - +.discord.com
-    - +.intercom.io
-    - +.discord.dev
-    - +.discord.gg
-    - +.discord.gift
-    - +.discord.gifts
-    - +.discord.media
-    - +.discord.new
-    - +.discord.store
-    - +.discord.tools
-    - +.discord-activities.com
-    - +.botim.me
-    - +.discordapp.com
-    - +.discordapp.net
-    - +.discordmerch.com
-    - +.discordpartygames.com
-    - +.discordsays.com
-    - +.discordstatus.com
-    - +.airhorn.solutions
-    - +.airhornbot.com
-    - +.bigbeans.solutions
-    - +.watchanimeattheoffice.com
-    - +.discordapp.io
-    - +.discordcdn.com
     - +.fluxer.app
     - +.fluxer.com
     - +.fluxer.dev
@@ -79,82 +150,11 @@ payload:
     - +.fluxerstatus.com
     - +.fluxerstatic.com
     - +.fluxerusercontent.com
-    - +.discordactivities.com
-    - +.keybase.io
-    - +.slack-core.com
-    - +.intercomcdn.com
-    - +.temp-mail.org
-    - +.signal.art
-    - +.signal.group
-    - +.signal.link
-    - +.signal.me
-    - +.signal.tube
-    - +.signal.org
-    - +.signalusers.org
-    - +.whispersystems.org
-    - +.intercomassets.com
-    - +.slack-edge.com
-    - +.slack-files.com
-    - +.slack-imgs.com
-    - +.slack-msgs.com
-    - +.slack-redir.net
-    - +.slack.com
-    - +.slackb.com
-    - +.slackcertified.com
-    - +.slackdemo.com
-    - +.slackhq.com
     - +.freenode.net
-    - +.linemobile.com
-    - +.lineshoppingseller.com
-    - +.line-apps-beta.com
-    - +.line-apps-rc.com
-    - +.line-apps.com
-    - +.line-beta.me
-    - +.line-cdn.net
-    - +.line.biz
-    - +.nhncorp.jp
-    - +.lin.ee
-    - +.line-scdn.net
-    - +.linecorp.com
-    - +.linefriends.com
-    - +.linetv.tw
-    - +.linegame.jp
-    - +.gcld-line.com
-    - +.linemyshop.com
-    - +.line.me
-    - +.myteamspeak.com
-    - +.teamspeak.com
-    - +.teamspeak-services.com
-    - +.viber.com
-    - +.viber.co
-    - +.viber.me
-    - +.vbcdn.com
-    - +.vbcdn.net
-    - +.wa.me
-    - +.whatsapp-plus.info
-    - +.whatsapp-plus.me
-    - +.whatsapp-plus.net
-    - +.whatsapp.cc
-    - +.whatsapp.com
-    - +.whatsapp.info
-    - +.whatsapp.net
-    - +.whatsapp.org
-    - +.whatsapp.tv
-    - +.whatsappbrand.com
-    - +.clubhouse.com
-    - +.clubhouseapi.com
-    - +.joinclubhouse.com
-    - +.nicegram.app
-    - +.nicegram.cloud
-    - +.pm.me
-    - +.proton.me
-    - +.protonmail.ch
-    - +.protonmail.com
-    - +.protonstatus.com
-    - +.protontech.ch
-    - +.protonvpn.ch
-    - +.protonvpn.com
-    - +.protonweb.com
+    - +.intercom.com
+    - +.intercom.io
+    - +.intercomassets.com
+    - +.intercomcdn.com
     - +.linefriends.com.tw
     - +.line.naver.jp
     - +.s-bid.rmp.rakuten.com
