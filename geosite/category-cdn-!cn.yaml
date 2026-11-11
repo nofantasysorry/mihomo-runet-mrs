@@ -1,12 +1,15 @@
 payload:
-    - +.b-cdn.net
-    - +.bunny.net
+    - +.cdn77.org
+    - +.akamaistream.net
     - +.bunnycdn.com
     - +.cdnjs.com
     - +.esm.sh
     - +.gcdn.co
     - +.gcore.com
-    - +.gcore.pro
+    - +.cdn77.com
+    - +.vrcdn.cloud
+    - +.vrcdn.live
+    - +.vrcdn.video
     - +.ak1.net
     - +.aka-ai.com
     - +.aka-ai.net
@@ -57,7 +60,7 @@ payload:
     - +.akamaitechnologies.com
     - +.akamaitechnologies.net
     - +.akamaisingapore.net
-    - +.akamaistream.net
+    - +.b-cdn.net
     - +.akamaized-staging.net
     - +.akamaized.net
     - +.akamaizercentral.com
@@ -75,6 +78,23 @@ payload:
     - +.iamakamai.net
     - +.soasta-dswb.com
     - +.srtcdn.net
+    - +.quantil.com
+    - +.gcore.pro
+    - +.bunny.net
+    - +.llnwi.net
+    - +.fastly-terrarium.com
+    - +.fastly.com
+    - +.fastly.io
+    - +.fastly.net
+    - +.fastlylabs.com
+    - +.fastlylb.net
+    - +.esm.run
+    - +.jsdelivr.com
+    - +.jsdelivr.net
+    - +.pagecdn.com
+    - +.pagecdn.io
+    - +.stackpath.com
+    - +.stackpath.dev
     - +.argotunnel.com
     - +.browser.run
     - +.cfargotunnel.com
@@ -130,27 +150,9 @@ payload:
     - +.workers.dev
     - +.cf-ipfs.com
     - +.cloudflare-ipfs.com
-    - +.pagecdn.com
-    - +.pagecdn.io
-    - +.stackpath.com
-    - +.stackpath.dev
-    - +.vrcdn.cloud
-    - +.vrcdn.live
-    - +.vrcdn.video
-    - +.cdn77.com
-    - +.cdn77.org
     - +.fastly-edge.com
-    - +.fastly-terrarium.com
-    - +.fastly.com
-    - +.fastly.io
-    - +.fastly.net
-    - +.fastlylabs.com
-    - +.fastlylb.net
     - +.imgix.com
     - +.imgix.net
-    - +.esm.run
-    - +.jsdelivr.com
-    - +.jsdelivr.net
     - +.delvenetworks.com
     - +.limelight.com
     - +.lldns.net
@@ -158,10 +160,8 @@ payload:
     - +.llnw.com
     - +.llnw.net
     - +.llnwd.net
-    - +.llnwi.net
-    - +.quantil.com
-    - +.akamai.co.kr
     - +.one.one.one
+    - +.akamai.co.kr
     - +.accdn.com.cn
     - +.akadns88.net
     - +.akadns99.net

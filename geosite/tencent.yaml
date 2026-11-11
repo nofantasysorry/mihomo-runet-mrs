@@ -198,7 +198,7 @@ payload:
     - +.itopsdk.com
     - +.my-imcloud.com
     - +.my-qcloud.com
-    - +.discuz.org
+    - +.doh.pub
     - +.myelasticsearch.com
     - +.myqcloud.com
     - +.onexmail.com
@@ -214,10 +214,10 @@ payload:
     - +.qcloudcdntest.cn
     - +.qcloudclass.com
     - +.qcloudcos.cn
+    - +.dns.pub
+    - +.dnsv5.com
     - +.dnspod.org
-    - +.discuz.net
-    - +.comsenz.com
-    - +.doh.pub
+    - +.dnsv3.com
     - +.qclouder.com
     - +.qcloudgme.com
     - +.qcloudimg.com
@@ -278,7 +278,7 @@ payload:
     - +.tencent-cloud.net
     - +.tencentapps.com
     - +.tencentbyod.com
-    - +.dnsv5.com
+    - +.dnsv4.com
     - +.anticheatexpert.com
     - +.qcloudcos.com
     - +.xn--r70as2s.xn--fiqs8s
@@ -294,7 +294,7 @@ payload:
     - +.tencentcloudses.com
     - +.tencentcos.cn
     - +.tencentcos.com
-    - +.dnsv3.com
+    - +.dnsapi.cn
     - +.tencentcs.cn
     - +.tencentcs.com
     - +.tencentdayu.com
@@ -314,12 +314,12 @@ payload:
     - +.tencentyun.com
     - +.tendbcluster.com
     - +.tendis.net
-    - +.dnsv4.com
+    - +.dnspod.mobi
     - +.acctdns.com
     - +.testwaf.com
     - +.tgovcloud.com
     - +.tidaas.com
-    - +.dns.pub
+    - +.dot.pub
     - +.timmerse.com
     - +.tlivecdn.com
     - +.tlivemcdn.com
@@ -344,7 +344,7 @@ payload:
     - +.wework-studio.com
     - +.xqymuy.com
     - +.yufuid.com
-    - +.dnsapi.cn
+    - +.dnspod.com
     - +.yufuid.net
     - +.yunjitele.com
     - +.dnse0.cn
@@ -389,12 +389,12 @@ payload:
     - +.tdnsv13.net
     - +.tdnsv14.net
     - +.tdnsv15.net
-    - +.dnspod.mobi
-    - +.dot.pub
-    - +.dnspod.com
     - +.dnspod.cn
     - +.dnsv2.com
     - +.dnspod.net
+    - +.discuz.org
+    - +.discuz.net
+    - +.comsenz.com
     - +.rumt-zh.com
     - +.tamaegis.com
     - +.ym.run
@@ -472,10 +472,10 @@ payload:
     - +.wegamedeveloper.com
     - +.weixinbridge.com
     - +.weui.io
-    - +.coding.me
-    - +.coding.net
     - +.cnb.cool
     - +.cnb.space
+    - +.coding.me
+    - +.coding.net
     - +.yxdmgame.com
     - +.pubgtool.com
     - +.gameloop.com
@@ -521,17 +521,17 @@ payload:
     - +.tencentcos.com.cn
     - +.testjrzk.net.cn
     - +.qcloudcos.com.cn
+    - +.jrzk.net.cn
     - +.dnspod.com.cn
-    - +.dnsv1.com.cn
     - +.oracle-tencent.com.cn
     - +.yufuid.com.cn
-    - +.ectencent.com.cn
+    - +.dnsv1.com.cn
     - +.timatrix.com.cn
     - +.goto-game.net.cn
     - +.soso.com.cn
     - +.tencentclb.com.cn
     - +.tdnsdl5.com.cn
-    - +.jrzk.net.cn
+    - +.ectencent.com.cn
     - +.tdnsdl4.com.cn
     - +.tdnsdl2.com.cn
     - +.tdnsdl1.com.cn
