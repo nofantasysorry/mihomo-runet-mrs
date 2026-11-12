@@ -1,8 +1,7 @@
-DOMAIN,http-intake.logs.us5.datadoghq.com
-DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,sentry.ppy.sh
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN-SUFFIX,cafe.github.com
 DOMAIN-SUFFIX,collector.github.com
 DOMAIN,copilot-telemetry-service.githubusercontent.com
@@ -11,13 +10,6 @@ DOMAIN,dc.services.visualstudio.com
 DOMAIN,rt.services.visualstudio.com
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,firebaselogging.googleapis.com
-DOMAIN-SUFFIX,paypalbeacon.com
-DOMAIN-SUFFIX,akstat.io
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN,firebaselogging-pa.googleapis.com
-DOMAIN,firebaselogging.googleapis.com
-DOMAIN,incoming.telemetry.mozilla.org
-DOMAIN,incoming-telemetry.thunderbird.net
 DOMAIN-SUFFIX,applicationinsights.io
 DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,aria.ms
@@ -33,4 +25,12 @@ DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,dc.services.visualstudio.com
 DOMAIN,rt.services.visualstudio.com
 DOMAIN-SUFFIX,adobestats.io
+DOMAIN,firebaselogging-pa.googleapis.com
+DOMAIN,firebaselogging.googleapis.com
+DOMAIN,incoming.telemetry.mozilla.org
+DOMAIN,incoming-telemetry.thunderbird.net
+DOMAIN-SUFFIX,akstat.io
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,paypalbeacon.com
+DOMAIN,sentry.ppy.sh
 DOMAIN,sentry.ppy.sh

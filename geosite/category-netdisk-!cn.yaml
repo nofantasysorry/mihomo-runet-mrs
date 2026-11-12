@@ -1,8 +1,10 @@
 payload:
     - dropbox.zendesk.com
     - paper-attachments.s3.amazonaws.com
-    - +.transfer.it
-    - +.onedrive.eu
+    - +.megapay.nz
+    - +.freeterabox.com
+    - +.addtodropbox.com
+    - +.dash.ai
     - +.db.tt
     - +.docsend.com
     - +.dropbox-dns.com
@@ -25,19 +27,23 @@ payload:
     - +.hellofax.com
     - +.hellosign.com
     - +.mega.io
-    - +.mega.nz
-    - +.megaad.nz
-    - +.megapay.nz
+    - +.terabox.com
     - +.usersdrive.com
-    - +.dash.ai
+    - +.livefilestore.com
+    - +.megas4.com
+    - +.transfer.it
+    - +.teraboxcdn.com
     - +.1drv.com
     - +.1drv.ms
-    - +.livefilestore.com
+    - +.userdrive.org
     - +.onedrive.co
     - +.onedrive.com
-    - +.addtodropbox.com
+    - +.onedrive.eu
     - +.onedrive.net
     - +.onedrive.org
+    - +.terabox1024.com
+    - +.mega.nz
+    - +.nephobox.com
     - +.mypikpak.com
     - +.mypikpak.net
     - +.pickpackapp.com
@@ -46,15 +52,9 @@ payload:
     - +.pikpakdrive.com
     - +.1024terabox.com
     - +.bestclouddrive.com
-    - +.freeterabox.com
-    - +.nephobox.com
-    - +.terabox.com
-    - +.terabox1024.com
-    - +.teraboxcdn.com
-    - +.userdrive.org
-    - +.megas4.com
-    - +.mega.co.nz
-    - +.onedrive.co.uk
-    - +.onedrive.live.com
+    - +.megaad.nz
     - +.storage.live.com
+    - +.onedrive.live.com
+    - +.onedrive.co.uk
+    - +.mega.co.nz
     - o4504926511693824.ingest.sentry.io

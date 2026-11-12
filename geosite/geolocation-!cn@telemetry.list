@@ -1,8 +1,7 @@
-http-intake.logs.us5.datadoghq.com
-o1158394.ingest.us.sentry.io
 copilot-telemetry-service.githubusercontent.com
 copilot-telemetry.githubusercontent.com
-sentry.ppy.sh
+http-intake.logs.us5.datadoghq.com
+o1158394.ingest.us.sentry.io
 +.cafe.github.com
 +.collector.github.com
 copilot-telemetry-service.githubusercontent.com
@@ -11,13 +10,6 @@ dc.services.visualstudio.com
 rt.services.visualstudio.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
-+.paypalbeacon.com
-+.akstat.io
-+.cloudflareinsights.com
-firebaselogging-pa.googleapis.com
-firebaselogging.googleapis.com
-incoming.telemetry.mozilla.org
-incoming-telemetry.thunderbird.net
 +.applicationinsights.io
 +.applicationinsights.net
 +.aria.ms
@@ -33,4 +25,12 @@ copilot-telemetry.githubusercontent.com
 dc.services.visualstudio.com
 rt.services.visualstudio.com
 +.adobestats.io
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
+incoming.telemetry.mozilla.org
+incoming-telemetry.thunderbird.net
++.akstat.io
++.cloudflareinsights.com
++.paypalbeacon.com
+sentry.ppy.sh
 sentry.ppy.sh
