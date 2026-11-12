@@ -14,18 +14,18 @@ payload:
     - +.geely.com
     - +.lixiang.com
     - +.seres.cn
-    - +.yccdn.com
+    - +.dongchediapp.com
     - +.zeekrgroup.com
     - +.xiaopeng.com
     - +.12365auto.com
     - +.lynkco.com
-    - +.cheyisou.com
-    - +.bitautoimg.com
-    - +.bitauto.com
+    - +.dcdapp.com
+    - +.dcarvod.com
+    - +.dcarstatic.com
     - +.nio.cn
     - +.lynkco-test.com
     - +.autohome.com
-    - +.yiche.com
+    - +.dongchedi.com
     - +.zeekrlife.com
     - +.gzurl.cn
     - +.guazi.com
@@ -37,14 +37,14 @@ payload:
     - +.wkzuche.com
     - +.zuche.com
     - +.zuchecdn.com
+    - +.bitauto.com
+    - +.bitautoimg.com
+    - +.cheyisou.com
+    - +.yiche.com
+    - +.yccdn.com
     - +.dcarapi.com
     - +.dcarimg.com
     - +.dcarlive.com
-    - +.dcarstatic.com
-    - +.dcarvod.com
-    - +.dcdapp.com
-    - +.dongchedi.com
-    - +.dongchediapp.com
     - +.lynkco.com.cn
     - +.jac.com.cn
     - +.gwm.com.cn

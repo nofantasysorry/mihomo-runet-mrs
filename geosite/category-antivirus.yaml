@@ -1,8 +1,8 @@
 payload:
     - eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com
     - epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
-    - +.avast.com
-    - +.avg.com
+    - +.kaspersky.cz
+    - +.eset.systems
     - +.avira.com
     - +.bitdefender.com
     - +.clamwin.com
@@ -10,26 +10,11 @@ payload:
     - +.mcafee.com
     - +.norton.com
     - +.pandasecurity.com
-    - +.symantec.com
-    - +.symantecliveupdate.com
-    - +.comodo.com
-    - +.comodo.net
-    - +.drweb.by
-    - +.drweb.cn
-    - +.drweb.com
-    - +.drweb.fr
-    - +.drweb.kz
-    - +.drweb.ru
-    - +.drweb.uz
-    - +.drweb-av.de
-    - +.drweb-av.es
-    - +.drweb-av.it
-    - +.drweb-av.pl
     - +.e5.sk
     - +.eset.com
     - +.eset.eu
     - +.eset.sk
-    - +.eset.systems
+    - +.kaspersky.de
     - +.esetsoftware.com
     - +.kaspersky.nl
     - +.kaspersky.be
@@ -46,27 +31,42 @@ payload:
     - +.kaspersky-labs.com
     - +.kaspersky.kz
     - +.kaspersky.it
-    - +.kaspersky.gr
-    - +.kaspersky.fr
-    - +.kaspersky.cz
-    - +.kaspersky.de
     - +.kaspersky.dk
+    - +.kaspersky.fr
+    - +.symantec.com
+    - +.avg.com
+    - +.kaspersky.gr
     - +.kaspersky.dz
     - +.kaspersky.fi
-    - +.drweb.co.jp
+    - +.avast.com
+    - +.symantecliveupdate.com
+    - +.comodo.com
+    - +.comodo.net
+    - +.drweb.by
+    - +.drweb-av.pl
+    - +.drweb-av.it
+    - +.drweb-av.es
+    - +.drweb-av.de
+    - +.drweb.uz
+    - +.drweb.ru
+    - +.drweb.kz
+    - +.drweb.fr
+    - +.drweb.cn
+    - +.drweb.com
     - +.kaspersky.co.uk
     - +.kaspersky.com.vn
-    - +.kaspersky.com.tw
-    - +.kaspersky.com.tr
-    - +.kaspersky.com.pl
     - +.kaspersky.com.hk
-    - +.kaspersky.com.br
+    - +.kaspersky.com.pl
+    - +.kaspersky.com.tr
     - +.kaspersky.com.au
-    - +.kaspersky.co.za
-    - +.kaspersky.co.th
+    - +.kaspersky.com.br
+    - +.kaspersky.com.tw
     - +.kaspersky.co.kr
+    - +.kaspersky.co.th
+    - +.kaspersky.co.za
     - +.kaspersky.co.jp
     - +.kaspersky.co.in
+    - +.drweb.co.jp
     - +.cn.eset.com
     - +.kaspersky.com.cn
     - activation-v2.kaspersky.com
