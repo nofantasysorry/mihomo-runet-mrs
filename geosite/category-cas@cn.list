@@ -1,7 +1,6 @@
+www.entrust.cn
 +.dcocsp.cn
 +.digicert.cn
-+.sslcom.cn
-www.entrust.cn
 +.alphassl.com
 +.easy-signing.com
 +.globalsign.cn
@@ -21,6 +20,7 @@ ocsp.pki.goog
 +.sectigochina.com
 +.sectigochina.com.cdn.cloudflare.net
 +.trust-provider.cn
++.sslcom.cn
 certs-lb.apple.com.akadns.net
 certs.apple.com
 crl-lb.apple.com.akadns.net

@@ -1,7 +1,10 @@
 payload:
-    - +.adobestats.io
-    - incoming.telemetry.mozilla.org
-    - incoming-telemetry.thunderbird.net
+    - crashlyticsreports-pa.googleapis.com
+    - firebase-settings.crashlytics.com
+    - firebaselogging-pa.googleapis.com
+    - firebaselogging.googleapis.com
+    - update.crashlytics.com
+    - sentry.iptv.rt.ru
     - +.apptracer.ru
     - +.metrics.viqeo.tv
     - sentry-ng.g.smailru.net
@@ -14,32 +17,15 @@ payload:
     - stats.dev.telega.info
     - stats.rustore.ru
     - stats.telega.info
-    - +.log.dzen.ru
     - stats.vk-portal.net
+    - +.log.dzen.ru
+    - incoming.telemetry.mozilla.org
+    - incoming-telemetry.thunderbird.net
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
     - +.analytics.vpc.duolingo.com
     - +.metrics.duolingo.com
-    - +.applicationinsights.io
-    - +.applicationinsights.net
-    - +.aria.ms
-    - +.data.microsoft.com
-    - +.telemetry.microsoft.com
-    - +.nelreports.net
-    - +.in.applicationinsights.azure.com
-    - dc.applicationinsights.azure.com
-    - live.applicationinsights.azure.com
-    - +.cafe.github.com
-    - +.collector.github.com
-    - copilot-telemetry-service.githubusercontent.com
-    - copilot-telemetry.githubusercontent.com
-    - dc.services.visualstudio.com
-    - rt.services.visualstudio.com
-    - +.browser.events.data.msn.cn
-    - +.browser.events.data.msn.com
-    - crashlyticsreports-pa.googleapis.com
-    - firebase-settings.crashlytics.com
-    - firebaselogging-pa.googleapis.com
-    - firebaselogging.googleapis.com
-    - update.crashlytics.com
+    - +.adobestats.io
     - +.appmetrica.yandex.com
     - +.appmetrica.yandex.net
     - +.appmetrica.yandex.ru
@@ -58,7 +44,21 @@ payload:
     - mc.yandex.com
     - mc.yandex.net
     - mc.yango.com
-    - sentry.iptv.rt.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
     - sentry.hetzner.company
+    - +.applicationinsights.io
+    - +.applicationinsights.net
+    - +.aria.ms
+    - +.data.microsoft.com
+    - +.telemetry.microsoft.com
+    - +.nelreports.net
+    - +.in.applicationinsights.azure.com
+    - dc.applicationinsights.azure.com
+    - live.applicationinsights.azure.com
+    - +.cafe.github.com
+    - +.collector.github.com
+    - copilot-telemetry-service.githubusercontent.com
+    - copilot-telemetry.githubusercontent.com
+    - dc.services.visualstudio.com
+    - rt.services.visualstudio.com
+    - +.browser.events.data.msn.cn
+    - +.browser.events.data.msn.com

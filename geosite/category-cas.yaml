@@ -9,79 +9,52 @@ payload:
     - oneocsp.microsoft.com
     - www.microsoft.com
     - +.godaddy
-    - +.digitalcertvalidation.com
-    - +.infocert.digital
-    - +.certsign.ro
+    - +.catcert.cat
+    - +.netsolssl.com
     - +.d-trust.net
     - +.e-szigno.hu
-    - +.freessl.com
+    - +.e-tugra.com
     - +.firmaprofesional.com
     - +.fnmt.es
     - +.harica.gr
-    - +.geotrust.com
+    - +.infocert.digital
     - +.infocert.it
     - +.managedpki.com
     - +.netlock.hu
     - +.trustcor.ca
     - +.trustcor.com
     - +.trustisfps.com
+    - +.entrust.cn
+    - +.entrust.com
+    - +.entrust.net
+    - +.entrustdatacard.com
+    - +.affirmtrust.com
+    - +.atos.net
+    - +.myatos.net
+    - +.certificat2.com
+    - +.trendmicro.com
+    - +.lencr.org
+    - +.letsencrypt.com
+    - +.letsencrypt.org
+    - +.telekom.com
+    - +.telekom.de
+    - +.telesec.de
+    - +.certinomis.com
+    - +.certinomis.fr
+    - +.secomtrust.net
+    - +.msocsp.com
+    - +.identrust.net
     - +.certum.pl
     - +.ocsp-certum.com
     - +.ocsp-responder.com
-    - +.godaddy.com
-    - +.godaddy.net
-    - +.wsimg.com
-    - +.x.co
-    - +.identrust.com
-    - +.identrust.net
-    - +.digital-id.ch
-    - +.digitalid.ch
-    - +.managed-pki.ch
-    - +.managed-pki.de
-    - +.pki-post.ch
-    - +.pki-posta.ch
-    - +.pki-poste.ch
-    - +.root-signing.ch
-    - +.rootsigning.com
-    - +.ssl-certificate.ch
-    - +.swissid.ch
-    - +.swissign.com
-    - +.swissign.li
-    - +.swisssign-group.ch
-    - +.swisssign-group.com
-    - +.swisssign-group.li
-    - +.swisssign.ch
-    - +.swisssign.com
-    - +.swisssign.li
-    - +.swisssign.net
-    - +.swisssign.org
-    - +.swisssigner.ch
-    - +.swisssigner.com
-    - +.swisssigngroup.ch
-    - +.swisssigngroup.com
-    - +.swissstick.com
-    - +.swisstsa.ch
-    - +.swisstsa.li
-    - +.trustdoc.ch
-    - +.trustsign.ch
-    - +.zert.ch
-    - +.actalis.com
-    - +.actalis.it
-    - +.buypass-ssl.com
-    - +.buypass.com
-    - +.buypass.no
-    - +.buypass.se
-    - +.minid.no
-    - +.certinomis.com
-    - +.certinomis.fr
     - +.digicert-cn.com
     - +.digicert-validation.com
     - +.digicert.com
     - +.digicert.eu
-    - +.entrust.net
-    - +.e-tugra.com
+    - +.digitalcertvalidation.com
+    - +.freessl.com
+    - +.geotrust.com
     - +.rapidssl.com
-    - +.camerfirma.com
     - +.thawte.com
     - +.thawte.de
     - +.thawte.fr
@@ -91,33 +64,73 @@ payload:
     - +.symauth.com
     - +.symcb.com
     - +.symcd.com
-    - +.ssl.com
-    - +.telesec.de
-    - +.telekom.de
-    - +.telekom.com
-    - +.secomtrust.net
+    - +.identrust.com
+    - +.amazontrust.com
+    - +.wsimg.com
+    - +.godaddy.net
+    - +.godaddy.com
+    - +.camerfirma.com
+    - +.gandi.net
+    - +.actalis.it
+    - +.actalis.com
+    - +.trustwave.com
+    - +.zert.ch
+    - +.trustsign.ch
+    - +.trustdoc.ch
+    - +.swisstsa.li
+    - +.swisstsa.ch
+    - +.swissstick.com
+    - +.swisssigngroup.com
+    - +.swisssigngroup.ch
+    - +.swisssigner.com
+    - +.swisssigner.ch
+    - +.swisssign.org
+    - +.swisssign.net
+    - +.swisssign.li
+    - +.swisssign.com
+    - +.swisssign.ch
+    - +.swisssign-group.li
+    - +.swisssign-group.com
+    - +.swisssign-group.ch
+    - +.swissign.li
+    - +.swissign.com
+    - +.swissid.ch
+    - +.ssl-certificate.ch
+    - +.rootsigning.com
+    - +.root-signing.ch
+    - +.pki-poste.ch
+    - +.pki-posta.ch
+    - +.pki-post.ch
+    - +.managed-pki.de
+    - +.managed-pki.ch
+    - +.digitalid.ch
+    - +.digital-id.ch
     - +.wisekey.com
     - +.wiseid.com
     - +.wisecoin.com
-    - +.ziggo.nl
-    - +.vodafoneziggo.nl
-    - +.vodafone.nl
-    - +.vodafone.it
-    - +.vodafone.de
-    - +.vodafone.com
-    - +.msocsp.com
-    - +.gandi.net
-    - +.starfieldtech.com
+    - +.ssl.com
     - +.comodoca4.com
     - +.comodoca3.com
     - +.comodoca2.com
     - +.comodoca.com
-    - +.netsolssl.com
+    - +.certsign.ro
     - +.incommon-rsa.org
-    - +.catcert.cat
-    - +.aoc.cat
     - +.accv.es
+    - +.aoc.cat
     - +.usertrust.com
+    - +.buypass.no
+    - +.x.co
+    - +.awstrust.com
+    - +.ss2.us
+    - +.globalsign.es
+    - +.globalsign-media.com
+    - +.globalsign.ch
+    - +.globalsign.cloud
+    - +.globalsign.nl
+    - +.globalsign.net
+    - +.globalsign.be
+    - +.globalsign.fr
+    - +.globalsign.eu
     - +.trust-provider.com
     - +.sectigo.com
     - +.positivessl.com
@@ -125,60 +138,61 @@ payload:
     - +.instantssl.com
     - +.hackerguardian.com
     - +.enterprisessl.com
-    - +.letsencrypt.org
-    - +.letsencrypt.com
-    - +.lencr.org
-    - +.ss2.us
-    - +.awstrust.com
-    - +.amazontrust.com
-    - +.trustwave.com
+    - +.starfieldtech.com
+    - +.vodafone.com
+    - +.vodafone.de
+    - +.vodafone.it
+    - +.vodafone.nl
+    - +.vodafoneziggo.nl
+    - +.ziggo.nl
     - +.pki.goog
-    - +.globalsign.eu
-    - +.globalsign.fr
-    - +.globalsign.be
-    - +.globalsign.net
-    - +.globalsign.nl
-    - +.globalsign.cloud
-    - +.globalsign.ch
-    - +.globalsign-media.com
-    - +.globalsign.es
-    - +.trendmicro.com
-    - +.certificat2.com
-    - +.myatos.net
-    - +.atos.net
-    - +.affirmtrust.com
-    - +.entrustdatacard.com
-    - +.entrust.cn
-    - +.entrust.com
-    - +.evintl-t1-crl.verisign.com
+    - +.minid.no
+    - +.buypass.se
+    - +.buypass.com
+    - +.buypass-ssl.com
+    - +.csc3-2009-2-aia.verisign.com
+    - +.svrintl-g3-aia.verisign.com
+    - +.cybertrust.ne.jp
+    - +.vodafone.co.uk
+    - +.myvodafone.com.ws
+    - +.myvodafone.com.au
+    - +.eca.hinet.net
+    - +.pki.hinet.net
+    - +.publicca.hinet.net
+    - +.tls.hinet.net
+    - +.twca.com.tw
+    - +.ecert.gov.hk
+    - +.hongkongpost.gov.hk
+    - +.globalsign.co.uk
+    - +.globalsign.com.au
+    - +.globalsign.com.hk
+    - +.globalsign.com.sg
+    - +.globalsign.com.br
+    - +.ssp-ocsp.verisign.com
+    - +.ws.symantec.com
+    - +.pki.symantec.com
+    - +.svrtrial-g2-crl.verisign.com
     - +.svrtrial-g2-aia.verisign.com
     - +.svrsecure-t1-crl.verisign.com
     - +.svrsecure-t1-aia.verisign.com
-    - +.svrsecure-oracle-ocsp.verisign.com
+    - +.svrintl-aia.verisign.com
     - +.svrsecure-oracle-crl.verisign.com
     - +.svrsecure-oracle-aia.verisign.com
-    - +.svrsecure-g3-crl.verisign.com
+    - +.svrintl-g3-crl.verisign.com
     - +.svrsecure-g3-aia.verisign.com
     - +.svrsecure-g2-crl.verisign.com
+    - +.wisekey.com.hk
     - +.svrsecure-g2-aia.verisign.com
-    - +.svrsecure-crl.verisign.com
+    - +.svrintl-crl.verisign.com
     - +.svrsecure-aia.verisign.com
     - +.svrintl-t1-crl.verisign.com
     - +.svrintl-t1-aia.verisign.com
-    - +.svrintl-g3-crl.verisign.com
-    - +.svrtrial-g2-crl.verisign.com
-    - +.globalsign.com.br
-    - +.globalsign.com.sg
-    - +.globalsign.com.hk
-    - +.globalsign.com.au
-    - +.globalsign.co.uk
-    - +.svrintl-g3-aia.verisign.com
-    - +.hongkongpost.gov.hk
-    - +.ecert.gov.hk
-    - +.svrintl-crl.verisign.com
-    - +.svrintl-aia.verisign.com
+    - +.svrsecure-g3-crl.verisign.com
+    - +.managedpki.ne.jp
+    - +.vodafone.com.au
+    - +.svrsecure-oracle-ocsp.verisign.com
     - +.svr-wimax-ocsp.verisign.com
-    - +.ssp-ocsp.verisign.com
+    - +.cybertrust.co.jp
     - +.ssp-crl.verisign.com
     - +.ssp-aia.verisign.com
     - +.pki-ocsp.verisign.com
@@ -190,6 +204,7 @@ payload:
     - +.evsecure-ocsp.verisign.com
     - +.evsecure-crl.verisign.com
     - +.evsecure-aia.verisign.com
+    - +.evintl-t1-crl.verisign.com
     - +.evintl-ocsp.verisign.com
     - +.evintl-crl.verisign.com
     - +.evintl-aia.verisign.com
@@ -200,37 +215,21 @@ payload:
     - +.csc3-2009-crl.verisign.com
     - +.csc3-2009-aia.verisign.com
     - +.csc3-2009-2-crl.verisign.com
-    - +.eca.hinet.net
-    - +.pki.hinet.net
-    - +.publicca.hinet.net
-    - +.tls.hinet.net
-    - +.csc3-2009-2-aia.verisign.com
+    - +.svrsecure-crl.verisign.com
     - +.csc3-2004-crl.verisign.com
     - +.csc3-2004-aia.verisign.com
     - +.crl.verisign.com
     - +.certipath-crl.verisign.com
     - +.certipath-aia.verisign.com
     - +.adobe-crl.verisign.com
-    - +.myvodafone.com.au
-    - +.myvodafone.com.ws
-    - +.vodafone.co.uk
-    - +.vodafone.com.au
-    - +.vodafone.com.tr
-    - +.cybertrust.ne.jp
-    - +.cybertrust.co.jp
-    - +.ws.symantec.com
-    - +.wisekey.com.hk
-    - +.pki.symantec.com
-    - +.secom.co.jp
-    - +.managedpki.ne.jp
     - +.digicert.co.jp
-    - +.twca.com.tw
+    - +.vodafone.com.tr
     - +.identrust.co.uk
+    - +.secom.co.jp
     - +.gtlsca.nat.gov.tw
+    - www.entrust.cn
     - +.dcocsp.cn
     - +.digicert.cn
-    - +.sslcom.cn
-    - www.entrust.cn
     - +.alphassl.com
     - +.easy-signing.com
     - +.globalsign.cn
@@ -250,6 +249,7 @@ payload:
     - +.sectigochina.com
     - +.sectigochina.com.cdn.cloudflare.net
     - +.trust-provider.cn
+    - +.sslcom.cn
     - certs-lb.apple.com.akadns.net
     - certs.apple.com
     - crl-lb.apple.com.akadns.net
