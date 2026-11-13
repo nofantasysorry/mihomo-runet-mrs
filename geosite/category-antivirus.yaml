@@ -1,8 +1,8 @@
 payload:
     - eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com
     - epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
-    - +.avast.com
-    - +.avg.com
+    - +.kaspersky.rs
+    - +.drweb.kz
     - +.avira.com
     - +.bitdefender.com
     - +.clamwin.com
@@ -10,13 +10,11 @@ payload:
     - +.mcafee.com
     - +.norton.com
     - +.pandasecurity.com
-    - +.comodo.com
-    - +.comodo.net
     - +.drweb.by
     - +.drweb.cn
     - +.drweb.com
     - +.drweb.fr
-    - +.drweb.kz
+    - +.kaspersky.ro
     - +.drweb.ru
     - +.drweb.uz
     - +.drweb-av.de
@@ -33,14 +31,14 @@ payload:
     - +.kaspersky.be
     - +.kaspersky.my
     - +.kaspersky.ca
-    - +.kaspersky.se
-    - +.kaspersky.ru
-    - +.kaspersky.rs
-    - +.kaspersky.ro
     - +.kaspersky.ma
+    - +.kaspersky.ru
+    - +.kaspersky.com
+    - +.avg.com
+    - +.kaspersky.se
     - +.kaspersky.pt
     - +.kaspersky.es
-    - +.kaspersky.com
+    - +.avast.com
     - +.kaspersky-labs.com
     - +.kaspersky.kz
     - +.kaspersky.it
@@ -53,17 +51,19 @@ payload:
     - +.kaspersky.fi
     - +.symantec.com
     - +.symantecliveupdate.com
-    - +.drweb.co.jp
-    - +.kaspersky.co.uk
+    - +.comodo.com
+    - +.comodo.net
+    - +.kaspersky.com.br
+    - +.kaspersky.com.hk
     - +.kaspersky.com.vn
     - +.kaspersky.com.tw
     - +.kaspersky.com.tr
+    - +.drweb.co.jp
+    - +.kaspersky.co.uk
     - +.kaspersky.com.pl
-    - +.kaspersky.com.hk
-    - +.kaspersky.com.br
-    - +.kaspersky.com.au
-    - +.kaspersky.co.za
     - +.kaspersky.co.th
+    - +.kaspersky.co.za
+    - +.kaspersky.com.au
     - +.kaspersky.co.kr
     - +.kaspersky.co.jp
     - +.kaspersky.co.in
