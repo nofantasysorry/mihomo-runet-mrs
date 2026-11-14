@@ -1,8 +1,8 @@
 payload:
     - bbs.boingboing.net
     - www.quora.com.cdn.cloudflare.net
-    - +.ck101.com
-    - +.ckcdn.com
+    - +.22112211.xyz
+    - +.soyjak.party
     - +.avsforum.com
     - +.disp.cc
     - +.doom9.org
@@ -13,38 +13,25 @@ payload:
     - +.parler.com
     - +.pincong.rocks
     - +.questionablequesting.com
-    - +.4chan.org
+    - +.18p2p.com
     - +.sis001.com
-    - +.2ch.net
+    - +.nodeget.com
     - +.v2ex.co
     - +.v2ex.com
-    - +.redd.it
-    - +.reddit.com
-    - +.redditblog.com
-    - +.reddithelp.com
-    - +.redditinc.com
-    - +.redditmail.com
-    - +.redditmedia.com
-    - +.redditspace.com
-    - +.redditstatic.com
-    - +.redditstatus.com
-    - +.habrastorage.org
-    - +.habr.com
-    - +.soyjak.party
-    - +.soyjak.st
-    - +.dzen.ru
-    - +.dzeninfra.ru
+    - +.dcard.cc
+    - +.dcard.io
+    - +.dcard.link
+    - +.dcard.tw
+    - +.broadbandreports.com
+    - +.dslr.net
+    - +.dslreports.com
     - +.fanfiction.net
-    - +.qr.ae
-    - +.quora.com
-    - +.quoracdn.net
-    - +.poe.com
-    - +.poecdn.net
-    - +.5i01.com
-    - +.mobile01.com
-    - +.ptt.cc
-    - +.ptt2.cc
-    - +.ptt3.cc
+    - +.habr.com
+    - +.habrastorage.org
+    - +.hkgolden.com
+    - +.hkgolden.media
+    - +.livejournal.com
+    - +.livejournal.net
     - +.maintracker.org
     - +.rutracker.cc
     - +.rutracker.cr
@@ -55,40 +42,26 @@ payload:
     - +.rutracker.wiki
     - +.rutrk.org
     - +.4cdn.org
-    - +.safechat.com
-    - +.dcard.tw
-    - +.spacebattles.com
+    - +.4chan.org
+    - +.4channel.org
+    - +.xda-cdn.com
+    - +.xda-developers.com
+    - +.xdaforums.com
+    - +.xdaimages.com
+    - +.2ch.net
     - +.5ch.io
     - +.5ch.net
-    - +.hkgolden.com
-    - +.hkgolden.media
-    - +.linux.do
-    - +.ldstatic.com
-    - +.22112211.xyz
-    - +.deepflood.com
-    - +.nodeget.com
+    - +.dzen.ru
+    - +.dzeninfra.ru
+    - +.5i01.com
+    - +.mobile01.com
+    - +.safechat.com
+    - +.8chan.moe
+    - +.spacebattles.com
     - +.nodeimage.com
     - +.nodequality.com
     - +.nodeseek.com
     - +.nodeseek.org
-    - +.2ch.hk
-    - +.2ch.life
-    - +.2ch.org
-    - +.2ch.su
-    - +.6park.com
-    - +.6parkbbs.com
-    - +.6parknews.com
-    - +.cool18.com
-    - +.popo8.com
-    - +.parkvv.com
-    - +.xwbo.com
-    - +.18p2p.com
-    - +.8chan.moe
-    - +.ckck.fun
-    - +.lih.kg
-    - +.lihkg.com
-    - +.livejournal.com
-    - +.livejournal.net
     - +.pimg.tw
     - +.pixanalytics.com
     - +.pixfs.net
@@ -97,19 +70,46 @@ payload:
     - +.pixnet.pro
     - +.pixnet.tw
     - +.pixplug.in
-    - +.dslreports.com
-    - +.xda-cdn.com
-    - +.xda-developers.com
-    - +.xdaforums.com
-    - +.xdaimages.com
-    - +.dcard.cc
-    - +.dcard.io
-    - +.dcard.link
-    - +.4channel.org
-    - +.broadbandreports.com
-    - +.dslr.net
-    - +.pixinsight.com.tw
+    - +.2ch.su
+    - +.redd.it
+    - +.reddit.com
+    - +.redditblog.com
+    - +.reddithelp.com
+    - +.redditinc.com
+    - +.redditmail.com
+    - +.redditmedia.com
+    - +.redditspace.com
+    - +.redditstatic.com
+    - +.redditstatus.com
+    - +.2ch.org
+    - +.2ch.life
+    - +.ck101.com
+    - +.ckcdn.com
+    - +.ckck.fun
+    - +.6park.com
+    - +.6parkbbs.com
+    - +.6parknews.com
+    - +.cool18.com
+    - +.popo8.com
+    - +.parkvv.com
+    - +.xwbo.com
+    - +.lih.kg
+    - +.lihkg.com
+    - +.linux.do
+    - +.ldstatic.com
+    - +.ptt.cc
+    - +.ptt2.cc
+    - +.ptt3.cc
+    - +.qr.ae
+    - +.quora.com
+    - +.quoracdn.net
+    - +.poe.com
+    - +.poecdn.net
+    - +.deepflood.com
+    - +.soyjak.st
+    - +.2ch.hk
     - +.reddit.app.link
+    - +.pixinsight.com.tw
     - +.reddit.map.fastly.net
     - +.log.dzen.ru
     - +.ms.dzen.ru

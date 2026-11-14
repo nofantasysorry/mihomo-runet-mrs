@@ -49,6 +49,21 @@ payload:
     - +.ycgame.com
     - +.yjwujian.cn
     - +.yysls.cn
+    - +.mhystatic.com
+    - +.mhyurl.cn
+    - +.mihayo.com
+    - +.mihayou.com
+    - +.mihoyo.com
+    - +.mihoyocg.com
+    - +.mihoyogift.com
+    - +.mihoyomall.com
+    - +.miyoushe.com
+    - +.benghuai.com
+    - +.bh3.com
+    - +.bhsr.com
+    - +.themisweeps.com
+    - +.yuanshen.com
+    - +.juequling.com
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -112,47 +127,18 @@ payload:
     - +.yxhapi.com
     - +.yxhhdl.com
     - +.yxhimg.com
-    - +.17173.com
-    - +.17173cdn.com
-    - +.changyou.com
-    - +.cy.com
-    - +.playcool.com
-    - +.yeyou.com
-    - +.yeyoucdn.com
+    - +.sl916.com
     - +.cowlevel.net
     - +.cdncl.net
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
-    - +.vrzwk.top
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
     - +.hero.com
     - +.herogame.com
     - +.heroesports.com
     - +.shyxhy.com
     - +.yingxiong.com
-    - +.mhystatic.com
-    - +.mhyurl.cn
-    - +.mihayo.com
-    - +.mihayou.com
-    - +.mihoyo.com
-    - +.mihoyocg.com
-    - +.mihoyogift.com
-    - +.mihoyomall.com
-    - +.miyoushe.com
-    - +.benghuai.com
-    - +.bh3.com
-    - +.bhsr.com
-    - +.themisweeps.com
-    - +.yuanshen.com
-    - +.juequling.com
+    - +.vrzwk.cn
+    - +.vrzwk.com
+    - +.vrzwk.net
+    - +.vrzwk.top
     - +.dobest.com
     - +.langrenclub.com
     - +.sanguosha.com
@@ -165,7 +151,19 @@ payload:
     - +.jiaoyimao.cn
     - +.jiaoyimao.com
     - +.lingxigames.com
-    - +.sl916.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.17173.com
+    - +.17173cdn.com
+    - +.changyou.com
+    - +.cy.com
+    - +.playcool.com
+    - +.yeyou.com
+    - +.yeyoucdn.com
     - +.seasungames.cn
     - +.seasungames.com
     - +.seasunwbl.com
@@ -174,6 +172,8 @@ payload:
     - +.xoyocdn.com
     - +.cbjq.com
     - +.testplus.cn
+    - +.tiancity.com
+    - +.tiancitycdn.com
     - +.37.com.cn
     - +.nikkigames.com.cn
     - +.log-upload.mihoyo.com

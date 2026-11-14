@@ -6,9 +6,9 @@ payload:
     - trojan-gfw.github.io
     - xtls.github.io
     - +.wikileaks.org
-    - +.zeronet.io
+    - +.stunnel.org
     - +.akasha.world
-    - +.2dust.link
+    - +.amnezia.org
     - +.browserleaks.com
     - +.bypasscensorship.org
     - +.censorship.ai
@@ -16,7 +16,7 @@ payload:
     - +.clashparty.org
     - +.clashverge.dev
     - +.clashyun.com
-    - +.dat.foundation
+    - +.wiresock.net
     - +.democracy.earth
     - +.eff.org
     - +.ffprofile.com
@@ -37,7 +37,7 @@ payload:
     - +.karing.app
     - +.lokinet.org
     - +.metacubex.one
-    - +.nsloon.com
+    - +.2dust.link
     - +.ntc.party
     - +.onexray.com
     - +.onionshare.org
@@ -55,7 +55,7 @@ payload:
     - +.sspanel.net
     - +.stash.wiki
     - +.stash.ws
-    - +.stunnel.org
+    - +.wireguard.com
     - +.telex.cc
     - +.tribler.org
     - +.tunsafe.com
@@ -63,14 +63,18 @@ payload:
     - +.uproxy.org
     - +.vpnrouter.homes
     - +.vuvuzela.io
-    - +.log.rw
-    - +.ahmia.fi
-    - +.amnezia.org
-    - +.wireguard.com
-    - +.wiresock.net
+    - +.wgtunnel.com
     - +.whonix.org
-    - +.haveibeenpwned.com
-    - +.pwnedpasswords.com
+    - +.nsloon.com
+    - +.ahmia.fi
+    - +.dat.foundation
+    - +.zeronet.io
+    - +.getlantern.org
+    - +.lantern.io
+    - +.docs.rw
+    - +.log.rw
+    - +.remna.st
+    - +.try.rw
     - +.ipns.co
     - +.ipfs.tech
     - +.cloudflare-ipfs.com
@@ -84,25 +88,25 @@ payload:
     - +.crustwebsites.net
     - +.4everland.io
     - +.dweb.link
-    - +.citizenlab.ca
-    - +.citizenlab.org
-    - +.epicbrowser.com
-    - +.softether.org
-    - +.try.rw
-    - +.remna.st
-    - +.wgtunnel.com
-    - +.docs.rw
     - +.paskoocheh.com
+    - +.softether.org
     - +.softether-download.com
-    - +.torproject.org
     - +.v2ray.com
+    - +.torproject.org
+    - +.pwnedpasswords.com
+    - +.haveibeenpwned.com
+    - +.wikiunblocked.org
+    - +.pao-pao.net
     - +.v2ray.cool
     - +.v2fly.org
+    - +.citizenlab.ca
+    - +.citizenlab.org
     - +.opengw.net
     - +.vpngate.jp
     - +.vpngate.net
     - +.ceno.app
     - +.censorship.no
+    - +.epicbrowser.com
     - +.applecensorship.com
     - +.freebrowser.org
     - +.freewechat.com
@@ -112,10 +116,7 @@ payload:
     - +.googleplaycensorship.com
     - +.greatfire.org
     - +.greatfirevpn.com
-    - +.pao-pao.net
-    - +.wikiunblocked.org
-    - +.getlantern.org
-    - +.lantern.io
+    - +.manyvoices.news
     - +.ipfs.eternum.io
     - +.gateway.pinata.cloud
     - +.ipfs.runfission.com

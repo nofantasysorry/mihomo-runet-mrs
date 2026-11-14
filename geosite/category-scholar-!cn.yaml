@@ -12,6 +12,7 @@ payload:
     - t21ipau.nikkei.co.jp
     - ulrichsweb.serialssolutions.com
     - wrds-www.wharton.upenn.edu
+    - imperial.insendi.com
     - scholar.google.ae
     - scholar.google.at
     - scholar.google.be
@@ -88,10 +89,9 @@ payload:
     - scholar.google.sk
     - scholar.googleusercontent.com
     - scholar.l.google.com
-    - imperial.insendi.com
     - +.mit
-    - +.ma1lib.org
-    - +.ieeeoes.org
+    - +.cambridgedigital.net
+    - +.clarivate.com
     - +.acs.org
     - +.agu.org
     - +.aiaa.org
@@ -131,7 +131,7 @@ payload:
     - +.brill.com
     - +.bvdinfo.com
     - +.cairn.info
-    - +.sg1lib.org
+    - +.cambridge.org
     - +.cas.org
     - +.ceicdata.com
     - +.chemnetbase.com
@@ -165,14 +165,14 @@ payload:
     - +.hindawi.com
     - +.hotcrp.com
     - +.icevirtuallibrary.com
-    - +.vtsociety.org
-    - +.technologyandsociety.org
-    - +.signalprocessingsociety.org
-    - +.photonicssociety.org
+    - +.taylorfrancis.com
+    - +.taylorandfrancis.com
+    - +.tandfonline.com
+    - +.isiknowledge.com
     - +.igi-global.com
     - +.igpublish.com
-    - +.mtt.org
-    - +.itsoc.org
+    - +.newisiknowledge.com
+    - +.webofscience.com
     - +.informs.org
     - +.ioinformatics.org
     - +.iop.org
@@ -184,11 +184,11 @@ payload:
     - +.jmlr.org
     - +.jneurosci.org
     - +.jove.com
-    - +.ieeesystemscouncil.org
+    - +.webofknowledge.com
     - +.jstor.org
     - +.karger.com
     - +.kuke.com
-    - +.ieeesmc.org
+    - +.cambridgeschoolshakespeare.com
     - +.lexisnexis.com
     - +.literatumonline.com
     - +.mdpi.com
@@ -196,11 +196,11 @@ payload:
     - +.morganclaypool.com
     - +.nature.com
     - +.naturemag.org
-    - +.singlelogin.app
-    - +.ieeenano.org
+    - +.proquest.com
+    - +.serialssolutions.com
     - +.nejm.org
     - +.neurology.org
-    - +.ieeemagnetics.org
+    - +.mitpressjournals.org
     - +.oecd-ilibrary.org
     - +.openreview.net
     - +.optica.org
@@ -250,8 +250,81 @@ payload:
     - +.worldscientific.com
     - +.yale.edu
     - +.zenodo.org
+    - +.sciencedirect.com
+    - +.sciencedirectassets.com
+    - +.oxfordreference.com
+    - +.amamanualofstyle.com
+    - +.oxfordscholarlyeditions.com
+    - +.oxfordre.com
+    - +.epigeum.com
+    - +.oxfordhandbooks.com
+    - +.omscr.com
+    - +.oup.com
+    - +.ouplaw.com
+    - +.veryshortintroductions.com
+    - +.oxfordpoliticstrove.com
+    - +.oxfordartonline.com
+    - +.ac.uk
+    - +.oxfordclinicalpsych.com
+    - +.oxforddnb.com
+    - +.blackstonespoliceservice.com
+    - +.oed.com
+    - +.oxfordbibliographies.com
+    - +.oxfordmedicine.com
+    - +.oxfordmusiconline.com
+    - +.oxfordaasc.com
+    - +.oxfordfirstsource.com
+    - +.oxfordlawtrove.com
+    - +.anb.org
+    - +.oxfordscholarship.com
+    - +.oxfordwesternmusic.com
+    - +.sipriyearbook.org
+    - +.ukwhoswho.com
+    - +.universitypressscholarship.com
+    - +.imperialbusiness.school
+    - +.livinno.org
+    - +.opac-project.eu
+    - +.cambridgemaths.org
+    - +.aacrjournals.org
+    - +.capitaliq.com
+    - +.acm.org
+    - +.ieee-cas.org
+    - +.mit.net
+    - +.mit.edu
+    - +.aclweb.org
+    - +.vtsociety.org
+    - +.technologyandsociety.org
+    - +.signalprocessingsociety.org
+    - +.photonicssociety.org
     - +.apa.org
     - +.psyccareers.com
+    - +.doi.org
+    - +.doi.info
+    - +.cell.com
+    - +.clinicalkey.com
+    - +.els-cdn.com
+    - +.elsevier-ae.com
+    - +.elsevier.com
+    - +.elsevier.io
+    - +.engineeringvillage.com
+    - +.evise.com
+    - +.fundinginstitutional.com
+    - +.knovel.com
+    - +.mendeley.com
+    - +.reaxys.com
+    - +.scival.com
+    - +.scopus.com
+    - +.sci-hub.se
+    - +.sci-hub.ee
+    - +.sci-hub.st
+    - +.mtt.org
+    - +.itsoc.org
+    - +.ieeesystemscouncil.org
+    - +.apress.com
+    - +.springer.com
+    - +.springerlink.com
+    - +.springernature.com
+    - +.wkap.nl
     - +.bookshome.info
     - +.z-lib.org
     - +.1lib.domains
@@ -285,10 +358,10 @@ payload:
     - +.libsolutions.app
     - +.libsolutions.domains
     - +.1lib.cloud
-    - +.aacrjournals.org
-    - +.capitaliq.com
-    - +.acm.org
-    - +.ieeeusa.org
+    - +.ma1lib.org
+    - +.sg1lib.org
+    - +.singlelogin.app
+    - +.singlelogin.me
     - +.singlelogin.re
     - +.singlelogin.site
     - +.z-lib.fm
@@ -299,31 +372,7 @@ payload:
     - +.z-library.se
     - +.zlib.life
     - +.zlibcdn.com
-    - +.ieeedeis.org
-    - +.cell.com
-    - +.clinicalkey.com
-    - +.els-cdn.com
-    - +.elsevier-ae.com
-    - +.elsevier.com
-    - +.elsevier.io
-    - +.engineeringvillage.com
-    - +.evise.com
-    - +.fundinginstitutional.com
-    - +.knovel.com
-    - +.mendeley.com
-    - +.reaxys.com
-    - +.scival.com
-    - +.scopus.com
-    - +.aclweb.org
-    - +.mit.edu
-    - +.mit.net
-    - +.mitpressjournals.org
-    - +.serialssolutions.com
-    - +.proquest.com
-    - +.tandfonline.com
-    - +.taylorandfrancis.com
-    - +.taylorfrancis.com
-    - +.ieeecss.org
+    - +.ieeesmc.org
     - +.xn--fiq80y3xbiwrs0kiu9d.hk
     - +.hku.hk
     - +.polyu.hk
@@ -346,17 +395,17 @@ payload:
     - +.eduhk.hk
     - +.xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g
     - +.hkbu.hk
+    - +.ieeeoes.org
+    - +.ieeenano.org
+    - +.ieeemagnetics.org
+    - +.ieeedeis.org
+    - +.ieeecss.org
     - +.ieeecsc.org
     - +.ieeeaps.org
     - +.ieee-uffc.org
     - +.ieee-tems.org
     - +.ieee-sensors.org
     - +.ieee-ras.org
-    - +.ieee-pes.org
-    - +.ieee-pels.org
-    - +.ieee-npss.org
-    - +.ieee-ims.org
-    - +.ieee-ies.org
     - +.ac.ir
     - +.edu.ir
     - +.iranlms.ir
@@ -365,71 +414,7 @@ payload:
     - +.sharif.edu
     - +.sharif.ir
     - +.srttu.edu
-    - +.ieee-edusociety.org
-    - +.sci-hub.se
-    - +.sci-hub.ee
-    - +.sci-hub.st
-    - +.ieee-ceda.org
-    - +.ieee-cas.org
-    - +.ieee-aess.org
-    - +.oxfordlawtrove.com
-    - +.cambridgedigital.net
-    - +.cambridgeschoolshakespeare.com
-    - +.oxfordartonline.com
-    - +.cambridgemaths.org
-    - +.opac-project.eu
-    - +.livinno.org
-    - +.universitypressscholarship.com
-    - +.imperialbusiness.school
-    - +.ukwhoswho.com
-    - +.oxfordaasc.com
-    - +.oxfordfirstsource.com
-    - +.ac.uk
-    - +.amamanualofstyle.com
-    - +.epigeum.com
-    - +.oxfordhandbooks.com
-    - +.omscr.com
-    - +.oup.com
-    - +.ouplaw.com
-    - +.veryshortintroductions.com
-    - +.sipriyearbook.org
-    - +.cambridge.org
-    - +.oxfordscholarlyeditions.com
-    - +.oxfordclinicalpsych.com
-    - +.oxforddnb.com
-    - +.blackstonespoliceservice.com
-    - +.oed.com
-    - +.oxfordbibliographies.com
-    - +.oxfordmedicine.com
-    - +.oxfordmusiconline.com
-    - +.oxfordpoliticstrove.com
-    - +.oxfordre.com
-    - +.oxfordreference.com
-    - +.anb.org
-    - +.oxfordscholarship.com
-    - +.oxfordwesternmusic.com
-    - +.grss-ieee.org
-    - +.emcs.org
-    - +.embs.org
-    - +.comsoc.org
-    - +.computer.org
-    - +.techstreet.com
-    - +.ieee-isto.org
-    - +.globalspec.com
-    - +.clarivate.com
-    - +.webofknowledge.com
-    - +.webofscience.com
-    - +.newisiknowledge.com
-    - +.isiknowledge.com
-    - +.sciencedirect.com
-    - +.sciencedirectassets.com
-    - +.apress.com
-    - +.springer.com
-    - +.springerlink.com
-    - +.springernature.com
-    - +.wkap.nl
-    - +.doi.org
-    - +.doi.info
+    - +.ieee-pes.org
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -442,26 +427,41 @@ payload:
     - +.ieeer10.org
     - +.ieeer5.org
     - +.ieeer8.org
-    - +.singlelogin.me
+    - +.ieeeusa.org
     - +.ieeefoundation.org
     - +.ieee-into-focus.org
     - +.ieee-vics.org
     - +.ieeeday.org
     - +.datasheets360.com
-    - +.acaric.co.jp
-    - +.dlib.eastview.com
+    - +.globalspec.com
+    - +.ieee-isto.org
+    - +.techstreet.com
+    - +.computer.org
+    - +.comsoc.org
+    - +.embs.org
+    - +.emcs.org
+    - +.grss-ieee.org
+    - +.ieee-aess.org
+    - +.ieee-pels.org
+    - +.ieee-ceda.org
+    - +.ieee-edusociety.org
+    - +.ieee-ies.org
+    - +.ieee-ims.org
+    - +.ieee-npss.org
+    - +.academic.eb.com
+    - +.sci-hub.it.nf
+    - +.dln1.ncdn.ec
     - +.sci.hubg.org
     - +.sci-hub.mksa.top
-    - +.sci-hub.it.nf
-    - +.academic.eb.com
     - +.tandf.co.uk
-    - +.dln1.ncdn.ec
+    - +.dlib.eastview.com
     - +.nii.ac.jp
     - +.ncl.edu.tw
     - +.lawdata.com.tw
-    - +.amdigital.co.uk
+    - +.acaric.co.jp
     - +.infolinker.com.tw
     - +.hanzhen.xmulib.org
     - +.icsd.fiz-karlsruhe.de
+    - +.amdigital.co.uk
     - +.jstage.jst.go.jp
     - +.ncbi.nlm.nih.gov

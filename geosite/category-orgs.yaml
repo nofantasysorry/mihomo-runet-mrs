@@ -27,6 +27,24 @@ payload:
     - +.creativecommons.org
     - +.creativecommons.engineering
     - +.licensebuttons.net
+    - +.csis.org
+    - +.paskoocheh.com
+    - +.nist.gov
+    - +.time.gov
+    - +.openmaps.org
+    - +.openstreetmap.com
+    - +.openstreetmap.net
+    - +.openstreetmap.org
+    - +.openstreetmaps.org
+    - +.osm.org
+    - +.osmfoundation.org
+    - +.stateofthemap.com
+    - +.stateofthemap.org
+    - +.ppy.sh
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
     - +.f-dro1d.org
     - +.f-droid.com
     - +.f-droid.org
@@ -101,14 +119,6 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.paskoocheh.com
-    - +.rolfoundation.org
-    - +.rolsociety.org
-    - +.csis.org
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
     - +.acousticbrainz.org
     - +.bookbrainz.org
     - +.coverartarchive.org
@@ -117,16 +127,6 @@ payload:
     - +.messybrainz.org
     - +.metabrainz.org
     - +.musicbrainz.org
-    - +.nist.gov
-    - +.time.gov
-    - +.openmaps.org
-    - +.openstreetmap.com
-    - +.openstreetmap.net
-    - +.openstreetmap.org
-    - +.openstreetmaps.org
-    - +.osm.org
-    - +.osmfoundation.org
-    - +.stateofthemap.com
-    - +.stateofthemap.org
-    - +.ppy.sh
+    - +.rolfoundation.org
+    - +.rolsociety.org
     - sentry.ppy.sh

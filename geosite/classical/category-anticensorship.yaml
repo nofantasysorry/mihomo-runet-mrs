@@ -6,9 +6,9 @@ payload:
     - DOMAIN,trojan-gfw.github.io
     - DOMAIN,xtls.github.io
     - DOMAIN-SUFFIX,wikileaks.org
-    - DOMAIN-SUFFIX,zeronet.io
+    - DOMAIN-SUFFIX,stunnel.org
     - DOMAIN-SUFFIX,akasha.world
-    - DOMAIN-SUFFIX,2dust.link
+    - DOMAIN-SUFFIX,amnezia.org
     - DOMAIN-SUFFIX,browserleaks.com
     - DOMAIN-SUFFIX,bypasscensorship.org
     - DOMAIN-SUFFIX,censorship.ai
@@ -16,7 +16,7 @@ payload:
     - DOMAIN-SUFFIX,clashparty.org
     - DOMAIN-SUFFIX,clashverge.dev
     - DOMAIN-SUFFIX,clashyun.com
-    - DOMAIN-SUFFIX,dat.foundation
+    - DOMAIN-SUFFIX,wiresock.net
     - DOMAIN-SUFFIX,democracy.earth
     - DOMAIN-SUFFIX,eff.org
     - DOMAIN-SUFFIX,ffprofile.com
@@ -37,7 +37,7 @@ payload:
     - DOMAIN-SUFFIX,karing.app
     - DOMAIN-SUFFIX,lokinet.org
     - DOMAIN-SUFFIX,metacubex.one
-    - DOMAIN-SUFFIX,nsloon.com
+    - DOMAIN-SUFFIX,2dust.link
     - DOMAIN-SUFFIX,ntc.party
     - DOMAIN-SUFFIX,onexray.com
     - DOMAIN-SUFFIX,onionshare.org
@@ -55,7 +55,7 @@ payload:
     - DOMAIN-SUFFIX,sspanel.net
     - DOMAIN-SUFFIX,stash.wiki
     - DOMAIN-SUFFIX,stash.ws
-    - DOMAIN-SUFFIX,stunnel.org
+    - DOMAIN-SUFFIX,wireguard.com
     - DOMAIN-SUFFIX,telex.cc
     - DOMAIN-SUFFIX,tribler.org
     - DOMAIN-SUFFIX,tunsafe.com
@@ -63,14 +63,18 @@ payload:
     - DOMAIN-SUFFIX,uproxy.org
     - DOMAIN-SUFFIX,vpnrouter.homes
     - DOMAIN-SUFFIX,vuvuzela.io
-    - DOMAIN-SUFFIX,log.rw
-    - DOMAIN-SUFFIX,ahmia.fi
-    - DOMAIN-SUFFIX,amnezia.org
-    - DOMAIN-SUFFIX,wireguard.com
-    - DOMAIN-SUFFIX,wiresock.net
+    - DOMAIN-SUFFIX,wgtunnel.com
     - DOMAIN-SUFFIX,whonix.org
-    - DOMAIN-SUFFIX,haveibeenpwned.com
-    - DOMAIN-SUFFIX,pwnedpasswords.com
+    - DOMAIN-SUFFIX,nsloon.com
+    - DOMAIN-SUFFIX,ahmia.fi
+    - DOMAIN-SUFFIX,dat.foundation
+    - DOMAIN-SUFFIX,zeronet.io
+    - DOMAIN-SUFFIX,getlantern.org
+    - DOMAIN-SUFFIX,lantern.io
+    - DOMAIN-SUFFIX,docs.rw
+    - DOMAIN-SUFFIX,log.rw
+    - DOMAIN-SUFFIX,remna.st
+    - DOMAIN-SUFFIX,try.rw
     - DOMAIN-SUFFIX,ipns.co
     - DOMAIN-SUFFIX,ipfs.tech
     - DOMAIN-SUFFIX,cloudflare-ipfs.com
@@ -84,25 +88,25 @@ payload:
     - DOMAIN-SUFFIX,crustwebsites.net
     - DOMAIN-SUFFIX,4everland.io
     - DOMAIN-SUFFIX,dweb.link
-    - DOMAIN-SUFFIX,citizenlab.ca
-    - DOMAIN-SUFFIX,citizenlab.org
-    - DOMAIN-SUFFIX,epicbrowser.com
-    - DOMAIN-SUFFIX,softether.org
-    - DOMAIN-SUFFIX,try.rw
-    - DOMAIN-SUFFIX,remna.st
-    - DOMAIN-SUFFIX,wgtunnel.com
-    - DOMAIN-SUFFIX,docs.rw
     - DOMAIN-SUFFIX,paskoocheh.com
+    - DOMAIN-SUFFIX,softether.org
     - DOMAIN-SUFFIX,softether-download.com
-    - DOMAIN-SUFFIX,torproject.org
     - DOMAIN-SUFFIX,v2ray.com
+    - DOMAIN-SUFFIX,torproject.org
+    - DOMAIN-SUFFIX,pwnedpasswords.com
+    - DOMAIN-SUFFIX,haveibeenpwned.com
+    - DOMAIN-SUFFIX,wikiunblocked.org
+    - DOMAIN-SUFFIX,pao-pao.net
     - DOMAIN-SUFFIX,v2ray.cool
     - DOMAIN-SUFFIX,v2fly.org
+    - DOMAIN-SUFFIX,citizenlab.ca
+    - DOMAIN-SUFFIX,citizenlab.org
     - DOMAIN-SUFFIX,opengw.net
     - DOMAIN-SUFFIX,vpngate.jp
     - DOMAIN-SUFFIX,vpngate.net
     - DOMAIN-SUFFIX,ceno.app
     - DOMAIN-SUFFIX,censorship.no
+    - DOMAIN-SUFFIX,epicbrowser.com
     - DOMAIN-SUFFIX,applecensorship.com
     - DOMAIN-SUFFIX,freebrowser.org
     - DOMAIN-SUFFIX,freewechat.com
@@ -112,10 +116,7 @@ payload:
     - DOMAIN-SUFFIX,googleplaycensorship.com
     - DOMAIN-SUFFIX,greatfire.org
     - DOMAIN-SUFFIX,greatfirevpn.com
-    - DOMAIN-SUFFIX,pao-pao.net
-    - DOMAIN-SUFFIX,wikiunblocked.org
-    - DOMAIN-SUFFIX,getlantern.org
-    - DOMAIN-SUFFIX,lantern.io
+    - DOMAIN-SUFFIX,manyvoices.news
     - DOMAIN-SUFFIX,ipfs.eternum.io
     - DOMAIN-SUFFIX,gateway.pinata.cloud
     - DOMAIN-SUFFIX,ipfs.runfission.com
