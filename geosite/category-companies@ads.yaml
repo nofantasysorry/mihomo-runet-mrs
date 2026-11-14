@@ -1,7 +1,14 @@
 payload:
-    - +.ads.yahoo.com
-    - +.gemini.yahoo.com
-    - +.ysm.yahoo.com
+    - +.snapads.com
+    - +.samsungadhub.com
+    - +.samsungads.com
+    - +.clarity.ms
+    - +.microsoftads.com
+    - +.msads.net
+    - +.nelreports.net
+    - +.browser.events.data.msn.cn
+    - +.browser.events.data.msn.com
+    - +.bingads.com
     - +.2mdn-cn.net
     - +.2mdn.net
     - +.admob-cn.com
@@ -58,9 +65,65 @@ payload:
     - +.ads.youtube.com
     - +.a.mts.ru
     - +.obs.mts.ru
-    - sentry.iptv.rt.ru
-    - +.samsungadhub.com
-    - +.samsungads.com
+    - +.ads.yahoo.com
+    - +.gemini.yahoo.com
+    - +.ysm.yahoo.com
+    - +.e.mindbox.ru
+    - +.g.mindbox.ru
+    - +.s.mindbox.ru
+    - api-js.mindbox.ru
+    - api-ru.mindbox.cloud
+    - api-staging.mindbox.ru
+    - api.mindbox.cloud
+    - api.mindbox.ru
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
+    - +.analytics.facebook.com
+    - +.facebookads.com
+    - +.pixel.facebook.com
+    - +.graph.instagram.com
+    - +.graph-fallback.instagram.com
+    - +.adfox.ru
+    - +.adfox.yandex.ru
+    - +.admetrica.ru
+    - +.ads.yandex
+    - +.ads.yandex.ru
+    - +.adv.yandex.com
+    - +.adv.yandex.ru
+    - +.an.yandex.ru
+    - +.appmetrica.yandex.com
+    - +.appmetrica.yandex.net
+    - +.appmetrica.yandex.ru
+    - +.appmetrica.yango.com
+    - +.bs.yandex.ru
+    - +.clck.yandex.ru
+    - +.counter.yandex.ru
+    - +.mc.yandex.ru
+    - +.metrika.yandex.com
+    - +.metrika.yandex.net
+    - +.metrika.yandex.ru
+    - +.webvisor.com
+    - +.webvisor.org
+    - +.yads.tech
+    - +.yandex-metrica.ru
+    - +.yandexmetrica.com
+    - +.yango-ads.com
+    - adfstat.yandex.ru
+    - ads.yandex.com
+    - ads.yango.com
+    - adsdk.yandex.ru
+    - amc.yandex.ru
+    - analytics.mobile.yandex.net
+    - clck.yandex.com
+    - clck.yandex.net
+    - clck.yango.com
+    - informer.yandex.ru
+    - log.strm.yandex.ru
+    - mc.yandex.com
+    - mc.yandex.net
+    - mc.yango.com
+    - pixel.yandex.com
+    - report.ap.yandex-net.ru
     - +.ad.mail.ru
     - +.ads.viqeo.tv
     - +.adsadvisor.io
@@ -114,6 +177,8 @@ payload:
     - top-staging.mail.ru
     - whiteline.mail.ru
     - xray.mail.ru
+    - +.log.dzen.ru
+    - +.ms.dzen.ru
     - +.adv.vk.com
     - +.analytics.vk.com
     - +.ms.vk.com
@@ -129,20 +194,8 @@ payload:
     - analytics.vk.ru
     - stats.vk-portal.net
     - target.vk.com
-    - +.log.dzen.ru
-    - +.ms.dzen.ru
-    - ads-img.mozilla.org
-    - ads.mozilla.org
-    - +.e.mindbox.ru
-    - +.g.mindbox.ru
-    - +.s.mindbox.ru
-    - api-js.mindbox.ru
-    - api-ru.mindbox.cloud
-    - api-staging.mindbox.ru
-    - api.mindbox.cloud
-    - api.mindbox.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
+    - +.amazon-adsystem.com
+    - +.serving-sys.com
     - +.advertising.apple.com
     - +.api-adservices.apple.com
     - +.iadsdk.apple.com
@@ -165,60 +218,7 @@ payload:
     - +.advertising.adobe.com
     - +.demdex.net
     - +.tubemogul.com
-    - +.analytics.facebook.com
-    - +.facebookads.com
-    - +.pixel.facebook.com
-    - +.graph.instagram.com
-    - +.graph-fallback.instagram.com
-    - +.adfox.ru
-    - +.adfox.yandex.ru
-    - +.admetrica.ru
-    - +.ads.yandex
-    - +.ads.yandex.ru
-    - +.adv.yandex.com
-    - +.adv.yandex.ru
-    - +.an.yandex.ru
-    - +.appmetrica.yandex.com
-    - +.appmetrica.yandex.net
-    - +.appmetrica.yandex.ru
-    - +.appmetrica.yango.com
-    - +.bs.yandex.ru
-    - +.clck.yandex.ru
-    - +.counter.yandex.ru
-    - +.mc.yandex.ru
-    - +.metrika.yandex.com
-    - +.metrika.yandex.net
-    - +.metrika.yandex.ru
-    - +.webvisor.com
-    - +.webvisor.org
-    - +.yads.tech
-    - +.yandex-metrica.ru
-    - +.yandexmetrica.com
-    - +.yango-ads.com
-    - adfstat.yandex.ru
-    - ads.yandex.com
-    - ads.yango.com
-    - adsdk.yandex.ru
-    - amc.yandex.ru
-    - analytics.mobile.yandex.net
-    - clck.yandex.com
-    - clck.yandex.net
-    - clck.yango.com
-    - informer.yandex.ru
-    - log.strm.yandex.ru
-    - mc.yandex.com
-    - mc.yandex.net
-    - mc.yango.com
-    - pixel.yandex.com
-    - report.ap.yandex-net.ru
+    - ads-img.mozilla.org
+    - ads.mozilla.org
+    - sentry.iptv.rt.ru
     - sentry.hetzner.company
-    - +.clarity.ms
-    - +.microsoftads.com
-    - +.msads.net
-    - +.nelreports.net
-    - +.bingads.com
-    - +.browser.events.data.msn.cn
-    - +.browser.events.data.msn.com
-    - +.snapads.com
-    - +.amazon-adsystem.com
-    - +.serving-sys.com

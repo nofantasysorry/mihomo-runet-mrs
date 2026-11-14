@@ -1,11 +1,4 @@
 payload:
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
     - alt1-mtalk.google.com
     - alt2-mtalk.google.com
     - alt3-mtalk.google.com
@@ -21,7 +14,9 @@ payload:
     - +.alibabacloud.com.sg
     - +.alibabacloud.com.tw
     - +.alicloud.com
-    - +.webnovel.com
+    - +.esp32.com
+    - +.esp8266.com
+    - +.espressif.com
     - +.bytedapm.com
     - +.muscdn.com
     - +.musical.ly
@@ -61,6 +56,11 @@ payload:
     - roovza.inapps.appsflyersdk.com
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
-    - +.esp32.com
-    - +.esp8266.com
-    - +.espressif.com
+    - +.webnovel.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com

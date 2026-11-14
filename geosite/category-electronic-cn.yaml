@@ -19,7 +19,7 @@ payload:
     - +.tsinghuaic.com
     - +.tsingtengms.com
     - +.unicloud.com
-    - +.ymtc.com
+    - +.fa-part.com
     - +.unisdigital.com
     - +.unisemicon.com
     - +.unisoc.com
@@ -30,30 +30,27 @@ payload:
     - +.quecmall.cn
     - +.listenai.com
     - +.allwinnertech.com
-    - +.zxhgroup.com
+    - +.ymtc.cn
     - +.nanocorechip.com
     - +.rock-chips.com
     - +.seeed.cn
     - +.seeed.cc
+    - +.ymtc.com
+    - +.zxhgroup.com
     - +.zs-jlc.com
     - +.szlcsc.com
-    - +.szjlc.cn
-    - +.sz-jlc.com
     - +.sipeed.com
     - +.maixhub.com
     - +.southchip.com
     - +.t-head.cn
-    - +.sanweihou.com
+    - +.szjlc.cn
     - +.wch.cn
     - +.mthreads.com
     - +.analog.com
-    - +.forface3d.com
-    - +.oshwhub.com
-    - +.fa-part.com
-    - +.ymtc.cn
+    - +.jlc-bbs.com
     - +.jlc-3dp.cn
     - +.jlc-3dp.com
-    - +.jlc-bbs.com
+    - +.forface3d.com
     - +.jlc-cad.com
     - +.jlc-cam.com
     - +.jlc-cnc.com
@@ -85,10 +82,13 @@ payload:
     - +.jlcsmt.com
     - +.lceda.cn
     - +.lckfb.com
-    - +.ymtc.com.cn
+    - +.oshwhub.com
+    - +.sanweihou.com
+    - +.sz-jlc.com
     - +.ti.com.cn
     - +.seeedstudio.com.cn
     - +.seeed.com.cn
     - +.quectel.com.cn
     - +.unigroup.com.cn
     - +.boe.com.cn
+    - +.ymtc.com.cn
