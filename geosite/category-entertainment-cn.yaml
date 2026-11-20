@@ -3,7 +3,7 @@ payload:
     - end.shallow.ink
     - p3-novel.byteimg.com
     - p6-novel.byteimg.com
-    - +.heroesports.com
+    - +.huoshanxiaoshipin.cn
     - +.fengniao.com
     - +.yeshen.com
     - +.aisee.tv
@@ -42,7 +42,7 @@ payload:
     - +.zhibo8.cc
     - +.zhibo8.com
     - +.faloo.com
-    - +.herogame.com
+    - +.huoshanvod.com
     - +.img-space.com
     - +.gamedog.cn
     - +.goka.top
@@ -77,14 +77,12 @@ payload:
     - +.qqtf.com
     - +.rrmj.plus
     - +.rrsp.app
-    - +.lzpipi.com
     - +.qwapp.top
     - +.qwdjapp.com
     - +.yichengwlkj.com
     - +.sfacg.com
     - +.shuhai.com
     - +.tadu.com
-    - +.lz310.com
     - +.vsread.com
     - +.xcz.im
     - +.xczim.com
@@ -106,13 +104,15 @@ payload:
     - +.chuapp.com
     - +.dataeye.com
     - +.gamediary.cn
-    - +.lizhiinc.com
     - +.gameres.com
     - +.gamewower.com
+    - +.vgtime.com
     - +.gcores.com
-    - +.lizhifm.com
+    - +.frp-ski.com
+    - +.frp-six.com
+    - +.frp-sea.com
     - +.nadianshi.com
-    - +.lizhi.fm
+    - +.frp-rib.com
     - +.sgamer.com
     - +.shoutanjjj.com
     - +.ucg.cn
@@ -120,95 +120,6 @@ payload:
     - +.youxiputao.com
     - +.youxituoluo.com
     - +.yystv.cn
-    - +.91q.com
-    - +.dmhmusic.com
-    - +.showstart.com
-    - +.taihe.com
-    - +.taihemusic.cn
-    - +.th-music.com
-    - +.bbtv.cn
-    - +.bestvcdn.cn
-    - +.bestvcdn.com
-    - +.bestvcdn.net
-    - +.smgbb.cn
-    - +.gzlzfm.com
-    - +.letvimg.com
-    - +.aamgame.net
-    - +.aamgame.com
-    - +.aamgame.mobi
-    - +.aamsmart.com
-    - +.singworld.net
-    - +.ciweimao.com
-    - +.hbooker.com
-    - +.kuangxiangit.com
-    - +.qingting.fm
-    - +.qtfm.cn
-    - +.pplive.cn
-    - +.pplive.com
-    - +.pptv.com
-    - +.13a.com
-    - +.natfrp.com
-    - +.frp-air.com
-    - +.frp-all.com
-    - +.frp-arm.com
-    - +.frp-bag.com
-    - +.frp-bid.com
-    - +.frp-dog.com
-    - +.frp-egg.com
-    - +.frp-era.com
-    - +.frp-fan.com
-    - +.frp-fee.com
-    - +.frp-fog.com
-    - +.frp-fox.com
-    - +.frp-gas.com
-    - +.frp-gym.com
-    - +.frp-hat.com
-    - +.frp-hen.com
-    - +.frp-hip.com
-    - +.frp-hub.com
-    - +.frp-ice.com
-    - +.frp-jar.com
-    - +.frp-key.com
-    - +.frp-kit.com
-    - +.frp-lab.com
-    - +.frp-leg.com
-    - +.frp-mad.com
-    - +.frp-mix.com
-    - +.frp-mom.com
-    - +.frp-nut.com
-    - +.frp-one.com
-    - +.frp-own.com
-    - +.frp-pen.com
-    - +.frp-rug.com
-    - +.frp-run.com
-    - +.frp-say.com
-    - +.frp-shy.com
-    - +.frp-sun.com
-    - +.frp-tag.com
-    - +.frp-act.com
-    - +.frp-any.com
-    - +.frp-bar.com
-    - +.frp-box.com
-    - +.frp-boy.com
-    - +.frp-bus.com
-    - +.frp-dad.com
-    - +.frp-end.com
-    - +.frp-fun.com
-    - +.frp-gap.com
-    - +.frp-net.com
-    - +.frp-now.com
-    - +.frp-off.com
-    - +.frp-oil.com
-    - +.frp-put.com
-    - +.frp-rib.com
-    - +.frp-sea.com
-    - +.frp-six.com
-    - +.ldmnq.com
-    - +.xyzfm.space
-    - +.xyzfm.link
-    - +.xyzcdn.net
-    - +.xiaoyuzhoufm.com
-    - +.podcast.xyz
     - +.37.com
     - +.37wan.net
     - +.37wanimg.com
@@ -257,6 +168,46 @@ payload:
     - +.ycgame.com
     - +.yjwujian.cn
     - +.yysls.cn
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.hero.com
+    - +.herogame.com
+    - +.heroesports.com
+    - +.shyxhy.com
+    - +.yingxiong.com
+    - +.seasungames.cn
+    - +.seasungames.com
+    - +.seasunwbl.com
+    - +.xishanju.com
+    - +.xoyo.com
+    - +.xoyocdn.com
+    - +.cbjq.com
+    - +.testplus.cn
+    - +.dobest.com
+    - +.langrenclub.com
+    - +.sanguosha.com
+    - +.xhlsgs.com
+    - +.xinwuji.com
+    - +.yokaverse.com
+    - +.zhuoyou.com
+    - +.9game.cn
+    - +.aligames.com
+    - +.jiaoyimao.cn
+    - +.jiaoyimao.com
+    - +.lingxigames.com
+    - +.sl916.com
+    - +.cowlevel.net
+    - +.cdncl.net
+    - +.vrzwk.cn
+    - +.ldmnq.com
+    - +.vrzwk.net
+    - +.vrzwk.top
+    - +.tiancity.com
+    - +.tiancitycdn.com
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -329,11 +280,6 @@ payload:
     - +.playcool.com
     - +.yeyou.com
     - +.yeyoucdn.com
-    - +.funshion.net
-    - +.lsplayer.com
-    - +.frp-ski.com
-    - +.shyxhy.com
-    - +.yingxiong.com
     - +.mhystatic.com
     - +.mhyurl.cn
     - +.mihayo.com
@@ -349,57 +295,8 @@ payload:
     - +.themisweeps.com
     - +.yuanshen.com
     - +.juequling.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.seasungames.cn
-    - +.seasungames.com
-    - +.seasunwbl.com
-    - +.xishanju.com
-    - +.xoyo.com
-    - +.xoyocdn.com
-    - +.cbjq.com
-    - +.testplus.cn
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
-    - +.vrzwk.top
-    - +.dobest.com
-    - +.langrenclub.com
-    - +.sanguosha.com
-    - +.xhlsgs.com
-    - +.xinwuji.com
-    - +.yokaverse.com
-    - +.zhuoyou.com
-    - +.9game.cn
-    - +.aligames.com
-    - +.jiaoyimao.cn
-    - +.jiaoyimao.com
-    - +.lingxigames.com
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
-    - +.sl916.com
-    - +.letvcdn.com
-    - +.letv.com
-    - +.biji.com
-    - +.ddmogo.com
-    - +.dedao.cn
-    - +.igetget.cn
-    - +.igetget.com
-    - +.luojilab.com
-    - +.mogoo.com
-    - +.sao.cn
-    - +.saolife.com
-    - +.umiwi.com
-    - +.ku6.com
-    - +.ku6cdn.com
-    - +.ku6img.com
-    - +.vgtime.com
+    - +.frp-put.com
+    - +.frp-oil.com
     - +.activity-wbsj.com
     - +.aihst8.com
     - +.amemv.cn
@@ -432,9 +329,9 @@ payload:
     - +.huoshanstatic.com
     - +.huoshante8.com
     - +.huoshanvideo.cn
-    - +.huoshanvideo.net
-    - +.huoshanvod.com
-    - +.huoshanxiaoshipin.cn
+    - +.mojidoc.com
+    - +.lsplayer.com
+    - +.vrzwk.com
     - +.huoshanxiaoshipin.net
     - +.huoshanzhibo.cn
     - +.huoshanzhibo.com
@@ -469,10 +366,46 @@ payload:
     - +.ulpay.com
     - +.lifexue.com
     - +.open-douyin.com
-    - +.leso.cn
-    - +.lemall.com
-    - +.huya.com
-    - +.msstatic.com
+    - +.frp-off.com
+    - +.frp-now.com
+    - +.jiuyue919.com
+    - +.qimao.com
+    - +.qm989.com
+    - +.qmniu.com
+    - +.quehu.com
+    - +.wtzw.com
+    - +.kugou.com
+    - +.kuwo.cn
+    - +.ktv.com
+    - +.ximalaya.com
+    - +.kugoo.com
+    - +.lrts.me
+    - +.qqmusic.com
+    - +.wting.info
+    - +.97ting.com
+    - +.tingmall.com
+    - +.ultimatemusic.cn
+    - +.fanxingliveshow.com
+    - +.kgimg.com
+    - +.kglink.cn
+    - +.xmcdn.com
+    - +.tencentmusic.com
+    - +.mting.info
+    - +.kugou.net
+    - +.kugouaudio.com
+    - +.kugouipv6.com
+    - +.kugoukid.com
+    - +.kugouliveshow.com
+    - +.kugouringtone.com
+    - +.kugousenior.com
+    - +.kugoustore.com
+    - +.kugouvoice.com
+    - +.kugouyouth.com
+    - +.koowo.cn
+    - +.koowo.com
+    - +.frp-net.com
+    - +.frp-gap.com
+    - +.frp-fun.com
     - +.1xhh.cn
     - +.accxiaoheihe.com
     - +.chat.top
@@ -481,95 +414,26 @@ payload:
     - +.maxadmin.cn
     - +.maxjia.com
     - +.xiaoheihe.cn
-    - +.dtstatic.com
-    - +.duitang.com
+    - +.bbtv.cn
+    - +.bestvcdn.cn
+    - +.bestvcdn.com
+    - +.bestvcdn.net
+    - +.smgbb.cn
+    - +.frp-end.com
+    - +.frp-dad.com
+    - +.ciweimao.com
+    - +.hbooker.com
+    - +.kuangxiangit.com
+    - +.fspcdn.com
+    - +.fun.tv
+    - +.funshion.com
+    - +.funshion.net
+    - +.ibidian.com
+    - +.jvcsmart.cn
+    - +.frp-bus.com
     - +.kkmh.com
     - +.kuaikanmanhua.com
     - +.v3mh.com
-    - +.11222.cn
-    - +.aliwx.net
-    - +.ishuqi.com
-    - +.newstjk.com
-    - +.shuqi.com
-    - +.shuqiapi.com
-    - +.shuqiread.com
-    - +.shuqireader.com
-    - +.sqreader.com
-    - +.lecloudapi.com
-    - +.eckwai.com
-    - +.ecukwai.com
-    - +.gifshow.com
-    - +.inkuai.com
-    - +.inkwai.com
-    - +.ksapisrv.com
-    - +.kskwai.com
-    - +.kspkg.com
-    - +.kuaishou.cn
-    - +.kuaishou.com
-    - +.kuaishouapps.com
-    - +.kuaishoupay.com
-    - +.kuaishouzt.com
-    - +.kwaicdn.com
-    - +.kwaishop.com
-    - +.kwaixiaodian.com
-    - +.kwaiying.com
-    - +.kwaizt.com
-    - +.kwimgs.com
-    - +.mojidoc.com
-    - +.qingque.cn
-    - +.viviv.com
-    - +.wskwai.com
-    - +.wsukwai.com
-    - +.yximgs.com
-    - +.ac.fun
-    - +.acfun.cn
-    - +.acfun.net
-    - +.acfunchina.cn
-    - +.acfunchina.com
-    - +.acfunchina.net
-    - +.aixifan.com
-    - +.1kkk.com
-    - +.cdndm5.com
-    - +.dm5.cn
-    - +.dm5.com
-    - +.dm9.com
-    - +.gmanhua.com
-    - +.hkmanga.com
-    - +.manben.com
-    - +.manbenapi.com
-    - +.manhuaren.com
-    - +.fanxingliveshow.com
-    - +.kugoustore.com
-    - +.ximalaya.com
-    - +.kugouvoice.com
-    - +.xmcdn.com
-    - +.lrts.me
-    - +.qqmusic.com
-    - +.wting.info
-    - +.97ting.com
-    - +.tingmall.com
-    - +.ultimatemusic.cn
-    - +.koowo.cn
-    - +.koowo.com
-    - +.kuwo.cn
-    - +.kugouyouth.com
-    - +.tencentmusic.com
-    - +.mting.info
-    - +.kgimg.com
-    - +.kglink.cn
-    - +.ktv.com
-    - +.kugoo.com
-    - +.kugou.com
-    - +.kugou.net
-    - +.kugouaudio.com
-    - +.kugouipv6.com
-    - +.kugoukid.com
-    - +.kugouliveshow.com
-    - +.kugouringtone.com
-    - +.kugousenior.com
-    - +.lecloud.com
-    - +.leautolink.com
-    - +.le.com
     - +.yy.com
     - +.yyeshop.cn
     - +.yystatic.com
@@ -577,6 +441,32 @@ payload:
     - +.dwstatic.com
     - +.gitv.cn
     - +.gitv.tv
+    - +.biji.com
+    - +.ddmogo.com
+    - +.dedao.cn
+    - +.igetget.cn
+    - +.igetget.com
+    - +.luojilab.com
+    - +.mogoo.com
+    - +.sao.cn
+    - +.saolife.com
+    - +.umiwi.com
+    - +.dtstatic.com
+    - +.duitang.com
+    - +.ku6.com
+    - +.ku6cdn.com
+    - +.ku6img.com
+    - +.gzlzfm.com
+    - +.lizhi.fm
+    - +.lizhifm.com
+    - +.lizhiinc.com
+    - +.lz310.com
+    - +.lzpipi.com
+    - +.aamgame.net
+    - +.aamgame.com
+    - +.aamgame.mobi
+    - +.aamsmart.com
+    - +.singworld.net
     - +.douyu.com
     - +.douyu.tv
     - +.douyucdn.cn
@@ -584,21 +474,6 @@ payload:
     - +.douyuscdn.com
     - +.douyutv.com
     - +.edgesrv.com
-    - +.fspcdn.com
-    - +.fun.tv
-    - +.funshion.com
-    - +.hero.com
-    - +.ibidian.com
-    - +.jvcsmart.cn
-    - +.taomee.com
-    - +.gamersky.com
-    - +.aichongzoo.cn
-    - +.hzdtv.tv
-    - +.hzman.net
-    - +.wasu.cn
-    - +.wasu.tv
-    - +.wasumedia.cn
-    - +.tgbus.com
     - +.activity-zhendingtech.com
     - +.changdunovel.com
     - +.fanqiecopyright.com
@@ -629,12 +504,63 @@ payload:
     - +.qznovelpic.com
     - +.qznovelstatic.com
     - +.qznovelvod.com
-    - +.jiuyue919.com
-    - +.qimao.com
-    - +.qm989.com
-    - +.qmniu.com
-    - +.quehu.com
-    - +.wtzw.com
+    - +.pplive.cn
+    - +.pplive.com
+    - +.pptv.com
+    - +.aichongzoo.cn
+    - +.hzdtv.tv
+    - +.hzman.net
+    - +.wasu.cn
+    - +.wasu.tv
+    - +.wasumedia.cn
+    - +.gamersky.com
+    - +.1kkk.com
+    - +.cdndm5.com
+    - +.dm5.cn
+    - +.dm5.com
+    - +.dm9.com
+    - +.gmanhua.com
+    - +.hkmanga.com
+    - +.manben.com
+    - +.manbenapi.com
+    - +.manhuaren.com
+    - +.qingting.fm
+    - +.qtfm.cn
+    - +.91q.com
+    - +.dmhmusic.com
+    - +.showstart.com
+    - +.taihe.com
+    - +.taihemusic.cn
+    - +.th-music.com
+    - +.61.com
+    - +.taomee.com
+    - +.tgbus.com
+    - +.le.com
+    - +.leautolink.com
+    - +.lecloud.com
+    - +.lecloudapi.com
+    - +.lemall.com
+    - +.leso.cn
+    - +.letv.com
+    - +.letvcdn.com
+    - +.letvimg.com
+    - +.huya.com
+    - +.msstatic.com
+    - +.11222.cn
+    - +.aliwx.net
+    - +.ishuqi.com
+    - +.newstjk.com
+    - +.shuqi.com
+    - +.shuqiapi.com
+    - +.shuqiread.com
+    - +.shuqireader.com
+    - +.sqreader.com
+    - +.frp-boy.com
+    - +.xyzfm.space
+    - +.xyzfm.link
+    - +.xyzcdn.net
+    - +.xiaoyuzhoufm.com
+    - +.podcast.xyz
     - +.hifuntv.com
     - +.hitv.com
     - +.hnbntv.com
@@ -642,33 +568,98 @@ payload:
     - +.hunantv.com
     - +.imgo.tv
     - +.mgtv.com
-    - +.61.com
-    - +.y.qq.com
-    - +.bestvcdn.com.cn
-    - +.music.qq.com
-    - +.37.com.cn
-    - +.jvcsmart.com.cn
-    - +.qishuimusic.com.cn
-    - +.nikkigames.com.cn
-    - +.kg.qq.com
-    - +.aliwx.com.cn
-    - +.qishui.com.cn
+    - +.eckwai.com
+    - +.ecukwai.com
+    - +.gifshow.com
+    - +.inkuai.com
+    - +.inkwai.com
+    - +.ksapisrv.com
+    - +.kskwai.com
+    - +.kspkg.com
+    - +.kuaishou.cn
+    - +.kuaishou.com
+    - +.kuaishouapps.com
+    - +.kuaishoupay.com
+    - +.kuaishouzt.com
+    - +.kwaicdn.com
+    - +.kwaishop.com
+    - +.kwaixiaodian.com
+    - +.kwaiying.com
+    - +.kwaizt.com
+    - +.kwimgs.com
+    - +.huoshanvideo.net
+    - +.qingque.cn
+    - +.viviv.com
+    - +.wskwai.com
+    - +.wsukwai.com
+    - +.yximgs.com
+    - +.ac.fun
+    - +.acfun.cn
+    - +.acfun.net
+    - +.acfunchina.cn
+    - +.acfunchina.com
+    - +.acfunchina.net
+    - +.aixifan.com
+    - +.13a.com
+    - +.natfrp.com
+    - +.frp-air.com
+    - +.frp-all.com
+    - +.frp-arm.com
+    - +.frp-bag.com
+    - +.frp-bid.com
+    - +.frp-dog.com
+    - +.frp-egg.com
+    - +.frp-era.com
+    - +.frp-fan.com
+    - +.frp-fee.com
+    - +.frp-fog.com
+    - +.frp-fox.com
+    - +.frp-gas.com
+    - +.frp-gym.com
+    - +.frp-hat.com
+    - +.frp-hen.com
+    - +.frp-hip.com
+    - +.frp-hub.com
+    - +.frp-ice.com
+    - +.frp-jar.com
+    - +.frp-key.com
+    - +.frp-kit.com
+    - +.frp-lab.com
+    - +.frp-leg.com
+    - +.frp-mad.com
+    - +.frp-mix.com
+    - +.frp-mom.com
+    - +.frp-nut.com
+    - +.frp-one.com
+    - +.frp-own.com
+    - +.frp-pen.com
+    - +.frp-rug.com
+    - +.frp-run.com
+    - +.frp-say.com
+    - +.frp-shy.com
+    - +.frp-sun.com
+    - +.frp-tag.com
+    - +.frp-act.com
+    - +.frp-any.com
+    - +.frp-bar.com
+    - +.frp-box.com
     - +.bestv.com.cn
+    - +.nikkigames.com.cn
+    - +.bestvcdn.com.cn
+    - +.qishui.com.cn
+    - +.aliwx.com.cn
+    - +.music.qq.com
+    - +.qishuimusic.com.cn
+    - +.jvcsmart.com.cn
+    - +.kg.qq.com
+    - +.y.qq.com
+    - +.37.com.cn
     - +.news.yxrb.net
     - +.ign.com.cn
     - +.gamelook.com.cn
     - +.vistopia.com.cn
     - +.rrsp.com.cn
     - +.log-upload.mihoyo.com
-    - +.shuqistat.com
-    - +.adbkwai.com
-    - +.adkwai.com
-    - +.adukwai.com
-    - +.e.kuaishou.cn
-    - +.e.kuaishou.com
-    - log-sdk.gifshow.com
-    - wlog.kuaishou.com
-    - apilog-web.acfun.cn
     - +.ad.tencentmusic.com
     - +.adstats.tencentmusic.com
     - +.monitor.music.qq.com
@@ -676,17 +667,12 @@ payload:
     - +.stat.y.qq.com
     - +.tmead.y.qq.com
     - +.tmeadcomm.y.qq.com
-    - +.adbehavior.ximalaya.com
-    - +.adse.wsa.ximalaya.com
-    - +.adse.ximalaya.com
     - +.ads.service.kugou.com
     - +.adserviceretry.kglink.cn
     - +.adserviceretry.kugou.com
-    - +.click.gamersky.com
-    - +.ja.gamersky.com
-    - +.ja1.gamersky.com
-    - +.ja2.gamersky.com
-    - +.wmbd.gamersky.com
+    - +.adbehavior.ximalaya.com
+    - +.adse.wsa.ximalaya.com
+    - +.adse.ximalaya.com
     - ads3-normal-hl.zijieapi.com
     - ads3-normal.zijieapi.com
     - ads5-normal-hl.zijieapi.com
@@ -702,13 +688,27 @@ payload:
     - rtlog3-applog.fqnovel.com
     - rtlog5-applog-hl.fqnovel.com
     - rtlog5-applog.fqnovel.com
+    - +.click.gamersky.com
+    - +.ja.gamersky.com
+    - +.ja1.gamersky.com
+    - +.ja2.gamersky.com
+    - +.wmbd.gamersky.com
+    - +.apple.www.letv.com
+    - +.ark.letv.com
+    - +.dc.letv.com
+    - +.g3.letv.com
+    - +.shuqistat.com
     - +.click.hunantv.com
     - +.da.hunantv.com
     - +.da.mgtv.com
     - +.log.hunantv.com
     - +.log.v2.hunantv.com
     - +.res.hunantv.com
-    - +.apple.www.letv.com
-    - +.ark.letv.com
-    - +.dc.letv.com
-    - +.g3.letv.com
+    - +.adbkwai.com
+    - +.adkwai.com
+    - +.adukwai.com
+    - +.e.kuaishou.cn
+    - +.e.kuaishou.com
+    - log-sdk.gifshow.com
+    - wlog.kuaishou.com
+    - apilog-web.acfun.cn

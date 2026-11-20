@@ -4,29 +4,29 @@ payload:
     - espn.hb.omtrdc.net
     - espndotcom.tt.omtrdc.net
     - hulu.playback.edge.bamgrid.com
-    - +.huluad.com
-    - +.espn.net
+    - +.hulu.jp
+    - +.dmed.technology
     - +.disney.bg
     - +.disneyworld-go.com
     - +.disney.ch
-    - +.edgedatg.com
-    - +.abcnews.com
-    - +.abc.com
-    - +.abc-studios.com
     - +.starplus.com
     - +.starott.com
-    - +.disney.com
     - +.ngeo.com
     - +.nationalgeographicpartners.com
     - +.nationalgeographic.com
     - +.natgeomaps.com
+    - +.disney.com
+    - +.themarvelexperiencetour.com
+    - +.marvelsuperwar.com
+    - +.marvelsuperheroseptember.com
+    - +.marvelspotlightplays.com
     - +.disney.cz
     - +.disney.de
     - +.disney.dk
     - +.disney.es
     - +.disney.fi
     - +.disney.fr
-    - +.themarvelexperiencetour.com
+    - +.marvelsdoubleagent.com
     - +.disney.hu
     - +.disney.id
     - +.disney.in
@@ -54,19 +54,19 @@ payload:
     - +.hongkongdisneyland.com
     - +.tokyodisneyresort.jp
     - +.20thcenturystudios.com
-    - +.marvelsuperwar.com
-    - +.marvelsuperheroseptember.com
+    - +.marvelpinball.com
+    - +.marvelparty.net
     - +.20thcenturystudios.jp
     - +.adventuresbydisney.com
     - +.babble.com
     - +.babyzone.com
-    - +.marvelspotlightplays.com
+    - +.marveldimensionofheroes.com
     - +.detpress.com
     - +.dilcdn.com
     - +.disney-asia.com
     - +.disney-discount.com
     - +.disney-plus.net
-    - +.marvelsdoubleagent.com
+    - +.marvel10thanniversary.com
     - +.disney-studio.com
     - +.disney-studio.net
     - +.disneyaccount.com
@@ -86,13 +86,13 @@ payload:
     - +.disneyjunior.com
     - +.disneyjuniortreataday.com
     - +.disneylatino.com
-    - +.marvelpinball.com
-    - +.marvelparty.net
-    - +.marveldimensionofheroes.com
+    - +.marvel.com
+    - +.wwwhuluplus.com
+    - +.thehulubraintrust.com
     - +.disneymagicmoments.de
     - +.disneymagicmoments.es
     - +.disneymagicmoments.fr
-    - +.marvel10thanniversary.com
+    - +.registerhulu.com
     - +.disneymagicmoments.gr
     - +.disneymagicmoments.it
     - +.disneymagicmoments.pl
@@ -104,7 +104,7 @@ payload:
     - +.disneynewseries.com
     - +.disneynow.com
     - +.disneypeoplesurveys.com
-    - +.marvel.com
+    - +.payhulu.com
     - +.disneyplus.com
     - +.disneyprivacycenter.com
     - +.disneyredirects.com
@@ -113,7 +113,7 @@ payload:
     - +.disneystreaming.com
     - +.disneysubscription.com
     - +.disneytermsofuse.com
-    - +.wwwhuluplus.com
+    - +.originalhulu.com
     - +.disney.gr
     - +.disney.be
     - +.disney.ca
@@ -138,22 +138,26 @@ payload:
     - +.thestationbymaker.com
     - +.thisispolaris.com
     - +.watchdisneyfe.com
+    - +.abc-studios.com
+    - +.abc.com
+    - +.abcnews.com
+    - +.edgedatg.com
     - +.bamgrid.com
     - +.bamtech.net
-    - +.dmed.technology
+    - +.disneytvajobs.com
     - +.dtci.co
     - +.dtci.technology
     - +.espn.com
-    - +.disneytvajobs.com
+    - +.espn.net
     - +.espncdn.com
     - +.espnqa.com
     - +.watchespn.com
-    - +.thehulubraintrust.com
+    - +.myhulu.com
     - +.hotstar.com
     - +.hotstar-cdn.net
     - +.hotstar-labs.com
     - +.hotstarext.com
-    - +.registerhulu.com
+    - +.mushymush.tv
     - +.112263.com
     - +.callhulu.com
     - +.findyourlimits.com
@@ -165,11 +169,11 @@ payload:
     - +.huloo.cc
     - +.huloo.tv
     - +.hulu.com
-    - +.hulu.jp
+    - +.disney.asia
     - +.hulu.tv
     - +.hulu.us
     - +.huluaction.com
-    - +.disney.asia
+    - +.huluad.com
     - +.huluapp.com
     - +.huluasks.com
     - +.hulucall.com
@@ -194,19 +198,15 @@ payload:
     - +.hulutv.com
     - +.huluusa.com
     - +.joinmaidez.com
-    - +.mushymush.tv
-    - +.myhulu.com
-    - +.originalhulu.com
-    - +.payhulu.com
-    - +.disney.co.kr
+    - +.disney.co.uk
     - +.20thcenturystudios.com.au
-    - +.hsprepack.akamaized.net
+    - +.disney.co.za
     - +.disneyplus.bn5x.net
     - +.disneymagicmoments.gen.tr
     - +.disneymagicmoments.co.za
     - +.disneymagicmoments.co.uk
     - +.disneymagicmoments.co.il
-    - +.disney.co.za
+    - +.disneyturkiye.com.tr
     - +.beautyandthebeastmusical.co.uk
     - +.20thcenturystudios.com.br
     - +.disney.co.il
@@ -216,9 +216,9 @@ payload:
     - +.disney.com.br
     - +.disney.com.au
     - +.disney.com.tw
-    - +.disney.co.uk
-    - +.disneyturkiye.com.tr
+    - +.hsprepack.akamaized.net
     - +.disney.co.th
+    - +.disney.co.kr
     - +.disney.com.hk
     - +.disney-portal.my.onetrust.com
     - +.shanghaidisneyresort.com
