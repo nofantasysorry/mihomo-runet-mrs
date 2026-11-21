@@ -52,16 +52,8 @@ payload:
     - DOMAIN,itunes.apple.com
     - DOMAIN,itunesconnect.apple.com
     - DOMAIN,osxapps.itunes.g.aaplimg.com
-    - DOMAIN-SUFFIX,amazonprimevideo.cn
-    - DOMAIN-SUFFIX,amazonprimevideo.com.cn
-    - DOMAIN,amp-api-edge.music.apple.com
-    - DOMAIN,amp-api.music.apple.com
-    - DOMAIN,js-cdn.music.apple.com
-    - DOMAIN,music.apple.com
-    - DOMAIN,musicstatus.music.apple.com
-    - DOMAIN,play.music.apple.com
-    - DOMAIN,speedysub.music.apple.com
-    - DOMAIN-SUFFIX,bluearchive-cn.com
+    - DOMAIN-SUFFIX,shanghaidisneyresort.com
+    - DOMAIN-SUFFIX,ggpht.cn
     - DOMAIN-SUFFIX,legendofzelda.cn
     - DOMAIN-SUFFIX,legendofzelda.com.cn
     - DOMAIN-SUFFIX,miitomo.com.cn
@@ -74,6 +66,12 @@ payload:
     - DOMAIN-SUFFIX,mariokart.cn
     - DOMAIN-SUFFIX,mariokart.com.cn
     - DOMAIN-SUFFIX,supermariobros.com.cn
+    - DOMAIN-SUFFIX,yostar.cn
+    - DOMAIN-SUFFIX,bluearchive-cn.com
+    - DOMAIN-REGEX,^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+    - DOMAIN-REGEX,^epicgames-download\d-\d+\.file\.myqcloud\.com$
+    - DOMAIN-SUFFIX,leagueoflegends.cn
+    - DOMAIN-SUFFIX,lpl.com.cn
     - DOMAIN-SUFFIX,csgo.com.cn
     - DOMAIN-SUFFIX,csgo.wmsj.cn
     - DOMAIN-SUFFIX,dota2.com.cn
@@ -91,14 +89,16 @@ payload:
     - DOMAIN,xz.pphimalayanrt.com
     - DOMAIN-SUFFIX,steamchina.com
     - DOMAIN-SUFFIX,gstore.val.manlaxy.com
-    - DOMAIN-SUFFIX,yostar.cn
     - DOMAIN,gog.qtlglb.com
-    - DOMAIN-SUFFIX,leagueoflegends.cn
-    - DOMAIN-SUFFIX,lpl.com.cn
     - DOMAIN-SUFFIX,xboxlive.cn
-    - DOMAIN-REGEX,^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-    - DOMAIN-REGEX,^epicgames-download\d-\d+\.file\.myqcloud\.com$
-    - DOMAIN-SUFFIX,shanghaidisneyresort.com
+    - DOMAIN-SUFFIX,amazonprimevideo.cn
+    - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+    - DOMAIN,amp-api-edge.music.apple.com
+    - DOMAIN,amp-api.music.apple.com
+    - DOMAIN,js-cdn.music.apple.com
+    - DOMAIN,music.apple.com
+    - DOMAIN,musicstatus.music.apple.com
+    - DOMAIN,play.music.apple.com
+    - DOMAIN,speedysub.music.apple.com
     - DOMAIN,amp-api.podcasts.apple.com
     - DOMAIN,podcasts.apple.com
-    - DOMAIN-SUFFIX,ggpht.cn

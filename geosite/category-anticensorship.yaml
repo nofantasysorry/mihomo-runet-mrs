@@ -67,10 +67,15 @@ payload:
     - +.whonix.org
     - +.zeronet.io
     - +.ahmia.fi
-    - +.opengw.net
+    - +.nftstorage.link
     - +.2dust.link
-    - +.ceno.app
-    - +.censorship.no
+    - +.getlantern.org
+    - +.lantern.io
+    - +.docs.rw
+    - +.log.rw
+    - +.remna.dev
+    - +.remna.st
+    - +.try.rw
     - +.epicbrowser.com
     - +.ipns.co
     - +.ipfs.tech
@@ -80,23 +85,32 @@ payload:
     - +.ipfs-gateway.cloud
     - +.c4rex.co
     - +.via0.com
-    - +.nftstorage.link
+    - +.wiresock.net
     - +.jorropo.net
     - +.crustwebsites.net
     - +.4everland.io
     - +.dweb.link
-    - +.wiresock.net
-    - +.vpngate.jp
-    - +.vpngate.net
-    - +.getlantern.org
-    - +.citizenlab.org
     - +.citizenlab.ca
-    - +.try.rw
-    - +.remna.st
-    - +.remna.dev
-    - +.lantern.io
+    - +.citizenlab.org
+    - +.v2ray.com
+    - +.v2ray.cool
+    - +.wikiunblocked.org
+    - +.pao-pao.net
+    - +.manyvoices.news
+    - +.greatfirevpn.com
+    - +.greatfire.org
+    - +.v2fly.org
+    - +.ceno.app
+    - +.censorship.no
     - +.haveibeenpwned.com
     - +.pwnedpasswords.com
+    - +.paskoocheh.com
+    - +.softether.org
+    - +.softether-download.com
+    - +.torproject.org
+    - +.opengw.net
+    - +.vpngate.jp
+    - +.vpngate.net
     - +.applecensorship.com
     - +.freebrowser.org
     - +.freewechat.com
@@ -104,20 +118,6 @@ payload:
     - +.freezhihu.org
     - +.googlecensorship.org
     - +.googleplaycensorship.com
-    - +.greatfire.org
-    - +.greatfirevpn.com
-    - +.manyvoices.news
-    - +.pao-pao.net
-    - +.wikiunblocked.org
-    - +.paskoocheh.com
-    - +.softether.org
-    - +.softether-download.com
-    - +.torproject.org
-    - +.v2ray.com
-    - +.v2ray.cool
-    - +.v2fly.org
-    - +.docs.rw
-    - +.log.rw
     - +.ipfs.eternum.io
     - +.gateway.pinata.cloud
     - +.ipfs.runfission.com

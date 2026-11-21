@@ -1,31 +1,32 @@
 payload:
-    - +.nio.com
-    - +.maiche.com
-    - +.autohome.tel
-    - +.autoimg.cn
-    - +.jiakaobaodian.com
-    - +.kakamobi.com
     - +.niohome.com
+    - +.jiakaobaodian.com
+    - +.autohome.tel
+    - +.12365auto.com
+    - +.nio.com
+    - +.kakamobi.com
+    - +.maiche.com
     - +.mc-cdn.cn
     - +.mucang.cn
     - +.byd.com
     - +.chery.cn
     - +.faw.cn
+    - +.faw-vw.com
     - +.geely.com
     - +.lixiang.com
     - +.seres.cn
     - +.dongchediapp.com
-    - +.zeekrgroup.com
+    - +.dongchedi.com
     - +.xiaopeng.com
-    - +.12365auto.com
+    - +.lynkco-test.com
     - +.lynkco.com
-    - +.dcdapp.com
+    - +.nio.cn
     - +.dcarvod.com
     - +.dcarstatic.com
-    - +.nio.cn
-    - +.lynkco-test.com
+    - +.dcdapp.com
     - +.autohome.com
-    - +.dongchedi.com
+    - +.autoimg.cn
+    - +.zeekrgroup.com
     - +.zeekrlife.com
     - +.gzurl.cn
     - +.guazi.com
