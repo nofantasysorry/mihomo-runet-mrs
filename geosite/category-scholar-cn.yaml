@@ -1,6 +1,6 @@
 payload:
-    - +.ssvideo.cn
-    - +.5read.com
+    - +.16q.cn
+    - +.nihaorwanda.cn
     - +.ancientbooks.cn
     - +.apabi.com
     - +.bjinfobank.com
@@ -52,6 +52,9 @@ payload:
     - +.xuexi365.com
     - +.yiigle.com
     - +.zsyyb.cn
+    - +.uonline-sh.net
+    - +.uonline-sh.com
+    - +.superlib.net
     - +.sslibrary.com
     - +.chaoxing.cc
     - +.aichaoxing.com
@@ -66,32 +69,29 @@ payload:
     - +.mndqlib.net
     - +.mti100.com
     - +.nihaoafrica.org
-    - +.nihaorwanda.cn
-    - +.sslawy.com
-    - +.16q.cn
     - +.airitilibrary.cn
-    - +.chaoxingv.com
+    - +.sslawy.com
     - +.51ccd.com
+    - +.5read.com
+    - +.chaoxingv.com
+    - +.ssvideo.cn
     - +.zaifan.com
     - +.ylike.net
     - +.superlib.com
-    - +.superlib.net
-    - +.uonline-sh.com
-    - +.uonline-sh.net
+    - +.iscas.ac.cn
     - +.pishu.com.cn
-    - +.xuexi365.com.cn
-    - +.wind.com.cn
-    - +.drcnet.com.cn
-    - +.unihan.com.cn
-    - +.study360.com.cn
-    - +.ssvideo.com.cn
-    - +.ccf.org.cn
-    - +.data.pharmacodia.com
-    - +.ssreader.com.cn
     - +.las.ac.cn
+    - +.wind.com.cn
+    - +.csdl.ac.cn
+    - +.unihan.com.cn
+    - +.drcnet.com.cn
+    - +.zaifan.com.cn
+    - +.ssvideo.com.cn
+    - +.study360.com.cn
+    - +.wanfangdata.com.cn
+    - +.ssreader.com.cn
+    - +.data.pharmacodia.com
+    - +.ccf.org.cn
     - +.cnki.com.cn
     - +.cidp.com.cn
-    - +.wanfangdata.com.cn
-    - +.csdl.ac.cn
-    - +.iscas.ac.cn
-    - +.zaifan.com.cn
+    - +.xuexi365.com.cn

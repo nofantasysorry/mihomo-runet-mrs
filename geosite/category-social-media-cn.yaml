@@ -1,9 +1,8 @@
 payload:
-    - +.zhenai.com
-    - +.dandanvoice.com
+    - +.tieba.com
     - +.baihe.com
-    - +.vzuu.com
-    - +.zastatic.com
+    - +.dandan818.com
+    - +.dandanvoice.com
     - +.duoduo.link
     - +.hammi.cn
     - +.uboxs.com
@@ -23,12 +22,14 @@ payload:
     - +.tancdn.com
     - +.tantanapp.com
     - +.uneed.com
-    - +.zhimg.com
-    - +.tieba.com
-    - +.dandan818.com
+    - +.uneedx.com
+    - +.zastatic.com
+    - +.zhenai.com
     - +.zsxq.com
-    - +.gracg.com
-    - +.procg.cn
+    - +.zhihu.com
+    - +.zhimg.com
+    - +.laiyagushi.com
+    - +.vzuu.com
     - +.coolapk.com
     - +.coolapkmarket.com
     - +.coolapkmarket.net
@@ -38,18 +39,17 @@ payload:
     - +.hupu.com
     - +.hupucdn.com
     - +.shihuo.cn
-    - +.laiyagushi.com
-    - +.ivwen.com
-    - +.meipian.cn
-    - +.meipian.me
     - +.jike.city
     - +.jikecdn.com
     - +.okjike.com
     - +.okjk.co
     - +.ruguoapp.com
-    - +.zhihu.com
-    - +.uneedx.com
-    - +.hoopchina.com.cn
+    - +.gracg.com
+    - +.procg.cn
+    - +.ivwen.com
+    - +.meipian.cn
+    - +.meipian.me
     - +.tieba.baidu.com
+    - +.hoopchina.com.cn
     - +.crash2.zhihu.com
     - +.zhihu-web-analytics.zhihu.com

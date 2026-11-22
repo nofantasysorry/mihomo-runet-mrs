@@ -1,7 +1,6 @@
 payload:
     - DOMAIN,amp.akamaized.net
     - DOMAIN-SUFFIX,openjsf.org
-    - DOMAIN-SUFFIX,mochajs.org
     - DOMAIN-SUFFIX,nodejs.org
     - DOMAIN-SUFFIX,amp.dev
     - DOMAIN-SUFFIX,ampproject.com
@@ -11,4 +10,5 @@ payload:
     - DOMAIN-SUFFIX,jquery.com
     - DOMAIN-SUFFIX,jquerymobile.com
     - DOMAIN-SUFFIX,jqueryui.com
+    - DOMAIN-SUFFIX,mochajs.org
     - DOMAIN,cdn.ampproject.org

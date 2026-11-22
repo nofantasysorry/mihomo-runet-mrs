@@ -23,18 +23,6 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
-    - +.acousticbrainz.org
-    - +.bookbrainz.org
-    - +.coverartarchive.org
-    - +.critiquebrainz.org
-    - +.listenbrainz.org
-    - +.messybrainz.org
-    - +.metabrainz.org
-    - +.musicbrainz.org
-    - +.nist.gov
-    - +.time.gov
-    - +.paskoocheh.com
-    - +.csis.org
     - +.f-dro1d.org
     - +.f-droid.com
     - +.f-droid.org
@@ -109,16 +97,8 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.rolfoundation.org
-    - +.rolsociety.org
-    - +.ccstatic.org
-    - +.creativecommons.org
-    - +.creativecommons.engineering
-    - +.licensebuttons.net
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
+    - +.nist.gov
+    - +.time.gov
     - +.openmaps.org
     - +.openstreetmap.com
     - +.openstreetmap.net
@@ -128,5 +108,25 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
+    - +.paskoocheh.com
+    - +.ccstatic.org
+    - +.creativecommons.org
+    - +.creativecommons.engineering
+    - +.licensebuttons.net
+    - +.csis.org
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
+    - +.acousticbrainz.org
+    - +.bookbrainz.org
+    - +.coverartarchive.org
+    - +.critiquebrainz.org
+    - +.listenbrainz.org
+    - +.messybrainz.org
+    - +.metabrainz.org
+    - +.musicbrainz.org
     - +.ppy.sh
+    - +.rolfoundation.org
+    - +.rolsociety.org
     - sentry.ppy.sh
