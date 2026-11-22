@@ -1,3 +1,6 @@
++.analytics.facebook.com
++.facebookads.com
++.pixel.facebook.com
 +.graph.instagram.com
 +.graph-fallback.instagram.com
 +.adv.vk.com
@@ -16,6 +19,3 @@ analytics.vk.ru
 stats.vk-portal.net
 target.vk.com
 +.ads-twitter.com
-+.analytics.facebook.com
-+.facebookads.com
-+.pixel.facebook.com

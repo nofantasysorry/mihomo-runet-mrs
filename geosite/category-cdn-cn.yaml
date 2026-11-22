@@ -6,15 +6,6 @@ payload:
     - +.hydun.com
     - +.jiashule.com
     - +.jiasule.com
-    - +.baishan.com
-    - +.baishancdnx.cn
-    - +.baishancloud.com
-    - +.bsclink.cn
-    - +.qingcdn.com
-    - +.trpcdn.com
-    - +.trpcdn.net
-    - +.yundun.com
-    - +.saxyit.com
     - +.bootcdn.cn
     - +.bootcdn.net
     - +.bootcss.com
@@ -77,6 +68,15 @@ payload:
     - +.wsglb.net
     - +.wswebcdn.com
     - +.wswebpic.com
+    - +.baishan.com
+    - +.baishancdnx.cn
+    - +.baishancloud.com
+    - +.bsclink.cn
+    - +.qingcdn.com
+    - +.trpcdn.com
+    - +.trpcdn.net
+    - +.yundun.com
+    - +.saxyit.com
     - +.dfyun.com.cn
     - +.fastcdn.com.cn
     - +.cf-china.info
