@@ -1,8 +1,8 @@
 payload:
     - bbs.boingboing.net
     - www.quora.com.cdn.cloudflare.net
-    - +.5ch.net
-    - +.rutracker.org
+    - +.5i01.com
+    - +.redditmedia.com
     - +.avsforum.com
     - +.disp.cc
     - +.doom9.org
@@ -15,37 +15,34 @@ payload:
     - +.questionablequesting.com
     - +.18p2p.com
     - +.sis001.com
-    - +.dslr.net
+    - +.qr.ae
     - +.v2ex.co
     - +.v2ex.com
-    - +.fanfiction.net
+    - +.hkgolden.com
+    - +.hkgolden.media
     - +.linux.do
     - +.ldstatic.com
-    - +.qr.ae
-    - +.quora.com
-    - +.quoracdn.net
-    - +.poe.com
-    - +.poecdn.net
+    - +.livejournal.com
+    - +.livejournal.net
+    - +.maintracker.org
+    - +.rutracker.cc
+    - +.rutracker.cr
+    - +.rutracker.me
+    - +.rutracker.net
+    - +.rutracker.nl
+    - +.rutracker.org
+    - +.rutracker.wiki
+    - +.rutrk.org
     - +.xda-cdn.com
     - +.xda-developers.com
     - +.xdaforums.com
     - +.xdaimages.com
-    - +.ck101.com
-    - +.ckcdn.com
-    - +.ckck.fun
-    - +.dcard.cc
-    - +.dcard.io
-    - +.dcard.link
-    - +.dcard.tw
-    - +.dzen.ru
-    - +.dzeninfra.ru
-    - +.livejournal.com
-    - +.livejournal.net
-    - +.ptt.cc
-    - +.ptt2.cc
-    - +.ptt3.cc
-    - +.soyjak.party
-    - +.soyjak.st
+    - +.4cdn.org
+    - +.4chan.org
+    - +.4channel.org
+    - +.2ch.net
+    - +.5ch.io
+    - +.5ch.net
     - +.6park.com
     - +.6parkbbs.com
     - +.6parknews.com
@@ -53,14 +50,30 @@ payload:
     - +.popo8.com
     - +.parkvv.com
     - +.xwbo.com
-    - +.2ch.net
-    - +.5ch.io
+    - +.broadbandreports.com
+    - +.dslr.net
+    - +.dslreports.com
+    - +.habr.com
+    - +.habrastorage.org
     - +.safechat.com
     - +.8chan.moe
     - +.spacebattles.com
-    - +.dslreports.com
-    - +.lih.kg
-    - +.lihkg.com
+    - +.quora.com
+    - +.quoracdn.net
+    - +.poe.com
+    - +.poecdn.net
+    - +.2ch.hk
+    - +.2ch.life
+    - +.2ch.org
+    - +.2ch.su
+    - +.ck101.com
+    - +.ckcdn.com
+    - +.ckck.fun
+    - +.dcard.cc
+    - +.dcard.io
+    - +.dcard.link
+    - +.dcard.tw
+    - +.fanfiction.net
     - +.pimg.tw
     - +.pixanalytics.com
     - +.pixfs.net
@@ -69,29 +82,16 @@ payload:
     - +.pixnet.pro
     - +.pixnet.tw
     - +.pixplug.in
-    - +.4channel.org
-    - +.redd.it
-    - +.reddit.com
-    - +.redditblog.com
-    - +.reddithelp.com
-    - +.redditinc.com
-    - +.redditmail.com
-    - +.redditmedia.com
-    - +.redditspace.com
-    - +.redditstatic.com
     - +.redditstatus.com
-    - +.4chan.org
-    - +.4cdn.org
-    - +.2ch.hk
-    - +.2ch.life
-    - +.2ch.org
-    - +.2ch.su
-    - +.habr.com
-    - +.habrastorage.org
-    - +.hkgolden.com
-    - +.hkgolden.media
-    - +.5i01.com
-    - +.mobile01.com
+    - +.ptt.cc
+    - +.ptt2.cc
+    - +.ptt3.cc
+    - +.soyjak.party
+    - +.soyjak.st
+    - +.dzen.ru
+    - +.dzeninfra.ru
+    - +.lih.kg
+    - +.lihkg.com
     - +.22112211.xyz
     - +.deepflood.com
     - +.nodeget.com
@@ -99,17 +99,17 @@ payload:
     - +.nodequality.com
     - +.nodeseek.com
     - +.nodeseek.org
-    - +.maintracker.org
-    - +.rutracker.cc
-    - +.rutracker.cr
-    - +.rutracker.me
-    - +.rutracker.net
-    - +.rutracker.nl
-    - +.broadbandreports.com
-    - +.rutracker.wiki
-    - +.rutrk.org
-    - +.reddit.app.link
+    - +.redd.it
+    - +.reddit.com
+    - +.redditblog.com
+    - +.reddithelp.com
+    - +.redditinc.com
+    - +.redditmail.com
+    - +.mobile01.com
+    - +.redditspace.com
+    - +.redditstatic.com
     - +.pixinsight.com.tw
+    - +.reddit.app.link
     - +.reddit.map.fastly.net
     - +.log.dzen.ru
     - +.ms.dzen.ru

@@ -1,6 +1,6 @@
 payload:
+    - +.wss.ink
     - +.lanzoum.com
-    - +.aliyundrive.net
     - +.123278.com
     - +.123294.com
     - +.123624.com
@@ -15,38 +15,18 @@ payload:
     - +.123panpay.com
     - +.guangyacdn.com
     - +.guangyapan.com
-    - +.wss1.cn
+    - +.aliyundrive.net
     - +.ctfile.com
     - +.feimaoyun.com
     - +.filez.com
     - +.jianguoyun.com
-    - +.wss.zone
     - +.aliyundrive.com
-    - +.wss.show
+    - +.lanzoul.com
+    - +.aliyundrive.cloud
     - +.share123.top
     - +.weiyun.com
-    - +.wss.pet
-    - +.yunpan.com
-    - +.115.com
-    - +.115cdn.com
-    - +.115cdn.net
-    - +.115cloud.cn
-    - +.115cloud.com
-    - +.115cloud.net
-    - +.115img.com
-    - +.115meta.com
-    - +.115vod.com
-    - +.116cd.cn
-    - +.116cd.com
-    - +.116cd.net
-    - +.anxia.com
-    - +.sq.cc
-    - +.alicloudccp.com
     - +.alipan.com
-    - +.lanzouk.com
-    - +.123254.com
-    - +.wss.ink
-    - +.wss.email
+    - +.yunpan.com
     - +.c-t.work
     - +.cowcs.com
     - +.cowtransfer.com
@@ -63,9 +43,9 @@ payload:
     - +.lanzouh.com
     - +.lanzoui.com
     - +.lanzouj.com
-    - +.aliyundrive.cloud
-    - +.lanzoul.com
-    - +.123245.com
+    - +.wss.cc
+    - +.123254.com
+    - +.alicloudccp.com
     - +.lanzouo.com
     - +.lanzoup.com
     - +.lanzouq.com
@@ -83,10 +63,30 @@ payload:
     - +.wenxiaozhan.cn
     - +.wenxiaozhan.com
     - +.wenxiaozhan.net
-    - +.wss.cc
-    - +.yunpan.aliyun.com
+    - +.lanzouk.com
+    - +.wss.email
+    - +.123245.com
+    - +.wss.pet
+    - +.wss.show
+    - +.wss.zone
+    - +.wss1.cn
+    - +.115.com
+    - +.115cdn.com
+    - +.115cdn.net
+    - +.115cloud.cn
+    - +.115cloud.com
+    - +.115cloud.net
+    - +.115img.com
+    - +.115meta.com
+    - +.115vod.com
+    - +.116cd.cn
+    - +.116cd.com
+    - +.116cd.net
+    - +.anxia.com
+    - +.sq.cc
     - +.pan.quark.cn
     - +.yun.139.com
     - +.pan.xunlei.com
     - +.pan.baidu.com
     - +.cloud.189.cn
+    - +.yunpan.aliyun.com
