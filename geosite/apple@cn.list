@@ -225,6 +225,13 @@ podcasts.apple.com
 +.beatsbydre.com
 +.beatsbydre.com.cn
 +.beatsep.cn
++.apple-icloud.cn
++.appleicloud.cn
++.icloud-apple.cn
++.icloud-content.com.cn
++.icloud.com.cn
++.icloud.net.cn
++.icloudapple.cn
 amp-api-edge.music.apple.com
 amp-api.music.apple.com
 js-cdn.music.apple.com
@@ -240,13 +247,6 @@ ocsp.apple.com
 ocsp2.apple.com
 valid.apple.com
 valid.origin-apple.com.akadns.net
-+.apple-icloud.cn
-+.appleicloud.cn
-+.icloud-apple.cn
-+.icloud-content.com.cn
-+.icloud.com.cn
-+.icloud.net.cn
-+.icloudapple.cn
 +.apple-itunes.cn
 +.itunes-apple.cn
 +.itunesapple.cn

@@ -75,20 +75,6 @@ payload:
     - +.iamakamai.net
     - +.soasta-dswb.com
     - +.srtcdn.net
-    - +.cdn77.com
-    - +.cdn77.org
-    - +.fastly-edge.com
-    - +.fastly-terrarium.com
-    - +.fastly.com
-    - +.fastly.io
-    - +.fastly.net
-    - +.fastlylabs.com
-    - +.fastlylb.net
-    - +.stackpath.com
-    - +.stackpath.dev
-    - +.vrcdn.cloud
-    - +.vrcdn.live
-    - +.vrcdn.video
     - +.argotunnel.com
     - +.browser.run
     - +.cfargotunnel.com
@@ -146,9 +132,6 @@ payload:
     - +.cloudflare-ipfs.com
     - +.imgix.com
     - +.imgix.net
-    - +.esm.run
-    - +.jsdelivr.com
-    - +.jsdelivr.net
     - +.delvenetworks.com
     - +.limelight.com
     - +.lldns.net
@@ -159,7 +142,24 @@ payload:
     - +.llnwi.net
     - +.pagecdn.com
     - +.pagecdn.io
+    - +.vrcdn.cloud
+    - +.vrcdn.live
+    - +.vrcdn.video
+    - +.cdn77.com
+    - +.cdn77.org
+    - +.fastly-edge.com
+    - +.fastly-terrarium.com
+    - +.fastly.com
+    - +.fastly.io
+    - +.fastly.net
+    - +.fastlylabs.com
+    - +.fastlylb.net
+    - +.esm.run
+    - +.jsdelivr.com
+    - +.jsdelivr.net
     - +.quantil.com
+    - +.stackpath.com
+    - +.stackpath.dev
     - +.akamai.co.kr
     - +.one.one.one
     - +.accdn.com.cn

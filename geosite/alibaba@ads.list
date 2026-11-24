@@ -52,11 +52,17 @@
 +.baichuan-sdk.alicdn.com
 +.nbsdk-baichuan.alicdn.com
 +.tce.alicdn.com
++.ads.uc.cn
++.adslot.uc.cn
++.adashx.ut.ele.me
++.h-adashx.ut.ele.me
++.v6-adashx.ut.ele.me
 +.adashx.ut.amap.com
 +.dualstack-logs.amap.com
 +.logs.amap.com
 +.optimus-ads.amap.com
 +.v6-adashx.ut.amap.com
++.v6-adashx.ut.cainiao.com
 +.aaid.umeng.com
 +.alog.umeng.com
 +.alog.umengcloud.com
@@ -79,9 +85,3 @@
 +.utoken.umeng.com
 +.w.cnzz.com
 +.z.gds.cnzz.com
-+.v6-adashx.ut.cainiao.com
-+.ads.uc.cn
-+.adslot.uc.cn
-+.adashx.ut.ele.me
-+.h-adashx.ut.ele.me
-+.v6-adashx.ut.ele.me

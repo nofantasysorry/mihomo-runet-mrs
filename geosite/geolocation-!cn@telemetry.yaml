@@ -1,12 +1,12 @@
 payload:
-    - copilot-telemetry-service.githubusercontent.com
-    - copilot-telemetry.githubusercontent.com
+    - sentry.ppy.sh
+    - +.paypalbeacon.com
     - http-intake.logs.us5.datadoghq.com
     - o1158394.ingest.us.sentry.io
-    - incoming.telemetry.mozilla.org
-    - incoming-telemetry.thunderbird.net
-    - firebaselogging-pa.googleapis.com
-    - firebaselogging.googleapis.com
+    - copilot-telemetry-service.githubusercontent.com
+    - copilot-telemetry.githubusercontent.com
+    - +.akstat.io
+    - +.cloudflareinsights.com
     - +.applicationinsights.io
     - +.applicationinsights.net
     - +.aria.ms
@@ -22,16 +22,16 @@ payload:
     - dc.services.visualstudio.com
     - rt.services.visualstudio.com
     - +.adobestats.io
-    - +.paypalbeacon.com
+    - incoming.telemetry.mozilla.org
+    - incoming-telemetry.thunderbird.net
+    - firebaselogging-pa.googleapis.com
+    - firebaselogging.googleapis.com
+    - dc.services.visualstudio.com
+    - rt.services.visualstudio.com
     - firebaselogging-pa.googleapis.com
     - firebaselogging.googleapis.com
     - +.cafe.github.com
     - +.collector.github.com
     - copilot-telemetry-service.githubusercontent.com
     - copilot-telemetry.githubusercontent.com
-    - dc.services.visualstudio.com
-    - rt.services.visualstudio.com
-    - +.akstat.io
-    - +.cloudflareinsights.com
-    - sentry.ppy.sh
     - sentry.ppy.sh
