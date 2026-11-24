@@ -8,6 +8,6 @@ payload:
     - +.dc-ut.api.leiniao.com
     - +.qms-report-o.api.leiniao.com
     - +.qms-report-t.api.leiniao.com
+    - +.cloudflareinsights-cn.com
     - +.shuqistat.com
     - +.meitustat.com
-    - +.cloudflareinsights-cn.com
