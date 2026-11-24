@@ -67,25 +67,15 @@ payload:
     - +.whonix.org
     - +.zeronet.io
     - +.ahmia.fi
-    - +.c4rex.co
-    - +.2dust.link
-    - +.ceno.app
-    - +.censorship.no
-    - +.epicbrowser.com
-    - +.haveibeenpwned.com
     - +.pwnedpasswords.com
-    - +.getlantern.org
-    - +.lantern.io
-    - +.v2ray.com
-    - +.v2ray.cool
-    - +.v2fly.org
+    - +.2dust.link
     - +.ipns.co
     - +.ipfs.tech
     - +.cloudflare-ipfs.com
     - +.cf-ipfs.com
     - +.ipfs.io
     - +.ipfs-gateway.cloud
-    - +.wiresock.net
+    - +.c4rex.co
     - +.via0.com
     - +.nftstorage.link
     - +.jorropo.net
@@ -94,19 +84,16 @@ payload:
     - +.dweb.link
     - +.citizenlab.ca
     - +.citizenlab.org
-    - +.paskoocheh.com
-    - +.softether.org
+    - +.haveibeenpwned.com
+    - +.wiresock.net
     - +.vpngate.net
     - +.vpngate.jp
     - +.opengw.net
     - +.torproject.org
-    - +.wikiunblocked.org
-    - +.softether-download.com
-    - +.docs.rw
-    - +.log.rw
-    - +.remna.dev
-    - +.remna.st
-    - +.try.rw
+    - +.paskoocheh.com
+    - +.ceno.app
+    - +.censorship.no
+    - +.epicbrowser.com
     - +.applecensorship.com
     - +.freebrowser.org
     - +.freewechat.com
@@ -118,6 +105,19 @@ payload:
     - +.greatfirevpn.com
     - +.manyvoices.news
     - +.pao-pao.net
+    - +.wikiunblocked.org
+    - +.docs.rw
+    - +.log.rw
+    - +.remna.dev
+    - +.remna.st
+    - +.try.rw
+    - +.getlantern.org
+    - +.lantern.io
+    - +.softether.org
+    - +.softether-download.com
+    - +.v2ray.com
+    - +.v2ray.cool
+    - +.v2fly.org
     - +.ipfs.eternum.io
     - +.gateway.pinata.cloud
     - +.ipfs.runfission.com

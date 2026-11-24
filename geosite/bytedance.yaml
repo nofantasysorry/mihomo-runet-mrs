@@ -10,8 +10,8 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - +.douyinec.com
-    - +.xitu.io
+    - +.bvgtm.com
+    - +.volccloudidentity.com
     - +.activity-dy.com
     - +.activity01.com
     - +.activity02.com
@@ -372,75 +372,6 @@ payload:
     - +.picpic-ai.cn
     - +.pixeldance.com
     - +.api-building.fun
-    - +.activity-wbsj.com
-    - +.aihst8.com
-    - +.amemv.cn
-    - +.amemv.com
-    - +.amemv.net
-    - +.awemeughun.com
-    - +.awemeuglang.com
-    - +.awemeugsoul.com
-    - +.awemeugwave.com
-    - +.betastar.cn
-    - +.boxdouyin.com
-    - +.cookicut.com
-    - +.douyin.com
-    - +.douyinact.com
-    - +.douyinact.net
-    - +.douyincdn.com
-    - +.douyinfe.com
-    - +.douyinliving.com
-    - +.douyinmusicpromotion.com
-    - +.douyinpic.com
-    - +.douyinstatic.com
-    - +.douyinvod.com
-    - +.duoshan.com
-    - +.huoshan.com
-    - +.huoshancdn.com
-    - +.huoshangroup.com
-    - +.huoshanimg.com
-    - +.huoshanlive.com
-    - +.huoshanparty.com
-    - +.huoshanstatic.com
-    - +.huoshante8.com
-    - +.huoshanvideo.cn
-    - +.huoshanvideo.net
-    - +.huoshanvod.com
-    - +.huoshanxiaoshipin.cn
-    - +.huoshanxiaoshipin.net
-    - +.huoshanzhibo.cn
-    - +.huoshanzhibo.com
-    - +.huoshanzhibo.net
-    - +.hypercachenode.com
-    - +.idouyinliving.com
-    - +.idouyinpic.com
-    - +.idouyinstatic.com
-    - +.idouyinvod.com
-    - +.iesdouyin.com
-    - +.iesdouyin.net
-    - +.ieshuodong.cn
-    - +.ieshuodong.net
-    - +.ihst8.com
-    - +.ihuoshanimg.com
-    - +.ihuoshanlive.com
-    - +.ulpay.com
-    - +.ihuoshanvod.com
-    - +.kolbuyer.cn
-    - +.nextvid.net
-    - +.ppkankan01.com
-    - +.qishui.cn
-    - +.qishui.com
-    - +.qishuimusic.cn
-    - +.supercachenet.com
-    - +.supercachenode.com
-    - +.ultracachenode.com
-    - +.woaihuoshan.com
-    - +.wohst8.com
-    - +.xck31.cn
-    - +.99uri.com
-    - +.ihuoshanstatic.com
-    - +.lifexue.com
-    - +.open-douyin.com
     - +.activity-zhendingtech.com
     - +.changdunovel.com
     - +.fanqiecopyright.com
@@ -471,98 +402,6 @@ payload:
     - +.qznovelpic.com
     - +.qznovelstatic.com
     - +.qznovelvod.com
-    - +.baseopendev.com
-    - +.bytecloud.com
-    - +.byteoc.com
-    - +.bytewebservice.com
-    - +.bytexns.cn
-    - +.bytexns.com
-    - +.bytexns.net
-    - +.bytexopen.com
-    - +.meegobeta.com
-    - +.okr.cn
-    - +.okr.com
-    - +.vscenevideo.com
-    - +.anycross.com
-    - +.blmpb.com
-    - +.bytedancehermestest.com
-    - +.falconsending.com
-    - +.fei-shu.cn
-    - +.feishu-3rd-party-services.com
-    - +.feishu-boe.net
-    - +.feishu-customer.cn
-    - +.feishu-pre.cn
-    - +.feishu-pre.net
-    - +.feishu-psc.cn
-    - +.feishu-staging.cn
-    - +.feishu.cn
-    - +.feishu.net
-    - +.feishuapp-cdn.net
-    - +.feishuapp.cn
-    - +.feishuapp.com
-    - +.feishucdn.com
-    - +.feishudoc.cn
-    - +.feishudoc.com
-    - +.feishuhuiyi.cn
-    - +.feishuhuiyi.com
-    - +.feishuimg-boe.com
-    - +.feishuimg-pre.com
-    - +.feishuimg.com
-    - +.feishukacdn.com
-    - +.feishumeetings.cn
-    - +.feishumeetings.com
-    - +.feishuoffice.cn
-    - +.feishuoffice.com
-    - +.feishuopenplatformrecord.com
-    - +.feishupkg.com
-    - +.feishustatus.cn
-    - +.feishuvc.cn
-    - +.feishuvc.com
-    - +.getfeishu.cn
-    - +.getfeishu.com
-    - +.getsays.cn
-    - +.getsays.com
-    - +.lackvc.cn
-    - +.securityfeishu.cn
-    - +.securityfs.cn
-    - +.statusfeishu.cn
-    - +.larkofficecdn.com
-    - +.thelarkcloud.com
-    - +.larkofficeimg.com
-    - +.larkcloud.com
-    - +.larkcloud.net
-    - +.larkfn.com
-    - +.larkmeetings.cn
-    - +.larkmeetings.com
-    - +.larkoffice.com
-    - +.statuslarkoffice.com
-    - +.larkofficeapp-boe.com
-    - +.larkofficeapp-pre.com
-    - +.larkofficeapp.com
-    - +.larkofficeboe.com
-    - +.lark.cn
-    - +.larkofficepkg.com
-    - +.lark-passport-qa-sg.net
-    - +.larkofficepre.com
-    - +.larkrooms.cn
-    - +.larkrooms.com
-    - +.larksuite-pre.com
-    - +.larksuite.com
-    - +.larkvc.com
-    - +.larksuiteimg.com
-    - +.larksuitecdn.com
-    - +.larksuiteimg-boe.com
-    - +.larksuiteimg-pre.com
-    - +.juejin.cn
-    - +.dongchediapp.com
-    - +.dongchedi.com
-    - +.dcdapp.com
-    - +.dcarvod.com
-    - +.dcarstatic.com
-    - +.dcarlive.com
-    - +.dcarimg.com
-    - +.juejin.im
-    - +.douyinpay.com
     - +.doudou.com
     - +.marscode.cn
     - +.mcbaas.work
@@ -573,8 +412,6 @@ payload:
     - +.trae.cn
     - +.trae.guru
     - +.yoma.cn
-    - +.dcarapi.com
-    - +.xflowedge.com
     - +.volcanoarkshare.com
     - +.commonpcs.com
     - +.aigc-cloud.com
@@ -586,7 +423,7 @@ payload:
     - +.bdcgtm.com
     - +.bdeglb.com
     - +.bdegnine.com
-    - +.bdegslb.com
+    - +.byte-dns.net
     - +.bdegtm.com
     - +.bhgslb.com
     - +.bhgtm.com
@@ -599,9 +436,9 @@ payload:
     - +.bvfcdn3.com
     - +.bvglb.com
     - +.bvgslb.com
-    - +.bvgtm.com
-    - +.byte-dns.com
-    - +.byte-dns.net
+    - +.larksuite.com
+    - +.99uri.com
+    - +.bdegslb.com
     - +.bytefcdnrd-tob.com
     - +.bytehiservice.com
     - +.bytehouse.cn
@@ -726,7 +563,7 @@ payload:
     - +.volccdn.com
     - +.volccdn1.com
     - +.volccdn2.com
-    - +.volccloudidentity.com
+    - +.byte-dns.com
     - +.volcdcdnlb.net
     - +.volcddos.com
     - +.volcddos001.com
@@ -843,23 +680,186 @@ payload:
     - +.volx.cn
     - +.writingo-editor.com
     - +.writingo.net
+    - +.xck31.cn
+    - +.xflowedge.com
+    - +.activity-wbsj.com
+    - +.dongchediapp.com
+    - +.dongchedi.com
+    - +.dcdapp.com
+    - +.dcarvod.com
+    - +.dcarstatic.com
+    - +.dcarlive.com
+    - +.dcarimg.com
+    - +.dcarapi.com
+    - +.larksuiteimg-pre.com
+    - +.larksuiteimg-boe.com
+    - +.aihst8.com
+    - +.amemv.cn
+    - +.amemv.com
+    - +.amemv.net
+    - +.awemeughun.com
+    - +.awemeuglang.com
+    - +.awemeugsoul.com
+    - +.awemeugwave.com
+    - +.betastar.cn
+    - +.boxdouyin.com
+    - +.cookicut.com
+    - +.douyin.com
+    - +.douyinact.com
+    - +.douyinact.net
+    - +.douyincdn.com
+    - +.douyinfe.com
+    - +.douyinliving.com
+    - +.douyinmusicpromotion.com
+    - +.douyinpic.com
+    - +.douyinstatic.com
+    - +.douyinvod.com
+    - +.duoshan.com
+    - +.huoshan.com
+    - +.huoshancdn.com
+    - +.huoshangroup.com
+    - +.huoshanimg.com
+    - +.huoshanlive.com
+    - +.huoshanparty.com
+    - +.huoshanstatic.com
+    - +.huoshante8.com
+    - +.huoshanvideo.cn
+    - +.huoshanvideo.net
+    - +.huoshanvod.com
+    - +.huoshanxiaoshipin.cn
+    - +.huoshanxiaoshipin.net
+    - +.huoshanzhibo.cn
+    - +.huoshanzhibo.com
+    - +.huoshanzhibo.net
+    - +.hypercachenode.com
+    - +.idouyinliving.com
+    - +.idouyinpic.com
+    - +.idouyinstatic.com
+    - +.idouyinvod.com
+    - +.iesdouyin.com
+    - +.iesdouyin.net
+    - +.ieshuodong.cn
+    - +.ieshuodong.net
+    - +.ihst8.com
+    - +.ihuoshanimg.com
+    - +.ihuoshanlive.com
+    - +.ihuoshanstatic.com
+    - +.ihuoshanvod.com
+    - +.kolbuyer.cn
+    - +.nextvid.net
+    - +.ppkankan01.com
+    - +.qishui.cn
+    - +.qishui.com
+    - +.qishuimusic.cn
+    - +.supercachenet.com
+    - +.supercachenode.com
+    - +.ultracachenode.com
+    - +.woaihuoshan.com
+    - +.wohst8.com
+    - +.douyinec.com
+    - +.douyinpay.com
+    - +.ulpay.com
+    - +.lifexue.com
+    - +.open-douyin.com
+    - +.larksuitecdn.com
+    - +.larksuiteimg.com
+    - +.larkvc.com
+    - +.juejin.cn
+    - +.juejin.im
+    - +.xitu.io
+    - +.baseopendev.com
+    - +.bytecloud.com
+    - +.byteoc.com
+    - +.bytewebservice.com
+    - +.bytexns.cn
+    - +.bytexns.com
+    - +.bytexns.net
+    - +.bytexopen.com
+    - +.meegobeta.com
+    - +.okr.cn
+    - +.okr.com
+    - +.vscenevideo.com
+    - +.anycross.com
+    - +.blmpb.com
+    - +.bytedancehermestest.com
+    - +.falconsending.com
+    - +.fei-shu.cn
+    - +.feishu-3rd-party-services.com
+    - +.feishu-boe.net
+    - +.feishu-customer.cn
+    - +.feishu-pre.cn
+    - +.feishu-pre.net
+    - +.feishu-psc.cn
+    - +.feishu-staging.cn
+    - +.feishu.cn
+    - +.feishu.net
+    - +.feishuapp-cdn.net
+    - +.feishuapp.cn
+    - +.feishuapp.com
+    - +.feishucdn.com
+    - +.feishudoc.cn
+    - +.feishudoc.com
+    - +.feishuhuiyi.cn
+    - +.feishuhuiyi.com
+    - +.feishuimg-boe.com
+    - +.feishuimg-pre.com
+    - +.feishuimg.com
+    - +.feishukacdn.com
+    - +.feishumeetings.cn
+    - +.feishumeetings.com
+    - +.feishuoffice.cn
+    - +.feishuoffice.com
+    - +.feishuopenplatformrecord.com
+    - +.feishupkg.com
+    - +.feishustatus.cn
+    - +.feishuvc.cn
+    - +.feishuvc.com
+    - +.getfeishu.cn
+    - +.getfeishu.com
+    - +.getsays.cn
+    - +.getsays.com
+    - +.lackvc.cn
+    - +.securityfeishu.cn
+    - +.securityfs.cn
+    - +.statusfeishu.cn
+    - +.larkofficecdn.com
+    - +.thelarkcloud.com
+    - +.larkofficeimg.com
+    - +.larkcloud.com
+    - +.larkcloud.net
+    - +.larkfn.com
+    - +.larkmeetings.cn
+    - +.larkmeetings.com
+    - +.larkoffice.com
+    - +.statuslarkoffice.com
+    - +.larkofficeapp-boe.com
+    - +.larkofficeapp-pre.com
+    - +.larkofficeapp.com
+    - +.larkofficeboe.com
+    - +.lark.cn
+    - +.larkofficepkg.com
+    - +.lark-passport-qa-sg.net
+    - +.larkofficepre.com
+    - +.larkrooms.cn
+    - +.larkrooms.com
+    - +.larksuite-pre.com
     - +.99uri.cn
-    - +.byteplus-api.com.cn
-    - +.qishuimusic.com.cn
-    - +.ibytepluses.com.cn
-    - +.bytepluses.com.cn
-    - +.byteplusapi.com.cn
-    - +.byteplusapi-test.com.cn
-    - +.byteplus-api-test.com.cn
-    - +.ve-omnishield.com.cn
-    - +.marscode.com.cn
-    - +.ai-guardrail.com.cn
-    - +.trae.com.cn
     - +.gogokid.com.cn
-    - +.qishui.com.cn
+    - +.ai-guardrail.com.cn
+    - +.byteplusapi-test.com.cn
+    - +.qishuimusic.com.cn
+    - +.byteplus-api.com.cn
     - +.okr.com.cn
-    - +.larksuite.com.ttdns2.com
+    - +.marscode.com.cn
+    - +.qishui.com.cn
+    - +.trae.com.cn
+    - +.ve-omnishield.com.cn
+    - +.byteplus-api-test.com.cn
+    - +.byteplusapi.com.cn
+    - +.bytepluses.com.cn
+    - +.ibytepluses.com.cn
     - +.larksuite.com.ttdns1.com
+    - +.larksuite.com.ttdns2.com
     - +.applogcdn.com
     - +.byteglb.com
     - +.byteoversea.com
@@ -897,6 +897,13 @@ payload:
     - +.pglstatp-toutiao.com
     - +.sf3-ttcdn-tos.pstatp.com
     - +.shoppingads.cn
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - ads3-normal-hl.zijieapi.com
     - ads3-normal.zijieapi.com
     - ads5-normal-hl.zijieapi.com
@@ -912,6 +919,7 @@ payload:
     - rtlog3-applog.fqnovel.com
     - rtlog5-applog-hl.fqnovel.com
     - rtlog5-applog.fqnovel.com
+    - +.volceapplog.com
     - +.bytedapm.com
     - +.muscdn.com
     - +.musical.ly
@@ -952,11 +960,3 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
-    - +.volceapplog.com

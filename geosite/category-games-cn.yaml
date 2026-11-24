@@ -1,8 +1,8 @@
 payload:
     - end-api.shallow.ink
     - end.shallow.ink
-    - +.abdf002.com
-    - +.mihoyo.com
+    - +.buke999.com
+    - +.xishanju.com
     - +.37wanimg.com
     - +.7k7k.com
     - +.9xgame.com
@@ -44,17 +44,15 @@ payload:
     - +.zx.com
     - +.tgpro.top
     - +.tgprocs.net
-    - +.buke999.com
+    - +.edu4399.com
     - +.winegame.net
     - +.wo1wan.com
-    - +.tiancitycdn.com
-    - +.tiancity.com
-    - +.zhuoyou.com
+    - +.vrzwk.top
+    - +.vrzwk.net
+    - +.vrzwk.com
     - +.ycgame.com
     - +.yjwujian.cn
     - +.yysls.cn
-    - +.cowlevel.net
-    - +.cdncl.net
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -91,15 +89,15 @@ payload:
     - +.5wyxi.com
     - +.71acg.com
     - +.71acg.net
-    - +.guoping123.com
-    - +.nzsiteres.com
-    - +.wahlap.net
-    - +.bx1k.com
-    - +.edu4399.com
-    - +.funnycore.com
-    - +.37.com
-    - +.haohaowan.net
+    - +.abdf002.com
+    - +.appeeres.com
     - +.i3839.com
+    - +.qq163.net
+    - +.wahlap.net
+    - +.funnycore.com
+    - +.guoping123.com
+    - +.haohaowan.net
+    - +.37.com
     - +.ihykb.com
     - +.img4399.com
     - +.mail4399.com
@@ -107,9 +105,9 @@ payload:
     - +.me4399.com
     - +.my4399.com
     - +.mysiteres.com
-    - +.appeeres.com
+    - +.nzsiteres.com
     - +.qq163.com
-    - +.qq163.net
+    - +.bx1k.com
     - +.tuer123.com
     - +.wanwan4399.com
     - +.we4399.com
@@ -118,12 +116,40 @@ payload:
     - +.yxhapi.com
     - +.yxhhdl.com
     - +.yxhimg.com
-    - +.sl916.com
+    - +.cowlevel.net
+    - +.cdncl.net
+    - +.hero.com
+    - +.herogame.com
+    - +.heroesports.com
+    - +.shyxhy.com
+    - +.yingxiong.com
     - +.9game.cn
     - +.aligames.com
     - +.jiaoyimao.cn
     - +.jiaoyimao.com
     - +.lingxigames.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.seasungames.cn
+    - +.seasungames.com
+    - +.seasunwbl.com
+    - +.37wan.net
+    - +.xoyo.com
+    - +.xoyocdn.com
+    - +.cbjq.com
+    - +.testplus.cn
+    - +.dobest.com
+    - +.langrenclub.com
+    - +.sanguosha.com
+    - +.xhlsgs.com
+    - +.xinwuji.com
+    - +.yokaverse.com
+    - +.zhuoyou.com
+    - +.sl916.com
     - +.17173.com
     - +.17173cdn.com
     - +.1y.com
@@ -137,7 +163,7 @@ payload:
     - +.mhyurl.cn
     - +.mihayo.com
     - +.mihayou.com
-    - +.37wan.net
+    - +.mihoyo.com
     - +.mihoyocg.com
     - +.mihoyogift.com
     - +.mihoyomall.com
@@ -148,35 +174,9 @@ payload:
     - +.themisweeps.com
     - +.yuanshen.com
     - +.juequling.com
-    - +.seasungames.cn
-    - +.seasungames.com
-    - +.seasunwbl.com
-    - +.xishanju.com
-    - +.xoyo.com
-    - +.xoyocdn.com
-    - +.cbjq.com
-    - +.testplus.cn
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
-    - +.hero.com
-    - +.herogame.com
-    - +.heroesports.com
-    - +.shyxhy.com
-    - +.yingxiong.com
+    - +.tiancity.com
+    - +.tiancitycdn.com
     - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
-    - +.vrzwk.top
-    - +.dobest.com
-    - +.langrenclub.com
-    - +.sanguosha.com
-    - +.xhlsgs.com
-    - +.xinwuji.com
-    - +.yokaverse.com
     - +.tgk-wcaime.wahlap.com
     - +.nikkigames.com.cn
     - +.37.com.cn
