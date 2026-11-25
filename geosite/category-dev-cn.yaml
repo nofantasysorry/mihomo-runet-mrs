@@ -8,8 +8,8 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - +.hiclc.com
-    - +.devui.design
+    - +.hiascend.cn
+    - +.huaweiapaas.com
     - +.ejoy.com
     - +.jinrishici.com
     - +.kaihong.com
@@ -20,15 +20,32 @@ payload:
     - +.tipdm.org
     - +.weboss.hk
     - +.zuidaima.com
-    - +.segmentfault.com
-    - +.sifou.com
-    - +.mysxl.cn
-    - +.sxl.cn
-    - +.sxlcdn.cn
-    - +.sxlcdn.com
+    - +.pgyer.com
+    - +.tracup.com
+    - +.frontjs.com
+    - +.aixcoder.com
+    - +.nnthink.com
     - +.baltamatica.cn
     - +.baltamatica.net
     - +.baltamatica.com
+    - +.oschina.net
+    - +.gitee.com
+    - +.gitee.io
+    - +.openmidas.com
+    - +.qq.design
+    - +.qqgamedesign.com
+    - +.tencent-cloud.cn
+    - +.tencent-cloud.com
+    - +.tencent.design
+    - +.tencentcloud.com
+    - +.tjstats.com
+    - +.wegamedeveloper.com
+    - +.weixinbridge.com
+    - +.weui.io
+    - +.cnb.cool
+    - +.cnb.space
+    - +.coding.me
+    - +.coding.net
     - +.blogjava.net
     - +.cnblogs.com
     - +.cnblogs.vip
@@ -37,12 +54,57 @@ payload:
     - +.cppblog.com
     - +.phpweblog.net
     - +.teachblog.net
+    - +.hiascend.com
+    - +.teleows.com
+    - +.bisheng.cn
+    - +.gneec.com
+    - +.hiclc.com
+    - +.gneec3.com
+    - +.gneec4.com
+    - +.gneec7.com
+    - +.harmonyos.com
+    - +.hikunpeng.cn
+    - +.devui.design
+    - +.bishengcompiler.cn
+    - +.sxlcdn.cn
+    - +.cocos.com
+    - +.hikunpeng.net
+    - +.saasops.tech
+    - +.hisilicon.com
+    - +.owsgo.com
+    - +.hikunpeng.com
+    - +.mindspore.cn
+    - +.juejin.cn
+    - +.juejin.im
+    - +.xitu.io
+    - +.asktug.com
+    - +.pingcap.cn
+    - +.pingcap.com
+    - +.tidb.ai
+    - +.tidb.net
+    - +.tidbcloud.com
+    - +.tikv.org
+    - +.ruby-china.org
+    - +.rubyconfchina.org
+    - +.segmentfault.com
+    - +.sifou.com
+    - +.mysxl.cn
+    - +.sxl.cn
+    - +.aardio.com
+    - +.sxlcdn.com
+    - +.openkylin.top
+    - +.ubuntukylin.com
+    - +.goproxy.cn
+    - +.goproxy.io
     - +.dengguobi.com
     - +.houyicaiji.com
     - +.jinglingbiaozhu.com
-    - +.pgyer.com
-    - +.tracup.com
-    - +.frontjs.com
+    - +.u3d.cn
+    - +.unity.cn
+    - +.unitychina.cn
+    - +.unity3dcloud.cn
+    - +.apifox.cn
+    - +.apifox.com
     - +.apipost.cn
     - +.apipost.net
     - +.iteye.com
@@ -58,78 +120,16 @@ payload:
     - +.gitcode.com
     - +.gitcode.net
     - +.atomgit.com
-    - +.aixcoder.com
-    - +.nnthink.com
-    - +.goproxy.cn
-    - +.goproxy.io
-    - +.hiascend.com
-    - +.teleows.com
-    - +.bisheng.cn
-    - +.gneec.com
-    - +.juejin.im
-    - +.cocos.com
-    - +.gneec7.com
-    - +.gneec4.com
-    - +.harmonyos.com
-    - +.hikunpeng.cn
-    - +.gneec3.com
-    - +.bishengcompiler.cn
-    - +.hiascend.cn
-    - +.hikunpeng.com
-    - +.saasops.tech
-    - +.hikunpeng.net
-    - +.hisilicon.com
-    - +.owsgo.com
-    - +.huaweiapaas.com
-    - +.mindspore.cn
-    - +.ubuntukylin.com
-    - +.openkylin.top
-    - +.coding.net
-    - +.coding.me
-    - +.cnb.space
-    - +.cnb.cool
-    - +.weui.io
-    - +.juejin.cn
-    - +.aardio.com
-    - +.xitu.io
-    - +.asktug.com
-    - +.pingcap.cn
-    - +.pingcap.com
-    - +.tidb.ai
-    - +.tidb.net
-    - +.tidbcloud.com
-    - +.tikv.org
-    - +.u3d.cn
-    - +.unity.cn
-    - +.unitychina.cn
-    - +.unity3dcloud.cn
-    - +.apifox.cn
-    - +.apifox.com
-    - +.oschina.net
-    - +.gitee.com
-    - +.gitee.io
-    - +.ruby-china.org
-    - +.rubyconfchina.org
-    - +.openmidas.com
-    - +.qq.design
-    - +.qqgamedesign.com
-    - +.tencent-cloud.cn
-    - +.tencent-cloud.com
-    - +.tencent.design
-    - +.tencentcloud.com
-    - +.tjstats.com
-    - +.wegamedeveloper.com
-    - +.weixinbridge.com
-    - +.gneec.com.cn
-    - +.hikunpeng.com.cn
-    - +.hisilicon.com.cn
-    - +.programmer.net.cn
-    - +.programmer.com.cn
-    - +.csdn.net.cn
     - +.baltamatica.org.cn
+    - +.hisilicon.com.cn
+    - +.hikunpeng.com.cn
+    - +.gneec.com.cn
+    - +.csdn.net.cn
+    - +.programmer.com.cn
+    - +.programmer.net.cn
+    - +.badjs.weixinbridge.com
     - +.ads.unitychina.cn
     - +.splash-ads.cdn.unity.cn
     - +.splash-ads.unitychina.cn
     - +.unityads.unity.cn
     - +.unityads.unitychina.cn
-    - +.badjs.weixinbridge.com

@@ -1,6 +1,6 @@
 payload:
-    - +.rtde.live
-    - +.de-rt.org
+    - +.72.ru
+    - +.amic.ru
     - +.e1.ru
     - +.ekat.ru
     - +.gazeta.ru
@@ -18,24 +18,6 @@ payload:
     - +.xn--80adfddrquddgz.xn--p1ai
     - +.pravmir.com
     - +.pravmir.ru
-    - +.1prime.ru
-    - +.rossiyasegodnya.com
-    - +.ria.ru
-    - +.jinrieluosi.cn
-    - +.arctic.ru
-    - +.baltnews.com
-    - +.baltnews.lt
-    - +.inosmi.ru
-    - +.ukraina.ru
-    - +.pressria.ru
-    - +.xn--c1acbl2abdlkab1og.xn--p1ai
-    - +.radiosputnik.ru
-    - +.sputnikglobe.com
-    - +.sputnikimages.com
-    - +.sputnikmediabank.com
-    - +.sputniknews.com
-    - +.tok.media
-    - +.ruptly.video
     - +.asiangooglenetwork.com
     - +.rt.com
     - +.rtnewsru.com
@@ -59,9 +41,9 @@ payload:
     - +.rtfrance.tv
     - +.russieactuelle.fr
     - +.de-rt.com
-    - +.rtde.me
+    - +.de-rt.org
     - +.de-rtnews.com
-    - +.72.ru
+    - +.de-rtnews.net
     - +.dert.online
     - +.dert.site
     - +.dert.tech
@@ -73,9 +55,9 @@ payload:
     - +.rtde.express
     - +.rtde.info
     - +.rtde.life
-    - +.de-rtnews.net
-    - +.amic.ru
-    - +.rteam.dev
+    - +.rtde.live
+    - +.rtde.me
+    - +.rtde.media
     - +.rtde.online
     - +.rtde.org
     - +.rtde.press
@@ -114,7 +96,7 @@ payload:
     - +.green-box-tv.com
     - +.rttv.com
     - +.rttv.ru
-    - +.rtde.media
+    - +.rteam.dev
     - +.rteam.tech
     - +.ktech.team
     - +.shop-rt.com
@@ -146,4 +128,22 @@ payload:
     - +.rt-school.online
     - +.ruptly.agency
     - +.ruptly.tv
+    - +.ruptly.video
+    - +.1prime.ru
+    - +.rossiyasegodnya.com
+    - +.ria.ru
+    - +.jinrieluosi.cn
+    - +.arctic.ru
+    - +.baltnews.com
+    - +.baltnews.lt
+    - +.inosmi.ru
+    - +.ukraina.ru
+    - +.pressria.ru
+    - +.xn--c1acbl2abdlkab1og.xn--p1ai
+    - +.radiosputnik.ru
+    - +.sputnikglobe.com
+    - +.sputnikimages.com
+    - +.sputnikmediabank.com
+    - +.sputniknews.com
+    - +.tok.media
     - +.gazetarussa.com.br

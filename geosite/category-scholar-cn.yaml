@@ -1,6 +1,6 @@
 payload:
-    - +.mndqlib.net
-    - +.hongbo100.com
+    - +.nihaorwanda.cn
+    - +.mti100.com
     - +.ancientbooks.cn
     - +.apabi.com
     - +.bjinfobank.com
@@ -10,9 +10,9 @@ payload:
     - +.cas.cn
     - +.chinabooktrading.com
     - +.chinaxiv.org
-    - +.xuexitong.com
+    - +.chndoi.org
     - +.cnbksy.com
-    - +.xuexi365.net
+    - +.cnki.net
     - +.cspro.org
     - +.noi.cn
     - +.cnsciedu.com
@@ -23,14 +23,14 @@ payload:
     - +.cnthinkers.com
     - +.cqvip.com
     - +.crggcn.com
-    - +.xxtmail.com
-    - +.xuexi365.com
+    - +.xuexitong.com
+    - +.xuexi365.net
     - +.duxiu.com
     - +.tongxianghuicn.com
     - +.ersjk.com
     - +.sbsjk.com
     - +.gtarsc.com
-    - +.uonline-sh.net
+    - +.xxtmail.com
     - +.hwshu.com
     - +.hytung.cn
     - +.incopat.com
@@ -39,7 +39,7 @@ payload:
     - +.neohytung.com
     - +.nmrdata.com
     - +.nssd.cn
-    - +.uonline-sh.com
+    - +.xuexi365.com
     - +.pkulaw.com
     - +.rdfybk.com
     - +.resset.com
@@ -49,17 +49,14 @@ payload:
     - +.ibcet.org
     - +.htcases.com
     - +.wenxin-ge.com
-    - +.superlib.net
+    - +.uonline-sh.net
     - +.yiigle.com
     - +.zsyyb.cn
-    - +.cnki.net
-    - +.chndoi.org
-    - +.superlib.com
     - +.wf.pub
+    - +.uonline-sh.com
+    - +.superlib.net
+    - +.superlib.com
     - +.ylike.net
-    - +.zaifan.com
-    - +.ssvideo.cn
-    - +.chaoxingv.com
     - +.sslibrary.com
     - +.chaoxing.cc
     - +.aichaoxing.com
@@ -69,29 +66,32 @@ payload:
     - +.cldisk.com
     - +.cxbiji.com
     - +.dayainfo.com
-    - +.airitilibrary.cn
+    - +.hongbo100.com
     - +.lnlib.net
-    - +.51ccd.com
-    - +.mti100.com
+    - +.mndqlib.net
+    - +.airitilibrary.cn
     - +.nihaoafrica.org
-    - +.nihaorwanda.cn
+    - +.51ccd.com
     - +.sslawy.com
     - +.16q.cn
     - +.5read.com
+    - +.chaoxingv.com
+    - +.ssvideo.cn
+    - +.zaifan.com
     - +.iscas.ac.cn
-    - +.cnki.com.cn
+    - +.wind.com.cn
     - +.las.ac.cn
     - +.wanfangdata.com.cn
     - +.csdl.ac.cn
-    - +.wind.com.cn
     - +.pishu.com.cn
-    - +.ccf.org.cn
-    - +.data.pharmacodia.com
-    - +.drcnet.com.cn
-    - +.ssreader.com.cn
-    - +.cidp.com.cn
-    - +.xuexi365.com.cn
+    - +.unihan.com.cn
     - +.study360.com.cn
+    - +.xuexi365.com.cn
+    - +.data.pharmacodia.com
+    - +.cnki.com.cn
     - +.ssvideo.com.cn
     - +.zaifan.com.cn
-    - +.unihan.com.cn
+    - +.ssreader.com.cn
+    - +.ccf.org.cn
+    - +.cidp.com.cn
+    - +.drcnet.com.cn

@@ -1,7 +1,7 @@
 payload:
     - +.shuqistat.com
-    - +.meitustat.com
     - +.cloudflareinsights-cn.com
+    - +.meitustat.com
     - +.base.api.my7v.com
     - +.dc-conf-o.api.leiniao.com
     - +.dc-conf-t.api.leiniao.com

@@ -3,7 +3,7 @@ payload:
     - opencourse.pku.edu.cn
     - study.163.com
     - +.liulishuo.com
-    - +.pmphmooc.com
+    - +.mooc.cn
     - +.yushiyan.net
     - +.xuetangx.com
     - +.smartedu.cn
@@ -14,39 +14,39 @@ payload:
     - +.chesicc.com
     - +.chesicc.net
     - +.chsi.cn
-    - +.mojidict.com
+    - +.yeshj.com
     - +.llsapp.com
+    - +.hujiang.com
+    - +.hjfile.cn
+    - +.hjapi.com
+    - +.cctalk.com
+    - +.mojidict.com
     - +.shareintelli.com
     - +.hugecore.net
     - +.applysquare.net
-    - +.applysquare.com
-    - +.17zuoye.net
-    - +.17zuoye.com
-    - +.17zuoye.cn
-    - +.kuaiduizuoye.com
     - +.gfbzb.cn
     - +.gfbzb.com
-    - +.zybang.com
-    - +.zuoyebang.com
+    - +.applysquare.com
+    - +.17zuoye.net
     - +.gfbzb.net
     - +.ncss.cn
-    - +.zuoyebang.cc
-    - +.fenbilantian.com
-    - +.fenbilantian.cn
+    - +.17zuoye.com
+    - +.17zuoye.cn
+    - +.yuketang.cn
     - +.qgzb.net
-    - +.fenbike.com
+    - +.rainclassroom.com
     - +.zbbm.net
     - +.neea.cn
-    - +.fenbike.cn
+    - +.zuowen.com
     - +.mypep.cn
     - +.edu.cn
-    - +.fenbi.com
+    - +.zhongkao.com
     - +.diyifanwen.com
     - +.zuowen8.com
     - +.zuowenjun.com
     - +.zuowenku.net
     - +.zuowenwang.net
-    - +.fbstatic.cn
+    - +.youjiao.com
     - +.21cnjy.com
     - +.91yunxiao.com
     - +.aiyunxiao.com
@@ -91,7 +91,7 @@ payload:
     - +.huijiaoyun.com
     - +.ictbda.cn
     - +.ictbda.com
-    - +.yuantiku.com
+    - +.xueersi.com
     - +.xir.cn
     - +.j-test.com
     - +.nattest-china.com
@@ -100,8 +100,8 @@ payload:
     - +.jzagile.com
     - +.keboyunxiao.com
     - +.ketangpai.com
-    - +.yuansouti.com
-    - +.yuanfudao.com
+    - +.xesimg.com
+    - +.tal.com
     - +.biyehome.net
     - +.llsserver.com
     - +.magedu.com
@@ -117,7 +117,7 @@ payload:
     - +.qingtingai.net
     - +.quyixian.com
     - +.rongdeji.cn
-    - +.ybccode.com
+    - +.speiyou.com
     - +.saduck.top
     - +.szu.app
     - +.szu.moe
@@ -142,16 +142,34 @@ payload:
     - +.qianxuecloud.com
     - +.qianxueyunke.com
     - +.zhixingyunke.com
-    - +.rainclassroom.com
-    - +.yuketang.cn
+    - +.zuoyebang.cc
+    - +.zuoyebang.com
+    - +.zybang.com
+    - +.kuaiduizuoye.com
     - +.chinesemooc.org
     - +.cnmooc.org
     - +.icourse163.org
     - +.icourses.cn
-    - +.mooc.cn
-    - +.openlearning.com
     - +.yudou.cn
+    - +.openlearning.com
+    - +.pmphmooc.com
+    - +.gaokao.com
+    - +.schoopia.com
+    - +.tongxuepie.com
+    - +.baydn.com
+    - +.shanbay.com
+    - +.banmaaike.com
     - +.xiaoyuankousuan.com
+    - +.ybccode.com
+    - +.yuanfudao.com
+    - +.yuansouti.com
+    - +.yuantiku.com
+    - +.fbstatic.cn
+    - +.fenbi.com
+    - +.fenbike.cn
+    - +.fenbike.com
+    - +.fenbilantian.cn
+    - +.fenbilantian.com
     - +.koocdn.com
     - +.koolearn.com
     - +.koopass.com
@@ -159,24 +177,6 @@ payload:
     - +.aoshu.com
     - +.eduu.com
     - +.eduuu.com
-    - +.gaokao.com
-    - +.speiyou.com
-    - +.tal.com
-    - +.xesimg.com
-    - +.xueersi.com
-    - +.youjiao.com
-    - +.zhongkao.com
-    - +.zuowen.com
-    - +.cctalk.com
-    - +.hjapi.com
-    - +.hjfile.cn
-    - +.hujiang.com
-    - +.yeshj.com
-    - +.schoopia.com
-    - +.tongxuepie.com
-    - +.baydn.com
-    - +.shanbay.com
-    - +.banmaaike.com
     - +.chei.com.cn
     - +.qgzb.gov.cn
     - +.icve.com.cn
