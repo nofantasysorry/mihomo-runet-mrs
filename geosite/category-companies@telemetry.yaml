@@ -1,12 +1,7 @@
 payload:
     - +.adobestats.io
-    - crashlyticsreports-pa.googleapis.com
-    - firebase-settings.crashlytics.com
-    - firebaselogging-pa.googleapis.com
-    - firebaselogging.googleapis.com
-    - update.crashlytics.com
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
+    - +.analytics.vpc.duolingo.com
+    - +.metrics.duolingo.com
     - +.apptracer.ru
     - +.metrics.viqeo.tv
     - sentry-ng.g.smailru.net
@@ -19,12 +14,9 @@ payload:
     - stats.dev.telega.info
     - stats.rustore.ru
     - stats.telega.info
-    - +.log.dzen.ru
     - stats.vk-portal.net
-    - +.analytics.vpc.duolingo.com
-    - +.metrics.duolingo.com
+    - +.log.dzen.ru
     - sentry.iptv.rt.ru
-    - sentry.hetzner.company
     - +.applicationinsights.io
     - +.applicationinsights.net
     - +.aria.ms
@@ -42,8 +34,14 @@ payload:
     - rt.services.visualstudio.com
     - +.browser.events.data.msn.cn
     - +.browser.events.data.msn.com
-    - incoming.telemetry.mozilla.org
-    - incoming-telemetry.thunderbird.net
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
+    - crashlyticsreports-pa.googleapis.com
+    - firebase-settings.crashlytics.com
+    - firebaselogging-pa.googleapis.com
+    - firebaselogging.googleapis.com
+    - update.crashlytics.com
+    - sentry.hetzner.company
     - +.appmetrica.yandex.com
     - +.appmetrica.yandex.net
     - +.appmetrica.yandex.ru
@@ -62,3 +60,5 @@ payload:
     - mc.yandex.com
     - mc.yandex.net
     - mc.yango.com
+    - incoming.telemetry.mozilla.org
+    - incoming-telemetry.thunderbird.net

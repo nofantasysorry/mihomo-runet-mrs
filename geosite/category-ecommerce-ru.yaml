@@ -1,9 +1,6 @@
 payload:
-    - +.wbstatic.ru
-    - +.rwbautomation.tech
-    - +.funpay.com
-    - +.funpay.ru
-    - +.sfunpay.com
+    - +.wbwh.tech
+    - +.vsemrabota.ru
     - +.ozon.tm
     - +.ozon-credit.ru
     - +.o3t.ru
@@ -44,10 +41,10 @@ payload:
     - +.ozonru.me
     - +.ozonsport.ru
     - +.ozonstatus.ru
-    - +.drom.ru
+    - +.ozonusercontent.com
     - +.digital-wb.ru
     - +.digitalwb.ru
-    - +.etradebook.ru
+    - +.drom.ru
     - +.geobasket.ru
     - +.mp.world
     - +.onlyjobs.ru
@@ -56,10 +53,10 @@ payload:
     - +.russoutdoor.ru
     - +.rwb.ru
     - +.rwbautomation.ru
-    - +.wbtek.ru
+    - +.rwbautomation.tech
     - +.rwbgeo.ru
     - +.vamzakaz.ru
-    - +.vsemrabota.ru
+    - +.wibes.com
     - +.warehouse.domains
     - +.wb-bank.ru
     - +.wb-basket.ru
@@ -81,12 +78,12 @@ payload:
     - +.wbr.by
     - +.wbrep.ru
     - +.wbstatic.net
-    - +.ozonusercontent.com
+    - +.wbstatic.ru
+    - +.wbtek.ru
+    - +.wbwh.ru
+    - +.etradebook.ru
     - +.rdrom.ru
-    - +.wildbirris.ru
-    - +.wbwh.tech
-    - +.wibes.com
-    - +.wibes.ru
+    - +.wildbrris.ru
     - +.wildberries.am
     - +.wildberries.by
     - +.wildberries.es
@@ -130,10 +127,10 @@ payload:
     - +.wildberriess.ru
     - +.wildberrise.ru
     - +.wildbiries.ru
-    - +.wbwh.ru
+    - +.wildbirris.ru
     - +.wildbress.ru
     - +.wildbries.ru
-    - +.wildbrris.ru
+    - +.wibes.ru
     - +.wildeberies.ru
     - +.wildeberris.ru
     - +.wiliberes.ru
@@ -144,10 +141,10 @@ payload:
     - +.xn--80acbjgmges7ca.xn--p1ai
     - +.xn--80acbjgsdq2cl.xn--p1ai
     - +.apiauto.ru
+    - +.sfunpay.com
+    - +.funpay.ru
+    - +.funpay.com
     - +.flowwow.com
-    - +.flowwow-images.com
-    - +.xn--80aaeib8abrryx4k.xn--p1ai
-    - +.xn--80aaafbpzn5blfby1p.xn--p1ai
     - +.auto.ru
     - +.autoru.me
     - +.avto.ru
@@ -161,6 +158,9 @@ payload:
     - +.ciangroup.ru
     - +.dmir.ru
     - +.poudobnee.com
+    - +.xn--80aaafbpzn5blfby1p.xn--p1ai
+    - +.xn--80aaeib8abrryx4k.xn--p1ai
+    - +.flowwow-images.com
     - +.ewisdom.us.kg
     - +.ozon.com.kz
     - +.ozonru.co.il

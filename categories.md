@@ -1778,6 +1778,7 @@ Generated automatically from the latest conversion output.
 - `trackernetwork.mrs`
 - `trae.mrs`
 - `translatewiki.mrs`
+- `transtelecom.mrs`
 - `trello.mrs`
 - `trustasia.mrs`
 - `trustwallet.mrs`

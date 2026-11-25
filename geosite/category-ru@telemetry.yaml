@@ -1,4 +1,5 @@
 payload:
+    - sentry.x5.ru
     - +.appmetrica.yandex.com
     - +.appmetrica.yandex.net
     - +.appmetrica.yandex.ru
@@ -17,22 +18,6 @@ payload:
     - mc.yandex.com
     - mc.yandex.net
     - mc.yango.com
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
-    - sentry.ozon.ru
-    - analytics-stage.wildberries.ru
-    - analytics.wildberries.ru
-    - marketplace-sentry.wb.ru
-    - sentry.wb.ru
-    - web-analytics.wildberries.ru
-    - stats.avito.ru
-    - sentry.iptv.rt.ru
-    - error-tracking.megamarket.tech
-    - metrics.21-school.ru
-    - sentry.sberauto.com
-    - tracing-http.megamarket.tech
-    - +.clickstream.sberbank.ru
-    - sentry.x5.ru
     - +.apptracer.ru
     - +.metrics.viqeo.tv
     - sentry-ng.g.smailru.net
@@ -45,8 +30,23 @@ payload:
     - stats.dev.telega.info
     - stats.rustore.ru
     - stats.telega.info
-    - +.log.dzen.ru
     - stats.vk-portal.net
-    - +.clickstream.sberbank.ru
+    - +.log.dzen.ru
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
     - metrika.kontur.ru
     - sentry.kontur.host
+    - error-tracking.megamarket.tech
+    - metrics.21-school.ru
+    - sentry.sberauto.com
+    - tracing-http.megamarket.tech
+    - +.clickstream.sberbank.ru
+    - +.clickstream.sberbank.ru
+    - sentry.ozon.ru
+    - analytics-stage.wildberries.ru
+    - analytics.wildberries.ru
+    - marketplace-sentry.wb.ru
+    - sentry.wb.ru
+    - web-analytics.wildberries.ru
+    - stats.avito.ru
+    - sentry.iptv.rt.ru
