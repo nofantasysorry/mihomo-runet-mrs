@@ -6,10 +6,6 @@ payload:
     - +.hydun.com
     - +.jiashule.com
     - +.jiasule.com
-    - +.bootcdn.cn
-    - +.bootcdn.net
-    - +.bootcss.com
-    - +.phpcomposer.com
     - +.fastcdn.com
     - +.acadn.cn
     - +.bbbcdns.com
@@ -77,6 +73,10 @@ payload:
     - +.trpcdn.net
     - +.yundun.com
     - +.saxyit.com
+    - +.bootcdn.cn
+    - +.bootcdn.net
+    - +.bootcss.com
+    - +.phpcomposer.com
     - +.dfyun.com.cn
     - +.fastcdn.com.cn
     - +.cf-china.info
