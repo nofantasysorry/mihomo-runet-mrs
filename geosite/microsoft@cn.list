@@ -82,8 +82,6 @@ vlportal.download.prss.microsoft.com
 volic.download.prss.microsoft.com
 vz.download.prss.microsoft.com
 windbg.download.prss.microsoft.com
-+.microsoftnews.cn
-+.msn.cn
 +.xboxlive.cn
 +.21vbc.com
 +.21vbluecloud.com
@@ -187,3 +185,5 @@ bj1.api.bing.com
 +.reactorms.com.cn
 download.visualstudio.microsoft.com
 vscode.download.prss.microsoft.com
++.microsoftnews.cn
++.msn.cn
