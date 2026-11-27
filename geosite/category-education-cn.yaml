@@ -3,50 +3,50 @@ payload:
     - opencourse.pku.edu.cn
     - study.163.com
     - +.liulishuo.com
-    - +.17zuoye.net
+    - +.biyehome.net
     - +.yushiyan.net
     - +.xuetangx.com
+    - +.zuowen.com
     - +.smartedu.cn
     - +.eduyun.cn
     - +.univs.cn
     - +.cedf.cn
-    - +.chesicc.cn
-    - +.chesicc.com
-    - +.chesicc.net
-    - +.chsi.cn
-    - +.zuowen.com
-    - +.llsapp.com
     - +.zhongkao.com
     - +.youjiao.com
     - +.xueersi.com
+    - +.chesicc.cn
+    - +.llsapp.com
     - +.xesimg.com
+    - +.chesicc.net
     - +.tal.com
     - +.speiyou.com
     - +.gaokao.com
+    - +.chsi.cn
     - +.eduuu.com
+    - +.eduu.com
     - +.gfbzb.cn
     - +.gfbzb.com
-    - +.eduu.com
     - +.aoshu.com
+    - +.100tal.com
     - +.gfbzb.net
     - +.ncss.cn
-    - +.100tal.com
+    - +.shanbay.com
+    - +.baydn.com
     - +.koopass.com
-    - +.koolearn.com
     - +.qgzb.net
-    - +.koocdn.com
+    - +.koolearn.com
     - +.zbbm.net
     - +.neea.cn
-    - +.yeshj.com
+    - +.koocdn.com
     - +.mypep.cn
     - +.edu.cn
-    - +.hujiang.com
+    - +.yeshj.com
     - +.diyifanwen.com
     - +.zuowen8.com
     - +.zuowenjun.com
     - +.zuowenku.net
     - +.zuowenwang.net
-    - +.hjfile.cn
+    - +.hujiang.com
     - +.21cnjy.com
     - +.91yunxiao.com
     - +.aiyunxiao.com
@@ -91,7 +91,7 @@ payload:
     - +.huijiaoyun.com
     - +.ictbda.cn
     - +.ictbda.com
-    - +.hjapi.com
+    - +.hjfile.cn
     - +.xir.cn
     - +.j-test.com
     - +.nattest-china.com
@@ -100,9 +100,9 @@ payload:
     - +.jzagile.com
     - +.keboyunxiao.com
     - +.ketangpai.com
-    - +.cctalk.com
-    - +.pmphmooc.com
-    - +.biyehome.net
+    - +.hjapi.com
+    - +.chesicc.com
+    - +.yudou.cn
     - +.llsserver.com
     - +.magedu.com
     - +.maimemo.com
@@ -117,7 +117,7 @@ payload:
     - +.qingtingai.net
     - +.quyixian.com
     - +.rongdeji.cn
-    - +.openlearning.com
+    - +.cctalk.com
     - +.saduck.top
     - +.szu.app
     - +.szu.moe
@@ -142,16 +142,13 @@ payload:
     - +.qianxuecloud.com
     - +.qianxueyunke.com
     - +.zhixingyunke.com
-    - +.baydn.com
-    - +.shanbay.com
-    - +.zuoyebang.cc
-    - +.zuoyebang.com
-    - +.zybang.com
-    - +.kuaiduizuoye.com
-    - +.17zuoye.cn
-    - +.17zuoye.com
-    - +.yudou.cn
-    - +.applysquare.com
+    - +.chinesemooc.org
+    - +.cnmooc.org
+    - +.icourse163.org
+    - +.icourses.cn
+    - +.mooc.cn
+    - +.openlearning.com
+    - +.pmphmooc.com
     - +.applysquare.net
     - +.hugecore.net
     - +.shareintelli.com
@@ -172,32 +169,35 @@ payload:
     - +.fenbilantian.com
     - +.rainclassroom.com
     - +.yuketang.cn
-    - +.chinesemooc.org
-    - +.cnmooc.org
-    - +.icourse163.org
-    - +.icourses.cn
-    - +.mooc.cn
-    - +.chei.com.cn
-    - +.qgzb.gov.cn
-    - +.rudder.com.cn
-    - +.peeavp.com.cn
+    - +.zuoyebang.cc
+    - +.zuoyebang.com
+    - +.zybang.com
+    - +.kuaiduizuoye.com
+    - +.17zuoye.cn
+    - +.17zuoye.com
+    - +.17zuoye.net
+    - +.applysquare.com
+    - +.chdi.com.cn
+    - +.qgzb.com.cn
+    - +.icve.com.cn
     - +.modex.com.cn
     - +.zww.com.cn
     - +.pep.com.cn
     - +.hep.com.cn
     - +.zbbm.gov.cn
-    - +.gfbzb.gov.cn
-    - +.icve.com.cn
-    - +.cedf.org.cn
+    - +.qgzb.gov.cn
+    - +.gfbzb.com.cn
+    - +.peeavp.com.cn
+    - +.rudder.com.cn
     - +.cbern.com.cn
-    - +.ncss.org.cn
-    - +.gatzs.com.cn
+    - +.gfbzb.gov.cn
     - +.chsi.com.cn
     - +.chinayz.com.cn
     - +.chesicc.org.cn
     - +.chesicc.net.cn
     - +.chesicc.com.cn
-    - +.qgzb.com.cn
-    - +.chdi.com.cn
-    - +.gfbzb.com.cn
+    - +.chei.com.cn
+    - +.ncss.org.cn
+    - +.cedf.org.cn
+    - +.gatzs.com.cn
     - +.syh.zybang.com

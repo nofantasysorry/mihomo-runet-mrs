@@ -1,17 +1,15 @@
 payload:
-    - +.sto-express.cn
-    - +.yto-jsd.com
-    - +.ztoapp.com
-    - +.izto.com
-    - +.tuxi.com
-    - +.zt-express.com
-    - +.zto.cn
-    - +.zto.com
-    - +.zto.net
-    - +.95311.com
-    - +.ztoglobal.com
-    - +.ztogroup.com
-    - +.ztoyh.com
+    - +.yuantongyizhan.com
+    - +.danniao.com
+    - +.ydsys.cn
+    - +.yundaex.cn
+    - +.yundaex.com
+    - +.yundasys.com
+    - +.yunda56.com
+    - +.yundalog.com
+    - +.yundaltl.com
+    - +.udalogistic.com
+    - +.udalogistic.cn
     - +.bestincapi.com
     - +.800best.net
     - +.56laile.com
@@ -40,20 +38,27 @@ payload:
     - +.xinyuanfin.com
     - +.youyierp.com
     - +.youyitms.com
-    - +.deppon.com
-    - +.dpma.cc
+    - +.ztoyh.com
+    - +.56xiniao.com
+    - +.cainiao-inc.com
+    - +.cainiao.com
+    - +.cainiaoyizhan.com
+    - +.kjwugx.com
+    - +.dianwoda.cn
+    - +.dianwoda.com
+    - +.guoguo-app.com
+    - +.ztogroup.com
+    - +.fcbox.com
+    - +.fcboxmall.com
     - +.upfos.cn
-    - +.sto-express.com
-    - +.sffix.cn
-    - +.sfcar.hk
     - +.jtexpress.com
     - +.upfos.com
-    - +.jtfulfillment.cn
+    - +.guoocang.com
     - +.jtfulfillment.com
     - +.jtjms-ae.com
     - +.jtjms-br.com
     - +.jtjms-eg.com
-    - +.guoocang.com
+    - +.cr-cts.com
     - +.jtjms-sa.com
     - +.yl-scm.com
     - +.jtexpress.cn
@@ -64,40 +69,28 @@ payload:
     - +.jetlogistic.com
     - +.jtg2g.com
     - +.jtexpress.top
-    - +.sfbuy.com
-    - +.sf.cn
-    - +.sfgy.org
-    - +.feng1.com
-    - +.ydsys.cn
-    - +.yundaex.cn
-    - +.yundaex.com
-    - +.yundasys.com
-    - +.yunda56.com
-    - +.yundalog.com
-    - +.yundaltl.com
-    - +.udalogistic.com
-    - +.udalogistic.cn
-    - +.cr-cts.com
-    - +.sf-international.com
-    - +.kuaidi.com
-    - +.stointl.com
-    - +.stosolution.com
-    - +.ibobscs.com
+    - +.ztoglobal.com
+    - +.95311.com
+    - +.zto.net
+    - +.ckd.im
+    - +.kd100.com
+    - +.kuaidi100.com
+    - +.kuaidilab.com
     - +.yt0.cc
-    - +.yuantongyizhan.com
-    - +.kjwugx.com
-    - +.ytokj.com
+    - +.jtfulfillment.cn
+    - +.kuaidi.com
+    - +.tianxiajiameng.cn
     - +.mamayz.com
     - +.mumbuy365.com
     - +.nellit.cn
-    - +.sto.cn
+    - +.yto-jsd.com
     - +.nellit.info
     - +.nellit.net
     - +.gpall.cn
     - +.yuantongyizhan.cn
     - +.nellit.xyz
     - +.yto-lgs.com
-    - +.tianxiajiameng.cn
+    - +.ytokj.com
     - +.tianxiajiameng.com
     - +.mamayz.cn
     - +.gpall.net
@@ -116,44 +109,51 @@ payload:
     - +.ytoholding.com
     - +.ytokj.net
     - +.ytokj.cn
-    - +.sf-express.com
-    - +.sf-cityrush.com
-    - +.sf-airlines.com
-    - +.rongechain.com
-    - +.sf-saas.com
+    - +.zto.com
+    - +.zto.cn
+    - +.zt-express.com
+    - +.tuxi.com
+    - +.izto.com
+    - +.ztoapp.com
+    - +.stosolution.com
+    - +.stointl.com
+    - +.sto.cn
+    - +.sto-express.com
+    - +.deppon.com
+    - +.dpma.cc
+    - +.sto-express.cn
     - +.sf-financial.com
-    - +.kuaidilab.com
-    - +.kuaidi100.com
-    - +.kd100.com
-    - +.ckd.im
-    - +.56xiniao.com
-    - +.cainiao-inc.com
-    - +.cainiao.com
-    - +.cainiaoyizhan.com
-    - +.danniao.com
-    - +.dianwoda.cn
-    - +.dianwoda.com
-    - +.guoguo-app.com
-    - +.fcboxmall.com
-    - +.fcbox.com
-    - +.yto.net.cn
-    - +.800best.com.cn
-    - +.sto-express.com.cn
-    - +.nellit.net.cn
-    - +.yto56.com.cn
-    - +.yto56.net.cn
-    - +.ytocargo.com.cn
-    - +.cainiao.com.cn
-    - +.sf-tech.com.cn
-    - +.ytokj.com.cn
-    - +.ytokj.net.cn
+    - +.sf-saas.com
+    - +.rongechain.com
+    - +.sf-airlines.com
+    - +.sf-cityrush.com
+    - +.sf-express.com
+    - +.ibobscs.com
+    - +.sf-international.com
+    - +.feng1.com
+    - +.sfgy.org
+    - +.sf.cn
+    - +.sfbuy.com
+    - +.sfcar.hk
+    - +.sffix.cn
     - +.nellit.org.cn
-    - +.izto.com.cn
+    - +.800best.com.cn
+    - +.ytokj.com.cn
+    - +.ytojg.com.cn
+    - +.yto.net.cn
+    - +.yto56.com.cn
+    - +.sto-express.com.cn
+    - +.sf-tech.com.cn
+    - +.mlzt.com.cn
+    - +.ytokj.net.cn
+    - +.yto56.net.cn
+    - +.nellit.com.cn
+    - +.nellit.net.cn
     - +.bxexpress.com.cn
     - +.jnt-express.com.cn
     - +.jtexpress.com.cn
+    - +.cainiao.com.cn
     - +.deppon.com.cn
-    - +.nellit.com.cn
-    - +.mlzt.com.cn
-    - +.ytojg.com.cn
+    - +.izto.com.cn
+    - +.ytocargo.com.cn
     - +.v6-adashx.ut.cainiao.com
