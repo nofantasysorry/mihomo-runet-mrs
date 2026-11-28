@@ -2,17 +2,17 @@ payload:
     - www.speedtest.net.cdn.cloudflare.net
     - +.speedometer.pl
     - +.bittimittari.fi
-    - +.webtest.net
+    - +.openspeedtest.org
     - +.bandwidthplace.co
     - +.bandwidthplace.com
     - +.afasttest.com
     - +.bredbandskollen.se
+    - +.openspeedtest.in
+    - +.openspeedtest.com
+    - +.bspeedtest.jp
+    - +.webtest.net
     - +.speedtestcustom.com
     - +.speedtest.tv
-    - +.bspeedtest.jp
-    - +.speedtest.ng
-    - +.speedtest.net
-    - +.speedtest.me
     - +.checkspeed.in
     - +.checkspeed.io
     - +.checkspeed.it
@@ -21,27 +21,27 @@ payload:
     - +.fastspeedtest.com
     - +.fastspeedtest.site
     - +.fireprobe.net
-    - +.speedtest.in
+    - +.speedtest.ng
     - +.geschwindigkeit.ch
-    - +.speedtest.ee
-    - +.speedtest.co
+    - +.speedtest.net
+    - +.speedtest.me
     - +.i-speed.vn
     - +.inonius.net
     - +.internet-speed-test.app
     - +.internet-speed-test.online
     - +.internet-speed-test.pro
+    - +.speedtest.in
+    - +.speedtest.ee
+    - +.speedtest.co
     - +.speedtest.cc
     - +.speedtest.app
     - +.pingtest.net
-    - +.ooklaserver.net
-    - +.ookla.com
-    - +.ekahau.com
     - +.internethealthtest.org
     - +.internetspeed.in
     - +.internetspeedtest.ae
     - +.internetspeedtest.at
     - +.internetspeedtest.au
-    - +.ekahau.cloud
+    - +.ooklaserver.net
     - +.internetspeedtest.dev
     - +.internetspeedtest.es
     - +.internetspeedtest.fi
@@ -58,23 +58,23 @@ payload:
     - +.internettest.ru
     - +.ipv6speedtest.eu
     - +.itspeedtest.net
-    - +.cellmaps.com
+    - +.speedmeter.uz
     - +.librespeed.org
     - +.linkmeter.net
     - +.liveinternetspeed.com
     - +.measurement-lab.org
     - +.measurementlab.net
-    - +.speedmeter.uz
+    - +.ekahau.com
     - +.megabitus.com
     - +.meter.net
     - +.metercustom.net
-    - +.openspeedtest.org
+    - +.ekahau.cloud
     - +.minsoku.net
     - +.misurainternet.it
     - +.myrealspeed.com
-    - +.openspeedtest.in
+    - +.cellmaps.com
     - +.myspeedtest.in
-    - +.openspeedtest.com
+    - +.cdnst.net
     - +.netmede.pt
     - +.netspeedhub.com
     - +.netspeedtest.app
@@ -152,7 +152,7 @@ payload:
     - +.speedmeter.online
     - +.speedmeter.ro
     - +.speedmeter.sk
-    - +.cdnst.net
+    - +.ookla.com
     - +.testdebit.info
     - +.aispeed.ca
     - +.speedor.net
@@ -198,10 +198,10 @@ payload:
     - +.speedtest.my
     - +.speedtest.md
     - +.speedtest.net.pl
-    - +.sp.msp-ict.com
-    - +.ash-speed.hetzner.com
+    - +.speedtest.adslthailand.com
+    - +.open.cachefly.net
     - +.speedtest.mail.ru
-    - +.broadbandspeedchecker.co.uk
+    - +.ash-speed.hetzner.com
     - +.speedtest.net.ar
     - +.speedtest.net.in
     - +.test.eolo.it
@@ -212,11 +212,11 @@ payload:
     - +.speedtest.init7.net
     - +.speedtest.orange.pl
     - +.speedtest.gov.za
-    - +.broadbandspeedtest.org.uk
+    - +.broadbandspeedchecker.co.uk
     - +.speedtest.gokinetic.com
     - +.speedtest.pishgaman.net
     - +.speedtest.gcore.com
-    - +.bufferbloat.libreqos.com
+    - +.broadbandspeedtest.org.uk
     - +.speedtest.frontier.com
     - +.speedtest.rt.ru
     - +.speedtest.rtc1.com
@@ -229,7 +229,7 @@ payload:
     - +.speedtest.sits.su
     - +.speedtest.smartlink.ph
     - +.speedtest.computerbild.de
-    - +.hil-speed.hetzner.com
+    - +.hel1-speed.hetzner.com
     - +.speedtest.tele2.net
     - +.speedtest.com.ua
     - +.speedtest.com.sg
@@ -251,24 +251,24 @@ payload:
     - +.speedtest.cesnet.cz
     - +.speedtest.centurylink.net
     - +.fsn1-speed.hetzner.com
-    - +.hel1-speed.hetzner.com
-    - +.speedtest.adslthailand.com
+    - +.bufferbloat.libreqos.com
+    - +.speedtest.mbs.cloud
     - +.speedtest.mci.ir
+    - +.hil-speed.hetzner.com
     - +.internet.ya.ru
-    - +.internet.yandex.by
     - +.speedcheck.co.uk
     - +.testdevelocidad.com.ar
     - +.testdevelocidad.com.es
-    - +.internet.yandex.com
+    - +.internet.yandex.by
     - +.speed2.hinet.net
     - +.speed.sdpars.ir
+    - +.internet.yandex.com
     - +.internet.yandex.kz
-    - +.internet.yandex.ru
     - +.test.libreqos.com
     - +.speed.hinet.net
     - +.speed.googlefiber.net
     - +.speed.dler.io
-    - +.internetspeedtest.co.nz
+    - +.internet.yandex.ru
     - +.speed.cloudflare.com
     - +.speedtest.belwue.net
     - +.testvelocidad.uchile.cl
@@ -276,37 +276,37 @@ payload:
     - +.speed.btcom.kz
     - +.ukspeedtest.co.uk
     - +.speed-test.co.uk
+    - +.internetspeedtest.co.nz
     - +.lekkerspeedtest.co.za
-    - +.open.cachefly.net
     - +.speed-interior.shatel.ir
-    - +.speedtest.mbs.cloud
+    - +.sp.msp-ict.com
     - +.sin-speed.hetzner.com
     - +.simet.nic.br
     - +.proof.ovh.net
     - +.performance.cira.ca
     - +.minhaconexao.com.br
     - +.nbg1-speed.hetzner.com
-    - +.center.sp.rt.ru
-    - +.velocidade.ti.usp.br
-    - +.internet.yandex.com.tr
+    - +.speedtest.megaconexao.com.br
     - +.medidor-de-velocidad.movistar.com.ar
+    - +.teste.novolink.net.br
+    - +.velocidade.ti.usp.br
     - +.velocidade.mgconecta.com.br
     - +.speed.coe.ad.jp
     - +.speed.ops.nic.at
-    - +.teste.novolink.net.br
+    - +.internet.yandex.com.tr
     - +.speed.nccu.edu.tw
     - +.nettest.ctu.gov.cz
     - +.speedtest.ecoisp.co.za
     - +.speed5.ntu.edu.tw
     - +.speedtest.activ8me.net.au
-    - +.calidadtelecos.cnmc.gob.es
     - +.speed.cable-giant.com.tw
-    - +.myspeed.trai.gov.in
+    - +.center.sp.rt.ru
+    - +.calidadtelecos.cnmc.gob.es
     - +.speedtest.techbrew.co.za
+    - +.myspeed.trai.gov.in
     - +.speedtest.prodatanet.com.ph
     - +.speedtest.parys.co.za
     - +.speedtest.mybroadband.co.za
-    - +.speedtest.megaconexao.com.br
     - +.ookla-speedtest-central.hgconair.hgc.com.hk
     - +.cnspeedtest.cn
     - +.speed.neu6.edu.cn

@@ -3,50 +3,50 @@ payload:
     - opencourse.pku.edu.cn
     - study.163.com
     - +.liulishuo.com
-    - +.biyehome.net
+    - +.fbstatic.cn
     - +.yushiyan.net
     - +.xuetangx.com
-    - +.zuowen.com
     - +.smartedu.cn
     - +.eduyun.cn
     - +.univs.cn
     - +.cedf.cn
-    - +.zhongkao.com
-    - +.youjiao.com
-    - +.xueersi.com
     - +.chesicc.cn
-    - +.llsapp.com
-    - +.xesimg.com
+    - +.chesicc.com
     - +.chesicc.net
-    - +.tal.com
-    - +.speiyou.com
-    - +.gaokao.com
     - +.chsi.cn
-    - +.eduuu.com
-    - +.eduu.com
+    - +.yeshj.com
+    - +.llsapp.com
+    - +.hujiang.com
+    - +.hjfile.cn
+    - +.hjapi.com
+    - +.cctalk.com
+    - +.applysquare.net
+    - +.applysquare.com
+    - +.17zuoye.net
+    - +.17zuoye.com
     - +.gfbzb.cn
     - +.gfbzb.com
-    - +.aoshu.com
-    - +.100tal.com
+    - +.17zuoye.cn
+    - +.yuketang.cn
     - +.gfbzb.net
     - +.ncss.cn
-    - +.shanbay.com
-    - +.baydn.com
-    - +.koopass.com
+    - +.rainclassroom.com
+    - +.zuowen.com
+    - +.zhongkao.com
     - +.qgzb.net
-    - +.koolearn.com
+    - +.youjiao.com
     - +.zbbm.net
     - +.neea.cn
-    - +.koocdn.com
+    - +.xueersi.com
     - +.mypep.cn
     - +.edu.cn
-    - +.yeshj.com
+    - +.xesimg.com
     - +.diyifanwen.com
     - +.zuowen8.com
     - +.zuowenjun.com
     - +.zuowenku.net
     - +.zuowenwang.net
-    - +.hujiang.com
+    - +.tal.com
     - +.21cnjy.com
     - +.91yunxiao.com
     - +.aiyunxiao.com
@@ -91,7 +91,7 @@ payload:
     - +.huijiaoyun.com
     - +.ictbda.cn
     - +.ictbda.com
-    - +.hjfile.cn
+    - +.speiyou.com
     - +.xir.cn
     - +.j-test.com
     - +.nattest-china.com
@@ -100,9 +100,9 @@ payload:
     - +.jzagile.com
     - +.keboyunxiao.com
     - +.ketangpai.com
-    - +.hjapi.com
-    - +.chesicc.com
-    - +.yudou.cn
+    - +.gaokao.com
+    - +.eduuu.com
+    - +.biyehome.net
     - +.llsserver.com
     - +.magedu.com
     - +.maimemo.com
@@ -117,7 +117,7 @@ payload:
     - +.qingtingai.net
     - +.quyixian.com
     - +.rongdeji.cn
-    - +.cctalk.com
+    - +.eduu.com
     - +.saduck.top
     - +.szu.app
     - +.szu.moe
@@ -142,17 +142,6 @@ payload:
     - +.qianxuecloud.com
     - +.qianxueyunke.com
     - +.zhixingyunke.com
-    - +.chinesemooc.org
-    - +.cnmooc.org
-    - +.icourse163.org
-    - +.icourses.cn
-    - +.mooc.cn
-    - +.openlearning.com
-    - +.pmphmooc.com
-    - +.applysquare.net
-    - +.hugecore.net
-    - +.shareintelli.com
-    - +.mojidict.com
     - +.schoopia.com
     - +.tongxuepie.com
     - +.banmaaike.com
@@ -161,43 +150,54 @@ payload:
     - +.yuanfudao.com
     - +.yuansouti.com
     - +.yuantiku.com
-    - +.fbstatic.cn
+    - +.yudou.cn
     - +.fenbi.com
     - +.fenbike.cn
     - +.fenbike.com
     - +.fenbilantian.cn
     - +.fenbilantian.com
-    - +.rainclassroom.com
-    - +.yuketang.cn
     - +.zuoyebang.cc
     - +.zuoyebang.com
     - +.zybang.com
     - +.kuaiduizuoye.com
-    - +.17zuoye.cn
-    - +.17zuoye.com
-    - +.17zuoye.net
-    - +.applysquare.com
-    - +.chdi.com.cn
-    - +.qgzb.com.cn
+    - +.chinesemooc.org
+    - +.cnmooc.org
+    - +.icourse163.org
+    - +.icourses.cn
+    - +.mooc.cn
+    - +.openlearning.com
+    - +.pmphmooc.com
+    - +.aoshu.com
+    - +.hugecore.net
+    - +.shareintelli.com
+    - +.mojidict.com
+    - +.koocdn.com
+    - +.koolearn.com
+    - +.koopass.com
+    - +.baydn.com
+    - +.shanbay.com
+    - +.100tal.com
+    - +.chei.com.cn
+    - +.qgzb.gov.cn
     - +.icve.com.cn
+    - +.peeavp.com.cn
     - +.modex.com.cn
     - +.zww.com.cn
     - +.pep.com.cn
     - +.hep.com.cn
     - +.zbbm.gov.cn
-    - +.qgzb.gov.cn
-    - +.gfbzb.com.cn
-    - +.peeavp.com.cn
+    - +.gfbzb.gov.cn
+    - +.cedf.org.cn
     - +.rudder.com.cn
     - +.cbern.com.cn
-    - +.gfbzb.gov.cn
+    - +.ncss.org.cn
+    - +.gatzs.com.cn
     - +.chsi.com.cn
     - +.chinayz.com.cn
     - +.chesicc.org.cn
     - +.chesicc.net.cn
     - +.chesicc.com.cn
-    - +.chei.com.cn
-    - +.ncss.org.cn
-    - +.cedf.org.cn
-    - +.gatzs.com.cn
+    - +.qgzb.com.cn
+    - +.chdi.com.cn
+    - +.gfbzb.com.cn
     - +.syh.zybang.com

@@ -23,12 +23,34 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
+    - +.ppy.sh
     - +.rolfoundation.org
     - +.rolsociety.org
     - +.f-dro1d.org
     - +.f-droid.com
     - +.f-droid.org
     - +.fdroid.org
+    - +.csis.org
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
+    - +.attestation.app
+    - +.grapheneos.app
+    - +.grapheneos.ca
+    - +.grapheneos.com
+    - +.grapheneos.dev
+    - +.grapheneos.foundation
+    - +.grapheneos.info
+    - +.grapheneos.net
+    - +.grapheneos.network
+    - +.grapheneos.online
+    - +.grapheneos.org
+    - +.grapheneos.ovh
+    - +.grapheneos.page
+    - +.grapheneos.social
+    - +.seamlessupdate.app
+    - +.vanadium.app
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -83,23 +105,6 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.ppy.sh
-    - +.attestation.app
-    - +.grapheneos.app
-    - +.grapheneos.ca
-    - +.grapheneos.com
-    - +.grapheneos.dev
-    - +.grapheneos.foundation
-    - +.grapheneos.info
-    - +.grapheneos.net
-    - +.grapheneos.network
-    - +.grapheneos.online
-    - +.grapheneos.org
-    - +.grapheneos.ovh
-    - +.grapheneos.page
-    - +.grapheneos.social
-    - +.seamlessupdate.app
-    - +.vanadium.app
     - +.acousticbrainz.org
     - +.bookbrainz.org
     - +.coverartarchive.org
@@ -119,14 +124,9 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
     - +.ccstatic.org
     - +.creativecommons.org
     - +.creativecommons.engineering
     - +.licensebuttons.net
-    - +.csis.org
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
+    - +.paskoocheh.com
     - sentry.ppy.sh
